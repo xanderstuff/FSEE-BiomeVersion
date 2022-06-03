@@ -14,7 +14,7 @@
 						"type": "minecraft:mul",
 						"argument1": "fokastudio:end/jaggedness",
 						"argument2": {
-							"type": "minecraft:half_negative",
+							"type": "minecraft:quarter_negative",
 							"argument": {
 								"type": "minecraft:noise",
 								"noise": "fokastudio:end/jagged",

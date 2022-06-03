@@ -5,7 +5,7 @@
 		"points": [
 			{
 				"location": 0.1,
-				"derivative": 0.1,
+				"derivative": 0.3,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
@@ -182,7 +182,7 @@
 			},
 			{
 				"location": 0.4,
-				"derivative": 0,
+				"derivative": 10,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
@@ -418,7 +418,7 @@
 			},
 			{
 				"location": 0.8,
-				"derivative": 0,
+				"derivative": 16,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
