@@ -1,0 +1,9 @@
+{
+	"required":false,
+	"values":[
+		"#dutils:tools/swords",
+		"minecraft:bow",
+		"minecraft:trident",
+		"minecraft:crossbow"
+	]
+}

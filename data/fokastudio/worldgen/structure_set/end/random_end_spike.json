@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "fokastudio:end/random_end_spike",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1018075954,
+		"spacing": 6,
+		"separation": 1
+	}
+}

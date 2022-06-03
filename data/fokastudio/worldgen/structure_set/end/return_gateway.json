@@ -1,0 +1,15 @@
+{
+	"structures": [
+		{
+			"structure": "fokastudio:end/return_gateway",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"spacing": 40,
+		"separation": 5,
+		"spread_type": "triangular",
+		"salt": 5783475
+	}
+}

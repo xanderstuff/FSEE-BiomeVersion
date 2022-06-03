@@ -1,0 +1,71 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"name": "minecraft:cooked_cod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,foka.special_item:\"ender_koi\"}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": 1
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Ender Koi",
+								"color": "#B265FF",
+								"italic": false
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:cooked_cod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,foka.special_item:\"ender_koi\"}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Ender Koi",
+								"color": "#B265FF",
+								"italic": false
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 25,
+					"name": "fokastudio:end/void_fishing/the_hallow",
+					"conditions": [
+						{
+							"condition": "minecraft:reference",
+							"name": "fokastudio:end/locations/biomes/in_the_hallow"
+						}
+					]
+				}
+			]
+		}
+	]
+}

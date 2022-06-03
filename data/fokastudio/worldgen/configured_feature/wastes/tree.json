@@ -1,0 +1,244 @@
+{
+	"type": "minecraft:tree",
+	"config": {
+		"minimum_size": {
+			"type": "minecraft:three_layers_feature_size",
+			"min_clipped_height": 4,
+			"limit": 0,
+			"lower_size": 0,
+			"upper_size": 0
+		},
+		"dirt_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:end_stone"
+			}
+		},
+		"trunk_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:crimson_stem",
+				"Properties": {
+					"axis": "y"
+				}
+			}
+		},
+		"foliage_provider": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 6,
+					"data": {
+						"Name": "minecraft:shroomlight"
+					}
+				},
+				{
+					"weight": 17,
+					"data": {
+						"Name": "minecraft:dead_fire_coral_block"
+					}
+				},
+				{
+					"weight": 17,
+					"data": {
+						"Name": "minecraft:dead_horn_coral_block"
+					}
+				},
+				{
+					"weight": 17,
+					"data": {
+						"Name": "minecraft:dead_bubble_coral_block"
+					}
+				},
+				{
+					"weight": 17,
+					"data": {
+						"Name": "minecraft:dead_horn_coral_block"
+					}
+				},
+				{
+					"weight": 17,
+					"data": {
+						"Name": "minecraft:dead_brain_coral_block"
+					}
+				}
+			]
+		},
+		"root_placer": {
+			"type": "minecraft:mangrove_root_placer",
+			"root_provider": {
+				"type": "minecraft:simple_state_provider",
+				"state": {
+					"Name": "minecraft:crimson_hyphae",
+					"Properties": {
+						"axis": "y"
+					}
+				}
+			},
+			"trunk_offset_y": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 0,
+					"max_inclusive": 6
+				}
+			},
+			"above_root_placement": {
+				"above_root_provider": {
+					"type": "minecraft:weighted_state_provider",
+					"entries": [
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:dead_fire_coral",
+								"Properties": {
+									"waterlogged": "false"
+								}
+							}
+						},
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:dead_brain_coral",
+								"Properties": {
+									"waterlogged": "false"
+								}
+							}
+						},
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:dead_bubble_coral",
+								"Properties": {
+									"waterlogged": "false"
+								}
+							}
+						},
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:dead_horn_coral",
+								"Properties": {
+									"waterlogged": "false"
+								}
+							}
+						},
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:dead_tube_coral",
+								"Properties": {
+									"waterlogged": "false"
+								}
+							}
+						}
+					]
+				},
+				"above_root_placement_chance": 0.5
+			},
+			"mangrove_root_placement": {
+				"max_root_width": 10,
+				"max_root_length": 20,
+				"random_skew_chance": 0.2,
+				"can_grow_through": [
+					"minecraft:end_stone",
+					"minecraft:vine",
+					"minecraft:mycelium"
+				],
+				"muddy_roots_in": [
+					"minecraft:end_stone"
+				],
+				"muddy_roots_provider": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:crimson_hyphae",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				}
+			}
+		},
+		"trunk_placer": {
+			"type": "minecraft:upwards_branching_trunk_placer",
+			"base_height": 12,
+			"height_rand_a": 24,
+			"height_rand_b": 8,
+			"extra_branch_steps": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 2,
+					"max_inclusive": 4
+				}
+			},
+			"extra_branch_length": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 2,
+					"max_inclusive": 5
+				}
+			},
+			"place_branch_per_log_probability": 0.5,
+			"can_grow_through": [
+				"minecraft:air",
+				"minecraft:end_stone",
+				"minecraft:vine",
+				"minecraft:mycelium"
+			]
+		},
+		"foliage_placer": {
+			"type": "minecraft:random_spread_foliage_placer",
+			"radius": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 0,
+					"max_inclusive": 0
+				}
+			},
+			"offset": 0,
+			"foliage_height": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 1,
+					"max_inclusive": 1
+				}
+			},
+			"leaf_placement_attempts": 70
+		},
+		"decorators": [
+			{
+				"type": "minecraft:leave_vine",
+				"probability": 0.35
+			},
+			{
+				"type": "minecraft:attached_to_leaves",
+				"probability": 0.14,
+				"exclusion_radius_xz": 1,
+				"exclusion_radius_y": 0,
+				"required_empty_blocks": 2,
+				"block_provider": {
+					"type": "minecraft:randomized_int_state_provider",
+					"property": "age",
+					"values": {
+						"type": "minecraft:uniform",
+						"value": {
+							"min_inclusive": 20,
+							"max_inclusive": 25
+						}
+					},
+					"source": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:weeping_vines",
+							"Properties": {
+								"age": "0"
+							}
+						}
+					}
+				},
+				"directions": [
+					"down"
+				]
+			}
+		]
+	}
+}

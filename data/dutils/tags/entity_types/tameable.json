@@ -1,0 +1,10 @@
+{
+	"required": false,
+	"values": [
+		"#dutils:horses",
+		"minecraft:parrot",
+		"minecraft:wolf",
+		"minecraft:cat",
+		"minecraft:axolotl"
+	]
+}

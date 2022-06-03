@@ -1,0 +1,52 @@
+// Kept only for compatibility
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+   
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 16636149,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color_modifier": "none",
+    "music": {
+      "sound": "music.end",
+      "min_delay": 100,
+      "max_delay": 200,
+      "replace_current_music": false
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+       
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "far_end:general/end_spike/center",
+			"far_end:general/end_spike/ring"
+    ]
+  ]
+}
