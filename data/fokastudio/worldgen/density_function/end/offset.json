@@ -5,7 +5,7 @@
 		"points": [
 			{
 				"location": -1,
-				"derivative": -0.1,
+				"derivative": 0.1,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
@@ -64,7 +64,7 @@
 			},
 			{
 				"location": -0.9,
-				"derivative": -0.2,
+				"derivative": 0.2,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
@@ -300,7 +300,7 @@
 			},
 			{
 				"location": -0.6,
-				"derivative": -0.1,
+				"derivative": 0.1,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
@@ -359,7 +359,7 @@
 			},
 			{
 				"location": -0.4,
-				"derivative": -0.2,
+				"derivative": 0.2,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
@@ -713,7 +713,7 @@
 			},
 			{
 				"location": 0.3,
-				"derivative": 0.5,
+				"derivative": 0.2,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
@@ -772,7 +772,7 @@
 			},
 			{
 				"location": 0.4,
-				"derivative": 2,
+				"derivative": 0.04,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
@@ -831,7 +831,7 @@
 			},
 			{
 				"location": 0.5,
-				"derivative": 140,
+				"derivative": 0,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
@@ -890,7 +890,7 @@
 			},
 			{
 				"location": 0.6,
-				"derivative": 0.1,
+				"derivative": 0.06,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
@@ -949,7 +949,7 @@
 			},
 			{
 				"location": 0.7,
-				"derivative": 0.6,
+				"derivative": 0.3,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
@@ -1126,7 +1126,7 @@
 			},
 			{
 				"location": 1,
-				"derivative": 1,
+				"derivative": 0,
 				"value": {
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
