@@ -1,6 +1,8 @@
 ### Timer ###
 scoreboard players add @s fe.timer 1
 
+# - bossbar disable
+execute if score @s fe.timer matches 1 run bossbar set fe:ender_dragon players
 # - save dragon kill count
 execute if score @s fe.timer matches 1 as @s run scoreboard players add @s fe.variable 1
 

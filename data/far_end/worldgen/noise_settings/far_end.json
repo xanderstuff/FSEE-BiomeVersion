@@ -17,7 +17,7 @@
 		"min_y": 0,
 		"height": 256,
 		"size_horizontal": 2,
-		"size_vertical": 3
+		"size_vertical": 4
 	},
 	"noise_router": {
 		"barrier": 0,
@@ -49,7 +49,7 @@
 		"initial_density_without_jaggedness": {
 			"type": "minecraft:noise",
 			"noise": "fokastudio:end/continentalness_smooth",
-			"xz_scale": 0.4,
+			"xz_scale": 0.3,
 			"y_scale": 0
 		},
 		"final_density": {
@@ -65,7 +65,7 @@
 							"type": "minecraft:blend_density",
 							"argument": {
 								"type": "minecraft:add",
-								"argument1": -0.9,
+								"argument1": -1.5,
 								"argument2": {
 									"type": "minecraft:mul",
 									"argument1": {
@@ -77,22 +77,22 @@
 									},
 									"argument2": {
 										"type": "minecraft:add",
-										"argument1": 0.9,
+										"argument1": 1.5,
 										"argument2": {
 											"type": "minecraft:add",
-											"argument1": -0.123213,
+											"argument1": -0.14,
 											"argument2": {
 												"type": "minecraft:mul",
 												"argument1": {
 													"type": "minecraft:y_clamped_gradient",
 													"from_y": 140,
 													"to_y": 240,
-													"from_value": 0.6,
+													"from_value": 1,
 													"to_value": -0.4
 												},
 												"argument2": {
 													"type": "minecraft:add",
-													"argument1": 0.123213,
+													"argument1": 0.14,
 													"argument2": "fokastudio:end/sloped_cheese"
 												}
 											}
@@ -109,7 +109,7 @@
 				"argument1": {
 					"type": "minecraft:noise",
 					"noise": "fokastudio:end/continentalness",
-					"xz_scale": 1.15,
+					"xz_scale": 1.25,
 					"y_scale": 0.6
 				},
 				"argument2": {
@@ -118,15 +118,15 @@
 						"type": "minecraft:noise",
 						"noise": "fokastudio:end/continentalness",
 						"xz_scale": 0.7,
-						"y_scale": 0.1
+						"y_scale": 0.2
 					},
 					"argument2": {
 						"type": "minecraft:shifted_noise",
 						"noise": "fokastudio:end/erosion",
-						"xz_scale": 1.2,
-						"y_scale": 0,
-						"shift_x": "minecraft:shift_x",
-						"shift_y": -30,
+						"xz_scale": 1,
+						"y_scale": 0.4,
+						"shift_x": "minecraft:shift_z",
+						"shift_y": -20,
 						"shift_z": "minecraft:shift_z"
 					}
 				}

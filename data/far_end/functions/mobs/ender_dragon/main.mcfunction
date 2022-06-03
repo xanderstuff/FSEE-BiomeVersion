@@ -6,6 +6,9 @@ execute as @s store result score @s fe.health run data get entity @s Health 1
 # visibility
 # Moved to far_end:main
 
+# health update
+execute store result bossbar fe:ender_dragon value as @s run scoreboard players get @s fe.health
+
 ### Behaviour ###
 # Phase Monitor
 execute as @s store result score @s fe.variable run data get entity @s DragonPhase
