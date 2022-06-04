@@ -3,17 +3,17 @@
 	"config": {
 		"surface": "floor",
 		"depth": 1,
-		"vertical_range": 1,
+		"vertical_range": 3,
 		"extra_bottom_block_chance": 0,
 		"extra_edge_column_chance": 0.4,
 		"vegetation_chance": 0,
-		"xz_radius": 4,
-		"replaceable": "#minecraft:lush_ground_replaceable",
+		"xz_radius": 5,
+		"replaceable": "#fokastudio:warped_marsh/ground_replaceable",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 15,
+					"weight": 1600,
 					"data": {
 						"Name": "minecraft:grass_block",
 						"Properties": {
@@ -22,15 +22,48 @@
 					}
 				},
 				{
-					"weight": 9,
+					"weight": 1200,
 					"data": {
 						"Name": "minecraft:moss_block"
 					}
 				},
 				{
-					"weight": 3,
+					"weight": 1000,
 					"data": {
 						"Name": "minecraft:rooted_dirt"
+					}
+				},
+				{
+					"weight": 800,
+					"data": {
+						"Name": "minecraft:packed_mud"
+					}
+				},
+				{
+					"weight": 4,
+					"data": {
+						"Name": "minecraft:verdant_froglight",
+						"Properties": {
+							"axis": "x"
+						}
+					}
+				},
+				{
+					"weight": 4,
+					"data": {
+						"Name": "minecraft:ochre_froglight",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				},
+				{
+					"weight": 2,
+					"data": {
+						"Name": "minecraft:pearlescent_froglight",
+						"Properties": {
+							"axis": "y"
+						}
 					}
 				}
 			]

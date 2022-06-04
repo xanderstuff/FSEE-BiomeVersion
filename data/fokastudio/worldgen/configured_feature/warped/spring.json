@@ -7,9 +7,9 @@
 				"level": "0"
 			}
 		},
-		"rock_count": 4,
+		"rock_count": 2,
 		"hole_count": 1,
-		"requires_block_below": true,
+		"requires_block_below": false,
 		"valid_blocks": [
 			"minecraft:end_stone"
 		]
