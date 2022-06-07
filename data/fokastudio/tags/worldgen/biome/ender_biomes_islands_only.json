@@ -14,13 +14,14 @@
             "far_end:flesh_tundra",
             "far_end:the_nest",
             "fokastudio:blazing_dunes",
-            "fokastudio:chorus_fields",
+            "fokastudio:sculk_growth",
             "fokastudio:the_hallow",
             "fokastudio:frosted_hills",
             "fokastudio:chorus_jungle",
             "fokastudio:snowy_warped_forest",
             "fokastudio:glowshroom_valley",
             "fokastudio:prismarine_forest",
-            "fokastudio:shattered_end"
+            "fokastudio:shattered_end",
+            "far_end:void"
         ]   
 }

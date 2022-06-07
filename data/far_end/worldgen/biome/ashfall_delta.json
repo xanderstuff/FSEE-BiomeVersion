@@ -90,20 +90,16 @@
 		],
 		[],
 		[
-			"fokastudio:ash/patches",
 			"far_end:ash/vegetation/water/seagrass",
 			"far_end:ash/vegetation/water/sea_pickle",
 			"far_end:ash/vegetation/land/trees",
 			"far_end:ash/vegetation/land/wither_rose",
-			"fokastudio:ash/sculk_sensor",
-			"fokastudio:ash/waterlogged_sculk_sensor",
 			"fokastudio:ash/vegetation"
 		],
 		[],
 		[
 			"fokastudio:ash/replace_blocks",
 			"fokastudio:ash/magma",
-			"fokastudio:ash/patch_soul_fire",
 			"far_end:general/end_spike/center",
 			"far_end:general/end_spike/ring" 
 		]

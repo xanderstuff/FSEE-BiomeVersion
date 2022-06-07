@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:jigsaw",
-	"biomes": "#fokastudio:ender_biomes_no_islands",
+	"biomes": "#fokastudio:ender_biomes_no_bottom",
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "none",

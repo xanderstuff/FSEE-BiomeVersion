@@ -4,10 +4,6 @@
 		{
 			"condition": "minecraft:reference",
 			"name": "fokastudio:end/locations/biomes/in_end_midlands"
-		},
-		{
-			"condition": "minecraft:reference",
-			"name": "fokastudio:end/locations/biomes/in_chorus_fields"
 		}
 	]
 }

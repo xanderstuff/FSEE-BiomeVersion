@@ -195,6 +195,26 @@
 					}
 				}
 			}
+		},
+		"sculk_growth": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "fokastudio:sculk_growth"
+					}
+				}
+			}
+		},
+		"void": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "far_end:void"
+					}
+				}
+			}
 		}
 	},
 	"requirements": [
@@ -251,9 +271,15 @@
 		],
 		[
 			"snowy_warped_forest"
+		],
+		[
+			"sculk_growth"
+		],
+		[
+			"void"
 		]
 	],
 	"rewards": {
-		"experience": 700
+		"experience": 1500
 	}
 }

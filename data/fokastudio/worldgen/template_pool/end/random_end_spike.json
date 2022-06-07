@@ -7,31 +7,8 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "fokastudio:end/spikes/big/1",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"location": "fokastudio:end/",
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -40,30 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/big/2",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -72,30 +26,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/big/3",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -104,30 +35,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/big/4",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -136,30 +44,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/big/5",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -168,30 +53,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/big/6",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -200,30 +62,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/big/7",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -232,30 +71,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/big/8",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -264,30 +80,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/small/1",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -296,30 +89,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/small/2",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -328,30 +98,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/small/3",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -360,30 +107,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/small/4",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -392,30 +116,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/small/5",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -424,30 +125,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/small/6",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -456,30 +134,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/small/7",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
 		{
@@ -488,30 +143,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/spikes/small/8",
-				"processors": {
-					"processors": [
-						{
-							"processor_type": "minecraft:rule",
-							"rules": [
-								{
-									"location_predicate": {
-										"predicate_type": "minecraft:always_true"
-									},
-									"input_predicate": {
-										"predicate_type": "minecraft:random_blockstate_match",
-										"block_state": {
-											"Name": "minecraft:obsidian"
-										},
-										"probability": 0.05
-									},
-									"output_state": {
-										"Name": "minecraft:crying_obsidian"
-									}
-								}
-							]
-						} 
-					]
-				}
+				"processors": "fokastudio:end/random_end_spikes"
 			}
 		}
 	]

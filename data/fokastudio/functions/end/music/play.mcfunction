@@ -8,3 +8,4 @@ execute at @s if predicate fokastudio:end/music/in_nether_wastes_music_biomes ru
 execute at @s if predicate fokastudio:end/music/in_end_music_biomes run playsound music.end music @s
 execute at @s if predicate fokastudio:end/music/in_underwater_music_biomes run playsound music.under_water music @s
 execute at @s if predicate fokastudio:end/music/in_creative_music_biomes run playsound music.creative music @s
+execute at @s if predicate fokastudio:end/music/in_deep_dark_music_biomes run playsound music.overworld.deep_dark music @s

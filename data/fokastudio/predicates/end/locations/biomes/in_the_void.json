@@ -1,6 +1,6 @@
 {
 	"condition": "minecraft:location_check",
 	"predicate": {
-		"biome": "fokastudio:chorus_fields"
+		"biome": "far_end:void"
 	}
 }

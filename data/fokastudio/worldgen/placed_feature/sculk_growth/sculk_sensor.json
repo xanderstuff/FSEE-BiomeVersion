@@ -1,5 +1,5 @@
 {
-	"feature": "fokastudio:ash/sculk_sensor",
+	"feature": "fokastudio:sculk_growth/sculk_sensor",
 	"placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
@@ -29,8 +29,8 @@
 								0
 							],
 							"blocks": [
-								"water",
-								"air"
+								"minecraft:water",
+								"minecraft:air"
 							]
 						}
 					},
@@ -44,8 +44,8 @@
 								0
 							],
 							"blocks": [
-								"water",
-								"air"
+								"minecraft:water",
+								"minecraft:air"
 							]
 						}
 					},
@@ -59,8 +59,8 @@
 								1
 							],
 							"blocks": [
-								"water",
-								"air"
+								"minecraft:water",
+								"minecraft:air"
 							]
 						}
 					},
@@ -74,13 +74,17 @@
 								-1
 							],
 							"blocks": [
-								"water",
-								"air"
+								"minecraft:water",
+								"minecraft:air"
 							]
 						}
 					}
 				]
 			}
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 1
 		}
 	]
 }

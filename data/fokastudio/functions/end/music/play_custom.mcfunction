@@ -20,3 +20,4 @@ execute at @s if predicate fokastudio:end/locations/biomes/in_the_end run playso
 execute at @s if predicate fokastudio:end/locations/biomes/in_the_hallow run playsound fokastudio:music.end.the_hallow music @s
 execute at @s if predicate fokastudio:end/locations/biomes/in_the_nest run playsound fokastudio:music.end.the_nest music @s
 execute at @s if predicate fokastudio:end/locations/biomes/in_warped_marsh run playsound fokastudio:music.end.warped_marsh music @s
+execute at @s if predicate fokastudio:end/locations/biomes/in_sculk_growth run playsound fokastudio:music.end.sculk_growth music @s

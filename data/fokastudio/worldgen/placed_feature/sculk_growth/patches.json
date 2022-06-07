@@ -1,9 +1,9 @@
 {
-	"feature": "fokastudio:ash/patches",
+	"feature": "fokastudio:sculk_growth/patches",
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 13
+			"count": 67
 		},
 		{
 			"type": "minecraft:in_square"

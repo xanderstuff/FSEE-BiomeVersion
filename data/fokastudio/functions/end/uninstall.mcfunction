@@ -10,7 +10,6 @@ scoreboard objectives remove fe.variable
 scoreboard objectives remove foka.end_music
 scoreboard objectives remove math
 scoreboard objectives remove foka.config
-scoreboard objectives remove foka.first_install_end
 scoreboard objectives remove foka.config.custom_music
 scoreboard objectives remove foka.items.dragonblade_cooldown
 scoreboard objectives remove foka.items.pandoras_box_animation
@@ -18,6 +17,7 @@ scoreboard objectives remove foka.items.pandoras_box_summon_id
 scoreboard objectives remove foka.items.pandoras_box_raycast
 scoreboard objectives remove foka.mechanics.void_fishing_length
 scoreboard objectives remove foka.mechanics.crystal_count
+scoreboard objectives remove foka.misc.crystal_fix_count
 
 team remove foka.purple_glow
 
