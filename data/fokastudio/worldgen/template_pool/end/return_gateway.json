@@ -46,7 +46,7 @@
 						},
 						{
 							"processor_type": "protected_blocks",
-							"value": "#fokastudio:end/structures_cannot_replace"
+							"value": "#fokastudio:end/structure_cannot_replace"
 						}
 					]
 				}
