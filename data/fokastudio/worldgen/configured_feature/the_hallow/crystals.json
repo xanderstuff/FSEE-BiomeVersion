@@ -14,7 +14,7 @@
 				"max_inclusive": 6
 			}
 		},
-		"replaceable": "#fokastudio:the_hallow/crystal_ground",
+		"replaceable": "#fokastudio:end/the_hallow/crystal_ground",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

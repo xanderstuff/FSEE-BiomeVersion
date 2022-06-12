@@ -43,6 +43,10 @@
 									"Name": "minecraft:end_stone"
 								}
 							]
+						},
+						{
+							"processor_type": "protected_blocks",
+							"value": "#fokastudio:end/structures_cannot_replace"
 						}
 					]
 				}

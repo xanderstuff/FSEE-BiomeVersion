@@ -20,7 +20,7 @@
 				"max_inclusive": 7
 			}
 		},
-		"replaceable": "#fokastudio:sculk_growth/patches_replaceable",
+		"replaceable": "#fokastudio:end/sculk_growth/patches_replaceable",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

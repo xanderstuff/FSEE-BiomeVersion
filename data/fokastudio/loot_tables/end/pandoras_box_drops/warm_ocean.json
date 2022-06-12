@@ -95,7 +95,7 @@
 				},
 				{
 					"type": "minecraft:tag",
-					"name": "fokastudio:coral_blocks",
+					"name": "fokastudio:end/coral_blocks",
 					"expand": true,
 					"weight": 10,
 					"functions": [
@@ -111,7 +111,7 @@
 				},
 				{
 					"type": "minecraft:tag",
-					"name": "fokastudio:prismarine",
+					"name": "fokastudio:end/prismarine",
 					"expand": true,
 					"weight": 10,
 					"functions": [

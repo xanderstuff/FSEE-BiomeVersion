@@ -22,7 +22,7 @@
 		},
 		{
 			"processor_type": "minecraft:protected_blocks",
-			"value": "#fokastudio:structure_cannot_replace"
+			"value": "#fokastudio:end/structure_cannot_replace"
 		}
 	]
 }

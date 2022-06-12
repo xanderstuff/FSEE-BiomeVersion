@@ -16,7 +16,7 @@
 	"noise": {
 		"min_y": 0,
 		"height": 256,
-		"size_horizontal": 2,
+		"size_horizontal": 4,
 		"size_vertical": 4
 	},
 	"noise_router": {
@@ -49,7 +49,7 @@
 		"initial_density_without_jaggedness": {
 			"type": "minecraft:noise",
 			"noise": "fokastudio:end/continentalness_smooth",
-			"xz_scale": 0.3,
+			"xz_scale": 0.6,
 			"y_scale": 0
 		},
 		"final_density": {
@@ -516,7 +516,7 @@
 									"type": "minecraft:stone_depth",
 									"offset": 0,
 									"surface_type": "floor",
-									"add_surface_depth": false,
+									"add_surface_depth": true,
 									"secondary_depth_range": 0
 								},
 								"then_run": {
@@ -638,7 +638,7 @@
 						"offset": 0,
 						"surface_type": "floor",
 						"add_surface_depth": true,
-						"secondary_depth_range": 6
+						"secondary_depth_range": 7
 					},
 					"then_run": {
 						"type": "minecraft:sequence",
@@ -679,12 +679,12 @@
 												"offset": 0,
 												"surface_type": "floor",
 												"add_surface_depth": false,
-												"secondary_depth_range": 0
+												"secondary_depth_range": 4
 											},
 											"then_run": {
 												"type": "minecraft:block",
 												"result_state": {
-													"Name": "minecraft:warped_nylium"
+													"Name": "minecraft:snow_block"
 												}
 											}
 										}

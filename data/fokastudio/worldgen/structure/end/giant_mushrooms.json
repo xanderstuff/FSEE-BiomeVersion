@@ -1,13 +1,13 @@
 {
 	"type": "minecraft:jigsaw",
-	"biomes": "#fokastudio:mushroom_biomes",
+	"biomes": "#fokastudio:end/mushroom_biomes",
 	"step": "vegetal_decoration",
 	"spawn_overrides": {},
-	"terrain_adaptation": "beard_thin",
+	"terrain_adaptation": "beard_box",
 	"start_pool": "fokastudio:end/giant_mushrooms/stems",
 	"size": 1,
 	"start_height": {
-		"absolute": 0
+		"absolute": 1
 	},
 	"project_start_to_heightmap": "MOTION_BLOCKING_NO_LEAVES",
 	"max_distance_from_center": 40,
