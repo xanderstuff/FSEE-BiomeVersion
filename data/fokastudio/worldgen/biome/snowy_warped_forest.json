@@ -3,7 +3,6 @@
 	"downfall": 0.4,
 	"precipitation": "none",
 	"temperature_modifier": "frozen",
-	 
 	"creature_spawn_probability": 0,
 	"effects": {
 		"sky_color": 7907327,
@@ -43,24 +42,25 @@
 		[],
 		[],
 		[
-			"fokastudio:snowy_warped_forest/frozen_lava_lake",
-			"fokastudio:snowy_warped_forest/fungus"
+			"fokastudio:snowy_warped_forest/frozen_lava_lake"
+		],
+		[],
+		[
+			"fokastudio:frosted_hills/ore_blue_ice",
+			"fokastudio:frosted_hills/ore_snow"
 		],
 		[],
 		[],
-		[],
-		[],
+		[
+			"fokastudio:snowy_warped_forest/fungus"
+		],
 		[
 			"fokastudio:global/snowy/first_layer",
 			"fokastudio:global/snowy/second_layer",
 			"fokastudio:global/snowy/third_layer",
-			"fokastudio:global/snowy/freeze_layers"
-		],
-		[
-			"fokastudio:frosted_hills/ore_blue_ice",
-			"fokastudio:frosted_hills/ore_snow",
+			"fokastudio:global/snowy/freeze_layers",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring" 
+			"far_end:general/end_spike/ring"
 		]
 	]
 }
