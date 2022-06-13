@@ -1,8 +1,0 @@
-{
-	"required":false,
-	"values": [
-		"#dutils:passive",
-		"#dutils:neutral",
-		"#dutils:hostile"
-	]
-} 

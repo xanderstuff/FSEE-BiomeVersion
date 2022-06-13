@@ -5,8 +5,8 @@ execute if score @s foka.items.pandoras_box_animation matches 140..160 run tp @s
 execute if score @s foka.items.pandoras_box_animation matches 160..180 run tp @s ~ ~ ~ ~25 ~ 
 execute if score @s foka.items.pandoras_box_animation matches 180..200 run tp @s ~ ~ ~ ~30 ~ 
 
-execute positioned ~ ~3 ~ if predicate dutils:location/light/above_4 run particle dust_color_transition 0.5 0.6 0.7 1 1 1 1 ~ ~-1.3 ~ 0.2 0.2 0.2 0 4 force
-execute positioned ~ ~3 ~ unless predicate dutils:location/light/above_4 run particle dust_color_transition 0.2 0.2 0.2 1 0 0 0 ~ ~-1.3 ~ 0.2 0.2 0.2 0 4 force
+execute positioned ~ ~3 ~ if predicate fokastudio:end/locations/above_4_light_level run particle dust_color_transition 0.5 0.6 0.7 1 1 1 1 ~ ~-1.3 ~ 0.2 0.2 0.2 0 4 force
+execute positioned ~ ~3 ~ unless predicate fokastudio:end/locations/above_4_light_level run particle dust_color_transition 0.2 0.2 0.2 1 0 0 0 ~ ~-1.3 ~ 0.2 0.2 0.2 0 4 force
 
 execute if score @s foka.items.pandoras_box_animation matches 0..20 run particle end_rod ^ ^1.7 ^0.3 0 0 0 0 1 normal 
 execute if score @s foka.items.pandoras_box_animation matches 20..40 run particle end_rod ^ ^1.7 ^0.35 0 0 0 0 1 normal 
@@ -107,8 +107,8 @@ execute if score @s foka.items.pandoras_box_animation matches 160 run playsound 
 execute if score @s foka.items.pandoras_box_animation matches 170 run playsound minecraft:entity.evoker.prepare_attack master @a ~ ~ ~ 1 1
 execute if score @s foka.items.pandoras_box_animation matches 199 run playsound minecraft:block.enchantment_table.use master @a ~ ~ ~ 1 0.7
 execute if score @s foka.items.pandoras_box_animation matches 199 run playsound minecraft:entity.generic.explode master @a ~ ~ ~ 1 0.9
-execute if score @s foka.items.pandoras_box_animation matches 199 if predicate dutils:location/light/above_4 run playsound minecraft:entity.player.levelup master @a ~ ~ ~ 1 0.9
-execute if score @s foka.items.pandoras_box_animation matches 199 unless predicate dutils:location/light/above_4 run playsound minecraft:entity.phantom.bite master @a ~ ~ ~ 1 0.86
+execute if score @s foka.items.pandoras_box_animation matches 199 if predicate fokastudio:end/locations/above_4_light_level run playsound minecraft:entity.player.levelup master @a ~ ~ ~ 1 0.9
+execute if score @s foka.items.pandoras_box_animation matches 199 unless predicate fokastudio:end/locations/above_4_light_level run playsound minecraft:entity.phantom.bite master @a ~ ~ ~ 1 0.86
 
 execute if score @s foka.items.pandoras_box_animation matches 0 run particle firework ~ ~1.7 ~ 0 0 0 0 1 normal @a
 execute if score @s foka.items.pandoras_box_animation matches 3 run particle firework ~ ~1.7 ~ 0 0 0 0 1 normal @a

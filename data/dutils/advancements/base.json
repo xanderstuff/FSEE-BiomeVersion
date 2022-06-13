@@ -1,7 +1,0 @@
-{
-	"criteria": {
-        "always": {
-			"trigger": "minecraft:impossible"
-		}
-    }
-}
