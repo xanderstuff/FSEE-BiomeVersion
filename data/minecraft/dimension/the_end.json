@@ -256,10 +256,10 @@
 							-0.2,
 							-0.03
 						],
-						"weirdness": 0.3,
+						"weirdness": 0.8,
 						"depth": [
-							0.28,
-							0.7
+							0.5777,
+							0.75
 						],
 						"offset": 0.5
 					}
@@ -269,12 +269,12 @@
 					"parameters": {
 						"temperature": 0,
 						"humidity": 0,
-						"continentalness": -0.3,
-						"erosion": -0.3,
+						"continentalness": -0.6,
+						"erosion": -0.6,
 						"weirdness": 0,
 						"depth": [
-							0.4,
-							0.7
+							0.6,
+							0.75
 						],
 						"offset": 0.45					
 					}
@@ -288,7 +288,7 @@
 						"erosion": 0,
 						"weirdness": 0,
 						"depth": [
-							0.85,
+							1.2,
 							1.5
 						],
 						"offset": 0.175

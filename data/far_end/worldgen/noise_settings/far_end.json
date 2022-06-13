@@ -65,7 +65,7 @@
 							"type": "minecraft:blend_density",
 							"argument": {
 								"type": "minecraft:add",
-								"argument1": -1.5,
+								"argument1": -1.4,
 								"argument2": {
 									"type": "minecraft:mul",
 									"argument1": {
@@ -77,10 +77,10 @@
 									},
 									"argument2": {
 										"type": "minecraft:add",
-										"argument1": 1.5,
+										"argument1": 1.4,
 										"argument2": {
 											"type": "minecraft:add",
-											"argument1": -0.14,
+											"argument1": -0.11,
 											"argument2": {
 												"type": "minecraft:mul",
 												"argument1": {
@@ -92,7 +92,7 @@
 												},
 												"argument2": {
 													"type": "minecraft:add",
-													"argument1": 0.14,
+													"argument1": 0.11,
 													"argument2": "fokastudio:end/sloped_cheese"
 												}
 											}
@@ -117,7 +117,7 @@
 					"argument1": {
 						"type": "minecraft:noise",
 						"noise": "fokastudio:end/continentalness",
-						"xz_scale": 0.7,
+						"xz_scale": 1.5,
 						"y_scale": 0.111566666
 					},
 					"argument2": {
