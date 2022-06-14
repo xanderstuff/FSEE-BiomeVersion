@@ -21,6 +21,15 @@
 				"state": {
 					"Name": "minecraft:snow_block"
 				}
+			},
+			{
+				"target": {
+					"predicate_type": "minecraft:block_match",
+					"block": "minecraft:netherrack"
+				},
+				"state": {
+					"Name": "minecraft:snow_block"
+				}
 			}
 		]
 	}

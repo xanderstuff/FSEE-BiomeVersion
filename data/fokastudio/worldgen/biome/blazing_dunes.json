@@ -82,7 +82,6 @@
 		[],
 		[
 			"fokastudio:blazing_dunes/replace_blocks",
-			"fokastudio:blazing_dunes/transition",
 			"far_end:general/end_spike/center",
 			"far_end:general/end_spike/ring" 
 		]
