@@ -1,6 +1,6 @@
 {
 	"name": "fokastudio:end/stronghold/corridors_full",
-	"fallback": "minecraft:empty",
+	"fallback": "fokastudio:end/stronghold/fallback_end",
 	"elements": [
 		{
 			"weight": 17,
@@ -44,15 +44,6 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/stronghold/corridors/ambush_crossing",
-				"processors": "fokastudio:end/stronghold_generic"
-			}
-		},
-		{
-			"weight": 5,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "fokastudio:end/stronghold/corridors/dead_end",
 				"processors": "fokastudio:end/stronghold_generic"
 			}
 		},

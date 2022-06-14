@@ -7,7 +7,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "fokastudio:end/",
+				"location": "fokastudio:end/spikes/big/1",
 				"processors": "fokastudio:end/random_end_spikes"
 			}
 		},
