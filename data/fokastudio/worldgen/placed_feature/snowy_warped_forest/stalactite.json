@@ -1,5 +1,5 @@
 {
-	"feature": "fokastudio:glowshroom_valley/glowstone",
+	"feature": "fokastudio:snowy_warped_forest/stalactite",
 	"placement": [
 		{
 			"type": "minecraft:count",
@@ -8,19 +8,19 @@
 				"distribution": [
 					{
 						"weight": 100,
-						"data": 4
+						"data": 14
 					},
 					{
 						"weight": 50,
-						"data": 8
+						"data": 28
 					},
 					{
 						"weight": 25,
-						"data": 12
+						"data": 56
 					},
 					{
 						"weight": 1,
-						"data": 16
+						"data": 80
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 		},
 		{
 			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 15,
+			"noise_to_count_ratio": 10,
 			"noise_factor": 55,
 			"noise_offset": 0
 		},

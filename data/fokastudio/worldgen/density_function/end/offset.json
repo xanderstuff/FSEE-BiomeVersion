@@ -600,6 +600,11 @@
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
 						{
+							"location": 0,
+							"derivative": 0,
+							"value": 0.1
+						},
+						{
 							"location": 0.1,
 							"derivative": 0,
 							"value": 0.05
@@ -607,47 +612,47 @@
 						{
 							"location": 0.2,
 							"derivative": 0,
-							"value": 0.1
+							"value": 0.17
 						},
 						{
 							"location": 0.3,
 							"derivative": 0,
-							"value": 0.15
+							"value": 0.22
 						},
 						{
 							"location": 0.4,
 							"derivative": 0,
-							"value": 0.2
+							"value": 0.27
 						},
 						{
 							"location": 0.5,
 							"derivative": 0,
-							"value": 0.25
+							"value": 0.33
 						},
 						{
 							"location": 0.6,
 							"derivative": 0,
-							"value": 0.3
+							"value": 0.37
 						},
 						{
 							"location": 0.7,
 							"derivative": 0,
-							"value": 0.35
+							"value": 0.42
 						},
 						{
 							"location": 0.8,
 							"derivative": 0,
-							"value": 0.4
+							"value": 0.47
 						},
 						{
 							"location": 0.9,
 							"derivative": 0,
-							"value": 0.45
+							"value": 0.52
 						},
 						{
 							"location": 1,
 							"derivative": 0,
-							"value": 0.5
+							"value": 0.57
 						}
 					]
 				}
@@ -659,6 +664,11 @@
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
 						{
+							"location": 0,
+							"derivative": 0,
+							"value": 0.1
+						},
+						{
 							"location": 0.1,
 							"derivative": 0,
 							"value": 0.05
@@ -666,47 +676,47 @@
 						{
 							"location": 0.2,
 							"derivative": 0,
-							"value": 0.1
+							"value": 0.17
 						},
 						{
 							"location": 0.3,
 							"derivative": 0,
-							"value": 0.15
+							"value": 0.22
 						},
 						{
 							"location": 0.4,
 							"derivative": 0,
-							"value": 0.2
+							"value": 0.27
 						},
 						{
 							"location": 0.5,
 							"derivative": 0,
-							"value": 0.25
+							"value": 0.33
 						},
 						{
 							"location": 0.6,
 							"derivative": 0,
-							"value": 0.3
+							"value": 0.37
 						},
 						{
 							"location": 0.7,
 							"derivative": 0,
-							"value": 0.35
+							"value": 0.42
 						},
 						{
 							"location": 0.8,
 							"derivative": 0,
-							"value": 0.4
+							"value": 0.47
 						},
 						{
 							"location": 0.9,
 							"derivative": 0,
-							"value": 0.45
+							"value": 0.52
 						},
 						{
 							"location": 1,
 							"derivative": 0,
-							"value": 0.5
+							"value": 0.57
 						}
 					]
 				}
@@ -718,6 +728,11 @@
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
 						{
+							"location": 0,
+							"derivative": 0,
+							"value": 0.1
+						},
+						{
 							"location": 0.1,
 							"derivative": 0,
 							"value": 0.05
@@ -725,47 +740,47 @@
 						{
 							"location": 0.2,
 							"derivative": 0,
-							"value": 0.1
+							"value": 0.17
 						},
 						{
 							"location": 0.3,
 							"derivative": 0,
-							"value": 0.15
+							"value": 0.22
 						},
 						{
 							"location": 0.4,
 							"derivative": 0,
-							"value": 0.2
+							"value": 0.27
 						},
 						{
 							"location": 0.5,
 							"derivative": 0,
-							"value": 0.25
+							"value": 0.33
 						},
 						{
 							"location": 0.6,
 							"derivative": 0,
-							"value": 0.3
+							"value": 0.37
 						},
 						{
 							"location": 0.7,
 							"derivative": 0,
-							"value": 0.35
+							"value": 0.42
 						},
 						{
 							"location": 0.8,
 							"derivative": 0,
-							"value": 0.4
+							"value": 0.47
 						},
 						{
 							"location": 0.9,
 							"derivative": 0,
-							"value": 0.45
+							"value": 0.52
 						},
 						{
 							"location": 1,
 							"derivative": 0,
-							"value": 0.5
+							"value": 0.57
 						}
 					]
 				}
@@ -777,6 +792,11 @@
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
 						{
+							"location": 0,
+							"derivative": 0,
+							"value": 0.1
+						},
+						{
 							"location": 0.1,
 							"derivative": 0,
 							"value": 0.05
@@ -784,47 +804,47 @@
 						{
 							"location": 0.2,
 							"derivative": 0,
-							"value": 0.1
+							"value": 0.17
 						},
 						{
 							"location": 0.3,
 							"derivative": 0,
-							"value": 0.15
+							"value": 0.22
 						},
 						{
 							"location": 0.4,
 							"derivative": 0,
-							"value": 0.2
+							"value": 0.27
 						},
 						{
 							"location": 0.5,
 							"derivative": 0,
-							"value": 0.25
+							"value": 0.33
 						},
 						{
 							"location": 0.6,
 							"derivative": 0,
-							"value": 0.3
+							"value": 0.37
 						},
 						{
 							"location": 0.7,
 							"derivative": 0,
-							"value": 0.35
+							"value": 0.42
 						},
 						{
 							"location": 0.8,
 							"derivative": 0,
-							"value": 0.4
+							"value": 0.47
 						},
 						{
 							"location": 0.9,
 							"derivative": 0,
-							"value": 0.45
+							"value": 0.52
 						},
 						{
 							"location": 1,
 							"derivative": 0,
-							"value": 0.5
+							"value": 0.57
 						}
 					]
 				}
@@ -836,6 +856,11 @@
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
 						{
+							"location": 0,
+							"derivative": 0,
+							"value": 0.1
+						},
+						{
 							"location": 0.1,
 							"derivative": 0,
 							"value": 0.05
@@ -843,47 +868,47 @@
 						{
 							"location": 0.2,
 							"derivative": 0,
-							"value": 0.1
+							"value": 0.17
 						},
 						{
 							"location": 0.3,
 							"derivative": 0,
-							"value": 0.15
+							"value": 0.22
 						},
 						{
 							"location": 0.4,
 							"derivative": 0,
-							"value": 0.2
+							"value": 0.27
 						},
 						{
 							"location": 0.5,
 							"derivative": 0,
-							"value": 0.25
+							"value": 0.33
 						},
 						{
 							"location": 0.6,
 							"derivative": 0,
-							"value": 0.3
+							"value": 0.37
 						},
 						{
 							"location": 0.7,
 							"derivative": 0,
-							"value": 0.35
+							"value": 0.42
 						},
 						{
 							"location": 0.8,
 							"derivative": 0,
-							"value": 0.4
+							"value": 0.47
 						},
 						{
 							"location": 0.9,
 							"derivative": 0,
-							"value": 0.45
+							"value": 0.52
 						},
 						{
 							"location": 1,
 							"derivative": 0,
-							"value": 0.5
+							"value": 0.57
 						}
 					]
 				}
@@ -895,6 +920,11 @@
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
 						{
+							"location": 0,
+							"derivative": 0,
+							"value": 0.1
+						},
+						{
 							"location": 0.1,
 							"derivative": 0,
 							"value": 0.05
@@ -902,47 +932,47 @@
 						{
 							"location": 0.2,
 							"derivative": 0,
-							"value": 0.1
+							"value": 0.17
 						},
 						{
 							"location": 0.3,
 							"derivative": 0,
-							"value": 0.15
+							"value": 0.22
 						},
 						{
 							"location": 0.4,
 							"derivative": 0,
-							"value": 0.2
+							"value": 0.27
 						},
 						{
 							"location": 0.5,
 							"derivative": 0,
-							"value": 0.25
+							"value": 0.33
 						},
 						{
 							"location": 0.6,
 							"derivative": 0,
-							"value": 0.3
+							"value": 0.37
 						},
 						{
 							"location": 0.7,
 							"derivative": 0,
-							"value": 0.35
+							"value": 0.42
 						},
 						{
 							"location": 0.8,
 							"derivative": 0,
-							"value": 0.4
+							"value": 0.47
 						},
 						{
 							"location": 0.9,
 							"derivative": 0,
-							"value": 0.45
+							"value": 0.52
 						},
 						{
 							"location": 1,
 							"derivative": 0,
-							"value": 0.5
+							"value": 0.57
 						}
 					]
 				}
@@ -954,6 +984,11 @@
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
 						{
+							"location": 0,
+							"derivative": 0,
+							"value": 0.1
+						},
+						{
 							"location": 0.1,
 							"derivative": 0,
 							"value": 0.05
@@ -961,47 +996,47 @@
 						{
 							"location": 0.2,
 							"derivative": 0,
-							"value": 0.1
+							"value": 0.17
 						},
 						{
 							"location": 0.3,
 							"derivative": 0,
-							"value": 0.15
+							"value": 0.22
 						},
 						{
 							"location": 0.4,
 							"derivative": 0,
-							"value": 0.2
+							"value": 0.27
 						},
 						{
 							"location": 0.5,
 							"derivative": 0,
-							"value": 0.25
+							"value": 0.33
 						},
 						{
 							"location": 0.6,
 							"derivative": 0,
-							"value": 0.3
+							"value": 0.37
 						},
 						{
 							"location": 0.7,
 							"derivative": 0,
-							"value": 0.35
+							"value": 0.42
 						},
 						{
 							"location": 0.8,
 							"derivative": 0,
-							"value": 0.4
+							"value": 0.47
 						},
 						{
 							"location": 0.9,
 							"derivative": 0,
-							"value": 0.45
+							"value": 0.52
 						},
 						{
 							"location": 1,
 							"derivative": 0,
-							"value": 0.5
+							"value": 0.57
 						}
 					]
 				}
@@ -1013,6 +1048,11 @@
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
 						{
+							"location": 0,
+							"derivative": 0,
+							"value": 0.1
+						},
+						{
 							"location": 0.1,
 							"derivative": 0,
 							"value": 0.05
@@ -1020,47 +1060,47 @@
 						{
 							"location": 0.2,
 							"derivative": 0,
-							"value": 0.1
+							"value": 0.17
 						},
 						{
 							"location": 0.3,
 							"derivative": 0,
-							"value": 0.15
+							"value": 0.22
 						},
 						{
 							"location": 0.4,
 							"derivative": 0,
-							"value": 0.2
+							"value": 0.27
 						},
 						{
 							"location": 0.5,
 							"derivative": 0,
-							"value": 0.25
+							"value": 0.33
 						},
 						{
 							"location": 0.6,
 							"derivative": 0,
-							"value": 0.3
+							"value": 0.37
 						},
 						{
 							"location": 0.7,
 							"derivative": 0,
-							"value": 0.35
+							"value": 0.42
 						},
 						{
 							"location": 0.8,
 							"derivative": 0,
-							"value": 0.4
+							"value": 0.47
 						},
 						{
 							"location": 0.9,
 							"derivative": 0,
-							"value": 0.45
+							"value": 0.52
 						},
 						{
 							"location": 1,
 							"derivative": 0,
-							"value": 0.5
+							"value": 0.57
 						}
 					]
 				}
@@ -1072,6 +1112,11 @@
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
 						{
+							"location": 0,
+							"derivative": 0,
+							"value": 0.1
+						},
+						{
 							"location": 0.1,
 							"derivative": 0,
 							"value": 0.05
@@ -1079,47 +1124,47 @@
 						{
 							"location": 0.2,
 							"derivative": 0,
-							"value": 0.1
+							"value": 0.17
 						},
 						{
 							"location": 0.3,
 							"derivative": 0,
-							"value": 0.15
+							"value": 0.22
 						},
 						{
 							"location": 0.4,
 							"derivative": 0,
-							"value": 0.2
+							"value": 0.27
 						},
 						{
 							"location": 0.5,
 							"derivative": 0,
-							"value": 0.25
+							"value": 0.33
 						},
 						{
 							"location": 0.6,
 							"derivative": 0,
-							"value": 0.3
+							"value": 0.37
 						},
 						{
 							"location": 0.7,
 							"derivative": 0,
-							"value": 0.35
+							"value": 0.42
 						},
 						{
 							"location": 0.8,
 							"derivative": 0,
-							"value": 0.4
+							"value": 0.47
 						},
 						{
 							"location": 0.9,
 							"derivative": 0,
-							"value": 0.45
+							"value": 0.52
 						},
 						{
 							"location": 1,
 							"derivative": 0,
-							"value": 0.5
+							"value": 0.57
 						}
 					]
 				}
@@ -1131,6 +1176,11 @@
 					"coordinate": "fokastudio:end/erosion",
 					"points": [
 						{
+							"location": 0,
+							"derivative": 0,
+							"value": 0.1
+						},
+						{
 							"location": 0.1,
 							"derivative": 0,
 							"value": 0.05
@@ -1138,47 +1188,47 @@
 						{
 							"location": 0.2,
 							"derivative": 0,
-							"value": 0.1
+							"value": 0.17
 						},
 						{
 							"location": 0.3,
 							"derivative": 0,
-							"value": 0.15
+							"value": 0.22
 						},
 						{
 							"location": 0.4,
 							"derivative": 0,
-							"value": 0.2
+							"value": 0.27
 						},
 						{
 							"location": 0.5,
 							"derivative": 0,
-							"value": 0.25
+							"value": 0.33
 						},
 						{
 							"location": 0.6,
 							"derivative": 0,
-							"value": 0.3
+							"value": 0.37
 						},
 						{
 							"location": 0.7,
 							"derivative": 0,
-							"value": 0.35
+							"value": 0.42
 						},
 						{
 							"location": 0.8,
 							"derivative": 0,
-							"value": 0.4
+							"value": 0.47
 						},
 						{
 							"location": 0.9,
 							"derivative": 0,
-							"value": 0.45
+							"value": 0.52
 						},
 						{
 							"location": 1,
 							"derivative": 0,
-							"value": 0.5
+							"value": 0.57
 						}
 					]
 				}

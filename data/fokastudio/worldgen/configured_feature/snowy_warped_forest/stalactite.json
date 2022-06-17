@@ -16,21 +16,10 @@
 		},
 		"replaceable": "#fokastudio:end/stalactites_replacable",
 		"ground_state": {
-			"type": "minecraft:weighted_state_provider",
-			"entries": [
-				{
-					"weight": 7,
-					"data": {
-						"Name": "minecraft:glowstone"
-					}
-				},
-				{
-					"weight": 1,
-					"data": {
-						"Name": "minecraft:shroomlight"
-					}
-				}
-			]
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:netherrack"
+			}
 		},
 		"vegetation_feature": {
 			"feature": {
@@ -55,25 +44,14 @@
 								"type": "minecraft:uniform",
 								"value": {
 									"min_inclusive": 1,
-									"max_inclusive": 3
+									"max_inclusive": 2
 								}
 							},
 							"provider": {
-								"type": "minecraft:weighted_state_provider",
-								"entries": [
-									{
-										"weight": 7,
-										"data": {
-											"Name": "minecraft:glowstone"
-										}
-									},
-									{
-										"weight": 1,
-										"data": {
-											"Name": "minecraft:shroomlight"
-										}
-									}
-								]
+								"type": "minecraft:simple_state_provider",
+								"state": {
+									"Name": "minecraft:netherrack"
+								}
 							}
 						}
 					]

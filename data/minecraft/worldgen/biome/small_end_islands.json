@@ -2,7 +2,6 @@
 	"temperature": 0.5,
 	"downfall": 0.5,
 	"precipitation": "none",
-	 
 	"effects": {
 		"sky_color": 7354006,
 		"fog_color": 5510782,
@@ -57,7 +56,13 @@
 		"misc": []
 	},
 	"spawn_costs": {},
-	"carvers": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
 	"features": [
 		[
 			"fokastudio:global/stalactite_1",
@@ -80,7 +85,7 @@
 		[
 			"fokastudio:shattered_end/bricks_scattered",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring" ,
+			"far_end:general/end_spike/ring",
 			"fokastudio:structures/end/dungeon"
 		]
 	]

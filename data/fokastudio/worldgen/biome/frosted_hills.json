@@ -3,7 +3,6 @@
 	"downfall": 0.4,
 	"precipitation": "none",
 	"temperature_modifier": "frozen",
-	 
 	"creature_spawn_probability": 0,
 	"effects": {
 		"sky_color": 7907327,
@@ -47,11 +46,16 @@
 		]
 	},
 	"spawn_costs": {},
-	"carvers": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
 	"features": [
 		[
-			"fokastudio:global/stalactite_1",
-			"fokastudio:global/stalactite_2",
+			"fokastudio:frosted_hills/stalactite",
 			"fokastudio:frosted_hills/hills",
 			"fokastudio:frosted_hills/icicle",
 			"fokastudio:frosted_hills/icicle_upwards"
@@ -63,7 +67,9 @@
 		[],
 		[],
 		[],
-		[],
+		[
+			"fokastudio:frosted_hills/blocks_random_replace"
+		],
 		[
 			"fokastudio:global/snowy/first_layer",
 			"fokastudio:global/snowy/second_layer",
@@ -74,7 +80,7 @@
 			"fokastudio:frosted_hills/ore_blue_ice",
 			"fokastudio:frosted_hills/ore_snow",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring" 
+			"far_end:general/end_spike/ring"
 		]
 	]
 }

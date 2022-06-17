@@ -11,7 +11,10 @@
 					"parameters": {
 						"temperature": -0.3,
 						"humidity": 0,
-						"continentalness": -0.2,
+						"continentalness": [
+							-0.2,
+							-0.1
+						],
 						"erosion": 0,
 						"weirdness": 0,
 						"depth": 0,
@@ -165,10 +168,10 @@
 				{
 					"biome": "fokastudio:glowshroom_valley",
 					"parameters": {
-						"temperature": -0.3,
+						"temperature": 0.1,
 						"humidity": 0.4,
-						"continentalness": 0.2,
-						"erosion": 0.2,
+						"continentalness": 0.6,
+						"erosion": 0.4,
 						"weirdness": 0,
 						"depth": 0,
 						"offset": 0.5
@@ -243,7 +246,7 @@
 						"erosion": 0.18,
 						"weirdness": 0.15,
 						"depth": 0,
-						"offset": 0.175
+						"offset": 0.25
 					}
 				},
 				{
@@ -291,7 +294,7 @@
 							1.2,
 							1.5
 						],
-						"offset": 0.175
+						"offset": 0.16
 					}
 				}
 			]

@@ -3,7 +3,6 @@
 	"downfall": 0.5,
 	"precipitation": "none",
 	"temperature_modifier": "none",
-	 
 	"effects": {
 		"sky_color": 1975338,
 		"fog_color": 1451344,
@@ -13,8 +12,8 @@
 		"foliage_color": 3501714,
 		"ambient_sound": "minecraft:ambient.warped_forest.loop",
 		"mood_sound": {
-			"sound": "minecraft:ambient.crimson_forest.mood",
-			"tick_delay": 500,
+			"sound": "minecraft:ambient.nether_wastes.mood",
+			"tick_delay": 700,
 			"block_search_extent": 10,
 			"offset": 3
 		},
@@ -24,20 +23,27 @@
 		},
 		"particle": {
 			"options": {
-				"type": "glow_squid_ink"
+				"type": "warped_spore"
 			},
 			"probability": 0.0003
 		}
 	},
 	"spawners": {
 		"monster": [],
-		"creature": [],
+		"creature": [
+			{
+				"type": "minecraft:vex",
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		],
 		"ambient": [],
 		"underground_water_creature": [],
 		"water_creature": [
 			{
 				"type": "minecraft:glow_squid",
-				"weight": 10,
+				"weight": 15,
 				"minCount": 1,
 				"maxCount": 1
 			}
@@ -46,17 +52,26 @@
 		"misc": []
 	},
 	"spawn_costs": {},
-	"carvers": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
 	"features": [
 		[
-			"fokastudio:global/stalactite_1",
-			"fokastudio:global/stalactite_2",
-			"fokastudio:glowshroom_valley/glowstone"
+			"fokastudio:glowshroom_valley/stalactite"
 		],
 		[
 			"fokastudio:glowshroom_valley/lake"
 		],
 		[],
+		[],
+		[],
+		[
+			"fokastudio:glowshroom_valley/blocks_random_replace"
+		],
 		[],
 		[],
 		[],
@@ -66,16 +81,12 @@
 			"fokastudio:glowshroom_valley/glowshroom_3",
 			"fokastudio:glowshroom_valley/glowshroom_4",
 			"fokastudio:glowshroom_valley/glowshroom_5",
-			"fokastudio:glowshroom_valley/jellolands_1",
-			"fokastudio:glowshroom_valley/jellolands_2"
+			"fokastudio:glowshroom_valley/jellolands"
 		],
-		[],
-		[],
-		[],
 		[
 			"fokastudio:glowshroom_valley/replace_blocks",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring" 
+			"far_end:general/end_spike/ring"
 		]
 	]
 }

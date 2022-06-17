@@ -12,6 +12,7 @@
 		"deepslate",
 		"cobbled_deepslate",
 		"grass_block",
-		"sculk"
+		"sculk",
+		"packed_mud"
 	]
 }

@@ -59,7 +59,13 @@
       "charge": 0.7
     }
   },
-  "carvers": {},
+  "carvers": {
+"air":[
+"fokastudio:end/cave",
+"fokastudio:end/ravine",
+"fokastudio:end/crack"
+]
+},
   "features": [
     [
       "fokastudio:replace_grass",

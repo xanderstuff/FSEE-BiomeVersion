@@ -2,7 +2,6 @@
 	"temperature": 0.8,
 	"downfall": 0.4,
 	"precipitation": "none",
-	 
 	"creature_spawn_probability": 0,
 	"effects": {
 		"sky_color": 7907327,
@@ -53,7 +52,13 @@
 		]
 	},
 	"spawn_costs": {},
-	"carvers": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
 	"features": [
 		[
 			"fokastudio:global/stalactite_1",
@@ -78,7 +83,7 @@
 			"fokastudio:nest/replace_blocks",
 			"fokastudio:nest/transition",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring" 
+			"far_end:general/end_spike/ring"
 		]
 	]
 }

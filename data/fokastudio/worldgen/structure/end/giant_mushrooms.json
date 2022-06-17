@@ -3,7 +3,7 @@
 	"biomes": "#fokastudio:end/mushroom_biomes",
 	"step": "vegetal_decoration",
 	"spawn_overrides": {},
-	"terrain_adaptation": "none",
+	"terrain_adaptation": "beard_thin",
 	"start_pool": "fokastudio:end/giant_mushrooms/stems",
 	"size": 1,
 	"start_height": {

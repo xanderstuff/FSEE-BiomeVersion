@@ -2,7 +2,6 @@
 	"temperature": 0.5,
 	"downfall": 0.5,
 	"precipitation": "none",
-	 
 	"effects": {
 		"sky_color": 0,
 		"fog_color": 16676606,
@@ -10,15 +9,15 @@
 		"water_fog_color": 3156295,
 		"grass_color": 4994644,
 		"foliage_color": 5585503,
-		"additions_sound": {
-			"sound": "ambient.underwater.additions.rare",
-			"tick_chance": 0.005
-		},
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
 			"tick_delay": 400,
 			"block_search_extent": 8,
 			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.underwater.additions.rare",
+			"tick_chance": 0.005
 		},
 		"particle": {
 			"options": {
@@ -45,14 +44,19 @@
 		"misc": []
 	},
 	"spawn_costs": {},
-	"carvers": {},
+	"carvers": {
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
+	},
 	"features": [
 		[
 			"fokastudio:barrens/hills",
 			"fokastudio:global/stalactite_1",
 			"fokastudio:barrens/stalactite",
 			"fokastudio:global/stalactite_2"
-			
 		],
 		[],
 		[],
@@ -66,7 +70,7 @@
 		[
 			"fokastudio:shattered_end/bricks_scattered",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring" ,
+			"far_end:general/end_spike/ring",
 			"fokastudio:structures/end/dungeon"
 		]
 	]
