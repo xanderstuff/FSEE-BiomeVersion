@@ -16,55 +16,62 @@
 	},
 	"parent": "minecraft:end/dragon_egg",
 	"criteria": {
-		"fall_with_egg_main": {
+		"fall_with_egg": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": {
-					"equipment": {
-						"mainhand": {
-							"items": [
-								"minecraft:dragon_egg"
-							]
-						}
-					}
-				},
-				"location": {
-					"position": {
-						"y": {
-							"max": -30
-						}
-					},
-					"dimension": "minecraft:the_end"
-				}
-			}
-		},
-		"fall_with_egg_offhand": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"equipment": {
-						"offhand": {
-							"items": [
-								"minecraft:dragon_egg"
-							]
-						}
-					}
-				},
-				"location": {
-					"position": {
-						"y": {
-							"max": -16
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:location_check",
+							"predicate": {
+								"position": {
+									"y": {
+										"min": -32
+									}
+								},
+								"dimension": "minecraft:the_end"
+							}
 						}
 					},
-					"dimension": "minecraft:the_end"
-				}
+					{
+						"condition": "minecraft:alternative",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"mainhand": {
+											"items": [
+												"minecraft:dragon_egg"
+											]
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"offhand": {
+											"items": [
+												"minecraft:dragon_egg"
+											]
+										}
+									}
+								}
+							}
+						]
+					}
+				]
 			}
 		}
 	},
 	"requirements": [
 		[
-			"fall_with_egg_main",
-			"fall_with_egg_offhand"
+			"fall_with_egg"
 		]
 	]
 }
