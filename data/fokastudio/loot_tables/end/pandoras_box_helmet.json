@@ -528,7 +528,7 @@
 				},
                 {
 					"type": "minecraft:item",
-					"name": "minecraft:moss_block",
+					"name": "minecraft:grass_block",
 					"functions": [
 						{
 							"function": "minecraft:set_attributes",
@@ -550,7 +550,19 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:lush_caves"
+										"biome": "minecraft:meadow"
+									}
+								},
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:plains"
+									}
+								},
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:sunflower_plains"
 									}
 								}
 							]
@@ -581,92 +593,6 @@
 								{
 									"condition": "minecraft:location_check",
 									"predicate": {
-										"biome": "minecraft:meadow"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:plains"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:sunflower_plains"
-									}
-								}
-							]
-						}
-					]
-				},
-                {
-					"type": "minecraft:item",
-					"name": "minecraft:grass_block",
-					"functions": [
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.max_health",
-									"name": "foka.pandoras_box_biome",
-									"amount": 15,
-									"operation": "addition",
-									"slot": "mainhand"
-								}
-							]
-						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:alternative",
-							"terms": [
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:meadow"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:plains"
-									}
-								},
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:sunflower_plains"
-									}
-								}
-							]
-						}
-					]
-				},
-                {
-					"type": "minecraft:item",
-					"name": "minecraft:grass_block",
-					"functions": [
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.max_health",
-									"name": "foka.pandoras_box_biome",
-									"amount": 16,
-									"operation": "addition",
-									"slot": "mainhand"
-								}
-							]
-						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:alternative",
-							"terms": [
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
 										"biome": "minecraft:flower_forest"
 									}
 								}
@@ -684,7 +610,7 @@
 								{
 									"attribute": "minecraft:generic.max_health",
 									"name": "foka.pandoras_box_biome",
-									"amount": 17,
+									"amount": 15,
 									"operation": "addition",
 									"slot": "mainhand"
 								}
@@ -719,37 +645,6 @@
 				},
                 {
 					"type": "minecraft:item",
-					"name": "minecraft:beehive",
-					"functions": [
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.max_health",
-									"name": "foka.pandoras_box_biome",
-									"amount": 18,
-									"operation": "addition",
-									"slot": "mainhand"
-								}
-							]
-						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:alternative",
-							"terms": [
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "minecraft:flower_forest"
-									}
-								}
-							]
-						}
-					]
-				},
-                {
-					"type": "minecraft:item",
 					"name": "minecraft:birch_leaves",
 					"functions": [
 						{
@@ -758,7 +653,7 @@
 								{
 									"attribute": "minecraft:generic.max_health",
 									"name": "foka.pandoras_box_biome",
-									"amount": 19,
+									"amount": 16,
 									"operation": "addition",
 									"slot": "mainhand"
 								}
@@ -795,7 +690,7 @@
 								{
 									"attribute": "minecraft:generic.max_health",
 									"name": "foka.pandoras_box_biome",
-									"amount": 20,
+									"amount": 17,
 									"operation": "addition",
 									"slot": "mainhand"
 								}
@@ -826,7 +721,7 @@
 								{
 									"attribute": "minecraft:generic.max_health",
 									"name": "foka.pandoras_box_biome",
-									"amount": 21,
+									"amount": 18,
 									"operation": "addition",
 									"slot": "mainhand"
 								}
@@ -841,6 +736,43 @@
 									"condition": "minecraft:location_check",
 									"predicate": {
 										"biome": "minecraft:swamp"
+									}
+								},
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:mangrove_swamp"
+									}
+								}
+							]
+						}
+					]
+				},
+                {
+					"type": "minecraft:item",
+					"name": "minecraft:sculk",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "foka.pandoras_box_biome",
+									"amount": 19,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:alternative",
+							"terms": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:deep_dark"
 									}
 								}
 							]

@@ -41,6 +41,26 @@ execute if score @s foka.items.pandoras_box_summon_id matches 11 unless predicat
 execute if score @s foka.items.pandoras_box_summon_id matches 12 if predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/lush_caves_light
 execute if score @s foka.items.pandoras_box_summon_id matches 12 unless predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/lush_caves_dark
 
+execute if score @s foka.items.pandoras_box_summon_id matches 13 if predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/plains_light
+execute if score @s foka.items.pandoras_box_summon_id matches 13 unless predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/plains_dark
+
+execute if score @s foka.items.pandoras_box_summon_id matches 14 if predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/flower_forest_light
+execute if score @s foka.items.pandoras_box_summon_id matches 14 unless predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/flower_forest_dark
+
+execute if score @s foka.items.pandoras_box_summon_id matches 15 if predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/jungle_light
+execute if score @s foka.items.pandoras_box_summon_id matches 15 unless predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/jungle_dark
+
+execute if score @s foka.items.pandoras_box_summon_id matches 16 if predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/birch_forest_light
+execute if score @s foka.items.pandoras_box_summon_id matches 16 unless predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/birch_forest_dark
+
+execute if score @s foka.items.pandoras_box_summon_id matches 17 if predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/beach_light
+execute if score @s foka.items.pandoras_box_summon_id matches 17 unless predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/beach_dark
+
+execute if score @s foka.items.pandoras_box_summon_id matches 18 if predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/swamp_light
+execute if score @s foka.items.pandoras_box_summon_id matches 18 unless predicate fokastudio:end/locations/above_4_light_level run function fokastudio:end/items/pandoras_box/summons/swamp_dark
+
+execute if score @s foka.items.pandoras_box_summon_id matches 19 run function fokastudio:end/items/pandoras_box/summons/deep_dark
+
 
 setblock ~ ~-1 ~ air replace
 kill @s
