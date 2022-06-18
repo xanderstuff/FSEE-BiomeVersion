@@ -16,6 +16,10 @@ scoreboard objectives add foka.mechanics.void_fishing_length dummy
 scoreboard objectives add foka.mechanics.crystal_count dummy
 
 scoreboard objectives add foka.misc.crystal_fix_count dummy
+scoreboard objectives add foka.misc.data dummy
+scoreboard objectives add foka.misc.move_x dummy
+scoreboard objectives add foka.misc.move_y dummy
+scoreboard objectives add foka.misc.move_z dummy
 
 team add foka.purple_glow
 team modify foka.purple_glow color dark_purple
@@ -28,8 +32,10 @@ bossbar set fokastudio:end/crystal_count max 10
 bossbar set fokastudio:end/crystal_count style notched_10
 
 
+schedule function fokastudio:end/mechanics/ends_blessing/loop 5s
 schedule function fokastudio:end/music/loop 5s
 execute in the_end run gamerule doFireTick false
+execute in the_end run gamerule randomTickSpeed 2
 
 # Initialize scoreboards that do not have a value at start
 # They require it tho

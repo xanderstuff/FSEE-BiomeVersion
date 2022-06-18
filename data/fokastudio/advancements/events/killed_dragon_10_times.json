@@ -11,7 +11,7 @@
 								"type": "minecraft:killed",
 								"stat": "minecraft:ender_dragon",
 								"value": {
-									"min": 3
+									"min": 9
 								}
 							}
 						]

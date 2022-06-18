@@ -7,6 +7,7 @@ function fokastudio:end/mechanics/crystal_bossbar/main
 function fokastudio:end/visuals/main
 function fokastudio:end/music/dragon_music
 function fokastudio:end/butcher_mobs
+function fokastudio:end/utils/main
 
 execute as @e[type=armor_stand,tag=foka.dragonblade_holder,predicate=fokastudio:end/utils/holding_nothing] run kill @s
 

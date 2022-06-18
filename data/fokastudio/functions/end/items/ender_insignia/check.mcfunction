@@ -1,1 +1,1 @@
-execute as @a[predicate=fokastudio:end/items/holding_ender_insignia,tag=!du_moving] at @s run function fokastudio:end/items/ender_insignia/effect
+execute as @a[predicate=fokastudio:end/items/holding_ender_insignia,tag=!foka.is_moving] at @s run function fokastudio:end/items/ender_insignia/effect

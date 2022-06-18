@@ -25,6 +25,11 @@ scoreboard objectives remove foka.mechanics.void_fishing_length
 scoreboard objectives remove foka.mechanics.crystal_count
 
 scoreboard objectives remove foka.misc.crystal_fix_count
+scoreboard objectives remove foka.misc.data
+scoreboard objectives remove foka.misc.move_x
+scoreboard objectives remove foka.misc.move_y
+scoreboard objectives remove foka.misc.move_z
+
 
 team remove foka.purple_glow
 
