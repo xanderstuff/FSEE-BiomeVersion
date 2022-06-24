@@ -15,7 +15,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "minecraft:end/find_end_city",
+	"parent": "fokastudio:end/whos_the_thief_now",
 	"criteria": {
 		"obtain_head": {
 			"trigger": "minecraft:inventory_changed",
@@ -25,7 +25,7 @@
 						"items": [
 							"minecraft:player_head"
 						],
-						"nbt": "{foka.treasure_head:1b}"
+						"nbt": "{foka.special_item:\"treasure_head\"}"
 					}
 				]
 			}

@@ -15,6 +15,7 @@ scoreboard objectives add foka.items.dragonblade_cooldown dummy
 scoreboard objectives add foka.items.pandoras_box_raycast dummy
 scoreboard objectives add foka.items.pandoras_box_animation dummy
 scoreboard objectives add foka.items.pandoras_box_summon_id dummy
+scoreboard objectives add foka.items.armors.holy_protection_cooldown dummy
 
 # Mechanics
 scoreboard objectives add foka.mechanics.void_fishing_length dummy

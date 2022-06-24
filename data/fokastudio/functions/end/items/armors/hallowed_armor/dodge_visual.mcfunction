@@ -178,3 +178,9 @@ particle minecraft:dust 1 0.82 0 0.6 ^0.1875 ^-0.75 ^0 0 0 0 0 1 normal @a
 
 particle end_rod ~ ~0.15 ~ 0 0 0 0.11 25 force @a
 particle flash ~ ~0.15 ~ 0 0 0 0 1 force @a
+
+# Ik this is 'visuals' file, but gimme a break
+playsound minecraft:block.respawn_anchor.deplete player @a ~ ~ ~ 0.45 1.3
+playsound minecraft:entity.generic.explode player @a ~ ~ ~ 0.2222 1.2
+
+kill @s[type=marker]
