@@ -1,6 +1,9 @@
+# Remove bossbars
+
 bossbar remove fe:ender_dragon
 bossbar remove fokastudio:end/crystal_count
 
+# Remove all scoreboards
 scoreboard objectives remove constant
 scoreboard objectives remove dist
 scoreboard objectives remove math
@@ -30,8 +33,16 @@ scoreboard objectives remove foka.misc.move_x
 scoreboard objectives remove foka.misc.move_y
 scoreboard objectives remove foka.misc.move_z
 
-
+# Remove teams
 team remove foka.purple_glow
 
-schedule clear fokastudio:end/music/loop
+# Clear schedules
+schedule clear fokastudio:end/5_second_loop
+schedule clear fokastudio:end/10_second_loop
+schedule clear fokastudio:end/3_tick_loop
 schedule clear far_end:bossbars/check
+
+# Does not remove entities/clear worldgen/etc.
+# Btw since you cannot remove worldgen datapacks withouth editing your
+# level.dat file, I think this function is pointless
+# But whatever, if I were to remove it, you would just ask me to add it back, so ¯\_(ツ)_/¯

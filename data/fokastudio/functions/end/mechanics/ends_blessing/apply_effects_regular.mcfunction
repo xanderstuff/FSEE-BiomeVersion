@@ -1,3 +1,3 @@
-effect give @s regeneration 15 0 true
-effect give @s speed 15 0 true
-effect give @s jump_boost 15 0 true
+# Makes you immune to DoT debuffs in Overworld/Nether
+effect clear @s poison
+effect clear @s wither

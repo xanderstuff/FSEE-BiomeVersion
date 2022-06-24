@@ -6,13 +6,27 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_helmet",
-					"functions": [			{
+					"functions": [
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
 									"translate": "Hallowed",
-									"color": "yellow",
+									"color": "#FFDD52",
+									"italic": false
+								},
+								{
+									"translate": " "
+								},
+								{
+									"translate": "FULL SET BONUS:",
+									"color": "#FF9952",
+									"italic": false
+								},
+								{
+									"translate": "Become immune to damage periodically",
+									"color": "#EEEEEE",
 									"italic": false
 								}
 							]
@@ -26,39 +40,30 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"hallowed_armor\"}"
+							"tag": "{CustomModelData:90001,foka.special_item:\"hallowed_armor\"}"
 						},
 						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.armor",
-									"name": "",
-									"amount": {
-										"min": 2,
-										"max": 4
-									},
+									"name": " ",
+									"amount": 2,
 									"operation": "addition",
 									"slot": "head"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "",
-									"amount": {
-										"min": 0.05,
-										"max": 0.1
-									},
-									"operation": "addition",
+									"attribute": "minecraft:generic.max_health",
+									"name": " ",
+									"amount": 0.075,
+									"operation": "multiply_base",
 									"slot": "head"
 								},
 								{
-									"attribute": "minecraft:generic.armor_toughness",
-									"name": "",
-									"amount": {
-										"min": 1,
-										"max": 3
-									},
-									"operation": "addition",
+									"attribute": "minecraft:generic.movement_speed",
+									"name": " ",
+									"amount": 0.025,
+									"operation": "multiply_base",
 									"slot": "head"
 								}
 							]
@@ -66,35 +71,14 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": {
-								"min": 15,
-								"max": 30
+								"min": 30,
+								"max": 50
 							},
 							"treasure": true,
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
 									"chance": 0.3
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.movement_speed",
-									"name": "",
-									"amount": {
-										"min": 2,
-										"max": 3
-									},
-									"operation": "addition",
-									"slot": "head"
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.22222
 								}
 							]
 						}
@@ -110,7 +94,20 @@
 							"lore": [
 								{
 									"translate": "Hallowed",
-									"color": "yellow",
+									"color": "#FFDD52",
+									"italic": false
+								},
+								{
+									"translate": " "
+								},
+								{
+									"translate": "FULL SET BONUS:",
+									"color": "#FF9952",
+									"italic": false
+								},
+								{
+									"translate": "Become immune to damage periodically",
+									"color": "#EEEEEE",
 									"italic": false
 								}
 							]
@@ -124,39 +121,30 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"hallowed_armor\"}"
+							"tag": "{CustomModelData:90001,foka.special_item:\"hallowed_armor\"}"
 						},
 						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.armor",
-									"name": "",
-									"amount": {
-										"min": 2,
-										"max": 4
-									},
+									"name": " ",
+									"amount": 6,
 									"operation": "addition",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "",
-									"amount": {
-										"min": 0.05,
-										"max": 0.1
-									},
-									"operation": "addition",
+									"attribute": "minecraft:generic.max_health",
+									"name": " ",
+									"amount": 0.075,
+									"operation": "multiply_base",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.armor_toughness",
-									"name": "",
-									"amount": {
-										"min": 1,
-										"max": 3
-									},
-									"operation": "addition",
+									"attribute": "minecraft:generic.movement_speed",
+									"name": " ",
+									"amount": 0.025,
+									"operation": "multiply_base",
 									"slot": "chest"
 								}
 							]
@@ -164,8 +152,8 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": {
-								"min": 15,
-								"max": 30
+								"min": 30,
+								"max": 50
 							},
 							"treasure": true,
 							"conditions": [
@@ -174,40 +162,33 @@
 									"chance": 0.3
 								}
 							]
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.armor_toughness",
-									"name": "",
-									"amount": {
-										"min": 2,
-										"max": 3
-									},
-									"operation": "addition",
-									"slot": "chest"
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.22222
-								}
-							]
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_leggings",
-					"functions": [					{
+					"functions": [
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
 									"translate": "Hallowed",
-									"color": "yellow",
+									"color": "#FFDD52",
+									"italic": false
+								},
+								{
+									"translate": " "
+								},
+								{
+									"translate": "FULL SET BONUS:",
+									"color": "#FF9952",
+									"italic": false
+								},
+								{
+									"translate": "Become immune to damage periodically",
+									"color": "#EEEEEE",
 									"italic": false
 								}
 							]
@@ -221,39 +202,30 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"hallowed_armor\"}"
+							"tag": "{CustomModelData:90001,foka.special_item:\"hallowed_armor\"}"
 						},
 						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.armor",
-									"name": "",
-									"amount": {
-										"min": 2,
-										"max": 4
-									},
+									"name": " ",
+									"amount": 5,
 									"operation": "addition",
 									"slot": "legs"
 								},
 								{
-									"attribute": "minecraft:generic.attack_knockback",
-									"name": "",
-									"amount": {
-										"min": 0.05,
-										"max": 0.1
-									},
-									"operation": "addition",
+									"attribute": "minecraft:generic.max_health",
+									"name": " ",
+									"amount": 0.075,
+									"operation": "multiply_base",
 									"slot": "legs"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "",
-									"amount": {
-										"min": 1,
-										"max": 3
-									},
-									"operation": "addition",
+									"attribute": "minecraft:generic.movement_speed",
+									"name": " ",
+									"amount": 0.025,
+									"operation": "multiply_base",
 									"slot": "legs"
 								}
 							]
@@ -261,8 +233,8 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": {
-								"min": 15,
-								"max": 30
+								"min": 30,
+								"max": 50
 							},
 							"treasure": true,
 							"conditions": [
@@ -271,40 +243,33 @@
 									"chance": 0.3
 								}
 							]
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.armor_toughness",
-									"name": "",
-									"amount": {
-										"min": 2,
-										"max": 3
-									},
-									"operation": "addition",
-									"slot": "legs"
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.22222
-								}
-							]
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_boots",
-					"functions": [		{
+					"functions": [
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
 									"translate": "Hallowed",
-									"color": "yellow",
+									"color": "#FFDD52",
+									"italic": false
+								},
+								{
+									"translate": " "
+								},
+								{
+									"translate": "FULL SET BONUS:",
+									"color": "#FF9952",
+									"italic": false
+								},
+								{
+									"translate": "Become immune to damage periodically",
+									"color": "#EEEEEE",
 									"italic": false
 								}
 							]
@@ -318,39 +283,30 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"hallowed_armor\"}"
+							"tag": "{CustomModelData:90001,foka.special_item:\"hallowed_armor\"}"
 						},
 						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.armor",
-									"name": "",
-									"amount": {
-										"min": 2,
-										"max": 4
-									},
+									"name": " ",
+									"amount": 3,
 									"operation": "addition",
 									"slot": "feet"
 								},
 								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "",
-									"amount": {
-										"min": 0.05,
-										"max": 0.1
-									},
-									"operation": "addition",
+									"attribute": "minecraft:generic.max_health",
+									"name": " ",
+									"amount": 0.075,
+									"operation": "multiply_base",
 									"slot": "feet"
 								},
 								{
-									"attribute": "minecraft:generic.armor_toughness",
-									"name": "",
-									"amount": {
-										"min": 1,
-										"max": 3
-									},
-									"operation": "addition",
+									"attribute": "minecraft:generic.movement_speed",
+									"name": " ",
+									"amount": 0.025,
+									"operation": "multiply_base",
 									"slot": "feet"
 								}
 							]
@@ -358,35 +314,14 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": {
-								"min": 15,
-								"max": 30
+								"min": 30,
+								"max": 50
 							},
 							"treasure": true,
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
 									"chance": 0.3
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_attributes",
-							"modifiers": [
-								{
-									"attribute": "minecraft:generic.movement_speed",
-									"name": "",
-									"amount": {
-										"min": 2,
-										"max": 3
-									},
-									"operation": "addition",
-									"slot": "feet"
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.22222
 								}
 							]
 						}

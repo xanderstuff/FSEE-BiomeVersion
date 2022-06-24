@@ -9,3 +9,5 @@ execute at @s if predicate fokastudio:end/music/in_end_music_biomes run playsoun
 execute at @s if predicate fokastudio:end/music/in_underwater_music_biomes run playsound music.under_water music @s
 execute at @s if predicate fokastudio:end/music/in_creative_music_biomes run playsound music.creative music @s
 execute at @s if predicate fokastudio:end/music/in_deep_dark_music_biomes run playsound music.overworld.deep_dark music @s
+
+# This is far more simple than the custom music player xD 

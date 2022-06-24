@@ -1,3 +1,7 @@
+# Taken from DatapackUtilities
+# https://github.com/ICY105/Datapack-Utilities
+# Thanks ICY105, very cool ❤
+
 tag @s remove foka.is_moving
 
 scoreboard players operation temp_0 foka.misc.data = @s foka.misc.move_x

@@ -1,4 +1,4 @@
-# Butcher protection
+# Butcher protection for mobs in The Dragon's Den
 execute as @e[type=#fokastudio:end/butcher_mobs,predicate=fokastudio:end/locations/in_dragons_den] run tag @s add foka.butcher_ignore
 
 # Teleport them deeeeep into the void, which deletes them automatically 

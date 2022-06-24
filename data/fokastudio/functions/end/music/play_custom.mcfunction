@@ -1,3 +1,6 @@
+# Yes, there are plans for a custom music RP
+# I even have already selected the tracks!
+# Well, some of them at least...
 scoreboard players reset @s foka.end_music
 
 execute at @s if predicate fokastudio:end/locations/biomes/in_amethyst_forest run playsound fokastudio:music.end.amethyst_forest music @s
@@ -21,3 +24,4 @@ execute at @s if predicate fokastudio:end/locations/biomes/in_the_hallow run pla
 execute at @s if predicate fokastudio:end/locations/biomes/in_the_nest run playsound fokastudio:music.end.the_nest music @s
 execute at @s if predicate fokastudio:end/locations/biomes/in_warped_marsh run playsound fokastudio:music.end.warped_marsh music @s
 execute at @s if predicate fokastudio:end/locations/biomes/in_sculk_growth run playsound fokastudio:music.end.sculk_growth music @s
+execute at @s if predicate fokastudio:end/locations/biomes/in_the_void run playsound fokastudio:music.end.the_void music @s

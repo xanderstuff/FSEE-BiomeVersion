@@ -5,3 +5,5 @@ stopsound @s music music.nether.nether_wastes
 stopsound @s music music.overworld.lush_caves
 stopsound @s music music.overworld.meadow
 stopsound @s music music.under_water
+
+# That's a long ass stopsound list
