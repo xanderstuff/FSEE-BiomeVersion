@@ -24,3 +24,9 @@ execute if score foka.config foka.config.post_gen.load_main_island matches 1 if 
 # As of my recent changes to the generation of The Void - it always happens
 # It will only get worse the more 3D biomes I add
 execute as @e[type=end_crystal] at @s run function fokastudio:end/3d_biome_fix/check
+
+# Some Minecraft change causes default Ender Dragon to spawn no matter
+# what, and this is ruining this whole system
+# It DOES NOT come witht he tags though!
+# I can just butcher the dragon in the most painless way possible
+execute as @e[type=minecraft:ender_dragon,tag=!fe.boss] run kill @s

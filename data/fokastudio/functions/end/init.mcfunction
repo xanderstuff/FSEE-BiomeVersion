@@ -8,6 +8,7 @@ scoreboard objectives add foka.config.enter_end_effects.flavor_text dummy
 scoreboard objectives add foka.config.enter_end_effects.sounds dummy
 scoreboard objectives add foka.config.auto_butcher.phantoms dummy
 scoreboard objectives add foka.config.auto_butcher.silverfish dummy
+scoreboard objectives add foka.config.post_gen.load_main_island dummy
 scoreboard objectives add foka.config.mod_support.expanded_structure_blocks dummy
 
 # Items

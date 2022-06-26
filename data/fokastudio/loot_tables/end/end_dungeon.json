@@ -225,23 +225,10 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
 					"weight": 2,
-					"name": "minecraft:rotten_flesh",
+					"name": "fokastudio:end/items/living_flesh",
 					"functions": [
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"text": "Living Flesh",
-								"color": "#E53F3F",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"living_flesh\"}"
-						},
 						{
 							"function": "minecraft:set_count",
 							"count": {
@@ -250,17 +237,6 @@
 								"max": 8
 							},
 							"add": false
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "You can feel it moving in your hands",
-									"color": "#A70000",
-									"italic": false
-								}
-							]
 						}
 					]
 				},

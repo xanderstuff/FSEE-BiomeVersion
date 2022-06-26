@@ -1,7 +1,7 @@
 {
     "type": "minecraft:cave",
     "config": {
-        "probability": 0.30,
+        "probability": 0.35,
         "y": {
             "type": "minecraft:uniform",
             "min_inclusive": {
@@ -15,7 +15,7 @@
             "type": "minecraft:uniform",
             "value": {
                 "min_inclusive": 0.1,
-                "max_exclusive": 1
+                "max_exclusive": 1.5
             }
         },
         "lava_level": {
@@ -51,14 +51,14 @@
             "type": "minecraft:uniform",
             "value": {
                 "min_inclusive": 1,
-                "max_exclusive": 1.8
+                "max_exclusive": 2.2
             }
         },
         "vertical_radius_multiplier": {
             "type": "minecraft:uniform",
             "value": {
                 "min_inclusive": 1,
-                "max_exclusive": 1.8
+                "max_exclusive": 2.2
             }
         },
         "floor_level": {

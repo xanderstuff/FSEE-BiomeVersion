@@ -1,0 +1,20 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrel",
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:barrel",
+							"name": "fokastudio:end/hallowed_armor"
+						}
+					]
+				}
+			]
+		}
+	]
+}

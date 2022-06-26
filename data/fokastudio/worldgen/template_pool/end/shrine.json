@@ -22,7 +22,7 @@
 										"predicate_type": "minecraft:always_true"
 									},
 									"output_state": {
-										"Name": "minecraft:structure_void"
+										"Name": "minecraft:obsidian"
 									}
 								}
 							]
@@ -51,7 +51,7 @@
 										"predicate_type": "minecraft:always_true"
 									},
 									"output_state": {
-										"Name": "minecraft:structure_void"
+										"Name": "minecraft:obsidian"
 									}
 								}
 							]
@@ -80,7 +80,7 @@
 										"predicate_type": "minecraft:always_true"
 									},
 									"output_state": {
-										"Name": "minecraft:structure_void"
+										"Name": "minecraft:obsidian"
 									}
 								}
 							]
@@ -109,7 +109,7 @@
 										"predicate_type": "minecraft:always_true"
 									},
 									"output_state": {
-										"Name": "minecraft:structure_void"
+										"Name": "minecraft:obsidian"
 									}
 								}
 							]
@@ -138,7 +138,7 @@
 										"predicate_type": "minecraft:always_true"
 									},
 									"output_state": {
-										"Name": "minecraft:structure_void"
+										"Name": "minecraft:obsidian"
 									}
 								}
 							]

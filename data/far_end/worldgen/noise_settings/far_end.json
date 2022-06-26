@@ -53,12 +53,13 @@
 			"y_scale": 0
 		},
 		"final_density": {
-			"type": "minecraft:min",
-			"argument1": {
-				"type": "minecraft:squeeze",
-				"argument": {
-					"type": "minecraft:mul",
-					"argument1": 0.233333,
+			"type": "minecraft:squeeze",
+			"argument": {
+				"type": "minecraft:mul",
+				"argument1": 0.333333,
+				"argument2": {
+					"type":"add",
+					"argument1": -0.188889,
 					"argument2": {
 						"type": "minecraft:interpolated",
 						"argument": {
@@ -101,33 +102,6 @@
 								}
 							}
 						}
-					}
-				}
-			},
-			"argument2": {
-				"type": "minecraft:add",
-				"argument1": {
-					"type": "minecraft:noise",
-					"noise": "fokastudio:end/continentalness",
-					"xz_scale": 1.4,
-					"y_scale": 0.4
-				},
-				"argument2": {
-					"type": "minecraft:add",
-					"argument1": {
-						"type": "minecraft:noise",
-						"noise": "fokastudio:end/continentalness",
-						"xz_scale": 1.5,
-						"y_scale": 0.111566666
-					},
-					"argument2": {
-						"type": "minecraft:shifted_noise",
-						"noise": "fokastudio:end/erosion",
-						"xz_scale": 1,
-						"y_scale": 0.4,
-						"shift_x": "minecraft:shift_z",
-						"shift_y": -20,
-						"shift_z": "minecraft:shift_z"
 					}
 				}
 			}
@@ -825,7 +799,7 @@
 							"type": "minecraft:biome",
 							"biome_is": [
 								"fokastudio:snowy_warped_forest",
-								"fokastudio:flesh_tundra"
+								"far_end:flesh_tundra"
 							]
 						},
 						"then_run": {
