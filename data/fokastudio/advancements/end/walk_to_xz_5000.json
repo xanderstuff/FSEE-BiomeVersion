@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:purpur_pillar",
+			"item": "minecraft:end_stone_bricks",
 			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
 		},
 		"title": {
@@ -46,5 +46,8 @@
 				]
 			}
 		}
+	},
+	"rewards": {
+		"experience": 250
 	}
 }

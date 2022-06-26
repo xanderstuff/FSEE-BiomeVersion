@@ -308,5 +308,8 @@
 				}
 			}
 		}
+	},
+	"rewards": {
+		"experience": 300
 	}
 }

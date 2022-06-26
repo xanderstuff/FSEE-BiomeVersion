@@ -35,5 +35,8 @@
 		[
 			"obtain_head"
 		]
-	]
+	],
+	"rewards": {
+		"experience": 300
+	}
 }

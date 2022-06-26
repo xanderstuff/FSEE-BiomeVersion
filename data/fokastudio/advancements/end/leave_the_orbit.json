@@ -36,5 +36,8 @@
 		[
 			"leave_the_orbit"
 		]
-	]
+	],
+	"rewards": {
+		"experience": 100
+	}
 }

@@ -28,5 +28,8 @@
 		[
 			"open_chest"
 		]
-	]
+	],
+	"rewards": {
+		"experience": 50
+	}
 }

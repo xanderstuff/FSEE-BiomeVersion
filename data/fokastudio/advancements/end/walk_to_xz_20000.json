@@ -1,19 +1,19 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:end_stone",
+			"item": "minecraft:bedrock",
 			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "Void Walker"
+			"translate": "True Ending"
 		},
 		"description": {
-			"translate": "Travel 2500 blocks away from Dragon's Den"
+			"translate": "Venture so deep into The End that there is barely any way home"
 		},
-		"frame": "task",
-		"hidden": false
+		"frame": "challenge",
+		"hidden": true
 	},
-	"parent": "fokastudio:end/ender_adventurer",
+	"parent": "fokastudio:end/walk_to_xz_10000",
 	"criteria": {
 		"this_player_is_in_seek_of_medical_attention": {
 			"trigger": "minecraft:tick",
@@ -26,12 +26,12 @@
 							"predicate": {
 								"position": {
 									"x": {
-										"min": -2500,
-										"max": 2500
+										"min": -20000,
+										"max": 20000
 									},
 									"z": {
-										"min": -2500,
-										"max": 2500
+										"min": -20000,
+										"max": 20000
 									}
 								}
 							}
@@ -48,6 +48,6 @@
 		}
 	},
 	"rewards": {
-		"experience": 100
+		"experience": 2500
 	}
 }

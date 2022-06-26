@@ -73,5 +73,8 @@
 		[
 			"fall_with_egg"
 		]
-	]
+	],
+	"rewards": {
+		"experience": 1000
+	}
 }

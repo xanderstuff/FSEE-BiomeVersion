@@ -1,14 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:bedrock",
+			"item": "minecraft:purpur_pillar",
 			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "True Ending"
+			"translate": "I Ventured Through Our Whole Galaxy"
 		},
 		"description": {
-			"translate": "Venture so deep into The End that there is barely any way home"
+			"translate": "Venture 100000 blocks away from Dragon's Den"
 		},
 		"frame": "challenge",
 		"hidden": false
@@ -46,5 +46,8 @@
 				]
 			}
 		}
+	},
+	"rewards": {
+		"experience": 500
 	}
 }
