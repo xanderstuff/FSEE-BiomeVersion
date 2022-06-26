@@ -7,41 +7,29 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:bow",
+					"name": "minecraft:emerald",
 					"functions": [
 						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"type": "minecraft:uniform",
-								"min": 0,
-								"max": 0.85
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 8
 							},
 							"add": false
-						},
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": 50,
-							"treasure": true
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:fishing_rod",
+					"name": "minecraft:diamond",
 					"functions": [
 						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"type": "minecraft:uniform",
-								"min": 0,
-								"max": 0.85
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
 							},
 							"add": false
-						},
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": 50,
-							"treasure": true
 						}
 					]
 				},
@@ -51,20 +39,43 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 50,
+							"levels": 40,
 							"treasure": true
 						}
 					]
 				},
 				{
-					"type": "minecraft:loot_table",
-					"name": "minecraft:chests/end_city_treasure"
+					"type": "minecraft:item",
+					"name": "minecraft:barrel",
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:barrel",
+							"name": "minecraft:chests/end_city_treasure"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "Ender Crate",
+								"color": "#B978C6",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "Place and open!",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						}
+					]
 				}
 			]
-		},
-		{
-			"rolls": 1,
-			"entries": []
 		}
 	]
 }

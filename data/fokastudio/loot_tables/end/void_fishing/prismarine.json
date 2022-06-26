@@ -1,13 +1,11 @@
 {
-	"type": "minecraft:fishing",
 	"pools": [
 		{
 			"rolls": 1,
-			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 15,
+					"weight": 50,
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
@@ -19,42 +17,46 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Overgrown Cod",
-								"color": "#A24AFF",
+								"translate": "Bubblefish",
+								"color": "#9FEEF1",
 								"italic": false
 							}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90003,foka.special_item:\"overgrown_cod\"}"
+							"tag": "{CustomModelData:90008,foka.special_item:\"bubblefish\"}"
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:cooked_cod",
+					"weight": 15,
+					"name": "minecraft:barrel",
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 2,
-								"max": 5
-							},
-							"add": false
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:barrel",
+							"name": "fokastudio:end/void_fishing/crates/prismarine"
 						},
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Overgrown Cod",
-								"color": "#A24AFF",
+								"translate": "Prismarine Crate",
+								"color": "#27DBFF",
 								"italic": false
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90003,foka.special_item:\"overgrown_cod\"}"
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "Place and open!",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
 						}
 					]
 				}

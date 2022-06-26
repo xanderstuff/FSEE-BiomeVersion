@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 75,
+					"weight": 25,
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
@@ -30,7 +30,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 15,
+					"weight": 10,
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
@@ -40,7 +40,7 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
+								"min": 2,
 								"max": 6
 							}
 						},
@@ -62,6 +62,113 @@
 						{
 							"condition": "minecraft:reference",
 							"name": "fokastudio:end/locations/biomes/in_the_hallow"
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 25,
+					"name": "fokastudio:end/void_fishing/chorus_jungle",
+					"conditions": [
+						{
+							"condition": "minecraft:reference",
+							"name": "fokastudio:end/locations/biomes/in_chorus_jungle"
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 25,
+					"name": "fokastudio:end/void_fishing/flesh_tundra",
+					"conditions": [
+						{
+							"condition": "minecraft:reference",
+							"name": "fokastudio:end/locations/biomes/in_flesh_tundra"
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 25,
+					"name": "fokastudio:end/void_fishing/frozen_biomes",
+					"conditions": [
+						{
+							"condition": "minecraft:alternative",
+							"terms": [
+								{
+									"condition": "minecraft:reference",
+									"name": "fokastudio:end/locations/biomes/in_snowy_warped_forest"
+								},
+								{
+									"condition": "minecraft:reference",
+									"name": "fokastudio:end/locations/biomes/in_frosted_hills"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 25,
+					"name": "fokastudio:end/void_fishing/original_biomes",
+					"conditions": [
+						{
+							"condition": "minecraft:alternative",
+							"terms": [
+								{
+									"condition": "minecraft:reference",
+									"name": "fokastudio:end/locations/biomes/in_end_midlands"
+								},
+								{
+									"condition": "minecraft:reference",
+									"name": "fokastudio:end/locations/biomes/in_the_end"
+								},
+								{
+									"condition": "minecraft:reference",
+									"name": "fokastudio:end/locations/biomes/in_end_highlands"
+								},
+								{
+									"condition": "minecraft:reference",
+									"name": "fokastudio:end/locations/biomes/in_small_end_islands"
+								},
+								{
+									"condition": "minecraft:reference",
+									"name": "fokastudio:end/locations/biomes/in_end_barrens"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 25,
+					"name": "fokastudio:end/void_fishing/sculk_growth",
+					"conditions": [
+						{
+							"condition": "minecraft:reference",
+							"name": "fokastudio:end/locations/biomes/in_sculk_growth"
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 25,
+					"name": "fokastudio:end/void_fishing/amethyst",
+					"conditions": [
+						{
+							"condition": "minecraft:reference",
+							"name": "fokastudio:end/locations/biomes/in_amethyst_forest"
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 25,
+					"name": "fokastudio:end/void_fishing/prismarine",
+					"conditions": [
+						{
+							"condition": "minecraft:reference",
+							"name": "fokastudio:end/locations/biomes/in_prismarine_forest"
 						}
 					]
 				}

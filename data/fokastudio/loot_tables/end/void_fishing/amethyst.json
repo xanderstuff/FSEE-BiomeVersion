@@ -7,54 +7,57 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 15,
+					"weight": 60,
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
-							"count": 1,
-							"add": false
+							"count": 1
 						},
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Overgrown Cod",
-								"color": "#A24AFF",
+								"translate": "Amethyst Budfish",
+								"color": "#A056CD",
 								"italic": false
 							}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90003,foka.special_item:\"overgrown_cod\"}"
+							"tag": "{CustomModelData:90009,foka.special_item:\"amethyst_budfish\"}"
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:cooked_cod",
+					"weight": 15,
+					"name": "minecraft:barrel",
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 2,
-								"max": 5
-							},
-							"add": false
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:barrel",
+							"name": "fokastudio:end/void_fishing/crates/amethyst"
 						},
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Overgrown Cod",
-								"color": "#A24AFF",
+								"translate": "Amethyst Crate",
+								"color": "#B63FFF",
 								"italic": false
 							}
 						},
 						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90003,foka.special_item:\"overgrown_cod\"}"
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "Place and open!",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
 						}
 					]
 				}

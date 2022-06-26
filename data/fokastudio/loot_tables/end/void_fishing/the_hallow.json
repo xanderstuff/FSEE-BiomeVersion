@@ -25,13 +25,13 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90011,foka.special_item:\"prismite\"}"
+							"tag": "{CustomModelData:90001,foka.special_item:\"prismite\"}"
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
+					"weight": 5,
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
@@ -49,7 +49,44 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90012,foka.special_item:\"mystical_heartfish\"}"
+							"tag": "{CustomModelData:90002,foka.special_item:\"mystical_heartfish\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"name": "fokastudio:end/hallowed_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:barrel",
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:barrel",
+							"name": "fokastudio:end/void_fishing/crates/hallowed"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "Hallowed Crate",
+								"color": "#F4A6FF",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "Place and open!",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
 						}
 					]
 				}
