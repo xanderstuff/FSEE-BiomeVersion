@@ -45,7 +45,7 @@
 								"waterlogged": "false"
 							}
 						},
-						"probability": 0.7
+						"probability": 0.8333
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -55,7 +55,7 @@
 		},
 		{
 			"processor_type": "minecraft:block_age",
-			"mossiness": 0.122222
+			"mossiness": 0.188888
 		},
 		{
 			"processor_type": "minecraft:block_ignore",
