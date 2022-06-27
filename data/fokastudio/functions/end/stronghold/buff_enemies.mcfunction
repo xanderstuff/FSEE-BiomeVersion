@@ -3,6 +3,6 @@ attribute @s generic.armor modifier add de9a7ae1-539e-416f-9bf5-001112b08a87 "fo
 attribute @s generic.armor modifier add 65b0c631-0e11-4c4e-9111-281843d92f1b "foka.stronghold_speed_buff" 0.1 multiply_base
 # multiply_base is the same as 'add (X * 100)% of base value', which here is +10% 
 
-effect give @s regeneration 1000000 0 true
+effect give @s regeneration 1000000 1 true
 
 tag @s add foka.stronghold_enemy_buffed
