@@ -3,7 +3,7 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 7,
+				"min": 10,
 				"max": 13
 			},
 			"bonus_rolls": {
