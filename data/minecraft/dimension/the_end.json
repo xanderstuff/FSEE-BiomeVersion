@@ -96,13 +96,13 @@
 				{
 					"biome": "fokastudio:blazing_dunes",
 					"parameters": {
-						"temperature": 1,
+						"temperature": 0.674,
 						"humidity": -0.3,
 						"continentalness": 0,
 						"erosion": 0.2,
 						"weirdness": 0.1,
 						"depth": 0,
-						"offset": 0.222
+						"offset": 0.1
 					}
 				},
 				{
@@ -156,9 +156,9 @@
 				{
 					"biome": "far_end:the_nest",
 					"parameters": {
-						"temperature": 0.6,
+						"temperature": 0.56,
 						"humidity": 0,
-						"continentalness": 0.4,
+						"continentalness": 0.6,
 						"erosion": 0,
 						"weirdness": 0,
 						"depth": 0,
@@ -169,12 +169,12 @@
 					"biome": "fokastudio:glowshroom_valley",
 					"parameters": {
 						"temperature": 0.1,
-						"humidity": 0.4,
-						"continentalness": 0.6,
+						"humidity": 0.34,
+						"continentalness": 0.44,
 						"erosion": 0.4,
 						"weirdness": 0,
 						"depth": 0,
-						"offset": 0.5
+						"offset": 0.4
 					}
 				},
 				{
@@ -192,7 +192,7 @@
 				{
 					"biome": "minecraft:end_highlands",
 					"parameters": {
-						"temperature": 0.3,
+						"temperature": 0.4,
 						"humidity": 0,
 						"continentalness": 0,
 						"erosion": 0.04,
@@ -240,13 +240,13 @@
 				{
 					"biome": "fokastudio:the_hallow",
 					"parameters": {
-						"temperature": -0.06,
+						"temperature": -0.1,
 						"humidity": -0.03,
 						"continentalness": 0.7,
 						"erosion": 0.4,
-						"weirdness": 0.15,
+						"weirdness": 0.8,
 						"depth": 0,
-						"offset": 0.25
+						"offset": 0.5
 					}
 				},
 				{
@@ -256,12 +256,12 @@
 						"humidity": 0,
 						"continentalness": 0,
 						"erosion": [
-							-0.6,
-							-0.47
+							-0.9,
+							-0.78
 						],
 						"weirdness": 0.8,
 						"depth": [
-							0.5777,
+							0.49,
 							0.75
 						],
 						"offset": 0.5
@@ -272,11 +272,11 @@
 					"parameters": {
 						"temperature": 0,
 						"humidity": 0,
-						"continentalness": -0.7,
-						"erosion": -0.8,
+						"continentalness": -0.65,
+						"erosion": -0.75,
 						"weirdness": 0,
 						"depth": [
-							0.6,
+							0.51,
 							0.75
 						],
 						"offset": 0.45					

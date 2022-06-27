@@ -4,8 +4,8 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 3,
-				"max": 6
+				"min": 6,
+				"max": 8
 			},
 			"bonus_rolls": 0,
 			"entries": [
@@ -17,8 +17,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 1,
-								"max": 6
+								"min": 4,
+								"max": 12
 							},
 							"add": false
 						}
@@ -30,7 +30,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:ender_pearl"
 				},
 				{
@@ -42,8 +42,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 5
+								"min": 2,
+								"max": 7
 							},
 							"add": false
 						}
@@ -51,15 +51,15 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:iron_ingot",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 8
+								"min": 5,
+								"max": 13
 							},
 							"add": false
 						}
@@ -182,6 +182,18 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:music_disc_otherside"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_11"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_mellohi"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_stal"
 				},
 				{
 					"type": "minecraft:item",

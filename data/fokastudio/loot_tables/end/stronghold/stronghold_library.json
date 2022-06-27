@@ -4,8 +4,8 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 2,
-				"max": 10
+				"min": 5,
+				"max": 11
 			},
 			"bonus_rolls": 0,
 			"entries": [
@@ -51,7 +51,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 14,
 					"name": "minecraft:book",
 					"functions": [
 						{
