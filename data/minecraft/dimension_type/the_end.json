@@ -9,18 +9,18 @@
 	"has_ceiling": false,
 	"coordinate_scale": 1,
 	"ambient_light": 0,
-	"fixed_time": 6000,
-	"monster_spawn_block_light_limit": 0,
-	"monster_spawn_light_level": {
-	"type": "minecraft:uniform",
-	"value": {
-		"min_inclusive": 0,
-		"max_inclusive": 9
-		}
-	},
+	"fixed_time": 1,
 	"logical_height": 256,
 	"effects": "minecraft:the_end",
 	"infiniburn": "#minecraft:infiniburn_end",
 	"min_y": 0,
-	"height": 256
+	"height": 256,
+	"monster_spawn_light_level": {
+		"type": "minecraft:uniform",
+		"value": {
+			"min_inclusive": 0,
+			"max_inclusive": 8
+		}
+	},
+	"monster_spawn_block_light_limit": 11
 }
