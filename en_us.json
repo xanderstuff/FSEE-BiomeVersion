@@ -65,7 +65,6 @@
 	"Negate an attack with a full set of Hallowed Armor":"Negate an attack with a full set of Hallowed Armor",
 	"Who's The Thief Now?":"Who's The Thief Now?",
 	"Open a Treasure Chest in an End City":"Open a Treasure Chest in an End City",
-	
 
 
 	"Ancient Helm":"Ancient Helm",
@@ -111,8 +110,7 @@
 	"Prismarine Crate":"Prismarine Crate",
 	"Place and open!":"Place and open!",
 
-	"COMMENT": "Dragonblade has some colorful lore, this requires translation keys to go stupid xD",
-
+	"COMMENT_1": "Dragonblade has some colorful lore, this requires translation keys to go stupid xD",
 	"Dragonblade":"Dragonblade",
 	"Hit enemies explode into clouds of ":"Hit enemies explode into clouds of ",
 	"Dragon's Breath":"Dragon's Breath",
@@ -122,5 +120,9 @@
 	"5 second cooldown":"5 second cooldown",
 	"Works only on targets located":"Works only on targets located",
 	"further away from player":"further away from player",
-	"Affects up to 3 targets":"Affects up to 3 targets"
+	"Affects up to 3 targets":"Affects up to 3 targets",
+
+	"Sharanga":"Sharanga",
+	"Converts Spectral Arrows into":"Converts Spectral Arrows into",
+	"powerful Spectral Bolts":"powerful Spectral Bolts"
 }

@@ -1,6 +1,6 @@
 {
   "values":[
-  "rng:init",
+  "math:zprivate/init",
   "far_end:init",
   "fokastudio:end/init"
   ]

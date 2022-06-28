@@ -1,6 +1,6 @@
 scoreboard players set in math 1
 scoreboard players set in1 math 20
-function rng:range_lcg
+function math:rng/range
 
 execute if score out math matches 1 if entity @s[tag=!fe.location_1] run function far_end:structures/exit_portal/gateway/locations/1
 execute if score out math matches 2 if entity @s[tag=!fe.location_2] run function far_end:structures/exit_portal/gateway/locations/2

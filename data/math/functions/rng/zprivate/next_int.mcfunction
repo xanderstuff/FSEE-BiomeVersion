@@ -13,10 +13,10 @@
 #        return r;
 #    }
 
-function rng:loot
+function math:rng/lcg
 
 scoreboard players operation #temp math = out math
 scoreboard players operation out math %= #range math
 scoreboard players operation #temp math -= out math
 scoreboard players operation #temp math += #m1 math
-execute if score #temp math matches ..-1 run function rng:private/next_int_loot
+execute if score #temp math matches ..-1 run function math:rng/zprivate/next_int

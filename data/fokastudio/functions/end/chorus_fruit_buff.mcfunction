@@ -7,7 +7,7 @@ effect give @s saturation 1 1 true
 # This section causes a small delay, that's why Saturation is given earlier on
 scoreboard players set in math 1
 scoreboard players set in1 math 15
-function rng:range_lcg
+function math:rng/range
 
 # Base tier effects
 execute if score out math matches 1 as @s run effect give @s speed 6 0 false
