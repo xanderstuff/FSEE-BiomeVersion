@@ -18,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"sharanga\"}"
+							"tag": "{CustomModelData:90000,foka.special_item:\"sharanga\",foka_durability:{enabled:1b,max_dur:294}}"
 						},
 						{
 							"function": "minecraft:set_lore",
