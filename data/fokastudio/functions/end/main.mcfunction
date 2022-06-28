@@ -29,4 +29,4 @@ execute as @e[type=end_crystal] at @s run function fokastudio:end/3d_biome_fix/c
 # what, and this is ruining this whole system
 # It DOES NOT come witht he tags though!
 # I can just butcher the dragon in the most painless way possible
-execute as @e[type=minecraft:ender_dragon,tag=!fe.boss] run kill @s
+execute as @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=!fe.init,tag=!fe.mob] run kill @s
