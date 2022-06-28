@@ -9,6 +9,8 @@ advancement grant @s only fokastudio:end/cancel_damage_hallowed_armor
 # I-frames of some sort
 effect give @s resistance 3 100 true
 effect give @s fire_resistance 3 100 true
-effect give @s regeneration 3 1 true
+
+effect give @s speed 3 1 true
+
 # Cannot remove KR straight away due to my i-frames mechanic
 # It is handled in loop.mcfunction

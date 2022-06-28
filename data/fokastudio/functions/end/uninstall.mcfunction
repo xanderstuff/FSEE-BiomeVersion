@@ -27,6 +27,7 @@ scoreboard objectives remove foka.items.dragonblade_cooldown
 scoreboard objectives remove foka.items.pandoras_box_animation
 scoreboard objectives remove foka.items.pandoras_box_summon_id
 scoreboard objectives remove foka.items.pandoras_box_raycast
+scoreboard objectives remove foka.items.armors.holy_protection_cooldown
 
 scoreboard objectives remove foka.mechanics.void_fishing_length
 scoreboard objectives remove foka.mechanics.crystal_count
