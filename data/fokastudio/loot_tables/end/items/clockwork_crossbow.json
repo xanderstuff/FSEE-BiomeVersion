@@ -18,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"clockwork_crossbow\",foka_durability:{enabled:1b,max_dur:320},Charged:0b}"
+							"tag": "{CustomModelData:90000,foka.special_item:\"clockwork_crossbow\",Charged:0b}"
 						},
 						{
 							"function": "minecraft:set_lore",
