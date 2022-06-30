@@ -86,6 +86,16 @@
 				}
 			}
 		},
+		"prismarine_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "fokastudio:prismarine_forest"
+					}
+				}
+			}
+		},
 		"chorus_jungle": {
 			"trigger": "minecraft:location",
 			"conditions": {
@@ -196,6 +206,16 @@
 				}
 			}
 		},
+		"warped_marsh": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "far_end:warped_marsh"
+					}
+				}
+			}
+		},
 		"sculk_growth": {
 			"trigger": "minecraft:location",
 			"conditions": {
@@ -238,6 +258,9 @@
 		],
 		[
 			"chorus_jungle"
+		],
+		[
+			"prismarine_forest"
 		],
 		[
 			"glowshroom_valley"
