@@ -6,4 +6,4 @@ effect give @s weakness 15 1 false
 
 # Rotten Flesh grants Hunger by default, aloutgh I might get rid of it here lmao
 
-advancement revoke @s only fokastudio:events/eat_living_flesh
+advancement revoke @s only fokastudio:end/events/eat_living_flesh

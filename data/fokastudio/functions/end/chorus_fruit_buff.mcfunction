@@ -1,4 +1,4 @@
-advancement revoke @s only fokastudio:events/eat_chorus_fruit
+advancement revoke @s only fokastudio:end/events/eat_chorus_fruit
 
 # Saturation
 effect give @s saturation 1 1 true

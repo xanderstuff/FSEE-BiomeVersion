@@ -1,4 +1,4 @@
-advancement revoke @s only fokastudio:events/attack_with_dragonblade
+advancement revoke @s only fokastudio:end/events/attack_with_dragonblade
 
 effect give @s strength 3 0 false
 # Same situation as in init.mcfunction
