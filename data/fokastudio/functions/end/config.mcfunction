@@ -39,7 +39,7 @@ execute if score foka.config foka.config.enter_end_effects.sounds matches 1 run 
 execute if score foka.config foka.config.enter_end_effects.sounds matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
 tellraw @s " "
 
-tellraw @s {"text":"Postgen - Load Main Island","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.post_gen.load_main_island","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.post_gen.load_main_island "}}
+tellraw @s {"text":"Postgen - Load Main Island","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.post_gen.load_main_island","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.post_gen.load_main_island "}}
 tellraw @s [{"text":"Use wacky and laggy postgen methods to generate main island, which is not present by default","color":"#C8ADD6"},{"text":"\nNot recommended to disable, as it removes some features apart from the island","color":"#FF4141"}]
 execute if score foka.config foka.config.post_gen.load_main_island matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
 execute if score foka.config foka.config.post_gen.load_main_island matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
