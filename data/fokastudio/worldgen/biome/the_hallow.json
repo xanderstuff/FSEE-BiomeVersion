@@ -30,9 +30,9 @@
 		"monster": [
 			{
 				"type": "minecraft:vex",
-				"weight": 60,
+				"weight": 20,
 				"minCount": 1,
-				"maxCount": 3
+				"maxCount": 1
 			}
 		],
 		"creature": [],

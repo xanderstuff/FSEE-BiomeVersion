@@ -7,6 +7,8 @@ function fokastudio:end/visuals/main
 function fokastudio:end/music/dragon_music
 function fokastudio:end/butcher_mobs
 function fokastudio:end/utils/main
+function fokastudio:end/mobs/main
+
 
 # Clear the Armor Stand that is holding the Dragonblade in The Dragon's Den when it is holding nothing
 execute as @e[type=armor_stand,tag=foka.dragonblade_holder,predicate=fokastudio:end/utils/holding_nothing] run kill @s
