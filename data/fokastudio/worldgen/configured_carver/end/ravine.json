@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:canyon",
 	"config": {
-		"probability": 0.03,
+		"probability": 0.02,
 		"y": {
 			"type": "minecraft:uniform",
 			"min_inclusive": {
@@ -11,19 +11,15 @@
 				"below_top": 16
 			}
 		},
-		"yScale": 3,
+		"yScale": 4,
 		"lava_level": {
 			"absolute": 0
 		},
 		"replaceable": "#fokastudio:end/carvers_replaceable",
 		"debug_settings": {
+			"debug_mode": false,
 			"air_state": {
-				"Name": "minecraft:warped_button",
-				"Properties": {
-					"face": "wall",
-					"facing": "north",
-					"powered": "false"
-				}
+				"Name": "minecraft:cyan_stained_glass"
 			},
 			"water_state": {
 				"Name": "minecraft:candle",

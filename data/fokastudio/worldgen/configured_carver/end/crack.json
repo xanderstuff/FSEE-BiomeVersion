@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:canyon",
 	"config": {
-		"probability": 0.125,
+		"probability": 0.066,
 		"y": {
 			"type": "minecraft:uniform",
 			"min_inclusive": {
@@ -23,13 +23,9 @@
 		},
 		"replaceable": "#fokastudio:end/carvers_replaceable",
 		"debug_settings": {
+			"debug_mode": false,
 			"air_state": {
-				"Name": "minecraft:oak_button",
-				"Properties": {
-					"powered": "false",
-					"facing": "north",
-					"face": "wall"
-				}
+				"Name": "minecraft:orange_stained_glass"
 			},
 			"water_state": {
 				"Name": "minecraft:candle",
