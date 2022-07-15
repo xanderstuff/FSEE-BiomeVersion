@@ -30,6 +30,8 @@ scoreboard objectives add foka.misc.data dummy
 scoreboard objectives add foka.misc.move_x dummy
 scoreboard objectives add foka.misc.move_y dummy
 scoreboard objectives add foka.misc.move_z dummy
+scoreboard objectives add foka.misc.paper dummy
+
 
 ## Creating teams
 # Currently only used for purple glow color
@@ -48,9 +50,9 @@ bossbar set fokastudio:end/crystal_count style notched_10
 
 # Scheduling functions that do not need to be
 # executed every tick
-schedule function fokastudio:end/5_second_loop 5s
-schedule function fokastudio:end/3_tick_loop 3t
-schedule function fokastudio:end/10_second_loop 10s
+schedule function fokastudio:end/5_second_loop 5s append
+schedule function fokastudio:end/3_tick_loop 3t append
+schedule function fokastudio:end/10_second_loop 10s append
 
 # Gamerules
 execute in the_end run function fokastudio:end/gamerules

@@ -39,6 +39,7 @@ scoreboard objectives remove foka.misc.data
 scoreboard objectives remove foka.misc.move_x
 scoreboard objectives remove foka.misc.move_y
 scoreboard objectives remove foka.misc.move_z
+scoreboard objectives remove foka.misc.paper
 
 # Remove teams
 team remove foka.purple_glow
