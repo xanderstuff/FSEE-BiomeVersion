@@ -30,7 +30,7 @@
 		"monster": [
 			{
 				"type": "minecraft:vex",
-				"weight": 20,
+				"weight": 5,
 				"minCount": 1,
 				"maxCount": 1
 			}
@@ -50,7 +50,12 @@
 		"water_ambient": [],
 		"misc": []
 	},
-	"spawn_costs": {},
+	"spawn_costs": {
+		"minecraft:vex": {
+			"energy_budget": 0.2,
+			"charge": 1
+		}
+	},
 	"carvers": {
 		"air": [
 			"fokastudio:end/cave",
