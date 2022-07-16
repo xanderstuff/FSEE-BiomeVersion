@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:jigsaw",
-	"biomes": "#fokastudio:end/ender_biomes",
+	"biomes": "#fokastudio:end/ender_biomes_no_bottom",
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_box",
