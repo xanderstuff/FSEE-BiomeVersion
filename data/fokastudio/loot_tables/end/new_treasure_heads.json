@@ -29,7 +29,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"you guys know that the name of this pack can be called fseex for short?\",\"italic\":false}']},SkullOwner:\"INQIZZO \"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"you guys know that the name of this pack can be called fseex for short?\",\"italic\":false}']},SkullOwner:\"INQIZZO\"}"
 						}
 					]
 				},
