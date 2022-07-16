@@ -29,6 +29,16 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"you guys know that the name of this pack can be called fseex for short?\",\"italic\":false}']},SkullOwner:\"INQIZZO \"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
 							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"地獄へ行こうとしている\",\"italic\":false}','{\"text\":\"だけありますね\",\"italic\":false}','{\"text\":\" \",\"italic\":false}','{\"text\":\"中々の腕前でございます\",\"italic\":false}']},SkullOwner:\"FokaStudio\"}"
 						}
 					]
