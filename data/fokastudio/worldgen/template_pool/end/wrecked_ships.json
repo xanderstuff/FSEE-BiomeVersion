@@ -1,0 +1,78 @@
+{
+	"name": "fokastudio:end/wrecked_ships",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/wrecked_end_ship/wrecked_end_ship_0",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/wrecked_end_ship/wrecked_end_ship_1",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/wrecked_end_ship/wrecked_end_ship_2",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/wrecked_end_ship/wrecked_end_ship_3",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/wrecked_end_ship/wrecked_end_ship_4",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/wrecked_end_ship/wrecked_end_ship_5",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/wrecked_end_ship/wrecked_end_ship_6",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/wrecked_end_ship/wrecked_end_ship_7",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		}
+	]
+}

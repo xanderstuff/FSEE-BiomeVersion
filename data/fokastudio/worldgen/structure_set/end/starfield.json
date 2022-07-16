@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "fokastudio:end/starfield",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1018125028,
+		"spacing": 4,
+		"separation": 2
+	}
+}

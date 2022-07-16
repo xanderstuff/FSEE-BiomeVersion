@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "fokastudio:end/shulker_nest",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1694529541,
+		"spacing": 12,
+		"separation": 8
+	}
+}

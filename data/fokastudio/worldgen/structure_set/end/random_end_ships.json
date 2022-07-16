@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "fokastudio:end/ship",
+			"weight": 1
+		},
+		{
+			"structure": "fokastudio:end/wrecked_ship",
+			"weight": 2
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 651314727,
+		"spacing": 19,
+		"separation": 14
+	}
+}

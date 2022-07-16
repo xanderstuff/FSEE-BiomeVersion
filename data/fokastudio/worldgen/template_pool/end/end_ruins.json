@@ -1,0 +1,996 @@
+{
+	"name": "fokastudio:end/end_ruins",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_0",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_1",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_2",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_3",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_4",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_5",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_6",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_7",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_8",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_9",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_10",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_11",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_12",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_13",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_14",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_15",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_16",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_17",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_18",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_19",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_20",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_21",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_22",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_23",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_24",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_25",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_26",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_27",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_28",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_29",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_30",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_31",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_32",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_33",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_34",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_35",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_36",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_37",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_38",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_39",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_40",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_41",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_42",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_43",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_44",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_45",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_46",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_47",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_48",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_49",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_50",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_51",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_52",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_53",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_54",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_55",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_56",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_57",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_58",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_59",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_60",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_61",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_62",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_63",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_64",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_65",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_66",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_67",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_68",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_69",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_70",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_71",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_71",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_72",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_73",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_74",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_75",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_76",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_77",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_78",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_79",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_80",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_81",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_82",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_83",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_84",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_85",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_86",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_87",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_88",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_89",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_90",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_91",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_92",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_93",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_94",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_95",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_96",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_97",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_98",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_99",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_100",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_101",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_102",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_103",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_104",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_105",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_106",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_107",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_ruin/end_ruin_108",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		}
+	]
+}

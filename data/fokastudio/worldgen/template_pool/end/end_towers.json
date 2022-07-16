@@ -1,0 +1,24 @@
+{
+	"name": "fokastudio:end/end_towers",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_tower/end_tower_0",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/end_tower/end_tower_1",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		}
+	]
+}

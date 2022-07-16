@@ -1,0 +1,49 @@
+{
+	"name": "fokastudio:end/stars",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:empty_pool_element",
+				"projection": "rigid"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/void_star/void_star_0",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/void_star/void_star_1",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/void_star/void_star_2",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/void_star/void_star_3",
+				"processors": "fokastudio:end/simple_cannot_replace"
+			}
+		}
+	]
+}
