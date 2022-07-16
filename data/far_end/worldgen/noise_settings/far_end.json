@@ -86,7 +86,7 @@
 												"type": "minecraft:mul",
 												"argument1": {
 													"type": "minecraft:y_clamped_gradient",
-													"from_y": 140,
+													"from_y": 166,
 													"to_y": 240,
 													"from_value": 1,
 													"to_value": -0.4
