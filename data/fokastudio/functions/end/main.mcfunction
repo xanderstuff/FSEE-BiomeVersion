@@ -33,3 +33,7 @@ execute if score foka.config foka.config.post_gen.load_main_island matches 1 if 
 # It DOES NOT come with the tags though!
 # I can just butcher the dragon in the most painless way possible
 execute as @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=!fe.init,tag=!fe.mob] run kill @s
+
+# Some effects do not apply instantly or are overshadowed by Vanilla
+# So... I just simply delayed them to the next tick afterwards xD
+execute as @a[tag=foka.scheduled_void_totem_effect] at @s run function fokastudio:end/mechanics/void_totem_protection/scheduled
