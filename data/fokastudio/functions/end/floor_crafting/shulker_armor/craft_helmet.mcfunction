@@ -13,5 +13,3 @@ particle minecraft:shriek 20 ~ ~-.4 ~ .2 .2 .2 1 1 force
 
 playsound minecraft:entity.ender_dragon.growl block @a ~ ~ ~ 0.05
 playsound minecraft:entity.warden.heartbeat block @a ~ ~ ~ 0.1
-
-say a
