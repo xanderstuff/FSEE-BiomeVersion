@@ -2,5 +2,9 @@ tellraw @s [{"text":"T","italic":true,"color":"#8c1ea8"},{"text":"h","italic":tr
 
 tag @s add foka.ender_blessed
 
+playsound minecraft:entity.blaze.death player @s ~ ~ ~ 0.43 0.5
+playsound minecraft:entity.blaze.death player @s ~ ~ ~ 1 0.5
+playsound minecraft:block.beacon.activate player @s ~ ~ ~ 1 0.5
+
 particle dragon_breath ~ ~1.5 ~ 0 0 0 0.2 40 force
 particle end_rod ~ ~1.5 ~ 0 0 0 0.1 20 normal
