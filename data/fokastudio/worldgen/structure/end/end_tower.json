@@ -3,7 +3,7 @@
 	"biomes": "#fokastudio:end/ender_biomes_no_bottom",
 	"step": "surface_structures",
 	"spawn_overrides": {},
-	"terrain_adaptation": "beard_box",
+	"terrain_adaptation": "beard_thin",
 	"start_pool": "fokastudio:end/end_towers",
 	"size": 6,
 	"start_height": {
