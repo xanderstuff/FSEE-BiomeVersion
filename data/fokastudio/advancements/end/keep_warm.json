@@ -49,18 +49,18 @@
 						}
 					},
 					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"biome": "fokastudio:snowy_warped_forest"
-						}
-					},
-					{
 						"condition": "minecraft:alternative",
 						"terms": [
 							{
 								"condition": "minecraft:location_check",
 								"predicate": {
 									"biome": "fokastudio:frosted_hills"
+								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"predicate": {
+									"biome": "fokastudio:snowy_warped_forest"
 								}
 							}
 						]

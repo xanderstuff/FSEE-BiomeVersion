@@ -22,6 +22,9 @@
 			"conditions": {
 				"durability": 1,
 				"item": {
+					"items": [
+						"minecraft:elytra"
+					],
 					"enchantments": [
 						{
 							"enchantment": "minecraft:unbreaking",
@@ -38,6 +41,6 @@
 		}
 	},
 	"rewards": {
-		"experience": 300
+		"experience": 1000
 	}
 }
