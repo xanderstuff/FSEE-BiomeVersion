@@ -97,12 +97,12 @@
 					"biome": "fokastudio:blazing_dunes",
 					"parameters": {
 						"temperature": 0.674,
-						"humidity": -0.3,
+						"humidity": -0.2,
 						"continentalness": 0,
 						"erosion": 0.2,
-						"weirdness": 0.1,
+						"weirdness": 0,
 						"depth": 0,
-						"offset": 0.1
+						"offset": 0.111
 					}
 				},
 				{
