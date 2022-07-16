@@ -1,0 +1,17 @@
+execute if score @s foka.misc.elytra_trail_id matches -1 run function fokastudio:end/mechanics/elytra_trails/particles/default
+execute if score @s foka.misc.elytra_trail_id matches 0 run function fokastudio:end/mechanics/elytra_trails/particles/fire
+execute if score @s foka.misc.elytra_trail_id matches 1 run function fokastudio:end/mechanics/elytra_trails/particles/soul_fire
+execute if score @s foka.misc.elytra_trail_id matches 2 run function fokastudio:end/mechanics/elytra_trails/particles/end_rod
+execute if score @s foka.misc.elytra_trail_id matches 3 run function fokastudio:end/mechanics/elytra_trails/particles/sculk
+execute if score @s foka.misc.elytra_trail_id matches 4 run function fokastudio:end/mechanics/elytra_trails/particles/smoke
+execute if score @s foka.misc.elytra_trail_id matches 5 run function fokastudio:end/mechanics/elytra_trails/particles/bubble
+execute if score @s foka.misc.elytra_trail_id matches 6 run function fokastudio:end/mechanics/elytra_trails/particles/witch
+execute if score @s foka.misc.elytra_trail_id matches 7 run function fokastudio:end/mechanics/elytra_trails/particles/happy_villager
+execute if score @s foka.misc.elytra_trail_id matches 8 run function fokastudio:end/mechanics/elytra_trails/particles/totem_of_undying
+execute if score @s foka.misc.elytra_trail_id matches 9 run function fokastudio:end/mechanics/elytra_trails/particles/crit
+execute if score @s foka.misc.elytra_trail_id matches 10 run function fokastudio:end/mechanics/elytra_trails/particles/enchanted_crit
+execute if score @s foka.misc.elytra_trail_id matches 11 run function fokastudio:end/mechanics/elytra_trails/particles/dragon_breath
+execute if score @s foka.misc.elytra_trail_id matches 12 run function fokastudio:end/mechanics/elytra_trails/particles/honey
+execute if score @s foka.misc.elytra_trail_id matches 13 run function fokastudio:end/mechanics/elytra_trails/particles/lava
+execute if score @s foka.misc.elytra_trail_id matches 14 run function fokastudio:end/mechanics/elytra_trails/particles/zap
+execute if score @s foka.misc.elytra_trail_id matches 15 run function fokastudio:end/mechanics/elytra_trails/particles/glow
