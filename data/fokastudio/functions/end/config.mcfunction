@@ -51,6 +51,13 @@ execute if score foka.config foka.config.mod_support.expanded_structure_blocks m
 execute if score foka.config foka.config.mod_support.expanded_structure_blocks matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
 tellraw @s " "
 
+tellraw @s {"text":"Join Message","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.join_message","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.join_message "}}
+tellraw @s [{"text":"Whether to send a short message to all players who are new to a server to notify them they can play with their ofc favorite pack of all time ❤❤ (nah, not really)","color":"#C8ADD6"}]
+execute if score foka.config foka.config.join_message matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
+execute if score foka.config foka.config.join_message matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
+tellraw @s " "
+
+
 
 
 tellraw @s {"text":"Scroll to the top for a short tutorial on how to configurate some parts of this Datapack!","color":"#E0ACE9"}

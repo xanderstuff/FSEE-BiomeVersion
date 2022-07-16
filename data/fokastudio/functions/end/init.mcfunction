@@ -10,6 +10,7 @@ scoreboard objectives add foka.config.auto_butcher.phantoms dummy
 scoreboard objectives add foka.config.auto_butcher.silverfish dummy
 scoreboard objectives add foka.config.post_gen.load_main_island dummy
 scoreboard objectives add foka.config.mod_support.expanded_structure_blocks dummy
+scoreboard objectives add foka.config.join_message dummy
 
 # Items
 scoreboard objectives add foka.items.dragonblade_cooldown dummy
@@ -64,6 +65,7 @@ execute in the_end run function fokastudio:end/gamerules
 # 'null' is not a number, remember!
 # *coughs in German*
 execute unless score foka.config foka.config.custom_music matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.custom_music 0
+execute unless score foka.config foka.config.join_message matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.join_message 1
 execute unless score foka.config foka.config.enter_end_effects.flavor_text matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.enter_end_effects.flavor_text 1
 execute unless score foka.config foka.config.enter_end_effects.sounds matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.enter_end_effects.sounds 1
 execute unless score foka.config foka.config.auto_butcher.phantoms matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.auto_butcher.phantoms 0

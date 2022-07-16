@@ -11,6 +11,6 @@ scoreboard objectives add fe.timer dummy
 schedule function far_end:bossbars/check 10s replace
 
 ### Installation Message ###
-schedule function far_end:message 1s
+execute if score foka.config foka.config.join_message matches 1 run function far_end:message
 
 tag @s add fe.installed

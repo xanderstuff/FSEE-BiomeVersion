@@ -22,6 +22,7 @@ scoreboard objectives remove foka.config.auto_butcher.phantoms
 scoreboard objectives remove foka.config.auto_butcher.silverfish
 scoreboard objectives remove foka.config.mod_support.expanded_structure_blocks
 scoreboard objectives remove foka.config.post_gen.load_main_island
+scoreboard objectives remove foka.config.join_message
 
 scoreboard objectives remove foka.items.dragonblade_cooldown
 scoreboard objectives remove foka.items.pandoras_box_animation
