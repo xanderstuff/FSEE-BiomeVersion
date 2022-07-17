@@ -9,9 +9,10 @@
 		"type": "minecraft:random_spread",
 		"salt": 1018075954,
 		"exclusion_zone": {
-			"other_set": "fokastudio:end/giant_mushrooms",
-			"chunk_count": 1
+			"other_set": "fokastudio:end/dragons_den_structure_fix",
+			"chunk_count": 16
 		},
+		"spread_type": "linear",
 		"spacing": 6,
 		"separation": 1
 	}

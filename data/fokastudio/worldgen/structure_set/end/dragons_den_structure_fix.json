@@ -1,0 +1,19 @@
+{
+	"structures": [
+		{
+			"structure": "fokastudio:end/dragons_den",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:concentric_rings",
+		"salt": 0,
+		"distance": 1,
+		"spread": 1,
+		"count": 10,
+		"preferred_biomes": [
+			"far_end:void",
+			"fokastudio:sculk_growth"
+		]
+	}
+}

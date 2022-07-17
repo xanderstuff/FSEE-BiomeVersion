@@ -7,6 +7,10 @@
 	],
 	"placement": {
 		"type": "minecraft:random_spread",
+		"exclusion_zone": {
+			"other_set": "fokastudio:end/dragons_den_structure_fix",
+			"chunk_count": 16
+		},
 		"salt": 999512490,
 		"spacing": 16,
 		"separation": 12

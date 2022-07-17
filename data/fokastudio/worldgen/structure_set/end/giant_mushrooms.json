@@ -7,6 +7,10 @@
 	],
 	"placement": {
 		"type": "minecraft:random_spread",
+		"exclusion_zone": {
+			"other_set": "fokastudio:end/random_end_spike",
+			"chunk_count": 1
+		},
 		"salt": 65465475613,
 		"spacing": 3,
 		"separation": 1
