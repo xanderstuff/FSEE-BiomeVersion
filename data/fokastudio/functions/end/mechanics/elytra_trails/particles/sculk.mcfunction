@@ -1,2 +1,2 @@
-particle sculk_charge_pop ^-1.4 ^0.6 ^0.45 0 0 0 0 1 force @a
-particle sculk_charge_pop ^1.4 ^0.6 ^0.45 0 0 0 0 1 force @a
+particle dust 0.0196078431372549 0.3843137254901961 0.3647058823529412 1 ^-1.4 ^0.6 ^0.45 0 0 0 0 1 force @a
+particle dust 0.0196078431372549 0.3843137254901961 0.3647058823529412 1 ^1.4 ^0.6 ^0.45 0 0 0 0 1 force @a

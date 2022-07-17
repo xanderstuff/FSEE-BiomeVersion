@@ -1,0 +1,3 @@
+attribute @s generic.attack_damage modifier remove 3883d08a-3f2f-4bb9-8c70-20bea920d00c
+execute unless predicate fokastudio:end/locations/above_4_light_level run attribute @s generic.attack_damage modifier add 3883d08a-3f2f-4bb9-8c70-20bea920d00c "foka.sculk_darkness_damage_boost" 0.44 multiply
+execute unless predicate fokastudio:end/locations/above_4_light_level run particle minecraft:sculk_charge 0 ~ ~1 ~ 0.13 0.4 0.2 0 1

@@ -1,0 +1,3 @@
+attribute @s generic.attack_damage modifier remove 3b4c5975-f7e1-44cf-a37c-c9f7653c26ef
+execute if block ~ ~ ~ #fokastudio:end/fire_damage_boost run attribute @s generic.attack_damage modifier add 3b4c5975-f7e1-44cf-a37c-c9f7653c26ef "foka.fire_damage_boost" 0.5 multiply
+execute if block ~ ~ ~ #fokastudio:end/fire_damage_boost if entity @s[tag=foka.is_moving] run particle minecraft:flame ~ ~1 ~ 0.13 0.4 0.2 0 1

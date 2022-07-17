@@ -1,15 +1,8 @@
 kill @e[tag=foka.altar_of_the_accursed.elytra]
+kill @e[tag=foka.altar_of_the_accursed.netherite_ingot]
 kill @e[tag=foka.altar_of_the_accursed.sugar]
 
-summon item ~ ~ ~ {Item:{Count:1b,id:"minecraft:elytra",tag:{foka.trail:"witch",display:{Lore:['{"text":" "}', '{"text":"Imbued with Magic","color":"#A347FF","italic":false}']}}}}
+summon item ~ ~ ~ {Item:{Count:1b,id:"minecraft:elytra",tag:{foka.trail:"witch",AttributeModifiers:[{AttributeName:"generic.movement_speed",Amount:0.15,Slot:chest,Operation:1,Name:"generic.movement_speed",UUID:[I;-122617,37650,13553,-75300]}],display:{Lore:['{"text":" "}', '{"text":"Imbued with Magic","color":"#A347FF","italic":false}']}}}}
 
 particle minecraft:witch ~ ~-.4 ~ .2 .2 .2 0.1 25 normal
-particle minecraft:explosion ~ ~-.4 ~ .2 .2 .2 0 5 force
-particle minecraft:shriek 0 ~ ~ ~ 0 0 0 1 1 force
-particle minecraft:shriek 5 ~ ~ ~ 0 0 0 1 1 force
-particle minecraft:shriek 10 ~ ~ ~ 0 0 0 1 1 force
-particle minecraft:shriek 15 ~ ~ ~ 0 0 0 1 1 force
-particle minecraft:shriek 20 ~ ~ ~ 0 0 0 1 1 force
-
-playsound minecraft:entity.ender_dragon.growl block @a ~ ~ ~ 0.05
-playsound minecraft:entity.warden.heartbeat block @a ~ ~ ~ 0.1
+function fokastudio:end/floor_crafting/particles_base

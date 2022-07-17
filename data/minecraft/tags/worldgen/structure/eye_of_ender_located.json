@@ -1,6 +1,6 @@
 {
 	"values": [
-		"minecraft:stronghold",
+		"#fokastudio:end/stronghold",
 		"#fokastudio:end/return_gateways"
 	]
   }

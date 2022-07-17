@@ -7,5 +7,6 @@ execute as @a[predicate=fokastudio:end/utils/with_totem_in_void] at @s run funct
 
 execute as @e[type=shulker_bullet,tag=shulker_sentry] at @s run data modify entity @s Target set from entity @p UUID
 
+tag @a[tag=foka.lava_walking.cooldown] remove foka.lava_walking.cooldown
 
 schedule function fokastudio:end/3_tick_loop 3t
