@@ -4,15 +4,11 @@ function fokastudio:end/advancements/main
 function fokastudio:end/items/main
 function fokastudio:end/mechanics/main
 function fokastudio:end/visuals/main
-function fokastudio:end/music/dragon_music
 function fokastudio:end/butcher_mobs
 function fokastudio:end/utils/main
 function fokastudio:end/mobs/main
 
 execute unless score foka.misc foka.misc.paper matches -2147483648..2147483647 run function fokastudio:end/paper_stuff/check
-
-# Clear the Armor Stand that is holding the Dragonblade in The Dragon's Den when it is holding nothing
-execute as @e[type=armor_stand,tag=foka.dragonblade_holder,predicate=fokastudio:end/utils/holding_nothing] run kill @s
 
 # Crystal Fix
 # If 2 or more biomes generate in a collumn at 0 0, this causes to double the amount of crystals and dragon spawning
