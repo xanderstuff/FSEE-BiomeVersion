@@ -1,5 +1,3 @@
-function fokastudio:end/shulker_sentry
-function fokastudio:end/end_gateway_loop
 function fokastudio:end/advancements/main
 function fokastudio:end/items/main
 function fokastudio:end/mechanics/main
@@ -7,6 +5,8 @@ function fokastudio:end/visuals/main
 function fokastudio:end/butcher_mobs
 function fokastudio:end/utils/main
 function fokastudio:end/mobs/main
+
+execute as @e[type=marker,tag=foka.gateway_utility] at @s run function fokastudio:end/end_gateway_loop
 
 execute unless score foka.misc foka.misc.paper matches -2147483648..2147483647 run function fokastudio:end/paper_stuff/check
 
