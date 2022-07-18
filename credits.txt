@@ -19,10 +19,20 @@ FUNCTIONS:
 		Code in 'rng' namespace
 
 	ICY105 - https://github.com/ICY105
-		Code in 'duitls' namespace
-		In case you didn't notice, this is purely Datapack Utilities,
-		just changed the namespace to avoid incompatibilities
-		with other packs that might use it!
+		Custom Durability system
+		Player movement detection ('foka.is_moving')
+		Honestly, these are all just CTRL + C and 
+		CTRL + V from DatapackUtilities (RIP DU)
+		Could just switch to Smithed libraries,
+		if not for the fact that their wiki
+		is outdated by like 5 versions...
+
+	4P5 - https://www.planetminecraft.com/member/4p5/
+		Elytra trails (Imbuements)
+		I just kindly borrowed the offsets for particles
+		for them to align with wings, as I had no idea
+		what to offset by how much.
+		+ Saw the pack and got an idea for this feature
 
 
 
@@ -31,19 +41,33 @@ WORLDGEN:
 	
 	Hex - https://www.planetminecraft.com/member/hex_-now_loading-/
 		What did ya expect here?
+		To not include original creator...
+		That would be a shame
 
 	_humanoid - https://www.planetminecraft.com/member/_humanoid/
 		Luminous End and Un-Luminous End were an inspiration for me.
-		Also, Humanoid is doing a compatibility patch for both packs, so <3
 	
 	Misode - https://github.com/misode
 		Their generators (https://misode.github.io/) have helped me a lot with development.
-		Especially the Upgrader, which has done like 40% of my tasks for me!
+		Especially the Upgrader, which has done like 40% of all tasks for me!
+		It didn't do shit from 1.18 to 1.19, but whatever, still thank you
+		for these generators, I would literally die without them!
 
 	Starmute - https://www.planetminecraft.com/member/starmute/
-		Nullscapes was also a giantic inspiration, this one for more
-		barren biomes.
+		Nullscapes was also a giantic inspiration for more barren biomes.
+		𝘛𝘩𝘰𝘶𝘨𝘩 𝘪𝘮𝘰 𝘯𝘰𝘵𝘩𝘪𝘯𝘨 𝘪𝘯 𝘔𝘊 𝘴𝘩𝘰𝘶𝘭𝘥 𝘣𝘦 𝘭𝘦𝘧𝘵 𝘣𝘢𝘳𝘳𝘦𝘯 𝘢𝘯𝘥 𝘥𝘦𝘴𝘰𝘭𝘢𝘵𝘦.
+		𝘑𝘶𝘴𝘵 𝘭𝘰𝘰𝘬 𝘢𝘵 1.16 𝘢𝘯𝘥 𝘩𝘰𝘸 𝘕𝘦𝘵𝘩𝘦𝘳 𝘜𝘱𝘥𝘢𝘵𝘦 𝘳𝘦𝘷𝘢𝘮𝘱𝘦𝘥 𝘦𝘷𝘦𝘳𝘺𝘵𝘩𝘪𝘯𝘨.
+		𝘕𝘰𝘸 𝘤𝘰𝘯𝘯𝘦𝘤𝘵 𝘵𝘩𝘦𝘴𝘦 𝘧𝘢𝘤𝘵𝘴 𝘵𝘰𝘨𝘩𝘦𝘵𝘩𝘦𝘳.
+		𝙉𝙊𝙒 𝙎𝙏𝙊𝙋 𝘼𝙎𝙆𝙄𝙉𝙂 𝙈𝙀 𝙁𝙊𝙍 𝘾𝙊𝙈𝙋𝘼𝙏𝙄𝘽𝙄𝙇𝙄𝙏𝙔 𝘼𝘿𝘿𝙊𝙉.
 		Also, the Snow Layers in Frosted Hills are from their pack - Terralith.
+		𝘐 𝘥𝘰 𝘯𝘰𝘵 𝘵𝘩𝘪𝘯𝘬 𝘐 𝘩𝘢𝘷𝘦 𝘵𝘰 𝘦𝘹𝘱𝘭𝘢𝘪𝘯 𝘸𝘩𝘢𝘵 𝘛𝘦𝘳𝘳𝘢𝘭𝘪𝘵𝘩 𝘪𝘴...
+
+	dfsek - https://www.spigotmc.org/resources/authors/dfsek.597832/
+		BetterEnd plugin.
+		I actually remember using it on my server a while ago.
+		And then I started tampering with worldgen myself... ❤
+		Needless to say, 95% of new structures were done by this guy,
+		and I just ported them to Vanilla 1.19 from Spigot 1.16
 
 
 
@@ -55,12 +79,14 @@ ADVANCEMENTS:
 	
 	Cavinator1 - https://www.planetminecraft.com/member/cavinator1/
 		'BlazeandCave's Advancement Pack' has been an inspiration for
-		like 20% of the Advancements in this pack.
-		You can clearly see it at some places xD (here read: 'Portable Storage')
+		like actually a lot of the Advancements in this pack.
+		You can clearly see it in some places xD (here read: 'Portable Storage')
 
 	RaiderRoss#6666
-		They made like 6 advancements! Not for the pack,
+		They made like 6 advancements! Not for the pack though,
 		but they were kind enough to share these with me <3
+		They may now see their family, after 5 months of
+		me holding them hostage!
 
 
 
@@ -73,6 +99,33 @@ PREDICATES:
 	UltroGhast - https://www.planetminecraft.com/member/ultroghast/
 		Their 'Random Choices and Possibilities' Data Pack made creating chance-based
 		features way more doable
+
+
+
+OTHER RANDOM 'THANK YOU'S THAT I PROPABLY SHOULDN'T WRITE DOWN, BUT I STILL WILL AND NOBODY CAN STOP ME:
+
+	Waffle_Wizard_#3105
+		For being.
+		Remember that you are not annoying with your messages,
+		it is actually warming to always have someone who can
+		give you an opinion on every development topic ❤
+
+	bro omg#7684
+		Nice screenshots you took there!
+		𝘔𝘢𝘺 𝘐 𝘩𝘰𝘭𝘥 𝘵𝘩𝘦𝘮?
+	
+	IEatPotatoes_#8485
+		:ward:
+
+	Kier#2931
+		For also experimenting with installing my pack on server.
+		Believe it or not, but it actually helped me think of
+		steps that are both simple and easy to execute.
+		And as short as possible.
+
+	𝙀𝙫𝙚𝙧𝙮𝙤𝙣𝙚 𝙬𝙝𝙤 𝙝𝙖𝙨 𝙟𝙤𝙞𝙣𝙚𝙙 𝙢𝙮 𝘿𝙞𝙨𝙘𝙤𝙧𝙙 𝙨𝙚𝙧𝙫𝙚𝙧
+	𝙩𝙤 𝙖𝙨𝙠 1 𝙖𝙣𝙙 𝙖𝙡𝙬𝙖𝙮𝙨 𝙩𝙝𝙚 𝙨𝙖𝙢𝙚, 𝙖𝙣𝙣𝙤𝙮𝙞𝙣𝙜 𝙖𝙨𝙛 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣,
+	𝙗𝙚𝙘𝙖𝙪𝙨𝙚 𝙄 𝙡𝙤𝙫𝙚 𝙘𝙖𝙡𝙡𝙞𝙣𝙜 𝙚𝙫𝙚𝙧𝙮𝙤𝙣𝙚 𝙞𝙙𝙞𝙤𝙩𝙨
 
 
 
