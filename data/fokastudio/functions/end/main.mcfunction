@@ -8,6 +8,8 @@ function fokastudio:end/mobs/main
 
 execute as @e[type=marker,tag=foka.gateway_utility] at @s run function fokastudio:end/end_gateway_loop
 
+# On load did not trigger correctly
+# Fuck paper
 execute unless score foka.misc foka.misc.paper matches -2147483648..2147483647 run function fokastudio:end/paper_stuff/check
 
 # Crystal Fix
