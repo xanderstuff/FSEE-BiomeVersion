@@ -1,7 +1,9 @@
 # Also moved from a function I do not remember at all
 # I need to refactor the code from FE...
 particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 force
-playsound minecraft:entity.generic.explode master @a ~ ~ ~ 4 1
+execute as @e[type=marker,tag=foka.dragon_marker] at @s run particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 force
+execute as @e[type=marker,tag=foka.dragon_marker] at @s run particle minecraft:cloud ~ ~ ~ 0 0 0 0.5 500 force
+execute as @e[type=marker,tag=foka.dragon_marker] at @s run playsound minecraft:entity.generic.explode master @a ~ ~ ~ 4 1
 kill @e[type=minecraft:end_crystal,distance=..4,tag=fe.respawn_crystal]
 advancement grant @a[distance=..100] only minecraft:end/respawn_dragon
 tag @s add fe.deactivated
