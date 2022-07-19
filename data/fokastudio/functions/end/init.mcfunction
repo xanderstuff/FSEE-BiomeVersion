@@ -12,6 +12,7 @@ scoreboard objectives add foka.config.post_gen.load_main_island dummy
 scoreboard objectives add foka.config.mod_support.expanded_structure_blocks dummy
 scoreboard objectives add foka.config.join_message dummy
 scoreboard objectives add foka.config.teleport_to_platform dummy
+scoreboard objectives add foka.config.change_gamerules dummy
 
 # Items
 scoreboard objectives add foka.items.dragonblade_cooldown dummy
@@ -21,6 +22,8 @@ scoreboard objectives add foka.items.pandoras_box_summon_id dummy
 scoreboard objectives add foka.items.armors.holy_protection_cooldown dummy
 scoreboard objectives add foka.items.sharanga.arrow_age dummy
 scoreboard objectives add foka.items.clockwork_crossbow.arrow_amount dummy
+scoreboard objectives add foka.items.prismatic_punch.particle_cycle dummy
+scoreboard objectives add foka.items.prismatic_punch.marker_age dummy
 
 # Mechanics
 scoreboard objectives add foka.mechanics.void_fishing_length dummy
@@ -59,7 +62,7 @@ schedule function fokastudio:end/3_tick_loop 3t append
 schedule function fokastudio:end/10_second_loop 10s append
 
 # Gamerules
-execute in the_end run function fokastudio:end/gamerules
+execute if score foka.config foka.config.change_gamerules matches 1 in the_end run function fokastudio:end/gamerules
 
 # Initialize scoreboards that do not have a value at start,
 # but require it to work properly
@@ -76,3 +79,4 @@ execute unless score foka.config foka.config.auto_butcher.silverfish matches -21
 execute unless score foka.config foka.config.post_gen.load_main_island matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.post_gen.load_main_island 1
 execute unless score foka.config foka.config.mod_support.expanded_structure_blocks matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.mod_support.expanded_structure_blocks 0
 execute unless score foka.config foka.config.teleport_to_platform matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.teleport_to_platform 0
+execute unless score foka.config foka.config.change_gamerules matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.change_gamerules 0

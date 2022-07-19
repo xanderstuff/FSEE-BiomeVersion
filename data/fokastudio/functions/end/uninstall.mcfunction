@@ -24,6 +24,7 @@ scoreboard objectives remove foka.config.mod_support.expanded_structure_blocks
 scoreboard objectives remove foka.config.post_gen.load_main_island
 scoreboard objectives remove foka.config.join_message
 scoreboard objectives remove foka.config.teleport_to_platform
+scoreboard objectives remove foka.config.change_gamerules
 
 scoreboard objectives remove foka.items.dragonblade_cooldown
 scoreboard objectives remove foka.items.pandoras_box_animation
@@ -32,6 +33,8 @@ scoreboard objectives remove foka.items.pandoras_box_raycast
 scoreboard objectives remove foka.items.armors.holy_protection_cooldown
 scoreboard objectives remove foka.items.sharanga.arrow_age
 scoreboard objectives remove foka.items.clockwork_crossbow.arrow_amount
+scoreboard objectives remove foka.items.prismatic_punch.particle_cycle
+scoreboard objectives remove foka.items.prismatic_punch.marker_age
 
 scoreboard objectives remove foka.mechanics.void_fishing_length
 scoreboard objectives remove foka.mechanics.crystal_count

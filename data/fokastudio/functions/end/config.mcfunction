@@ -63,6 +63,12 @@ execute if score foka.config foka.config.teleport_to_platform matches 1 run tell
 execute if score foka.config foka.config.teleport_to_platform matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
 tellraw @s " "
 
+execute if score foka.misc foka.misc.paper matches 1 run tellraw @s [{"text":"PAPER ONLY","bold":true,"color":"white"},{"text":"Change Gamerules in The End","color":"#C076E5","bold":false,"hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.X","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Disabled","color":"#FF7B7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.change_gamerules "}}]
+execute if score foka.misc foka.misc.paper matches 1 run tellraw @s {"text":"Changes gamerules in The End to slow down block aging and enrage all mobs. Also prevents lag from wildfires if any forest biome generates in ","color":"#C8ADD6"}
+execute if score foka.misc foka.misc.paper matches 1 run execute if score foka.config foka.config.change_gamerules matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
+execute if score foka.misc foka.misc.paper matches 1 run execute if score foka.config foka.config.change_gamerules matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
+execute if score foka.misc foka.misc.paper matches 1 run tellraw @s " "
+
 tellraw @s " "
 tellraw @s " "
 tellraw @s {"text":"Scroll to the top for a short tutorial on how to configurate some parts of this Datapack!","color":"#E0ACE9"}
