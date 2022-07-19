@@ -2,11 +2,11 @@
 	"structures": [
 		{
 			"structure": "minecraft:stronghold",
-			"weight": 1
+			"weight": 9
 		},
 		{
-			"structure": "fokastudio:end/stronghold_new",
-			"weight": 3
+			"structure": "fokastudio:end/old_stronghold",
+			"weight": 1
 		}
 	],
 	"placement": {
