@@ -1,7 +1,0 @@
-Markdown
-mkdocs-git-revision-date-localized-plugin
-pymdown-extensions
-mkdocs-material-extensions
-mkdocs-material
-mkdocs
-mkdocs-minify-plugin
