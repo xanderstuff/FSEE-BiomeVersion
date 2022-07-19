@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"shot_clockwork_crossbow": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"nbt": "{foka.special_item:\"prismatic_punch\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/prismatic_punch/shoot"
+	}
+}

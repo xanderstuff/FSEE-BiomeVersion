@@ -1,0 +1,103 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": [
+								{
+									"text": "P",
+									"color": "#ff8585"
+								},
+								{
+									"text": "r",
+									"color": "#eca575"
+								},
+								{
+									"text": "i",
+									"color": "#e7c968"
+								},
+								{
+									"text": "s",
+									"color": "#faf463"
+								},
+								{
+									"text": "m",
+									"color": "#b7ff63"
+								},
+								{
+									"text": "a",
+									"color": "#65ff70"
+								},
+								{
+									"text": "t",
+									"color": "#68ffcf"
+								},
+								{
+									"text": "i",
+									"color": "#63eded"
+								},
+								{
+									"text": "c ",
+									"color": "#56cbcb"
+								},
+								{
+									"text": "P",
+									"color": "#6a9fe5"
+								},
+								{
+									"text": "u",
+									"color": "#917bff"
+								},
+								{
+									"text": "n",
+									"color": "#e176ff"
+								},
+								{
+									"text": "c",
+									"color": "#e765e7"
+								},
+								{
+									"text": "h",
+									"color": "#c34fc3"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90001,foka.special_item:\"prismatic_punch\",Charged:0b}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "Fired Arrows are converted to Prismatic Blasts,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "creating fancy explosion when they hit something",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Developer Item",
+									"color": "#BA02D7",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
