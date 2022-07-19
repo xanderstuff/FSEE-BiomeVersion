@@ -11,6 +11,7 @@ scoreboard objectives add foka.config.auto_butcher.silverfish dummy
 scoreboard objectives add foka.config.post_gen.load_main_island dummy
 scoreboard objectives add foka.config.mod_support.expanded_structure_blocks dummy
 scoreboard objectives add foka.config.join_message dummy
+scoreboard objectives add foka.config.teleport_to_platform dummy
 
 # Items
 scoreboard objectives add foka.items.dragonblade_cooldown dummy

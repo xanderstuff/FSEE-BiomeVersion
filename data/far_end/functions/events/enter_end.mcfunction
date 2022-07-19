@@ -1,7 +1,7 @@
-execute in minecraft:the_end run tp @s 12 90 0
+execute if score foka.config foka.config.teleport_to_platform matches 0 in minecraft:the_end run tp @s 12 90 0
 
 # Safety precaution :D
-execute at @s run fill ~ ~ ~ ~ ~1 ~ air
+execute if score foka.config foka.config.teleport_to_platform matches 0 in minecraft:the_end positioned 12 90 0 run fill ~ ~ ~ ~ ~1 ~ air
 
 # Sound effect(s)
 execute if score foka.config foka.config.enter_end_effects.sounds matches 1 at @s run playsound block.portal.travel ambient @s ~ ~ ~ 0.1 1.2
