@@ -1,3 +1,3 @@
-execute as @a at @s run function fokastudio:end/utils/as_a_at_s
+# All 'as @a at @s' checks happen every 5th tick
 
 execute as @e[type=#fokastudio:end/entity_awareness_checks,tag=!foka.aware] run tag @s add foka.aware

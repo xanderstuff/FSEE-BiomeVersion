@@ -31,7 +31,7 @@ scoreboard objectives add foka.mechanics.crystal_count dummy
 
 # Misc
 scoreboard objectives add foka.misc.crystal_fix_count dummy
-scoreboard objectives add foka.misc.data dummy
+scoreboard objectives add foka.misc dummy
 scoreboard objectives add foka.misc.move_x dummy
 scoreboard objectives add foka.misc.move_y dummy
 scoreboard objectives add foka.misc.move_z dummy
@@ -59,6 +59,8 @@ bossbar set fokastudio:end/crystal_count style notched_10
 schedule function fokastudio:end/5_second_loop 5s append
 schedule function fokastudio:end/1_second_loop 1s append
 schedule function fokastudio:end/3_tick_loop 3t append
+schedule function fokastudio:end/5_tick_loop 5t append
+schedule function fokastudio:end/10_tick_loop 10t append
 schedule function fokastudio:end/10_second_loop 10s append
 
 # Gamerules

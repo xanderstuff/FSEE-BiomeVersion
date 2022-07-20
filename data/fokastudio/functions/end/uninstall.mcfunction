@@ -40,7 +40,7 @@ scoreboard objectives remove foka.mechanics.void_fishing_length
 scoreboard objectives remove foka.mechanics.crystal_count
 
 scoreboard objectives remove foka.misc.crystal_fix_count
-scoreboard objectives remove foka.misc.data
+scoreboard objectives remove foka.misc
 scoreboard objectives remove foka.misc.move_x
 scoreboard objectives remove foka.misc.move_y
 scoreboard objectives remove foka.misc.move_z
@@ -54,7 +54,11 @@ team remove foka.purple_glow
 schedule clear fokastudio:end/5_second_loop
 schedule clear fokastudio:end/10_second_loop
 schedule clear fokastudio:end/3_tick_loop
+schedule clear fokastudio:end/1_second_loop
+schedule clear fokastudio:end/5_tick_loop
+schedule clear fokastudio:end/10_tick_loop
 schedule clear far_end:bossbars/check
+
 
 # Does not remove entities/clear worldgen/etc.
 # Btw since you cannot remove worldgen datapacks withouth editing your
