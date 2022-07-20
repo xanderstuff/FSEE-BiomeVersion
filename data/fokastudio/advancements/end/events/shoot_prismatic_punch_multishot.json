@@ -3,13 +3,14 @@
 		"shot_prismatic_punch": {
 			"trigger": "minecraft:shot_crossbow",
 			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "fokastudio:end/items/prismatic_punch/holding_multishot"
+					}
+				],
 				"item": {
-					"nbt": "{foka.special_item:\"prismatic_punch\"}",
-					"enchantments": [
-						{
-							"enchantment": "minecraft:multishot"
-						}
-					]
+					"nbt": "{foka.special_item:\"prismatic_punch\"}"
 				}
 			}
 		}
