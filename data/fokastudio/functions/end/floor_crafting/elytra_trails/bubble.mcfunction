@@ -1,6 +1,6 @@
-kill @e[tag=foka.altar_of_the_accursed.elytra]
-kill @e[tag=foka.altar_of_the_accursed.netherite_ingot]
-kill @e[tag=foka.altar_of_the_accursed.heart_of_the_sea]
+kill @e[tag=foka.altar_of_the_accursed.elytra,distance=..1,limit=1]
+kill @e[tag=foka.altar_of_the_accursed.netherite_ingot,distance=..1,limit=1]
+kill @e[tag=foka.altar_of_the_accursed.heart_of_the_sea,distance=..1,limit=1]
 
 summon item ~ ~ ~ {Item:{Count:1b,id:"minecraft:elytra",tag:{foka.trail:"bubble",display:{Lore:['{"text":" "}', '{"text":"Imbued with The Power of The Seas","color":"#00A6FF","italic":false}']}}}}
 

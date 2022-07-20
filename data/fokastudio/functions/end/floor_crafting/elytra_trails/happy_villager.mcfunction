@@ -1,6 +1,6 @@
-kill @e[tag=foka.altar_of_the_accursed.elytra]
-kill @e[tag=foka.altar_of_the_accursed.netherite_ingot]
-kill @e[tag=foka.altar_of_the_accursed.emeralds]
+kill @e[tag=foka.altar_of_the_accursed.elytra,distance=..1,limit=1]
+kill @e[tag=foka.altar_of_the_accursed.netherite_ingot,distance=..1,limit=1]
+kill @e[tag=foka.altar_of_the_accursed.emeralds,distance=..1,limit=1]
 
 summon item ~ ~ ~ {Item:{Count:1b,id:"minecraft:elytra",tag:{foka.trail:"happy_villager",display:{Lore:['{"text":" "}', '{"text":"Imbued with Wealth","color":"#0DD600","italic":false}']}}}}
 

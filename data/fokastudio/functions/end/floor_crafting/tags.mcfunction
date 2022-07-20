@@ -1,3 +1,4 @@
+# Tags for Elytra Imbuements
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:elytra",Count:1b}},distance=..1] add foka.altar_of_the_accursed.elytra
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:feather",Count:1b,tag:{foka.special_item:"fire_feather"}}},distance=..1] add foka.altar_of_the_accursed.fire_feather
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:feather",Count:1b,tag:{foka.special_item:"soul_fire_feather"}}},distance=..1] add foka.altar_of_the_accursed.soul_fire_feather
@@ -16,16 +17,23 @@ tag @e[nbt={OnGround:1b,Item:{id:"minecraft:coal",Count:24b}},distance=..1] add 
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:popped_chorus_fruit",Count:16b}},distance=..1] add foka.altar_of_the_accursed.popped_chorus_fruit
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:totem_of_undying",Count:1b}},distance=..1] add foka.altar_of_the_accursed.totem_of_undying
 
+# Tags for craftable Elytras
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:phantom_membrane",Count:24b}},distance=..1] add foka.altar_of_the_accursed.phantom_membranes
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:nether_star",Count:1b}},distance=..1] add foka.altar_of_the_accursed.nether_star
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:netherite_ingot",Count:1b}},distance=..1] add foka.altar_of_the_accursed.netherite_ingot
 
+# Tags for craftable Enchanted Gapples
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:golden_apple",Count:1b}},distance=..1] add foka.altar_of_the_accursed.golden_apple
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:gold_block",Count:12b}},distance=..1] add foka.altar_of_the_accursed.gold_blocks
 
+# Tags for Shulker Armor
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:shulker_shell",Count:16b}},distance=..1] add foka.altar_of_the_accursed.shulker_shells
-
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:netherite_helmet",Count:1b}},distance=..1] add foka.altar_of_the_accursed.netherite_helmet
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:netherite_leggings",Count:1b}},distance=..1] add foka.altar_of_the_accursed.netherite_leggings
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:netherite_chestplate",Count:1b}},distance=..1] add foka.altar_of_the_accursed.netherite_chestplate
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:netherite_boots",Count:1b}},distance=..1] add foka.altar_of_the_accursed.netherite_boots
+
+# Tags for Prismatic Punch and Radiant Rampage
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:crossbow",Count:1b}},distance=..1] add foka.altar_of_the_accursed.crossbow
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:glowstone_dust",Count:24b,tag:{foka.special_item:"pixie_dust"}}},distance=..1] add foka.altar_of_the_accursed.24_pixie_dust
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:diamond",Count:6b}},distance=..1] add foka.altar_of_the_accursed.6_diamonds

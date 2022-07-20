@@ -1,5 +1,5 @@
-kill @e[tag=foka.altar_of_the_accursed.golden_apple]
-kill @e[tag=foka.altar_of_the_accursed.gold_blocks]
+kill @e[tag=foka.altar_of_the_accursed.golden_apple,distance=..1,limit=1]
+kill @e[tag=foka.altar_of_the_accursed.gold_blocks,distance=..1,limit=1]
 
 summon item ~ ~ ~ {Item:{Count:1b,id:"minecraft:enchanted_golden_apple"}}
 
