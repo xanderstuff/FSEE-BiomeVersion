@@ -13,59 +13,73 @@
 							"name": [
 								{
 									"text": "P",
-									"color": "#ff8585"
+									"color": "#ff8585",
+									"italic": false
 								},
 								{
 									"text": "r",
-									"color": "#eca575"
+									"color": "#eca575",
+									"italic": false
 								},
 								{
 									"text": "i",
-									"color": "#e7c968"
+									"color": "#e7c968",
+									"italic": false
 								},
 								{
 									"text": "s",
-									"color": "#faf463"
+									"color": "#faf463",
+									"italic": false
 								},
 								{
 									"text": "m",
-									"color": "#b7ff63"
+									"color": "#b7ff63",
+									"italic": false
 								},
 								{
 									"text": "a",
-									"color": "#65ff70"
+									"color": "#65ff70",
+									"italic": false
 								},
 								{
 									"text": "t",
-									"color": "#68ffcf"
+									"color": "#68ffcf",
+									"italic": false
 								},
 								{
 									"text": "i",
-									"color": "#63eded"
+									"color": "#63eded",
+									"italic": false
 								},
 								{
 									"text": "c ",
-									"color": "#56cbcb"
+									"color": "#56cbcb",
+									"italic": false
 								},
 								{
 									"text": "P",
-									"color": "#6a9fe5"
+									"color": "#6a9fe5",
+									"italic": false
 								},
 								{
 									"text": "u",
-									"color": "#917bff"
+									"color": "#917bff",
+									"italic": false
 								},
 								{
 									"text": "n",
-									"color": "#e176ff"
+									"color": "#e176ff",
+									"italic": false
 								},
 								{
 									"text": "c",
-									"color": "#e765e7"
+									"color": "#e765e7",
+									"italic": false
 								},
 								{
 									"text": "h",
-									"color": "#c34fc3"
+									"color": "#c34fc3",
+									"italic": false
 								}
 							]
 						},

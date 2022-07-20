@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"shot_prismatic_punch": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"item": {
+					"nbt": "{foka.special_item:\"prismatic_punch\"}",
+					"enchantments": [
+						{
+							"enchantment": "minecraft:multishot"
+						}
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/prismatic_punch/shoot_multishot"
+	}
+}

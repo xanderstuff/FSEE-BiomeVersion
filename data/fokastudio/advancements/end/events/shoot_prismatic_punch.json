@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"shot_clockwork_crossbow": {
+		"shot_prismatic_punch": {
 			"trigger": "minecraft:shot_crossbow",
 			"conditions": {
 				"item": {

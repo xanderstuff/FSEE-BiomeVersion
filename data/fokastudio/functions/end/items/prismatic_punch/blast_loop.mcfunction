@@ -1,27 +1,26 @@
-# Cycels betweem the colors of a rainbow
+# Particles cycle betweem the colors of a rainbow
 scoreboard players add @s foka.items.prismatic_punch.particle_cycle 1
-execute if score @s foka.items.prismatic_punch.particle_cycle matches 0..4 run particle dust 0.98 0.243 0.243 1.5 ~ ~ ~ 0.13 0.13 0.13 0 10 force
-execute if score @s foka.items.prismatic_punch.particle_cycle matches 5..8 run particle dust 0.98 0.686 0.243 1.5 ~ ~ ~ 0.13 0.13 0.13 0 10 force
-execute if score @s foka.items.prismatic_punch.particle_cycle matches 9..12 run particle dust 0.98 0.871 0.243 1.5 ~ ~ ~ 0.13 0.13 0.13 0 10 force
-execute if score @s foka.items.prismatic_punch.particle_cycle matches 13..16 run particle dust 0.6 0.98 0.243 1.5 ~ ~ ~ 0.13 0.13 0.13 0 10 force
-execute if score @s foka.items.prismatic_punch.particle_cycle matches 17..20 run particle dust 0.243 0.894 0.98 1.5 ~ ~ ~ 0.13 0.13 0.13 0 10 force
-execute if score @s foka.items.prismatic_punch.particle_cycle matches 21..24 run particle dust 0.318 0.243 0.98 1.5 ~ ~ ~ 0.13 0.13 0.13 0 10 force
-execute if score @s foka.items.prismatic_punch.particle_cycle matches 25..28 run particle dust 0.98 0.243 0.918 1.5 ~ ~ ~ 0.13 0.13 0.13 0 10 force
-execute if score @s foka.items.prismatic_punch.particle_cycle matches 29..32 run particle dust 0.647 0.243 0.98 1.5 ~ ~ ~ 0.13 0.13 0.13 0 10 force
+
+# Multishot and large particles = potential lag, so reduced particle size
+execute if entity @s[tag=!foka.prismatic_blast.monochrome,tag=!foka.prismatic_blast.pastel] run function fokastudio:end/items/prismatic_punch/particles_regular
+execute if entity @s[tag=foka.prismatic_blast.monochrome] run function fokastudio:end/items/prismatic_punch/particles_monochrome
+execute if entity @s[tag=foka.prismatic_blast.pastel] run function fokastudio:end/items/prismatic_punch/particles_pastel
+
+
 execute if score @s foka.items.prismatic_punch.particle_cycle matches 33.. run scoreboard players reset @s foka.items.prismatic_punch.particle_cycle
 
+# Movement
 scoreboard players add @s foka.items.prismatic_punch.marker_age 1
+# Split to 2 for ignoring passive mobs
+execute unless entity @s[tag=foka.prismatic_blast.ignore_passive] anchored eyes unless entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,limit=1,sort=nearest,distance=..10] run function fokastudio:end/items/prismatic_punch/move
+execute if entity @s[tag=foka.prismatic_blast.ignore_passive] anchored eyes unless entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets_with_passive,limit=1,sort=nearest,distance=..10] run function fokastudio:end/items/prismatic_punch/move
 
-execute if score @s foka.items.prismatic_punch.marker_age matches ..20 run tp @s ^ ^ ^0.8 ~ ~
-execute if score @s foka.items.prismatic_punch.marker_age matches 21..40 anchored eyes unless entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,limit=1,sort=nearest,distance=..10] run tp @s ^ ^ ^0.6 ~ ~
-execute if score @s foka.items.prismatic_punch.marker_age matches 41..60 anchored eyes unless entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,limit=1,sort=nearest,distance=..10] run tp @s ^ ^ ^0.4 ~ ~
-execute if score @s foka.items.prismatic_punch.marker_age matches 61..80 anchored eyes unless entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,limit=1,sort=nearest,distance=..10] run tp @s ^ ^ ^0.2 ~ ~
-execute if score @s foka.items.prismatic_punch.marker_age matches 81..100 anchored eyes unless entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,limit=1,sort=nearest,distance=..10] run tp @s ^ ^ ^0.1 ~ ~
+# Targeting ignores passive mobs
+execute if score @s foka.items.prismatic_punch.marker_age matches 5.. if entity @s[tag=foka.prismatic_blast.ignore_passive] anchored eyes facing entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets_with_passive,limit=1,sort=nearest,distance=..10] eyes positioned ^ ^ ^2.2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^0.88 ~ ~
+# Regular targeting
+execute if score @s foka.items.prismatic_punch.marker_age matches 5.. unless entity @s[tag=foka.prismatic_blast.ignore_passive] anchored eyes facing entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,limit=1,sort=nearest,distance=..10] eyes positioned ^ ^ ^2.2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^0.88 ~ ~
 
-execute if score @s foka.items.prismatic_punch.marker_age matches 400.. anchored eyes unless entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,limit=1,sort=nearest,distance=..10] run function fokastudio:end/items/prismatic_punch/detonate
-
-execute if score @s foka.items.prismatic_punch.marker_age matches 5.. anchored eyes facing entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,limit=1,sort=nearest,distance=..10] eyes positioned ^ ^ ^2.2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^0.88 ~ ~
-
+# Detonation
 execute anchored eyes if entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,distance=..2] run function fokastudio:end/items/prismatic_punch/detonate
 execute anchored eyes if entity @e[type=player,distance=..2] if score @s foka.items.prismatic_punch.marker_age matches 11.. run function fokastudio:end/items/prismatic_punch/detonate
 execute anchored eyes unless block ^ ^ ^ #fokastudio:end/non_solid run function fokastudio:end/items/prismatic_punch/detonate
