@@ -4,8 +4,8 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:glowstone_dust",
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/pixie_dust",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -20,15 +20,6 @@
 							"count": {
 								"min": 0,
 								"max": 1
-							}
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "Pixie Dust",
-								"color": "#FFD655",
-								"italic": false
 							}
 						}
 					]
