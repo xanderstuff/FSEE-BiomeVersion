@@ -1,0 +1,42 @@
+{
+	"name": "fokastudio:end/village/animals",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/village/entities/cows",
+				"processors": "minecraft:empty"
+			}
+		},
+        {
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/village/entities/pigs",
+				"processors": "minecraft:empty"
+			}
+		},
+        {
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/village/entities/sheep",
+				"processors": "minecraft:empty"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/village/entities/mooshrooms",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

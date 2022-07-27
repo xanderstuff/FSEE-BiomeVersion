@@ -1,0 +1,24 @@
+{
+	"name": "fokastudio:end/village/golems",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/village/entities/2_golems",
+				"processors": "minecraft:empty"
+			}
+        },
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/village/entities/3_golems",
+				"processors": "minecraft:empty"
+			}
+        }
+	]
+}

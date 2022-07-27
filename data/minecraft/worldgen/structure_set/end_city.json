@@ -3,6 +3,10 @@
 		{
 			"structure": "minecraft:end_city",
 			"weight": 1
+		},
+		{
+			"structure": "fokastudio:end/end_village",
+			"weight": 1
 		}
 	],
 	"placement": {
