@@ -1,9 +1,9 @@
 {
-	"name": "fokastudio:end/stars",
+	"name": "fokastudio:end/starfield_stars",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
-			"weight": 32,
+			"weight": 55,
 			"element": {
 				"element_type": "minecraft:empty_pool_element",
 				"projection": "rigid"

@@ -3,6 +3,14 @@
 		{
 			"structure": "fokastudio:end/end_house",
 			"weight": 1
+		},
+		{
+			"structure": "fokastudio:end/end_tower",
+			"weight": 1
+		},
+		{
+			"structure": "fokastudio:end/shulker_nest",
+			"weight": 1
 		}
 	],
 	"placement": {
