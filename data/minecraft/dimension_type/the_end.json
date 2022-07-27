@@ -18,8 +18,8 @@
 		"type": "minecraft:uniform",
 		"value": {
 			"min_inclusive": 0,
-			"max_inclusive": 8
+			"max_inclusive": 4
 		}
 	},
-	"monster_spawn_block_light_limit": 11
+	"monster_spawn_block_light_limit": 4
 }

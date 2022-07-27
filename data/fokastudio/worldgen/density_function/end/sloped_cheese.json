@@ -9,7 +9,11 @@
 				"type": "minecraft:mul",
 				"argument1": {
 					"type": "minecraft:add",
-					"argument1": "fokastudio:end/depth",
+					"argument1": {
+						"type": "minecraft:add",
+						"argument1": "fokastudio:end/depth",
+						"argument2":"fokastudio:end/offset"
+					},
 					"argument2": {
 						"type": "minecraft:mul",
 						"argument1": "fokastudio:end/jaggedness",
