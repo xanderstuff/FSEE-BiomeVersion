@@ -25,6 +25,7 @@ scoreboard objectives remove foka.config.post_gen.load_main_island
 scoreboard objectives remove foka.config.join_message
 scoreboard objectives remove foka.config.teleport_to_platform
 scoreboard objectives remove foka.config.change_gamerules
+scoreboard objectives remove foka.config.always_generate_egg
 
 scoreboard objectives remove foka.items.dragonblade_cooldown
 scoreboard objectives remove foka.items.pandoras_box_animation

@@ -13,6 +13,7 @@ scoreboard objectives add foka.config.mod_support.expanded_structure_blocks dumm
 scoreboard objectives add foka.config.join_message dummy
 scoreboard objectives add foka.config.teleport_to_platform dummy
 scoreboard objectives add foka.config.change_gamerules dummy
+scoreboard objectives add foka.config.always_generate_egg dummy
 
 # Items
 scoreboard objectives add foka.items.dragonblade_cooldown dummy
