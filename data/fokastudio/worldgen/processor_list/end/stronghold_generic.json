@@ -5,28 +5,18 @@
 			"rules": [
 				{
 					"location_predicate": {
-						"predicate_type": "minecraft:block_match",
-						"block": "minecraft:deepslate"
+						"predicate_type": "minecraft:always_true"
 					},
 					"input_predicate": {
-						"predicate_type": "minecraft:block_match",
-						"block": "minecraft:stone"
-					},
-					"output_state": {
-						"Name": "minecraft:deepslate",
-						"Properties": {
-							"axis": "y"
-						}
-					}
-				},
-				{
-					"location_predicate": {
-						"predicate_type": "minecraft:block_match",
-						"block": "minecraft:air"
-					},
-					"input_predicate": {
-						"predicate_type": "minecraft:block_match",
-						"block": "minecraft:stone"
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:lantern",
+							"Properties": {
+								"hanging": "true",
+								"waterlogged": "false"
+							}
+						},
+						"probability": 0.75
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -39,13 +29,32 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_blockstate_match",
 						"block_state": {
-							"Name": "minecraft:lantern",
+							"Name": "minecraft:wall_torch",
 							"Properties": {
 								"hanging": "true",
 								"waterlogged": "false"
 							}
 						},
-						"probability": 0.8333
+						"probability": 0.75
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:torch",
+							"Properties": {
+								"hanging": "true",
+								"waterlogged": "false"
+							}
+						},
+						"probability": 0.75
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -55,7 +64,7 @@
 		},
 		{
 			"processor_type": "minecraft:block_age",
-			"mossiness": 0.188888
+			"mossiness": 0.1333
 		},
 		{
 			"processor_type": "minecraft:block_ignore",
