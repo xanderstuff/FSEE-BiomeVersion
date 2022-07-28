@@ -7,13 +7,10 @@ gamerule doFireTick false
 # - Crops take longer to grow
 # - Copper oxidizes slower
 # - Vines grow slower
+# - etc., etc.
 gamerule randomTickSpeed 1
 
 # Enrages all entities in The End
 # You better be careful while traversing with friends! 😈
 gamerule universalAnger true
 gamerule forgiveDeadPlayers false
-
-# Disable Raids, bcs Illagers can get stuck
-# on smaller islands, good luck trying to reach them!
-gamerule disableRaids true
