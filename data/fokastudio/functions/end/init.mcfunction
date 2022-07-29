@@ -83,3 +83,4 @@ execute unless score foka.config foka.config.post_gen.load_main_island matches -
 execute unless score foka.config foka.config.mod_support.expanded_structure_blocks matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.mod_support.expanded_structure_blocks 0
 execute unless score foka.config foka.config.teleport_to_platform matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.teleport_to_platform 0
 execute unless score foka.config foka.config.change_gamerules matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.change_gamerules 0
+execute unless score foka.config foka.config.always_generate_egg matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.change_gamerules 0
