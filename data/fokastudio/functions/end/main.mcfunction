@@ -3,8 +3,8 @@ function fokastudio:end/items/main
 function fokastudio:end/mechanics/main
 function fokastudio:end/visuals/main
 function fokastudio:end/butcher_mobs
-function fokastudio:end/utils/main
 function fokastudio:end/mobs/main
+function fokastudio:end/utils/main
 
 execute as @e[type=marker,tag=foka.gateway_utility] at @s run function fokastudio:end/end_gateway_loop
 
