@@ -9,38 +9,26 @@
 		"water_fog_color": 0,
 		"grass_color": 1186337,
 		"foliage_color": 1186337,
+		"ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
 		"mood_sound": {
 			"sound": "block.sculk_shrieker.shriek",
 			"tick_delay": 1150,
 			"block_search_extent": 10,
-			"offset": 10
-		},
-		"additions_sound": {
-			"sound": "block.sculk_sensor.clicking",
-			"tick_chance": 0.00111
+			"offset": 2
 		},
 		"particle": {
 			"options": {
-				"type": "sculk_charge_pop"
+				"type": "smoke"
 			},
 			"probability": 0.00333
 		}
 	},
-	"spawners": {
-		"monster": [],
-		"creature": [],
-		"ambient": [],
-		"axolotls": [],
-		"underground_water_creature": [],
-		"water_creature": [],
-		"water_ambient": [],
-		"misc": []
-	},
+	"spawners": {},
 	"spawn_costs": {},
 	"carvers": {
 		"air": [
 			"fokastudio:end/cave",
-			"fokastudio:end/ravine",
+ 			"fokastudio:end/ravine",
 			"fokastudio:end/crack"
 		]
 	},

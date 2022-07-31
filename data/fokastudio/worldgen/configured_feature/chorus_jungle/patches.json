@@ -11,7 +11,7 @@
 			"type": "minecraft:uniform",
 			"value": {
 				"min_inclusive": 3,
-				"max_inclusive": 5
+				"max_inclusive": 4
 			}
 		},
 		"replaceable": "#minecraft:dirt",
@@ -19,21 +19,30 @@
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 8,
-					"data": {
-						"Name": "minecraft:purpur_block"
-					}
-				},
-				{
-					"weight": 15,
-					"data": {
-						"Name": "minecraft:gravel"
-					}
-				},
-				{
-					"weight": 32,
+					"weight": 11,
 					"data": {
 						"Name": "minecraft:end_stone"
+					}
+				},
+				{
+					"weight": 50,
+					"data": {
+						"Name": "minecraft:grass_block",
+						"Properties": {
+							"snowy": "false"
+						}
+					}
+				},
+				{
+					"weight": 16,
+					"data": {
+						"Name": "minecraft:coarse_dirt"
+					}
+				},
+				{
+					"weight": 16,
+					"data": {
+						"Name": "minecraft:rooted_dirt"
 					}
 				}
 			]

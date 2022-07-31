@@ -15,12 +15,12 @@
 		"mood_sound": {
 			"sound": "ambient.warped_forest.mood",
 			"tick_delay": 500,
-			"block_search_extent": 10,
-			"offset": 100
+			"block_search_extent": 8,
+			"offset": 2
 		},
 		"additions_sound": {
 			"sound": "ambient.warped_forest.additions",
-			"tick_chance": 0.01333
+			"tick_chance": 0.006
 		},
 		"particle": {
 			"options": {
@@ -29,12 +29,21 @@
 			"probability": 0.05
 		}
 	},
-	"spawners": {},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:stray",
+				"weight": 80,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		]
+	},
 	"spawn_costs": {},
 	"carvers": {
 		"air": [
 			"fokastudio:end/cave",
-			"fokastudio:end/ravine",
+ 			"fokastudio:end/ravine",
 			"fokastudio:end/crack"
 		]
 	},

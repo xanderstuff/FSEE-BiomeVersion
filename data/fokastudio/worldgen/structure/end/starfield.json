@@ -1,9 +1,6 @@
 {
 	"type": "minecraft:jigsaw",
-	"biomes": [
-		"minecraft:small_end_islands",
-		"fokastudio:shattered_end"
-	],
+	"biomes": "#fokastudio:end/has_structure/starfield",
 	"step": "raw_generation",
 	"spawn_overrides": {},
 	"terrain_adaptation": "none",

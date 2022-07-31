@@ -36,15 +36,21 @@
 					}
 				},
 				{
-					"weight": 3,
+					"weight": 5,
 					"data": {
 						"Name": "minecraft:shroomlight"
 					}
 				},
 				{
-					"weight": 40,
+					"weight": 30,
 					"data": {
 						"Name": "minecraft:amethyst_block"
+					}
+				},
+				{
+					"weight": 45,
+					"data": {
+						"Name": "minecraft:acacia_leaves"
 					}
 				}
 			]
@@ -53,12 +59,13 @@
 			"type": "minecraft:dark_oak_trunk_placer",
 			"base_height": 12,
 			"height_rand_a": 4,
-			"height_rand_b": 0
+			"height_rand_b": 9
 		},
 		"foliage_placer": {
-			"type": "minecraft:dark_oak_foliage_placer",
-			"radius": 2,
-			"offset": 0
+			"type": "minecraft:blob_foliage_placer",
+			"radius": 3,
+			"offset": 0,
+			"height": 3
 		},
 		"decorators": [
 			{
@@ -71,7 +78,7 @@
 					"type": "minecraft:weighted_state_provider",
 					"entries": [
 						{
-							"weight": 10,
+							"weight": 23,
 							"data": {
 								"Name": "minecraft:grass_block",
 								"Properties": {
@@ -82,25 +89,7 @@
 						{
 							"weight": 1,
 							"data": {
-								"Name": "minecraft:magenta_stained_glass"
-							}
-						},
-						{
-							"weight": 1,
-							"data": {
-								"Name": "minecraft:purple_stained_glass"
-							}
-						},
-						{
-							"weight": 1,
-							"data": {
-								"Name": "minecraft:pink_stained_glass"
-							}
-						},
-						{
-							"weight": 1,
-							"data": {
-								"Name": "minecraft:tinted_glass"
+								"Name": "minecraft:rooted_dirt"
 							}
 						}
 					]

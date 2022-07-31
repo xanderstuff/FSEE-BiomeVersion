@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:flower",
 	"config": {
-		"tries": 96,
+		"tries": 30,
 		"xz_spread": 6,
 		"y_spread": 2,
 		"feature": {
@@ -20,16 +20,7 @@
 						"scale": 0.020833334,
 						"states": [
 							{
-								"Name": "minecraft:dandelion"
-							},
-							{
 								"Name": "minecraft:poppy"
-							},
-							{
-								"Name": "minecraft:allium"
-							},
-							{
-								"Name": "minecraft:azure_bluet"
 							},
 							{
 								"Name": "minecraft:red_tulip"
@@ -38,22 +29,16 @@
 								"Name": "minecraft:orange_tulip"
 							},
 							{
-								"Name": "minecraft:white_tulip"
+								"Name": "minecraft:dandelion"
 							},
 							{
-								"Name": "minecraft:pink_tulip"
-							},
-							{
-								"Name": "minecraft:oxeye_daisy"
+								"Name": "minecraft:blue_orchid"
 							},
 							{
 								"Name": "minecraft:cornflower"
 							},
 							{
-								"Name": "minecraft:lily_of_the_valley"
-							},
-							{
-								"Name": "minecraft:blue_orchid"
+								"Name": "minecraft:allium"
 							}
 						]
 					}

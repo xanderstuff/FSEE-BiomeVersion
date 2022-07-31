@@ -3,7 +3,7 @@
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 15
+			"count": 2
 		},
 		{
 			"type": "minecraft:in_square"
@@ -26,7 +26,7 @@
 		{
 			"type": "minecraft:environment_scan",
 			"direction_of_search": "up",
-			"max_steps": 16,
+			"max_steps": 12,
 			"target_condition": {
 				"type": "minecraft:has_sturdy_face",
 				"direction": "down"
@@ -38,21 +38,6 @@
 						"type": "minecraft:matching_blocks",
 						"blocks": [
 							"minecraft:air"
-						]
-					},
-					{
-						"type": "minecraft:matching_blocks",
-						"offset": [
-							0,
-							1,
-							0
-						],
-						"blocks": [
-							"minecraft:calcite",
-							"minecraft:diorite",
-							"minecraft:purpur_block",
-							"minecraft:budding_amethyst",
-							"minecraft:amethyst_block"
 						]
 					}
 				]

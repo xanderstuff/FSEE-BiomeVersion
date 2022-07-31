@@ -22,14 +22,6 @@
 					"feature": "fokastudio:prismarine_forest/tree_3",
 					"placement": []
 				}
-			},
-
-			{
-				"chance": 0.5,
-				"feature": {
-					"feature": "fokastudio:prismarine_forest/coral_tree",
-					"placement": []
-				}
 			}
 		],
 		"default": {

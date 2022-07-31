@@ -3,18 +3,17 @@
 	"downfall": 0.5,
 	"precipitation": "none",
 	"effects": {
-		"sky_color": 7354006,
-		"fog_color": 5510782,
-		"water_color": 6707903,
-		"water_fog_color": 5000346,
-		"grass_color": 8417214,
-		"foliage_color": 7426223,
-		"ambient_sound": "ambient.underwater.loop",
+		"sky_color": 0,
+		"fog_color": 10518688,
+		"water_color": 13198446,
+		"water_fog_color": 11871818,
+		"grass_color": 13198446,
+		"foliage_color": 14237542,
 		"mood_sound": {
 			"sound": "ambient.soul_sand_valley.mood",
-			"tick_delay": 350,
+			"tick_delay": 700,
 			"block_search_extent": 8,
-			"offset": 1
+			"offset": 2
 		},
 		"additions_sound": {
 			"sound": "ambient.nether_wastes.additions",
@@ -22,7 +21,7 @@
 		},
 		"particle": {
 			"options": {
-				"type": "dragon_breath"
+				"type": "white_ash"
 			},
 			"probability": 0.0004
 		}
@@ -33,33 +32,21 @@
 				"type": "minecraft:phantom",
 				"weight": 7,
 				"minCount": 1,
-				"maxCount": 1
-			},
-			{
-				"type": "minecraft:vex",
-				"weight": 10,
-				"minCount": 1,
-				"maxCount": 1
+				"maxCount": 2
 			},
 			{
 				"type": "minecraft:enderman",
 				"weight": 30,
-				"minCount": 1,
-				"maxCount": 1
+				"minCount": 4,
+				"maxCount": 4
 			}
-		],
-		"creature": [],
-		"ambient": [],
-		"underground_water_creature": [],
-		"water_creature": [],
-		"water_ambient": [],
-		"misc": []
+		]
 	},
 	"spawn_costs": {},
 	"carvers": {
 		"air": [
 			"fokastudio:end/cave",
-			"fokastudio:end/ravine",
+ 			"fokastudio:end/ravine",
 			"fokastudio:end/crack"
 		]
 	},
@@ -69,7 +56,7 @@
 			"fokastudio:global/stalactite_2",
 			"minecraft:end_island_decorated",
 			"fokastudio:shattered_end/holes",
-			"fokastudio:shattered_end/ceiling",
+			"fokastudio:shattered_end/holes_top",
 			"fokastudio:shattered_end/shatter"
 		],
 		[],
@@ -87,8 +74,7 @@
 		[
 			"fokastudio:shattered_end/bricks_scattered",
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring",
-			"fokastudio:structures/end/dungeon"
+			"far_end:general/end_spike/ring"
 		]
 	]
 }

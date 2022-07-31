@@ -23,7 +23,7 @@
 			"options": {
 				"type": "end_rod"
 			},
-			"probability": 0.00083
+			"probability": 0.00062
 		}
 	},
 	"spawners": {
@@ -34,32 +34,18 @@
 				"minCount": 1,
 				"maxCount": 1
 			}
-		],
-		"creature": [],
-		"ambient": [],
-		"axolotls": [],
-		"underground_water_creature": [],
-		"water_creature": [
-			{
-				"type": "minecraft:glow_squid",
-				"weight": 30,
-				"minCount": 2,
-				"maxCount": 3
-			}
-		],
-		"water_ambient": [],
-		"misc": []
+		]
 	},
 	"spawn_costs": {
 		"minecraft:vex": {
-			"energy_budget": 0.2,
-			"charge": 1
+			"energy_budget": 0.13,
+			"charge": 1.25
 		}
 	},
 	"carvers": {
 		"air": [
 			"fokastudio:end/cave",
-			"fokastudio:end/ravine",
+ 			"fokastudio:end/ravine",
 			"fokastudio:end/crack"
 		]
 	},
@@ -69,23 +55,13 @@
 			"fokastudio:the_hallow/crystals"
 		],
 		[],
-		[
-			"minecraft:amethyst_geode"
-		],
-		[
-			"minecraft:monster_room"
-		],
+		[],
+		[],
+		[],
+		[],
 		[],
 		[],
 		[
-			"minecraft:ore_dirt",
-			"minecraft:ore_granite_upper",
-			"minecraft:ore_diorite_upper",
-			"minecraft:ore_andesite_upper"
-		],
-		[],
-		[
-			"minecraft:spring_water",
 			"fokastudio:the_hallow/underground/crystals/crystal_down",
 			"fokastudio:the_hallow/underground/crystals/crystal_east",
 			"fokastudio:the_hallow/underground/crystals/crystal_north",
@@ -95,7 +71,6 @@
 		],
 		[
 			"fokastudio:the_hallow/trees",
-			"minecraft:glow_lichen",
 			"fokastudio:the_hallow/flowers",
 			"fokastudio:the_hallow/grass",
 			"fokastudio:the_hallow/rock"

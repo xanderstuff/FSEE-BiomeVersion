@@ -9,20 +9,19 @@
 		"water_fog_color": 5192093,
 		"grass_color": 7945615,
 		"foliage_color": 6766727,
-		"ambient_sound": "ambient.nether_wastes.loop",
 		"mood_sound": {
-			"sound": "ambient.warped_forest.mood",
+			"sound": "ambient.crimson_forest.mood",
 			"tick_delay": 700,
 			"block_search_extent": 8,
 			"offset": 2
 		},
 		"additions_sound": {
 			"sound": "ambient.underwater.loop.additions.ultra_rare",
-			"tick_chance": 0.003
+			"tick_chance": 0.0003
 		},
 		"particle": {
 			"options": {
-				"type": "warped_spore"
+				"type": "crimson_spore"
 			},
 			"probability": 0.015
 		}
@@ -59,7 +58,7 @@
 	"carvers": {
 		"air": [
 			"fokastudio:end/cave",
-			"fokastudio:end/ravine",
+ 			"fokastudio:end/ravine",
 			"fokastudio:end/crack"
 		]
 	},
@@ -78,14 +77,13 @@
 		[],
 		[],
 		[],
+		[],
 		[
 			"fokastudio:chorus_jungle/vines",
 			"fokastudio:shattered_end/leaves",
 			"fokastudio:chorus_jungle/trees",
-			"fokastudio:chorus_jungle/vegetation",
-			"minecraft:chorus_plant"
+			"fokastudio:chorus_jungle/vegetation"
 		],
-		[],
 		[
 			"far_end:general/end_spike/center",
 			"far_end:general/end_spike/ring"

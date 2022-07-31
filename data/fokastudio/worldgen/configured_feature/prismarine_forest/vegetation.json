@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:flower",
 	"config": {
-		"tries": 64,
+		"tries": 20,
 		"xz_spread": 6,
 		"y_spread": 2,
 		"feature": {
@@ -10,9 +10,9 @@
 				"config": {
 					"to_place": {
 						"type": "minecraft:dual_noise_provider",
-						"seed": 666,
+						"seed": 14112006,
 						"noise": {
-							"firstOctave": -3,
+							"firstOctave": -2,
 							"amplitudes": [
 								1,
 								1,
@@ -25,7 +25,7 @@
 							"max_inclusive": 1
 						},
 						"slow_noise": {
-							"firstOctave": -8,
+							"firstOctave": -3,
 							"amplitudes": [
 								1,
 								1,
@@ -35,16 +35,7 @@
 						"slow_scale": 1,
 						"states": [
 							{
-								"Name": "minecraft:tall_grass",
-								"Properties": {
-									"half": "lower"
-								}
-							},
-							{
 								"Name": "minecraft:azure_bluet"
-							},
-							{
-								"Name": "minecraft:dandelion"
 							},
 							{
 								"Name": "minecraft:cornflower"
@@ -53,46 +44,13 @@
 								"Name": "minecraft:oxeye_daisy"
 							},
 							{
-								"Name": "minecraft:grass"
-							},
-							{
 								"Name": "minecraft:lily_of_the_valley"
 							},
 							{
 								"Name": "minecraft:white_tulip"
 							},
 							{
-								"Name": "minecraft:orange_tulip"
-							},
-							{
-								"Name": "minecraft:dead_horn_coral",
-								"Properties": {
-									"waterlogged": "false"
-								}
-							},
-							{
-								"Name": "minecraft:dead_bubble_coral",
-								"Properties": {
-									"waterlogged": "false"
-								}
-							},
-							{
-								"Name": "minecraft:dead_brain_coral",
-								"Properties": {
-									"waterlogged": "false"
-								}
-							},
-							{
-								"Name": "minecraft:dead_tube_coral",
-								"Properties": {
-									"waterlogged": "false"
-								}
-							},
-							{
-								"Name": "minecraft:dead_fire_coral",
-								"Properties": {
-									"waterlogged": "false"
-								}
+								"Name": "minecraft:blue_orchid"
 							}
 						]
 					}

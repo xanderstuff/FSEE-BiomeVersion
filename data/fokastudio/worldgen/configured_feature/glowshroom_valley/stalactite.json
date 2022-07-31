@@ -27,7 +27,7 @@
 				{
 					"weight": 1,
 					"data": {
-						"Name": "minecraft:shroomlight"
+						"Name": "minecraft:mud_bricks"
 					}
 				}
 			]
@@ -70,7 +70,7 @@
 									{
 										"weight": 1,
 										"data": {
-											"Name": "minecraft:shroomlight"
+											"Name": "minecraft:mud_bricks"
 										}
 									}
 								]

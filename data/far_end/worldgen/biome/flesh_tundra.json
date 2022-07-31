@@ -2,7 +2,6 @@
 	"temperature": 0.8,
 	"downfall": 0.4,
 	"precipitation": "none",
-	"temperature_modifier": "none",
 	"effects": {
 		"sky_color": 7907327,
 		"fog_color": 7667712,
@@ -10,9 +9,9 @@
 		"water_fog_color": 16711680,
 		"grass_color": 12860219,
 		"foliage_color": 12860219,
-		"ambient_sound": "ambient.warped_forest.loop",
+		"ambient_sound": "ambient.crimson_forest.loop",
 		"mood_sound": {
-			"sound": "ambient.warped_forest.mood",
+			"sound": "ambient.soul_sand_valley.mood",
 			"tick_delay": 800,
 			"block_search_extent": 12,
 			"offset": 150
@@ -31,36 +30,22 @@
 	"spawners": {
 		"monster": [
 			{
-				"type": "minecraft:silverfish",
-				"weight": 40,
-				"minCount": 4,
-				"maxCount": 5
-			},
-			{
 				"type": "minecraft:cave_spider",
 				"weight": 50,
-				"minCount": 5,
-				"maxCount": 5
+				"minCount": 4,
+				"maxCount": 4
 			},
 			{
-				"type": "minecraft:endermite",
-				"weight": 20,
-				"minCount": 4,
-				"maxCount": 5
+				"type": "minecraft:spider",
+				"weight": 30,
+				"minCount": 3,
+				"maxCount": 3
 			},
 			{
 				"type": "minecraft:zombified_piglin",
-				"weight": 30,
-				"minCount": 6,
-				"maxCount": 6
-			}
-		],
-		"misc": [
-			{
-				"type": "minecraft:husk",
-				"weight": 80,
+				"weight": 20,
 				"minCount": 4,
-				"maxCount": 5
+				"maxCount": 4
 			}
 		]
 	},
@@ -74,8 +59,6 @@
 	},
 	"features": [
 		[
-			"fokastudio:global/stalactite_1",
-			"fokastudio:global/stalactite_2",
 			"far_end:tundra/surface/water",
 			"far_end:tundra/surface/water_2",
 			"far_end:tundra/island/island_bottom",

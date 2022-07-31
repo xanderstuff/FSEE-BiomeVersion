@@ -1,0 +1,15 @@
+{
+	"structures": [
+		{
+			"structure": "fokastudio:end/obsidian_spike",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1018075954,
+		"spread_type": "linear",
+		"spacing": 6,
+		"separation": 1
+	}
+}

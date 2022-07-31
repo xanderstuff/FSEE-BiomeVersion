@@ -1,21 +1,29 @@
 {
-  "type": "minecraft:huge_fungus",
-  "config": {
-    "hat_state": {
-      "Name": "minecraft:magenta_stained_glass"
-    },
-    "decor_state": {
-      "Name": "minecraft:crying_obsidian"
-    },
-    "stem_state": {
-      "Name": "minecraft:purple_stained_glass"
-    },
-    "valid_base_block": {
-      "Name": "minecraft:grass_block",
-      "Properties": {
-        "snowy": "false"
-      }
-    },
-    "planted": true
-  }
+	"type": "minecraft:huge_fungus",
+	"config": {
+		"hat_state": {
+			"Name": "minecraft:jungle_leaves",
+			"Properties": {
+				"distance": "1",
+				"persistent": "true",
+				"waterlogged": "false"
+			}
+		},
+		"decor_state": {
+			"Name": "minecraft:budding_amethyst"
+		},
+		"stem_state": {
+			"Name": "minecraft:stripped_spruce_log",
+			"Properties": {
+				"axis": "y"
+			}
+		},
+		"valid_base_block": {
+			"Name": "minecraft:grass_block",
+			"Properties": {
+				"snowy": "false"
+			}
+		},
+		"planted": true
+	}
 }

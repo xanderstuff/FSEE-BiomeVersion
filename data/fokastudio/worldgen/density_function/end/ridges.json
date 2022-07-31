@@ -3,7 +3,7 @@
 	"argument": {
 		"type": "minecraft:shifted_noise",
 		"noise": "fokastudio:end/ridge",
-		"xz_scale": 0.25,
+		"xz_scale": 0.2,
 		"y_scale": 0,
 		"shift_x": "minecraft:shift_x",
 		"shift_y": 0,

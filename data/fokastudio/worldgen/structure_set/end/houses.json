@@ -1,0 +1,22 @@
+{
+	"structures": [
+		{
+			"structure": "fokastudio:end/house",
+			"weight": 1
+		},
+		{
+			"structure": "fokastudio:end/tower",
+			"weight": 1
+		},
+		{
+			"structure": "fokastudio:end/shulker_nest",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 999512490,
+		"spacing": 16,
+		"separation": 12
+	}
+}

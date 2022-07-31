@@ -9,17 +9,18 @@
 		"water_fog_color": 329011,
 		"grass_color": 4601422,
 		"foliage_color": 5191246,
+		"ambient_sound": "ambient.soul_sand_valley.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
-			"tick_delay": 4000,
-			"block_search_extent": 16,
-			"offset": 12
+			"tick_delay": 1100,
+			"block_search_extent": 8,
+			"offset": 2
 		},
 		"particle": {
 			"options": {
 				"type": "ash"
 			},
-			"probability": 0.004444
+			"probability": 0.0055
 		}
 	},
 	"spawners": {
@@ -27,14 +28,20 @@
 			{
 				"type": "minecraft:enderman",
 				"weight": 30,
-				"minCount": 1,
-				"maxCount": 2
+				"minCount": 4,
+				"maxCount": 4
 			},
 			{
 				"type": "minecraft:silverfish",
 				"weight": 6,
+				"minCount": 3,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 13,
 				"minCount": 2,
-				"maxCount": 4
+				"maxCount": 2
 			}
 		],
 		"creature": [],
@@ -44,12 +51,7 @@
 		"water_ambient": [],
 		"misc": []
 	},
-	"spawn_costs": {
-		"minecraft:enderman": {
-			"energy_budget": 0.12,
-			"charge": 1
-		}
-	},
+	"spawn_costs": {},
 	"carvers": {
 		"air": [
 			"fokastudio:end/cave",

@@ -13,13 +13,13 @@
 		"grass_color_modifier": "none",
 		"ambient_sound": "ambient.basalt_deltas.loop",
 		"mood_sound": {
-			"sound": "ambient.nether_wastes.mood",
+			"sound": "ambient.crimson_forest.mood",
 			"tick_delay": 500,
 			"block_search_extent": 6,
 			"offset": 1
 		},
 		"additions_sound": {
-			"sound": "ambient.crimson_forest.additions",
+			"sound": "ambient.basalt_deltas.additions",
 			"tick_chance": 0.0025
 		},
 		"particle": {
@@ -33,9 +33,9 @@
 		"monster": [
 			{
 				"type": "minecraft:wither_skeleton",
-				"weight": 50,
-				"minCount": 3,
-				"maxCount": 3
+				"weight": 70,
+				"minCount": 4,
+				"maxCount": 4
 			},
 			{
 				"type": "minecraft:skeleton",
@@ -45,9 +45,9 @@
 			},
 			{
 				"type": "minecraft:silverfish",
-				"weight": 30,
-				"minCount": 7,
-				"maxCount": 7
+				"weight": 60,
+				"minCount": 4,
+				"maxCount": 4
 			}
 		]
 	},

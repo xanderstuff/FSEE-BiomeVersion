@@ -10,23 +10,16 @@
 				}
 			},
 			{
-				"chance": 0.6,
+				"chance": 0.16,
 				"feature": {
 					"feature": "minecraft:oak",
 					"placement": []
 				}
 			},
 			{
-				"chance": 0.3,
+				"chance": 0.08,
 				"feature": {
-					"feature": "minecraft:oak_bees_005",
-					"placement": []
-				}
-			},
-			{
-				"chance": 0.1,
-				"feature": {
-					"feature": "minecraft:fancy_oak_bees_002",
+					"feature": "minecraft:fancy_oak",
 					"placement": []
 				}
 			}

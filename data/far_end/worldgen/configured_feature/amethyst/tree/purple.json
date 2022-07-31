@@ -10,7 +10,7 @@
 			}
 		},
 		"decor_state": {
-			"Name": "minecraft:jungle_leaves",
+			"Name": "minecraft:glowstone",
 			"Properties": {
 				"distance": "7",
 				"persistent": "true",
@@ -18,7 +18,7 @@
 			}
 		},
 		"stem_state": {
-			"Name": "minecraft:dark_oak_log",
+			"Name": "minecraft:spruce_log",
 			"Properties": {
 				"axis": "y"
 			}

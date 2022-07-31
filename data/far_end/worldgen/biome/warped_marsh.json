@@ -11,7 +11,6 @@
 		"water_fog_color": 6798273,
 		"grass_color": 117978,
 		"foliage_color": 56800,
-		"ambient_sound": "ambient.warped_forest.loop",
 		"mood_sound": {
 			"sound": "ambient.warped_forest.mood",
 			"tick_delay": 600,
@@ -26,36 +25,16 @@
 			"options": {
 				"type": "falling_spore_blossom"
 			},
-			"probability": 0.007
+			"probability": 0.006
 		}
 	},
 	"spawners": {
-		"monster": [
+		"water_ambient": [
 			{
-				"type": "minecraft:endermite",
-				"weight": 10,
-				"minCount": 4,
-				"maxCount": 4
-			},
-			{
-				"type": "minecraft:guardian",
-				"weight": 30,
-				"minCount": 2,
-				"maxCount": 3
-			},
-			{
-				"type": "minecraft:drowned",
-				"weight": 50,
-				"minCount": 4,
-				"maxCount": 4
-			}
-		],
-		"misc": [
-			{
-				"type": "minecraft:slime",
-				"weight": 100,
-				"minCount": 4,
-				"maxCount": 4
+				"type": "minecraft:tropical_fish",
+				"weight": 25,
+				"minCount": 8,
+				"maxCount": 8
 			}
 		]
 	},

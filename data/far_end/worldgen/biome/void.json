@@ -10,17 +10,45 @@
 		"water_fog_color": 4405100,
 		"grass_color": 5782142,
 		"foliage_color": 6240114,
-		"grass_color_modifier": "none"
+		"grass_color_modifier": "none",
+		"mood_sound": {
+			"sound": "minecraft:ambient.nether_wastes.mood",
+			"tick_delay": 1000,
+			"block_search_extent": 6,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "minecraft:ambient.nether_wastes.additions",
+			"tick_chance": 0.001111
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:mycelium"
+			},
+			"probability": 0.012
+		}
 	},
-	"spawners": {},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:enderman",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		]
+	},
 	"spawn_costs": {},
 	"carvers": {
-		"air": []
+		"air": [
+			"fokastudio:end/cave",
+			"fokastudio:end/ravine",
+			"fokastudio:end/crack"
+		]
 	},
 	"features": [
 		[
-			"fokastudio:global/stalactite_1",
-			"fokastudio:global/stalactite_2"
+			"fokastudio:void/stalactite"
 		],
 		[],
 		[],
@@ -33,7 +61,8 @@
 		[],
 		[
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:structures/end/dungeon"
 		]
 	]
 }

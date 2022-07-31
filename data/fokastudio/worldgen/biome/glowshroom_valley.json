@@ -8,14 +8,14 @@
 		"fog_color": 1451344,
 		"water_color": 4154283,
 		"water_fog_color": 3092340,
-		"grass_color": 3831201,
-		"foliage_color": 3501714,
+		"grass_color": 5744071,
+		"foliage_color": 5744071,
 		"ambient_sound": "minecraft:ambient.warped_forest.loop",
 		"mood_sound": {
-			"sound": "minecraft:ambient.nether_wastes.mood",
+			"sound": "minecraft:ambient.crimson_forest.mood",
 			"tick_delay": 700,
-			"block_search_extent": 10,
-			"offset": 3
+			"block_search_extent": 6,
+			"offset": 2
 		},
 		"additions_sound": {
 			"sound": "minecraft:ambient.nether_wastes.additions",
@@ -23,34 +23,12 @@
 		},
 		"particle": {
 			"options": {
-				"type": "warped_spore"
+				"type": "crimson_spore"
 			},
 			"probability": 0.0003
 		}
 	},
-	"spawners": {
-		"monster": [],
-		"creature": [
-			{
-				"type": "minecraft:vex",
-				"weight": 1,
-				"minCount": 1,
-				"maxCount": 1
-			}
-		],
-		"ambient": [],
-		"underground_water_creature": [],
-		"water_creature": [
-			{
-				"type": "minecraft:glow_squid",
-				"weight": 15,
-				"minCount": 1,
-				"maxCount": 1
-			}
-		],
-		"water_ambient": [],
-		"misc": []
-	},
+	"spawners": {},
 	"spawn_costs": {},
 	"carvers": {
 		"air": [
@@ -63,14 +41,13 @@
 		[
 			"fokastudio:glowshroom_valley/stalactite"
 		],
-		[
-			"fokastudio:glowshroom_valley/lake"
-		],
+		[],
 		[],
 		[],
 		[],
 		[
-			"fokastudio:glowshroom_valley/blocks_random_replace"
+			"fokastudio:glowshroom_valley/blocks_random_replace",
+			"fokastudio:glowshroom_valley/replace_blocks"
 		],
 		[],
 		[],
@@ -81,10 +58,13 @@
 			"fokastudio:glowshroom_valley/glowshroom_3",
 			"fokastudio:glowshroom_valley/glowshroom_4",
 			"fokastudio:glowshroom_valley/glowshroom_5",
-			"fokastudio:glowshroom_valley/jellolands"
+			"fokastudio:glowshroom_valley/grass",
+			"fokastudio:glowshroom_valley/jellolands",
+			"fokastudio:glowshroom_valley/small_glowshroom",
+			"fokastudio:glowshroom_valley/caves",
+			"fokastudio:glowshroom_valley/caves_top"
 		],
 		[
-			"fokastudio:glowshroom_valley/replace_blocks",
 			"far_end:general/end_spike/center",
 			"far_end:general/end_spike/ring"
 		]

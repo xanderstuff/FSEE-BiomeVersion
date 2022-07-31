@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:jigsaw",
-	"biomes": "#fokastudio:end/ender_biomes",
+	"biomes": "#fokastudio:end/has_structure/ship",
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"start_pool": "fokastudio:end/ships",

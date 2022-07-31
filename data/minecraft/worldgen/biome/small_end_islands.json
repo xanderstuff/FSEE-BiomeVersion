@@ -12,12 +12,12 @@
 		"ambient_sound": "ambient.underwater.loop",
 		"mood_sound": {
 			"sound": "ambient.soul_sand_valley.mood",
-			"tick_delay": 350,
+			"tick_delay": 550,
 			"block_search_extent": 8,
 			"offset": 1
 		},
 		"additions_sound": {
-			"sound": "ambient.nether_wastes.additions",
+			"sound": "ambient.soul_sand_valley.additions",
 			"tick_chance": 0.005
 		},
 		"particle": {
