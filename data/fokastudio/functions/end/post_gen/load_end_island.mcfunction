@@ -7,6 +7,8 @@ execute in minecraft:the_end run setblock -32 88 -32 minecraft:structure_block[m
 execute in minecraft:the_end run setblock -32 87 -32 redstone_block replace
 
 # Cleanup
+kill @e[type=end_crystal,nbt={ShowBottom:0b},predicate=fokastudio:end/locations/in_dragons_den]
+
 execute in minecraft:the_end run fill 0 87 0 0 88 0 obsidian
 execute in minecraft:the_end run setblock -32 87 -32 air replace
 execute in minecraft:the_end run setblock 0 58 0 air replace
