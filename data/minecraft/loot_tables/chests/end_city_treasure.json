@@ -224,7 +224,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 3,
-					"name": "minecraft:iron_sword",
+					"name": "minecraft:diamond_hoe",
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
@@ -240,7 +240,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 3,
-					"name": "minecraft:iron_boots",
+					"name": "minecraft:diamond_axe",
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
@@ -255,87 +255,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:iron_chestplate",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:iron_leggings",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:iron_helmet",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:iron_pickaxe",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:iron_shovel",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 8,
+					"weight": 5,
 					"name": "minecraft:ender_pearl",
 					"functions": [
 						{
@@ -350,6 +270,7 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 3,
 					"name": "minecraft:purpur_block",
 					"functions": [
 						{
@@ -364,6 +285,7 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 4,
 					"name": "minecraft:end_stone",
 					"functions": [
 						{
@@ -395,6 +317,11 @@
 							"chance": 0.7
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:amethyst_shard"
 				}
 			]
 		},
@@ -416,19 +343,8 @@
 					"condition": "minecraft:alternative",
 					"terms": [
 						{
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"effects": {
-									"minecraft:luck": {
-										"amplifier": 1
-									}
-								}
-							}
-						},
-						{
 							"condition": "minecraft:random_chance",
-							"chance": 0.2
+							"chance": 0.25
 						}
 					]
 				}
@@ -440,13 +356,13 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/hallowed_armor",
-					"weight": 1
+					"weight": 1,
+					"name": "fokastudio:end/hallowed_armor"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/ancient_armor",
-					"weight": 5
+					"weight": 1,
+					"name": "fokastudio:end/ancient_armor"
 				}
 			],
 			"conditions": [
@@ -454,19 +370,8 @@
 					"condition": "minecraft:alternative",
 					"terms": [
 						{
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"effects": {
-									"minecraft:luck": {
-										"amplifier": 2
-									}
-								}
-							}
-						},
-						{
 							"condition": "minecraft:random_chance",
-							"chance": 0.53333
+							"chance": 0.66
 						}
 					]
 				}
