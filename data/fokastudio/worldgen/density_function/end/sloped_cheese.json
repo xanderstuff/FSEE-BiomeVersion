@@ -22,7 +22,7 @@
 							"argument": {
 								"type": "minecraft:noise",
 								"noise": "fokastudio:end/jagged",
-								"xz_scale": 100,
+								"xz_scale": 770,
 								"y_scale": 0
 							}
 						}
