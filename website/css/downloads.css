@@ -30,27 +30,36 @@ hr {
 	margin: 10px;
 }
 
-.responsive {
-	padding: 0 6px;
-	float: left;
-	width: 24.99999%;
-  }
-  
-  @media only screen and (max-width: 700px) {
-	.responsive {
-	  width: 49.99999%;
-	  margin: 6px 0;
-	}
-  }
-  
-  @media only screen and (max-width: 500px) {
-	.responsive {
-	  width: 100%;
-	}
-  }
-  
-  .clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
+.fancy-button {
+	display: inline-block;
+	background-image: url(https://i.ibb.co/rb2TWXL/bgbtn.png);
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.5vw;
+	font-family: 'MinecraftiaRegular'; 
+	padding: 10px;
+	padding-bottom: 0px;
+	width: 95%;
+	cursor: pointer;
+	text-shadow: 4px 4px #4C4C4C;
+	outline: 4px solid #000;
+	margin: 1%;
+	text-align: center;
+	transition-duration: 0.33s;
+	vertical-align: middle; 
+	display: inline-block; 
+}
+
+
+.fancy-button:hover {
+	outline: 4px solid white;
+	color: white;
+	scale: 1.1;
+}
+
+.fancy-button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.4s;
+}
