@@ -1,0 +1,16 @@
+header {
+	text-align: center;
+	padding: 1%;
+	background-color: black;
+	color: white;
+	z-index: 30;
+}
+
+
+footer {
+	text-align: center;
+	padding: 1%;
+	background-color: black;
+	color: white;
+	z-index: 30;
+}
