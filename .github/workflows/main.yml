@@ -16,12 +16,12 @@ jobs:
       - name: Zip Release
         uses: TheDoctor0/zip-release@0.6.2
         with:
-          filename: fokastudio-s-ender-expansion-DEV
-          exclusions:
-            - README.md
-            - dev/*
-            - .vscode/*
-            - website/*
-            - index.html
-            - translations/*
-          type: zip
+          filename: 'fokastudio-s-ender-expansion-DEV.zip'
+          exclusions: 'README.md dev/* .vscode/* website/* index.html translations/*'
+          type: 'zip'
+      
+      - name: Upload Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: 'fokastudio-s-ender-expansion-DEV.zip'
+          token: ${{ secrets.GITHUB_TOKEN }}
