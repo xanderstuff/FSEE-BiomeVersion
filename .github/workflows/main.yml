@@ -25,3 +25,5 @@ jobs:
         with:
           artifacts: 'fokastudio-s-ender-expansion-DEV.zip'
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ env.commit }}
+          prerelease: true
