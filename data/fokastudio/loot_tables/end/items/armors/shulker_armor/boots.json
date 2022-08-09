@@ -44,7 +44,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,foka.special_item:\"shulker_armor\",display:{color:11041988},HideFlags:64,foka_durability:{enabled:1b,max_dur:681}}"
+							"tag": "{CustomModelData:90002,foka.special_item:\"shulker_armor\",display:{color:11041988},HideFlags:64,foka_durability:{enabled:1b,max_dur:681}}"
 						},
 						{
 							"function": "minecraft:set_attributes",
