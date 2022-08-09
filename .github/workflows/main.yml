@@ -1,0 +1,27 @@
+name: ZIP and Upload indev version
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Zip Release
+        uses: TheDoctor0/zip-release@0.6.2
+        with:
+          filename: fokastudio-s-ender-expansion-DEV
+          exclusions:
+            - README.md
+            - dev/*
+            - .vscode/*
+            - website/*
+            - index.html
+            - translations/*
+          type: zip
