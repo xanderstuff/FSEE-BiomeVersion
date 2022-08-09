@@ -104,6 +104,17 @@ PREDICATES:
 
 
 
+TRANSLATIONS:
+
+	SAGAーサガ#9071
+		For doing entire Japanese translation
+		Now how cool is that? 
+		𝘈𝘯𝘪𝘮𝘦 𝘨𝘪𝘳𝘭𝘴 𝘪𝘯 𝘍𝘚𝘌𝘌 𝘸𝘩𝘦𝘯???
+		𝘎𝘰𝘥 𝘵𝘩𝘢𝘵 𝘸𝘢𝘴 𝘢 𝘵𝘦𝘳𝘳𝘪𝘣𝘦 𝘫𝘰𝘬𝘦, 𝘐 𝘢𝘮 𝘴𝘰 𝘴𝘰𝘳𝘳𝘺.
+
+
+
+
 OTHER RANDOM 'THANK YOU'S THAT I PROPABLY SHOULDN'T WRITE DOWN, BUT I STILL WILL AND NOBODY CAN STOP ME:
 
 	Waffle_Wizard_#3105
@@ -118,6 +129,9 @@ OTHER RANDOM 'THANK YOU'S THAT I PROPABLY SHOULDN'T WRITE DOWN, BUT I STILL WILL
 	
 	IEatPotatoes_#8485
 		:ward:
+		And bruh, they made ENTIRE MINECRAFT STYLE
+		TEXT FOR OUR PACK
+		Like bruh, I can barely draw a stickman in paint...
 
 	Kier#2931
 		For also experimenting with installing my pack on server.
