@@ -9,11 +9,15 @@
 												
 =================================================
 
+
+
+
 FUNCTIONS:
 
 	Hex - https://www.planetminecraft.com/member/hex_-now_loading-/
-		Base pack, every function in 'far_end' namespace is 99% made by them. 
-		I only did small alterations to apply small tweaks and changes.
+		Base worldgen and every function in 'far_end' namespace is 99% made by them. 
+		I only did small alterations to apply tiny tweaks and changes to base.
+		I just fucking love you Hex ❤❤
 
 	Cloud Wolf - https://www.youtube.com/channel/UCZnBqVITQ0dloqUU0fGxY3g
 		Code in 'rng' namespace
@@ -25,16 +29,16 @@ FUNCTIONS:
 		Player movement detection ('foka.is_moving')
 		Honestly, these are all just CTRL + C and 
 		CTRL + V from DatapackUtilities (RIP DU)
-		Could just switch to Smithed libraries,
-		if not for the fact that their wiki
-		is outdated by like 5 versions...
+		𝘊𝘰𝘶𝘭𝘥 𝘫𝘶𝘴𝘵 𝘴𝘸𝘪𝘵𝘤𝘩 𝘵𝘰 𝘚𝘮𝘪𝘵𝘩𝘦𝘥 𝘭𝘪𝘣𝘳𝘢𝘳𝘪𝘦𝘴,
+		𝘪𝘧 𝘯𝘰𝘵 𝘧𝘰𝘳 𝘵𝘩𝘦 𝘧𝘢𝘤𝘵 𝘵𝘩𝘢𝘵 𝘵𝘩𝘦𝘪𝘳 𝘸𝘪𝘬𝘪
+		𝘪𝘴 𝘰𝘶𝘵𝘥𝘢𝘵𝘦𝘥 𝘣𝘺 𝘭𝘪𝘬𝘦 5 𝘷𝘦𝘳𝘴𝘪𝘰𝘯𝘴...
 
 	4P5 - https://www.planetminecraft.com/member/4p5/
 		Elytra trails (Imbuements)
 		I just kindly borrowed the offsets for particles
 		for them to align with wings, as I had no idea
 		what to offset by how much.
-		+ Saw the pack and got an idea for this feature
+		+ 𝘚𝘢𝘸 𝘵𝘩𝘦 𝘱𝘢𝘤𝘬 𝘢𝘯𝘥 𝘨𝘰𝘵 𝘢𝘯 𝘪𝘥𝘦𝘢 𝘧𝘰𝘳 𝘵𝘩𝘪𝘴 𝘧𝘦𝘢𝘵𝘶𝘳𝘦
 
 
 
@@ -70,6 +74,7 @@ WORLDGEN:
 		And then I started tampering with worldgen myself... ❤
 		Needless to say, 95% of new structures were done by this guy,
 		and I just ported them to Vanilla 1.19 from Spigot 1.16
+		𝘐 𝘩𝘰𝘱𝘦 𝘛𝘦𝘳𝘳𝘢 𝘪𝘴 𝘨𝘰𝘪𝘯𝘨 𝘫𝘶𝘴𝘵 𝘢𝘴 𝘸𝘦𝘭𝘭 𝘢𝘴 𝘍𝘚𝘌𝘌
 
 
 
@@ -97,10 +102,12 @@ PREDICATES:
 
 	Misode - https://github.com/misode
 		At this point you know what I would write there...
+		𝘓𝘪𝘴𝘵𝘦𝘯, 𝘐 𝘢𝘮 𝘫𝘶𝘴𝘵 𝘥𝘶𝘮𝘣, 𝘰𝘬𝘢𝘺??
 
 	UltroGhast - https://www.planetminecraft.com/member/ultroghast/
 		Their 'Random Choices and Possibilities' Data Pack made creating chance-based
 		features way more doable
+
 
 
 
@@ -111,6 +118,10 @@ TRANSLATIONS:
 		Now how cool is that? 
 		𝘈𝘯𝘪𝘮𝘦 𝘨𝘪𝘳𝘭𝘴 𝘪𝘯 𝘍𝘚𝘌𝘌 𝘸𝘩𝘦𝘯???
 		𝘎𝘰𝘥 𝘵𝘩𝘢𝘵 𝘸𝘢𝘴 𝘢 𝘵𝘦𝘳𝘳𝘪𝘣𝘦 𝘫𝘰𝘬𝘦, 𝘐 𝘢𝘮 𝘴𝘰 𝘴𝘰𝘳𝘳𝘺.
+
+	FokaStudio:
+		Polish and LOLCAT translations
+		*𝘪𝘯𝘴𝘦𝘳𝘵 𝘧𝘶𝘯𝘯𝘺 𝘰𝘣𝘢𝘮𝘢 𝘪𝘮𝘢𝘨𝘦 𝘩𝘦𝘳𝘦*
 
 
 
@@ -129,8 +140,7 @@ OTHER RANDOM 'THANK YOU'S THAT I PROPABLY SHOULDN'T WRITE DOWN, BUT I STILL WILL
 	
 	IEatPotatoes_#8485
 		:ward:
-		And bruh, they made ENTIRE MINECRAFT STYLE
-		TEXT FOR OUR PACK
+		And bruh, they made ENTIRE MINECRAFT STYLE TEXT FOR OUR PACK
 		Like bruh, I can barely draw a stickman in paint...
 
 	Kier#2931
