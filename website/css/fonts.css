@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'MinecraftiaRegular';
+	src: url(../assets/fonts/Minecraftia-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'IllagerAlt';
+	src: url(../assets/fonts/IllagerSmallOutline.ttf);
+}
+
+p, h1, h2, h3, h4, h5, h6, pre {
+	font-family: 'MinecraftiaRegular';
+	color: whitesmoke;
+	padding: 0;
+}
+
+h1 {
+	font-size: 300%;
+	text-align: center;
+}
+
+p {
+	font-size: 125%;
+}
+
+hr {
+	color: whitesmoke;
+	margin: 10px;
+}
+
+.illageralt {
+	font-family: 'IllagerAlt';
+}
+
+.glow {
+	font-size: 500%;
+	color: white;
+	animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+	
+	to {
+		text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+	}
+}

@@ -12,19 +12,6 @@ body, html {
 	background-size: cover;
 }
 
-h1 {
-	font-size: 300%;
-	font-family: 'MinecraftiaRegular';
-	color: whitesmoke;
-	text-align: center;
-}
-
-p {
-	font-size: 125%;
-	font-family: 'MinecraftiaRegular';
-	color: whitesmoke;
-}
-
 hr {
 	color: whitesmoke;
 	margin: 10px;
