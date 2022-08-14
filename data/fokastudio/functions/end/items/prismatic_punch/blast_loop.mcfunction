@@ -16,11 +16,11 @@ execute unless entity @s[tag=foka.prismatic_blast.ignore_passive] anchored eyes 
 execute if entity @s[tag=foka.prismatic_blast.ignore_passive] anchored eyes unless entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets_with_passive,limit=1,sort=nearest,distance=..10] run function fokastudio:end/items/prismatic_punch/move
 
 # Targeting ignores passive mobs
-execute if entity @s[tag=foka.prismatic_blast.ignore_passive] anchored eyes facing entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets_with_passive,limit=1,sort=nearest,distance=..10] eyes positioned ^ ^ ^2.2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^1 ~ ~
+execute if entity @s[tag=foka.prismatic_blast.ignore_passive] anchored eyes facing entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets_with_passive,limit=1,sort=nearest,distance=..12] eyes positioned ^ ^ ^2.2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^1 ~ ~
 # Regular targeting
-execute unless entity @s[tag=foka.prismatic_blast.ignore_passive] anchored eyes facing entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,limit=1,sort=nearest,distance=..10] eyes positioned ^ ^ ^2.2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^1 ~ ~
+execute unless entity @s[tag=foka.prismatic_blast.ignore_passive] anchored eyes facing entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,limit=1,sort=nearest,distance=..12] eyes positioned ^ ^ ^2.2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^1 ~ ~
 
 # Detonation
-execute anchored eyes if entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,distance=..2] if score @s foka.items.prismatic_punch.marker_age matches 10.. run function fokastudio:end/items/prismatic_punch/detonate
-execute anchored eyes if entity @e[type=player,distance=..2] if score @s foka.items.prismatic_punch.marker_age matches 10.. run function fokastudio:end/items/prismatic_punch/detonate
+execute anchored eyes if entity @e[type=!#fokastudio:end/prismatic_punch_invalid_targets,distance=..3] if score @s foka.items.prismatic_punch.marker_age matches 3.. run function fokastudio:end/items/prismatic_punch/detonate
+execute anchored eyes if entity @e[type=player,distance=..2] if score @s foka.items.prismatic_punch.marker_age matches 8.. run function fokastudio:end/items/prismatic_punch/detonate
 execute unless entity @s[tag=foka.prismatic_blast.piercing] anchored eyes unless block ^ ^ ^ #fokastudio:end/non_solid run function fokastudio:end/items/prismatic_punch/detonate
