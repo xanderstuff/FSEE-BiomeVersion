@@ -2,8 +2,8 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 2,
-				"max": 6
+				"min": 4,
+				"max": 7
 			},
 			"entries": [
 				{

@@ -7,13 +7,13 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 10,
+					"weight": 15,
 					"quality": -2,
 					"name": "fokastudio:end/void_fishing/junk"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 5,
+					"weight": 4,
 					"quality": 2,
 					"name": "fokastudio:end/void_fishing/treasure"
 				},

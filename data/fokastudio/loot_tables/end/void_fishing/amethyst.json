@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 60,
+					"weight": 65,
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
@@ -31,7 +31,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 15,
+					"weight": 10,
 					"name": "minecraft:barrel",
 					"functions": [
 						{

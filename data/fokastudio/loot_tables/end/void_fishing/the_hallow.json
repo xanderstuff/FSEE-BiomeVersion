@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 50,
+					"weight": 60,
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
@@ -31,7 +31,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 7,
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
@@ -54,13 +54,8 @@
 					]
 				},
 				{
-					"type": "minecraft:loot_table",
-					"weight": 2,
-					"name": "fokastudio:end/hallowed_armor"
-				},
-				{
 					"type": "minecraft:item",
-					"weight": 15,
+					"weight": 10,
 					"name": "minecraft:barrel",
 					"functions": [
 						{

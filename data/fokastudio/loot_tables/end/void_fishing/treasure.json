@@ -8,6 +8,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
+					"weight": 10,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -22,6 +23,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond",
+					"weight": 8,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -36,10 +38,23 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:book",
+					"weight": 6,
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 40,
+							"levels": 30,
+							"treasure": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 25,
 							"treasure": true
 						}
 					]
@@ -47,6 +62,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:barrel",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "minecraft:set_loot_table",

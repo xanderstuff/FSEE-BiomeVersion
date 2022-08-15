@@ -53,7 +53,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 15,
+					"weight": 10,
 					"name": "minecraft:barrel",
 					"functions": [
 						{
