@@ -13,6 +13,7 @@ execute in minecraft:the_end run setblock 0 87 0 redstone_block replace
 
 # Cleanup
 kill @e[type=end_crystal,nbt={ShowBottom:0b},predicate=fokastudio:end/locations/in_dragons_den]
+execute as @e[type=shulker,predicate=fokastudio:end/locations/in_dragons_den] at @s run tp @s ~ ~-1000 ~
 
-execute in minecraft:the_end run fill 0 87 0 0 88 0 obsidian
-execute in minecraft:the_end run setblock 0 58 0 air replace
+#execute in minecraft:the_end run fill 0 87 0 0 88 0 obsidian
+#execute in minecraft:the_end run setblock 0 58 0 air replace

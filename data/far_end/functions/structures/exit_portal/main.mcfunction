@@ -6,7 +6,8 @@
 
 ### Generation ###
 # generate the deactivated portal with ender dragon.
-execute as @s[tag=fe.deactivated] at @s run function far_end:structures/exit_portal/deactivated/animation
+execute as @s[tag=fe.deactivated] at @s run function far_end:structures/exit_portal/deactivated/animation_no_dragon
+execute as @s[tag=fe.deactivated.spawn_dragon] at @s run function far_end:structures/exit_portal/deactivated/animation
 
 # generate the activated portal once the dragon is killed.
 execute as @s[tag=fe.activated] at @s unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon,distance=..300] run function far_end:structures/exit_portal/activated/animation

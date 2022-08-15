@@ -6,7 +6,7 @@ execute as @e[type=marker,tag=foka.dragon_marker] at @s run particle minecraft:c
 execute as @e[type=marker,tag=foka.dragon_marker] at @s run playsound minecraft:entity.generic.explode master @a ~ ~ ~ 4 1
 kill @e[type=minecraft:end_crystal,distance=..4,tag=fe.respawn_crystal]
 advancement grant @a[distance=..100] only minecraft:end/respawn_dragon
-tag @s add fe.deactivated
+tag @s add fe.deactivated.spawn_dragon
 tag @s remove fe.respawn
 tag @a remove fe.dragon_defeated
 execute as @e[type=minecraft:end_crystal,predicate=fokastudio:end/locations/in_the_end] at @s run function fokastudio:end/end_crystal_transition

@@ -22,14 +22,14 @@
 				"centerZ": 39,
 				"radius": 6,
 				"height": 114,
-				"guarded": true
+				"guarded": false
 			},
 			{
 				"centerX": -13,
 				"centerZ": 39,
 				"radius": 5,
 				"height": 146,
-				"guarded": true
+				"guarded": false
 			},
 			{
 				"centerX": -34,
@@ -57,7 +57,7 @@
 				"centerZ": -40,
 				"radius": 7,
 				"height": 116,
-				"guarded": true
+				"guarded": false
 			},
 			{
 				"centerX": 12,
@@ -71,7 +71,7 @@
 				"centerZ": -25,
 				"radius": 8,
 				"height": 115,
-				"guarded": true
+				"guarded": false
 			}
 		]
 	}

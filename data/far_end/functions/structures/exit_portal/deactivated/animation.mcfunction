@@ -4,4 +4,4 @@ execute positioned 0 150 0 run particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 
 playsound minecraft:entity.ender_dragon.growl ambient @a 0 150 0 7 0.7
 function far_end:structures/exit_portal/deactivated/generate
 tag @s add fe.in_dragon_fight
-tag @s remove fe.deactivated
+tag @s remove fe.deactivated.spawn_dragon
