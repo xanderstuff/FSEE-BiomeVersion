@@ -36,6 +36,7 @@ scoreboard objectives remove foka.items.sharanga.arrow_age
 scoreboard objectives remove foka.items.clockwork_crossbow.arrow_amount
 scoreboard objectives remove foka.items.prismatic_punch.particle_cycle
 scoreboard objectives remove foka.items.prismatic_punch.marker_age
+scoreboard objectives remove foka.items.ender_insignia.hold_duration
 
 scoreboard objectives remove foka.mechanics.void_fishing_length
 scoreboard objectives remove foka.mechanics.crystal_count
