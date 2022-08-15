@@ -24,7 +24,7 @@ tag @e[nbt={OnGround:1b,Item:{id:"minecraft:netherite_ingot",Count:1b}},distance
 
 # Tags for craftable Enchanted Gapples
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:golden_apple",Count:1b}},distance=..1] add foka.altar_of_the_accursed.golden_apple
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:gold_block",Count:12b}},distance=..1] add foka.altar_of_the_accursed.gold_blocks
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:gold_block",Count:8b}},distance=..1] add foka.altar_of_the_accursed.gold_blocks
 
 # Tags for Shulker Armor
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:shulker_shell",Count:16b}},distance=..1] add foka.altar_of_the_accursed.shulker_shells

@@ -1,4 +1,4 @@
-execute as @e[type=marker,tag=foka.altar_of_accursed] at @s run particle witch ~ ~ ~ 0 0.3 0 0 1 normal
+execute as @e[type=marker,tag=foka.altar_of_accursed] at @s run function fokastudio:end/visuals/altar_of_the_accursed/loop
 
 # Soul escape animation check triggers every 5 seconds
 

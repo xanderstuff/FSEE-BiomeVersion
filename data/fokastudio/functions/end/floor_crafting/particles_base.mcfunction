@@ -1,9 +1,6 @@
-particle minecraft:explosion ~ ~-.4 ~ .2 .2 .2 0 5 force
-particle minecraft:shriek 0 ~ ~ ~ 0 0 0 1 1 force
-particle minecraft:shriek 5 ~ ~ ~ 0 0 0 1 1 force
-particle minecraft:shriek 10 ~ ~ ~ 0 0 0 1 1 force
-particle minecraft:shriek 15 ~ ~ ~ 0 0 0 1 1 force
-particle minecraft:shriek 20 ~ ~ ~ 0 0 0 1 1 force
+particle minecraft:flash ~ ~-.4 ~ 0 0 0 0 0 force
 
-playsound minecraft:entity.ender_dragon.growl block @a ~ ~ ~ 0.05
-playsound minecraft:entity.warden.heartbeat block @a ~ ~ ~ 0.1
+particle end_rod ~ ~-.4 ~ 0 0 0 0.13 17 normal
+
+playsound minecraft:entity.warden.heartbeat block @a ~ ~ ~ 0.88
+playsound minecraft:item.trident.thunder block @a ~ ~ ~ 1
