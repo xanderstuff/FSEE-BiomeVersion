@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"dragonblade\",CustomModelData:90000,Damage:0,display:{Lore:['[{\"translate\":\"Hit enemies explode into clouds of \",\"italic\":false,\"color\":\"gray\"},{\"translate\":\"Dragon\\'s Breath\",\"color\":\"dark_purple\",\"italic\":false},{\"text\":\",\",\"italic\":false,\"color\":\"gray\"}]','[{\"translate\":\"that weakens enemies that step into them\",\"color\":\"gray\",\"italic\":false}]',\"\",'[{\"translate\":\"Affects up to 2 nearby enemies as well\",\"italic\":false,\"color\":\"gray\"}]',\"\",'[{\"translate\":\"After explosions, you get a burst of Strength\",\"italic\":false,\"color\":\"gray\"}]'],Name:'[{\"translate\":\"Dragonblade\",\"italic\":false,\"color\":\"#CD6AFF\"}]'}}"
+							"tag": "{foka.special_item:\"dragonblade\",CustomModelData:90000,Damage:0,display:{Lore:['[{\"translate\":\"Hit enemies explode into clouds of \",\"italic\":false,\"color\":\"gray\"},{\"translate\":\"Dragon\\'s Breath\",\"color\":\"dark_purple\",\"italic\":false},{\"text\":\",\",\"italic\":false,\"color\":\"gray\"}]','[{\"translate\":\"that weakens enemies that step into them\",\"color\":\"gray\",\"italic\":false}]',\"\",'[{\"translate\":\"After explosions, you get a burst of Strength\",\"italic\":false,\"color\":\"gray\"}]'],Name:'[{\"translate\":\"Dragonblade\",\"italic\":false,\"color\":\"#CD6AFF\"}]'}}"
 						}
 					]
 				}
