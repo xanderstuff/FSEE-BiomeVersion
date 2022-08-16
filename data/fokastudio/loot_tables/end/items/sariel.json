@@ -1,0 +1,98 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": [
+								{
+									"text": "S",
+									"color": "#f6f6f6",
+									"italic": false
+								},
+								{
+									"text": "a",
+									"color": "#f7d4d4",
+									"italic": false
+								},
+								{
+									"text": "r",
+									"color": "#f9b3b3",
+									"italic": false
+								},
+								{
+									"text": "i",
+									"color": "#fb9191",
+									"italic": false
+								},
+								{
+									"text": "e",
+									"color": "#fd7070",
+									"italic": false
+								},
+								{
+									"text": "l",
+									"color": "#ff4f4f",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"sariel\",CustomModelData:90000,foka_durability:{enabled:1b,max_dur:777}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "Magical dagger that has a chance",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "to heal you on enemy hits",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "\"Now, Until The Moment You die\"",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"amount": -1.4,
+									"operation": "addition",
+									"id": "48369ce8-2a5a-4a76-b617-fe9e596ac1e0",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": 3,
+									"operation": "addition",
+									"id": "6994a1a3-f915-4d5b-9fec-1a6fea505586",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

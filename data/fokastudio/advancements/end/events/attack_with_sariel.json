@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"click": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:iron_sword"
+							],
+							"nbt": "{foka.special_item:\"sariel\"}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/sariel/attack"
+	}
+}

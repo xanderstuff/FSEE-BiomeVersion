@@ -37,3 +37,8 @@ tag @e[nbt={OnGround:1b,Item:{id:"minecraft:netherite_boots",Count:1b}},distance
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:crossbow",Count:1b}},distance=..1] add foka.altar_of_the_accursed.crossbow
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:glowstone_dust",Count:24b,tag:{foka.special_item:"pixie_dust"}}},distance=..1] add foka.altar_of_the_accursed.24_pixie_dust
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:diamond",Count:6b}},distance=..1] add foka.altar_of_the_accursed.6_diamonds
+
+# Tags for Sariel
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:iron_sword",Count:1b}},distance=..1] add foka.altar_of_the_accursed.iron_sword
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:glowstone_dust",Count:10b,tag:{foka.special_item:"pixie_dust"}}},distance=..1] add foka.altar_of_the_accursed.10_pixie_dust
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:wither_skeleton_skull",Count:1b}},distance=..1] add foka.altar_of_the_accursed.wither_skeleton_skull
