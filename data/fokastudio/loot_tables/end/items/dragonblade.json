@@ -9,7 +9,47 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"dragonblade\",CustomModelData:90000,Damage:0,display:{Lore:['[{\"translate\":\"Hit enemies explode into clouds of \",\"italic\":false,\"color\":\"gray\"},{\"translate\":\"Dragon\\'s Breath\",\"color\":\"dark_purple\",\"italic\":false},{\"text\":\",\",\"italic\":false,\"color\":\"gray\"}]','[{\"translate\":\"that weakens enemies that step into them\",\"color\":\"gray\",\"italic\":false}]',\"\",'[{\"translate\":\"After explosions, you get a burst of Strength\",\"italic\":false,\"color\":\"gray\"}]'],Name:'[{\"translate\":\"Dragonblade\",\"italic\":false,\"color\":\"#CD6AFF\"}]'}}"
+							"tag": "{foka.special_item:\"dragonblade\",foka_durability:{enabled:1b,max_dur:1788},CustomModelData:90000}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Dragonblade",
+								"color": "#CD6AFF",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"translate": "Hit enemies explode into clouds of ",
+										"color": "#E5E5E5",
+										"italic": false
+									},
+									{
+										"text": "Dragon's Breath",
+										"color": "dark_purple",
+										"italic": false
+									},
+									{
+										"text": ",",
+										"color": "#E5E5E5",
+										"italic": false
+									}
+								],
+								{
+									"translate": "that weakens enemies that step into them",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								{
+									"translate": "After explosions, you get a burst of Strength",
+									"color": "#E5E5E5",
+									"italic": false
+								}
+							]
 						}
 					]
 				}
