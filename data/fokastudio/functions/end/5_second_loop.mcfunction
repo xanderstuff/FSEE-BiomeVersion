@@ -1,8 +1,5 @@
 function fokastudio:end/stronghold/main
 
-# Paper shit
-execute if score foka.misc foka.misc.paper matches 1 in minecraft:the_end positioned 0.5 91 0.5 as @e[type=end_crystal,limit=1,sort=nearest,distance=..0.5] run function fokastudio:end/paper_stuff/island_post_gen_fix
-
 # Clear the Armor Stand that is holding the Dragonblade in The Dragon's Den when it is holding nothing
 execute as @e[type=armor_stand,tag=foka.dragonblade_holder,predicate=fokastudio:end/utils/holding_nothing] run kill @s
 

@@ -8,10 +8,7 @@ scoreboard objectives add foka.config.enter_end_effects.flavor_text dummy
 scoreboard objectives add foka.config.enter_end_effects.sounds dummy
 scoreboard objectives add foka.config.auto_butcher.phantoms dummy
 scoreboard objectives add foka.config.auto_butcher.silverfish dummy
-scoreboard objectives add foka.config.post_gen.load_main_island dummy
-scoreboard objectives add foka.config.mod_support.expanded_structure_blocks dummy
 scoreboard objectives add foka.config.join_message dummy
-scoreboard objectives add foka.config.teleport_to_platform dummy
 scoreboard objectives add foka.config.change_gamerules dummy
 scoreboard objectives add foka.config.always_generate_egg dummy
 
@@ -32,7 +29,6 @@ scoreboard objectives add foka.mechanics.void_fishing_length dummy
 scoreboard objectives add foka.mechanics.crystal_count dummy
 
 # Misc
-scoreboard objectives add foka.misc.crystal_fix_count dummy
 scoreboard objectives add foka.misc dummy
 scoreboard objectives add foka.misc.move_x dummy
 scoreboard objectives add foka.misc.move_y dummy
@@ -80,8 +76,5 @@ execute unless score foka.config foka.config.enter_end_effects.flavor_text match
 execute unless score foka.config foka.config.enter_end_effects.sounds matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.enter_end_effects.sounds 1
 execute unless score foka.config foka.config.auto_butcher.phantoms matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.auto_butcher.phantoms 0
 execute unless score foka.config foka.config.auto_butcher.silverfish matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.auto_butcher.silverfish 0
-execute unless score foka.config foka.config.post_gen.load_main_island matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.post_gen.load_main_island 1
-execute unless score foka.config foka.config.mod_support.expanded_structure_blocks matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.mod_support.expanded_structure_blocks 0
-execute unless score foka.config foka.config.teleport_to_platform matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.teleport_to_platform 0
 execute unless score foka.config foka.config.change_gamerules matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.change_gamerules 0
 execute unless score foka.config foka.config.always_generate_egg matches -2147483648..2147483647 run scoreboard players set foka.config foka.config.change_gamerules 0

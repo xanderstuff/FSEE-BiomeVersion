@@ -20,10 +20,7 @@ scoreboard objectives remove foka.config.enter_end_effects.flavor_text
 scoreboard objectives remove foka.config.enter_end_effects.sounds
 scoreboard objectives remove foka.config.auto_butcher.phantoms
 scoreboard objectives remove foka.config.auto_butcher.silverfish
-scoreboard objectives remove foka.config.mod_support.expanded_structure_blocks
-scoreboard objectives remove foka.config.post_gen.load_main_island
 scoreboard objectives remove foka.config.join_message
-scoreboard objectives remove foka.config.teleport_to_platform
 scoreboard objectives remove foka.config.change_gamerules
 scoreboard objectives remove foka.config.always_generate_egg
 
@@ -41,7 +38,6 @@ scoreboard objectives remove foka.items.ender_insignia.hold_duration
 scoreboard objectives remove foka.mechanics.void_fishing_length
 scoreboard objectives remove foka.mechanics.crystal_count
 
-scoreboard objectives remove foka.misc.crystal_fix_count
 scoreboard objectives remove foka.misc
 scoreboard objectives remove foka.misc.move_x
 scoreboard objectives remove foka.misc.move_y
