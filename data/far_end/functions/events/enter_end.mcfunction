@@ -1,5 +1,3 @@
-execute if score foka.config foka.config.teleport_to_platform matches 0 in minecraft:the_end run tp @s 12 90 0
-
 # Safety precaution :D
 execute if score foka.config foka.config.teleport_to_platform matches 0 in minecraft:the_end positioned 12 90 0 run fill ~ ~ ~ ~ ~1 ~ air
 

@@ -39,28 +39,10 @@ execute if score foka.config foka.config.enter_end_effects.sounds matches 1 run 
 execute if score foka.config foka.config.enter_end_effects.sounds matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
 tellraw @s " "
 
-tellraw @s {"text":"Postgen - Load Main Island","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.post_gen.load_main_island","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Enabled","color":"#91FF7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.post_gen.load_main_island "}}
-tellraw @s [{"text":"Use wacky and laggy postgen methods to generate main island, which is not present by default","color":"#C8ADD6"},{"text":"\nNot recommended to disable, as it removes some features apart from the island","color":"#FF4141"}]
-execute if score foka.config foka.config.post_gen.load_main_island matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
-execute if score foka.config foka.config.post_gen.load_main_island matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
-tellraw @s " "
-
-tellraw @s {"text":"Postgen - Enable Expanded Structure Block Size Mod Compatibility","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.mod_support.expanded_structure_blocks","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Disabled","color":"#FF7B7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.mod_support.expanded_structure_blocks "}}
-tellraw @s [{"text":"Enables postgen support for mods that expand Structure Block's size limit beyond vanilla's 48x48x48, like Carpet.\nNot needed for non-modded playthroughs or people not using such mods","color":"#C8ADD6"},{"text":"\nDo not enable unless you have such mods, as it is going to break vanilla postgen generation of mine!","color":"#FF4141"}]
-execute if score foka.config foka.config.mod_support.expanded_structure_blocks matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
-execute if score foka.config foka.config.mod_support.expanded_structure_blocks matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
-tellraw @s " "
-
 tellraw @s {"text":"Join Message","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.join_message","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Enabled","color":"#91FF7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.join_message "}}
 tellraw @s [{"text":"Whether to send a short message to all players who are new to a server to notify them they can play with their ofc favorite pack of all time ❤❤ (nah, not really)","color":"#C8ADD6"}]
 execute if score foka.config foka.config.join_message matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
 execute if score foka.config foka.config.join_message matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
-tellraw @s " "
-
-tellraw @s {"text":"Teleport to Obsidian Platform","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.teleport_to_platform","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Disabled","color":"#FF7B7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.teleport_to_platform "}}
-tellraw @s {"text":"Whether to teleport players to the top of main pillar (default) or to respect the fact that Obsidian Platform does still exist","color":"#C8ADD6"}
-execute if score foka.config foka.config.teleport_to_platform matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
-execute if score foka.config foka.config.teleport_to_platform matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
 tellraw @s " "
 
 tellraw @s {"text":"Always Generate Egg","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.always_generate_egg","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Disabled","color":"#FF7B7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.always_generate_egg "}}
@@ -69,7 +51,7 @@ execute if score foka.config foka.config.always_generate_egg matches 1 run tellr
 execute if score foka.config foka.config.always_generate_egg matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
 tellraw @s " "
 
-execute if score foka.misc foka.misc.paper matches 1 run tellraw @s [{"text":"PAPER ONLY: ","bold":true,"color":"white"},{"text":"Change Gamerules in The End","color":"#C076E5","bold":false,"hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.X","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Disabled","color":"#FF7B7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.change_gamerules "}}]
+execute if score foka.misc foka.misc.paper matches 1 run tellraw @s [{"text":"PAPER ONLY: ","bold":true,"color":"white"},{"text":"Change Gamerules in The End","color":"#C076E5","bold":false,"hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.X","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Enabled","color":"#91FF7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.change_gamerules "}}]
 execute if score foka.misc foka.misc.paper matches 1 run tellraw @s {"text":"Changes gamerules in The End to slow down block aging and enrage all mobs. Also prevents lag from wildfires if any forest biome generates in ","color":"#C8ADD6"}
 execute if score foka.misc foka.misc.paper matches 1 run execute if score foka.config foka.config.change_gamerules matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
 execute if score foka.misc foka.misc.paper matches 1 run execute if score foka.config foka.config.change_gamerules matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
