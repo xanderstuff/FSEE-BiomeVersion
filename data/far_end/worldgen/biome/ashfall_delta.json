@@ -87,8 +87,7 @@
 		[
 			"fokastudio:ash/replace_blocks",
 			"fokastudio:ash/magma",
-			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			 
 		]
 	]
 }

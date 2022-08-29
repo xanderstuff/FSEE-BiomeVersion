@@ -46,66 +46,8 @@
 		"erosion": "fokastudio:end/erosion",
 		"depth": "fokastudio:end/depth",
 		"ridges": "fokastudio:end/ridges",
-		"initial_density_without_jaggedness": {
-			"type": "minecraft:noise",
-			"noise": "fokastudio:end/continentalness_smooth",
-			"xz_scale": 0.6,
-			"y_scale": 0
-		},
-		"final_density": {
-			"type": "minecraft:squeeze",
-			"argument": {
-				"type": "minecraft:mul",
-				"argument1": 0.333333,
-				"argument2": {
-					"type": "minecraft:add",
-					"argument1": -0.2,
-					"argument2": {
-						"type": "minecraft:interpolated",
-						"argument": {
-							"type": "minecraft:blend_density",
-							"argument": {
-								"type": "minecraft:add",
-								"argument1": -1.4,
-								"argument2": {
-									"type": "minecraft:mul",
-									"argument1": {
-										"type": "minecraft:y_clamped_gradient",
-										"from_y": 0,
-										"to_y": 35,
-										"from_value": -0.2,
-										"to_value": 0.9
-									},
-									"argument2": {
-										"type": "minecraft:add",
-										"argument1": 1.4,
-										"argument2": {
-											"type": "minecraft:add",
-											"argument1": -0.11,
-											"argument2": {
-												"type": "minecraft:mul",
-												"argument1": {
-													"type": "minecraft:y_clamped_gradient",
-													"from_y": 166,
-													"to_y": 240,
-													"from_value": 1,
-													"to_value": -0.4
-												},
-												"argument2": {
-													"type": "minecraft:add",
-													"argument1": 0.11,
-													"argument2": "fokastudio:end/sloped_cheese"
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
+		"initial_density_without_jaggedness": "fokastudio:end/initial_density",
+		"final_density": "fokastudio:end/final_density",
 		"vein_toggle": 0,
 		"vein_ridged": 0,
 		"vein_gap": 0

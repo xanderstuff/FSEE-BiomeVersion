@@ -74,8 +74,7 @@
 			"fokastudio:global/snowy/second_layer",
 			"fokastudio:global/snowy/third_layer",
 			"fokastudio:global/snowy/freeze_layers",
-			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			 
 		]
 	]
 }
