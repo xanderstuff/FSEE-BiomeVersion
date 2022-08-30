@@ -4,7 +4,7 @@ function far_end:structures/exit_portal/activated/generate
 execute unless score foka.config foka.config.always_generate_egg matches 1 if score @s fe.variable matches 1 run setblock ~ ~5 ~ minecraft:dragon_egg
 execute if score foka.config foka.config.always_generate_egg matches 1 run setblock ~ ~5 ~ minecraft:dragon_egg
 
-execute if score @s fe.variable matches 1 run particle minecraft:poof ~ ~3 ~ 0 0 0 0.3 50 force
+execute if score @s fe.variable matches 1 run particle minecraft:poof ~ ~5 ~ 0 0 0 0.3 50 force
 
 execute if score @s fe.variable matches ..20 run tag @s add fe.generate_gateway
 
@@ -23,4 +23,4 @@ team join foka.purple_glow @e[type=item,limit=1,sort=nearest,tag=foka.ender_insi
 kill @e[type=marker,tag=foka.dragon_marker]
 scoreboard players reset @s fe.timer
 
-execute as @e[type=marker,tag=foka.altar_of_the_accursed,tag=!foka.aota_activated] at @s run function fokastudio:end/floor_crafting/aota_activate
+execute as @e[type=marker,tag=foka.altar_of_accursed,tag=!foka.aota_activated] at @s run function fokastudio:end/floor_crafting/aota_activate
