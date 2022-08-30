@@ -1,7 +1,11 @@
 {
 	"criteria": {
 		"from_overworld": {
-			"trigger": "minecraft:impossible"
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "minecraft:overworld",
+				"to": "minecraft:the_end"
+			}
 		}
 	},
 	"requirements": [

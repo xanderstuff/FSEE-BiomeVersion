@@ -1,11 +1,10 @@
-particle explosion_emitter
 particle end_rod ~ ~ ~ 0 0 0 0.15 50
 
 playsound minecraft:entity.ender_dragon.growl block @a ~ ~ ~ 0.666 0.75
 playsound minecraft:item.trident.thunder block @a ~ ~ ~ 3 0.75
 playsound minecraft:block.beacon.activate block @a ~ ~ ~ 3 0.75
 
-fill ~5 ~5 ~5 ~-5 ~-5 ~-5 bedrock replace end_portal_frame
+#fill ~2 ~ ~2 ~-2 ~- ~-2 bedrock replace end_portal_frame
 fill ~1 ~ ~1 ~-1 ~ ~-1 end_portal replace air
 
 summon marker ~ ~2 ~ {Tags:["foka.end_portal_animation.eye_1"],Rotation:[0f, 0f]}

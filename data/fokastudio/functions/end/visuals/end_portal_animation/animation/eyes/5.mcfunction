@@ -1,6 +1,6 @@
 tp @s ~ ~ ~ ~-.22 ~
 
-tp @e[type=armor_stand,tag=foka.end_portal_animation.eye_5,limit=1,sort=nearest] ^ ^-0.7 ^5
-execute as @e[type=armor_stand,tag=foka.end_portal_animation.eye_5,limit=1,sort=nearest] at @s facing entity @e[type=marker,limit=1,sort=nearest,tag=foka.end_portal_animation.eye_5] eyes run tp @s ~ ~ ~ ~ ~
+tp @e[type=armor_stand,tag=foka.end_portal_animation.eye_5,limit=1,sort=nearest] ^ ^-1.85 ^5
+execute as @e[type=armor_stand,tag=foka.end_portal_animation.eye_5,limit=1,sort=nearest] at @s run tp @s ~ ~ ~ ~-1.1 ~
 
-particle witch ^ ^ ^5 0 0 0 0 1 normal
+particle witch ^ ^-1 ^5 0 0 0 0 1 normal

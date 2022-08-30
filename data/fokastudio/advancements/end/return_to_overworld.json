@@ -17,7 +17,15 @@
 	"parent": "minecraft:end/kill_dragon",
 	"criteria": {
 		"return_home": {
-			"trigger": "minecraft:impossible"
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:the_end"
+					}
+				},
+				"block": "minecraft:end_portal"
+			}
 		}
 	}
 }

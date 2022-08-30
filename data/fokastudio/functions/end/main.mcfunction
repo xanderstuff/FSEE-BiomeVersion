@@ -1,4 +1,3 @@
-function fokastudio:end/advancements/main
 function fokastudio:end/items/main
 function fokastudio:end/mechanics/main
 function fokastudio:end/visuals/main

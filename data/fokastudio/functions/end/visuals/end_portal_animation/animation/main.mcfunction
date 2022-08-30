@@ -21,4 +21,5 @@ execute if score @s foka.misc.end_portal_animation matches 243 run function foka
 execute if score @s foka.misc.end_portal_animation matches 246 run function fokastudio:end/visuals/end_portal_animation/animation/flash
 execute if score @s foka.misc.end_portal_animation matches 249 run function fokastudio:end/visuals/end_portal_animation/animation/flash
 
+execute if score @s foka.misc.end_portal_animation matches 295 run particle explosion_emitter
 execute if score @s foka.misc.end_portal_animation matches 300 run function fokastudio:end/visuals/end_portal_animation/animation/finish
