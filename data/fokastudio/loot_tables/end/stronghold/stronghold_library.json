@@ -4,8 +4,8 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 8,
-				"max": 11
+				"min": 7,
+				"max": 9
 			},
 			"bonus_rolls": 0,
 			"entries": [
