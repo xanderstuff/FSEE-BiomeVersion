@@ -19,3 +19,6 @@ execute as @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=
 # Some effects do not apply instantly or are overshadowed by Vanilla
 # So... I just simply delayed them to the next tick afterwards xD
 execute as @a[tag=foka.scheduled_void_totem_effect] at @s run function fokastudio:end/mechanics/void_totem_protection/scheduled
+
+# Scheduled checks for End Portal animation
+execute as @e[type=marker,tag=foka.end_portal_animation,tag=foka.end_portal_animation.check_schedule] at @s run function fokastudio:end/visuals/end_portal_animation/checks/base

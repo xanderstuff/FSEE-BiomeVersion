@@ -35,7 +35,7 @@ scoreboard objectives add foka.misc.move_y dummy
 scoreboard objectives add foka.misc.move_z dummy
 scoreboard objectives add foka.misc.paper dummy
 scoreboard objectives add foka.misc.elytra_trail_id dummy
-
+scoreboard objectives add foka.misc.end_portal_animation dummy
 
 ## Creating teams
 # Currently only used for purple glow color

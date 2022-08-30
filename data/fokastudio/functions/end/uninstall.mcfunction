@@ -44,6 +44,7 @@ scoreboard objectives remove foka.misc.move_y
 scoreboard objectives remove foka.misc.move_z
 scoreboard objectives remove foka.misc.paper
 scoreboard objectives remove foka.misc.elytra_trail_id
+scoreboard objectives remove foka.misc.end_portal_animation
 
 # Remove teams
 team remove foka.purple_glow
