@@ -7,6 +7,6 @@ execute as @e[type=armor_stand,tag=foka.dragonblade_holder,predicate=fokastudio:
 execute as @e[type=blaze,predicate=fokastudio:end/locations/biomes/in_blazing_dunes,tag=!foka.aware] at @s run data merge entity @s {DeathLootTable:"fokastudio:end/mobs/blazing_dunes_blaze"}
 
 # Moved from visuals/main
-execute as @e[type=marker,tag=foka.altar_of_accursed,predicate=fokastudio:end/utils/chance/3percent] at @s run function fokastudio:end/visuals/altar_of_the_accursed/soul_escape
+execute as @e[type=marker,tag=foka.altar_of_accursed,predicate=fokastudio:end/utils/chance/3percent,tag=foka.aota_activated] at @s run function fokastudio:end/visuals/altar_of_the_accursed/soul_escape
 
 schedule function fokastudio:end/5_second_loop 5s

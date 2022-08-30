@@ -15,6 +15,11 @@ execute unless score foka.misc foka.misc.paper matches -2147483648..2147483647 r
 # I can just butcher the dragon in the most painless way possible
 execute as @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=!fe.init,tag=!fe.mob,tag=!foka.butcher_ignore] run kill @s
 
+# Post generation for Altar of the Accursed
+# Can't really do it with pure Worldgen sadly
+# Or I could, but definitely not in the way I would want to
+execute as @e[type=marker,tag=fe.exit_portal,tag=!foka.post_gen.initialized] in minecraft:the_end run function fokastudio:end/post_gen/initialize
+
 # Some effects do not apply instantly or are overshadowed by Vanilla
 # So... I just simply delayed them to the next tick afterwards xD
 execute as @a[tag=foka.scheduled_void_totem_effect] at @s run function fokastudio:end/mechanics/void_totem_protection/scheduled
