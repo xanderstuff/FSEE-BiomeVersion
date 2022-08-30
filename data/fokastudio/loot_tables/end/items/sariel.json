@@ -18,27 +18,27 @@
 								},
 								{
 									"text": "a",
-									"color": "#f7d4d4",
+									"color": "#f7f1d4",
 									"italic": false
 								},
 								{
 									"text": "r",
-									"color": "#f9b3b3",
+									"color": "#f9ecb3",
 									"italic": false
 								},
 								{
 									"text": "i",
-									"color": "#fb9191",
+									"color": "#fbe791",
 									"italic": false
 								},
 								{
 									"text": "e",
-									"color": "#fd7070",
+									"color": "#fde270",
 									"italic": false
 								},
 								{
 									"text": "l",
-									"color": "#ff4f4f",
+									"color": "#ffdd4f",
 									"italic": false
 								}
 							]
@@ -52,12 +52,12 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Magical dagger that has a chance",
+									"translate": "A magical dagger that has a chance",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "to heal you on enemy hits",
+									"translate": "to heal any nearby player on enemy hits",
 									"color": "#EEEEEE",
 									"italic": false
 								},

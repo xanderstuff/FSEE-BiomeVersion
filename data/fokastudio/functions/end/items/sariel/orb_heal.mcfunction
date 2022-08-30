@@ -4,6 +4,6 @@ execute as @p at @s run summon area_effect_cloud ~ ~ ~ {Radius:0f,Duration:1,Tag
 
 execute as @e[type=area_effect_cloud,tag=foka.sariel.aec] at @s positioned ^ ^0.1 ^ run function fokastudio:end/items/sariel/aec_particles
 playsound minecraft:block.bell.use master @a ^ ^ ^ 1 2
-particle dust_color_transition 0.922 0.922 0.922 1.6 1 0.267 0.267 ^ ^ ^ 0 0 0 0 10 normal
+particle dust_color_transition 0.922 0.922 0.922 1.6 1 0.863 0.239 ^ ^ ^ 0 0 0 0 10 normal
 
 kill @s
