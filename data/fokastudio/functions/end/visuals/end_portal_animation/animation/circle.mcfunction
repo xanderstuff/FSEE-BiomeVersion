@@ -16,7 +16,7 @@ execute if score @s foka.misc.end_portal_animation matches 16 run particle end_r
 execute if score @s foka.misc.end_portal_animation matches 17 run particle end_rod ^ ^0.5 ^5.36842105263158
 execute if score @s foka.misc.end_portal_animation matches 18 run particle end_rod ^ ^0.5 ^5.57894736842106
 execute if score @s foka.misc.end_portal_animation matches 19 run particle end_rod ^ ^0.5 ^5.78947368421053
-execute if score @s foka.misc.end_portal_animation matches 20.. run particle end_rod ^ ^0.5 ^6
+execute if score @s foka.misc.end_portal_animation matches 20..241 run particle end_rod ^ ^0.5 ^6
 
 execute if score @s foka.misc.end_portal_animation matches 241 run particle end_rod ^ ^0.5 ^5.9
 execute if score @s foka.misc.end_portal_animation matches 242 run particle end_rod ^ ^0.5 ^5.8
