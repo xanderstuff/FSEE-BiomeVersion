@@ -23,6 +23,8 @@ scoreboard objectives add foka.items.clockwork_crossbow.arrow_amount dummy
 scoreboard objectives add foka.items.prismatic_punch.particle_cycle dummy
 scoreboard objectives add foka.items.prismatic_punch.marker_age dummy
 scoreboard objectives add foka.items.ender_insignia.hold_duration dummy
+scoreboard objectives add foka.items.sabrewing.charge dummy
+scoreboard objectives add foka.items.sabrewing.until_charge_reset dummy
 
 # Mechanics
 scoreboard objectives add foka.mechanics.void_fishing_length dummy
@@ -36,12 +38,16 @@ scoreboard objectives add foka.misc.move_z dummy
 scoreboard objectives add foka.misc.paper dummy
 scoreboard objectives add foka.misc.elytra_trail_id dummy
 scoreboard objectives add foka.misc.end_portal_animation dummy
+scoreboard objectives add foka.misc.shot_bow minecraft.used:minecraft.bow
 
 ## Creating teams
 # Currently only used for purple glow color
 # of dropped Ender Insignia
 team add foka.purple_glow
 team modify foka.purple_glow color dark_purple
+
+## Forceload
+forceload add -1 -1 1 1
 
 ## Bossbars
 # Currently only used for 'Crystals Left' bossbar

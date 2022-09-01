@@ -34,6 +34,8 @@ scoreboard objectives remove foka.items.clockwork_crossbow.arrow_amount
 scoreboard objectives remove foka.items.prismatic_punch.particle_cycle
 scoreboard objectives remove foka.items.prismatic_punch.marker_age
 scoreboard objectives remove foka.items.ender_insignia.hold_duration
+scoreboard objectives remove foka.items.sabrewing.charge
+scoreboard objectives remove foka.items.sabrewing.until_charge_reset
 
 scoreboard objectives remove foka.mechanics.void_fishing_length
 scoreboard objectives remove foka.mechanics.crystal_count
@@ -45,9 +47,13 @@ scoreboard objectives remove foka.misc.move_z
 scoreboard objectives remove foka.misc.paper
 scoreboard objectives remove foka.misc.elytra_trail_id
 scoreboard objectives remove foka.misc.end_portal_animation
+scoreboard objectives remove foka.misc.shot_bow
 
 # Remove teams
 team remove foka.purple_glow
+
+# No more forceload
+forceload remove -1 -1 1 1
 
 # Clear schedules
 schedule clear fokastudio:end/5_second_loop

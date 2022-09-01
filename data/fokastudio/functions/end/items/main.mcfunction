@@ -11,3 +11,9 @@ execute as @e[type=spectral_arrow,tag=foka.spectral_bolt] at @s run function fok
 execute as @e[type=marker,tag=foka.prismatic_blast] at @s run function fokastudio:end/items/prismatic_punch/blast_loop
 
 execute as @e[type=marker,tag=foka.sariel.heal_orb] at @s anchored eyes run function fokastudio:end/items/sariel/orb_loop
+
+# Sabrewing
+execute as @a[scores={foka.misc.shot_bow=1},predicate=fokastudio:end/utils/holding_sabrewing] at @s run function fokastudio:end/items/sabrewing/shoot
+execute as @a[scores={foka.items.sabrewing.until_charge_reset=1..}] run scoreboard players remove @s foka.items.sabrewing.until_charge_reset 1
+execute as @a[scores={foka.items.sabrewing.until_charge_reset=0}] run scoreboard players reset @s foka.items.sabrewing.charge
+execute as @e[type=#arrows,tag=foka.items.sabrewing.arrow] at @s run function fokastudio:end/items/sabrewing/charged_shots/loop
