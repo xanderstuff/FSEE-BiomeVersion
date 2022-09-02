@@ -33,6 +33,11 @@
 									"translate": "powerful Spectral Bolts",
 									"color": "#EEEEEE",
 									"italic": false
+								},
+								{
+									"translate": "that pierce multiple enemies",
+									"color": "#EEEEEE",
+									"italic": false
 								}
 							]
 						}
