@@ -29,8 +29,8 @@ execute if score @s foka.items.sabrewing.charge matches 42 run playsound entity.
 execute if score @s foka.items.sabrewing.charge matches 44 run playsound entity.firework_rocket.launch player @a ~ ~ ~ 0.2 0.640939597315436
 execute if score @s foka.items.sabrewing.charge matches 46 run playsound entity.firework_rocket.launch player @a ~ ~ ~ 0.2 0.647651006711409
 execute if score @s foka.items.sabrewing.charge matches 48 run playsound entity.firework_rocket.launch player @a ~ ~ ~ 0.2 0.654362416107382
-execute if score @s foka.items.sabrewing.charge matches 50 run playsound entity.firework_rocket.launch player @a ~ ~ ~ 0.2 0.331073825503356
-execute if score @s foka.items.sabrewing.charge matches 52 run playsound entity.firework_rocket.launch player @a ~ ~ ~ 0.2 0.337785234899329
+execute if score @s foka.items.sabrewing.charge matches 50 run playsound entity.firework_rocket.launch player @a ~ ~ ~ 0.2 0.661073825503356
+execute if score @s foka.items.sabrewing.charge matches 52 run playsound entity.firework_rocket.launch player @a ~ ~ ~ 0.2 0.667785234899329
 execute if score @s foka.items.sabrewing.charge matches 54 run playsound entity.firework_rocket.launch player @a ~ ~ ~ 0.2 0.674496644295302
 execute if score @s foka.items.sabrewing.charge matches 56 run playsound entity.firework_rocket.launch player @a ~ ~ ~ 0.2 0.681208053691275
 execute if score @s foka.items.sabrewing.charge matches 58 run playsound entity.firework_rocket.launch player @a ~ ~ ~ 0.2 0.687919463087248
