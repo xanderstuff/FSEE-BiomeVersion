@@ -63,9 +63,9 @@
 								},
 								"",
 								{
-									"translate": "\"Now, Until The Moment You die\"",
+									"translate": "'Now, Until The Moment You die'",
 									"color": "#EEEEEE",
-									"italic": false
+									"italic": true
 								}
 							]
 						},

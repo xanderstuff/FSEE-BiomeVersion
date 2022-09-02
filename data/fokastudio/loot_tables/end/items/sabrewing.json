@@ -30,9 +30,9 @@
 								},
 								"",
 								{
-									"text": "\"It might be broken\"",
+									"text": "'It might be broken'",
 									"color": "#EEEEEE",
-									"italic": false
+									"italic": true
 								}
 							]
 						},

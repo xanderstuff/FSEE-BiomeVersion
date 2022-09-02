@@ -46,9 +46,9 @@
 								},
                                 "",
 								{
-									"translate": "\"Break your mouse, break someone's mouse, whatever\"",
+									"translate": "'Break your mouse, break someone's mouse, whatever'",
 									"color": "#EEEEEE",
-									"italic": false
+									"italic": true
 								}
 							]
 						}
