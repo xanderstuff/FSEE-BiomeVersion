@@ -1,20 +1,20 @@
 # Tags for Elytra Imbuements
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:elytra",Count:1b}},distance=..1] add foka.altar_of_the_accursed.elytra
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:feather",Count:1b,tag:{foka.special_item:"fire_feather"}}},distance=..1] add foka.altar_of_the_accursed.fire_feather
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:feather",Count:1b,tag:{foka.special_item:"soul_fire_feather"}}},distance=..1] add foka.altar_of_the_accursed.soul_fire_feather
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:honey_block",Count:16b}},distance=..1] add foka.altar_of_the_accursed.honey_blocks
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:echo_shard",Count:4b}},distance=..1] add foka.altar_of_the_accursed.echo_shard
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:diamond",Count:16b}},distance=..1] add foka.altar_of_the_accursed.diamonds
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:emerald",Count:24b}},distance=..1] add foka.altar_of_the_accursed.emeralds
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:dragon_breath",Count:12b}},distance=..1] add foka.altar_of_the_accursed.dragons_breath
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:fire_charge",Count:8b}},distance=..1] add foka.altar_of_the_accursed.8_fire_charge
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:soul_sand",Count:8b}},distance=..1] add foka.altar_of_the_accursed.8_soul_sand
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:honey_block",Count:8b}},distance=..1] add foka.altar_of_the_accursed.8_honey_blocks
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:echo_shard",Count:4b}},distance=..1] add foka.altar_of_the_accursed.4_echo_shard
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:diamond",Count:16b}},distance=..1] add foka.altar_of_the_accursed.16_diamonds
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:emerald",Count:24b}},distance=..1] add foka.altar_of_the_accursed.24_emeralds
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:dragon_breath",Count:12b}},distance=..1] add foka.altar_of_the_accursed.12_dragons_breath
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:diamond_sword",Count:1b}},distance=..1] add foka.altar_of_the_accursed.diamond_sword
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:magma_block",Count:24b}},distance=..1] add foka.altar_of_the_accursed.magma_blocks
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:glow_ink_sac",Count:16b}},distance=..1] add foka.altar_of_the_accursed.glow_ink_sacs
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:magma_block",Count:24b}},distance=..1] add foka.altar_of_the_accursed.24_magma_blocks
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:glow_ink_sac",Count:16b}},distance=..1] add foka.altar_of_the_accursed.16_glow_ink_sacs
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:lightning_rod",Count:1b}},distance=..1] add foka.altar_of_the_accursed.lightning_rod
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:sugar",Count:24b}},distance=..1] add foka.altar_of_the_accursed.sugar
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:sugar",Count:24b}},distance=..1] add foka.altar_of_the_accursed.24_sugar
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:heart_of_the_sea",Count:1b}},distance=..1] add foka.altar_of_the_accursed.heart_of_the_sea
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:coal",Count:24b}},distance=..1] add foka.altar_of_the_accursed.coal
-tag @e[nbt={OnGround:1b,Item:{id:"minecraft:popped_chorus_fruit",Count:16b}},distance=..1] add foka.altar_of_the_accursed.popped_chorus_fruit
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:coal",Count:24b}},distance=..1] add foka.altar_of_the_accursed.24_coal
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:popped_chorus_fruit",Count:16b}},distance=..1] add foka.altar_of_the_accursed.16_popped_chorus_fruit
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:totem_of_undying",Count:1b}},distance=..1] add foka.altar_of_the_accursed.totem_of_undying
 
 # Tags for craftable Elytras
