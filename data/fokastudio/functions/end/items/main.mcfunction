@@ -4,7 +4,8 @@ function fokastudio:end/items/armors/main
 
 execute as @a[scores={foka.items.dragonblade_cooldown=1..}] run scoreboard players remove @s foka.items.dragonblade_cooldown 1
 
-execute as @a[predicate=fokastudio:end/utils/holding_sharanga] at @s run function fokastudio:end/items/sharanga/loop
+execute as @a[scores={foka.misc.shot_bow=1},predicate=fokastudio:end/utils/holding_sharanga] at @s run function fokastudio:end/items/sharanga/shoot
+
 execute as @a[predicate=fokastudio:end/utils/holding_unloaded_clockwork_crossbow] run function fokastudio:end/items/clockwork_crossbow/check
 
 execute as @e[type=spectral_arrow,tag=foka.spectral_bolt] at @s run function fokastudio:end/items/sharanga/arrow_loop
@@ -17,3 +18,6 @@ execute as @a[scores={foka.misc.shot_bow=1},predicate=fokastudio:end/utils/holdi
 execute as @a[scores={foka.items.sabrewing.until_charge_reset=1..}] run scoreboard players remove @s foka.items.sabrewing.until_charge_reset 1
 execute as @a[scores={foka.items.sabrewing.until_charge_reset=0}] run scoreboard players reset @s foka.items.sabrewing.charge
 execute as @e[type=#arrows,tag=foka.items.sabrewing.arrow] at @s run function fokastudio:end/items/sabrewing/charged_shots/loop
+
+# Living Flesh
+execute as @e[tag=foka.items.living_flesh.hunger_remove_schedule] run function fokastudio:end/items/living_flesh/remove_hunger

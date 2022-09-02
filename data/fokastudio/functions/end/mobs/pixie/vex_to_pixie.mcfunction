@@ -7,4 +7,6 @@ item replace entity @s weapon with air
 tag @s add foka.pixie
 
 data merge entity @s {Health:16,Silent:1b,ActiveEffects:[{Id:14,Duration:1000000,ShowParticles:0b}],Attributes:[{Name:"generic.follow_range",Base:-1d},{Name:"generic.max_health",Base:16d}],DeathLootTable:"fokastudio:end/mobs/pixie",ArmorDropChances:[0f,0f,0f,0f],CustomName:'{"translate":"Pixie","color":"#FFD655"}'}
-particle flash ~ ~0.4 ~ 0 0 0 0 1 normal
+
+particle flash ~ ~0.25 ~ 0 0 0 0 1 force
+particle dust_color_transition 1 0.769 0 1 1 0.933 0 ~ ~.25 ~ .2 .15 .2 0 25 force
