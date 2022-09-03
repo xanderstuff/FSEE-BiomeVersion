@@ -6,6 +6,9 @@
 		"minecraft:the_end",
 		"far_end:end_wilds",
 		"far_end:ender_waste",
-		"minecraft:end_midlands"
+		"minecraft:end_midlands",
+		"minecraft:end_highlands",
+		"far_end:amethyst_forest",
+		"fokastudio:prismarine_forest"
 	]
 }
