@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:amethyst_shard",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "What Are You Doing Here?"
+		},
+		"description": {
+			"translate": "Find a Village in the middle of nowhere"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/enter_end_gateway",
+	"criteria": {
+		"find_a_town_in_a_complete_shithole": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "fokastudio:end/village"
+					}
+				}
+			}
+		}
+	}
+}

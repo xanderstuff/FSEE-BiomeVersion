@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:pufferfish",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "Supreme Server Owner"
+		},
+		"description": {
+			"translate": "Find an ultra-rare Pufferfish in Fisherman's chest"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "fokastudio:end/enter_end_village",
+	"criteria": {
+		"rngesus": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pufferfish"
+						],
+						"nbt": "{foka.special_item:\"pufferfish\"}"
+					}
+				]
+			}
+		}
+	}
+}
