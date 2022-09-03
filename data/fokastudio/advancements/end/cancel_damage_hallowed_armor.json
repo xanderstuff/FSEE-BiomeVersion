@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_chestplate",
-            "nbt": "{Enchantments:[{}]}"
+			"item": "minecraft:leather_chestplate",
+			"nbt": "{CustomModelData:90001,display:{color:16768338}}"
 		},
 		"title": {
 			"translate": "Holy Protected",
@@ -11,7 +11,7 @@
 		"description": {
 			"translate": "Negate an attack with a full set of Hallowed Armor"
 		},
-		"frame": "challenge",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -19,33 +19,7 @@
 	"parent": "fokastudio:end/whos_the_thief_now",
 	"criteria": {
 		"dodge_damage": {
-			"trigger": "minecraft:entity_hurt_player",
-			"conditions": {
-				"player": {
-					"equipment": {
-						"head": {
-							"nbt": "{foka.special_item:\"hallowed_armor\"}"
-						},
-						"chest": {
-							"nbt": "{foka.special_item:\"hallowed_armor\"}"
-						},
-						"legs": {
-							"nbt": "{foka.special_item:\"hallowed_armor\"}"
-						},
-						"feet": {
-							"nbt": "{foka.special_item:\"hallowed_armor\"}"
-						}
-					}
-				}
-			}
+			"trigger": "minecraft:impossible"
 		}
-	},
-	"requirements": [
-		[
-			"dodge_damage"
-		]
-	],
-	"rewards": {
-		"experience": 250
 	}
 }

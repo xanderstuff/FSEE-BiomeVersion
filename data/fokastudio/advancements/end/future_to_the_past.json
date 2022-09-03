@@ -12,9 +12,10 @@
 		},
 		"frame": "challenge",
 		"show_toast": true,
-		"announce_to_chat": true
+		"announce_to_chat": true,
+		"hidden": false
 	},
-	"parent": "minecraft:end/dragon_egg",
+	"parent": "fokastudio:end/pass_egg",
 	"criteria": {
 		"fall_with_egg": {
 			"trigger": "minecraft:location",
@@ -27,7 +28,7 @@
 							"predicate": {
 								"position": {
 									"y": {
-										"min": -32
+										"min": -64
 									}
 								},
 								"dimension": "minecraft:the_end"
@@ -75,6 +76,6 @@
 		]
 	],
 	"rewards": {
-		"experience": 1000
+		"experience": 1500
 	}
 }

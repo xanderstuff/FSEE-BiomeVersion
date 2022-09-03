@@ -7,7 +7,7 @@
 			"translate": "I Am an Airplane!"
 		},
 		"description": {
-			"translate": "Fly 300 blocks into the sky via the Levitation effect"
+			"translate": "Fly 150 blocks into the sky via the Levitation effect"
 		},
 		"frame": "challenge",
 		"show_toast": true,
@@ -21,7 +21,7 @@
 			"conditions": {
 				"distance": {
 					"y": {
-						"min": 300
+						"min": 150
 					}
 				}
 			}
@@ -33,6 +33,6 @@
 		]
 	],
 	"rewards": {
-		"experience": 800
+		"experience": 400
 	}
 }

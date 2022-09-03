@@ -11,7 +11,7 @@
 			"translate": "Enrage an Enderman by looking at it"
 		}
 	},
-	"parent": "minecraft:end/root",
+	"parent": "minecraft:adventure/root",
 	"criteria": {
 		"anger_enderman": {
 			"trigger": "minecraft:tick",

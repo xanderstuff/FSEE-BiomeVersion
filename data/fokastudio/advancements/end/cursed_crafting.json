@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_portal_frame",
+			"nbt": "{CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "Cursed Crafting",
+            "color": "#B80000"
+		},
+		"description": [
+			{
+				"translate": "Use"
+			},
+			" ",
+			{
+				"translate": "Altar of the Accursed",
+				"color": "#B80000"
+			},
+			" ",
+			{
+				"text": "to craft some of the most powerful items"
+			}
+		],
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/kill_dragon",
+	"criteria": {
+		"craft_using_aota": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

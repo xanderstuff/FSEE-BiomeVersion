@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_head"
+			"item": "minecraft:dragon_head",
+			"nbt": "{Enchantments:[{}]}"
 		},
 		"title": {
 			"translate": "Headhunter"

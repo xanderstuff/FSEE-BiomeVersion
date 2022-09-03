@@ -8,7 +8,7 @@
 			"translate": "Head in the Clouds"
 		},
 		"description": {
-			"translate": "Fly up so high you almost leave the atmosphere"
+			"translate": "Fly up to Y 500, where the atmosphere is so rare you might have trouble catching a breath!"
 		},
 		"frame": "goal",
 		"show_toast": true,

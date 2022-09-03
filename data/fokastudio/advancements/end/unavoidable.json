@@ -1,13 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:obsidian"
+			"item": "minecraft:blackstone"
 		},
 		"title": {
 			"translate": "Unavoidable"
 		},
 		"description": {
-			"translate": "Enter The Void biome - the deepest regions of The End"
+			"translate": "Enter The Void biome, found in the lowest regions of The End"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -9,4 +9,4 @@ particle end_rod ~ ~.1 ~ 0 0 0 0.25 50 normal
 
 particle end_rod ~ ~.1 ~ 0 0 0 0.1 25 normal
 
-function fokastudio:end/floor_crafting/particles_base
+function fokastudio:end/floor_crafting/global_effects

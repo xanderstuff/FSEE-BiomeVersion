@@ -8,7 +8,7 @@
 			"translate": "Risky Flier"
 		},
 		"description": {
-			"translate": "Have an Elytra break while flying"
+			"translate": "Have an Elytra break while flying and hope that you land on something soft"
 		},
 		"frame": "goal",
 		"show_toast": true,

@@ -8,7 +8,7 @@ execute as @e[type=marker,tag=foka.dragon_marker] at @s run playsound minecraft:
 
 kill @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal]
 
-advancement grant @a[distance=..100] only minecraft:end/respawn_dragon
+execute if entity @e[type=marker,tag=foka.aota_activated] run advancement grant @a[distance=..100] only minecraft:end/respawn_dragon
 
 tag @s add fe.deactivated.spawn_dragon
 tag @s remove fe.respawn

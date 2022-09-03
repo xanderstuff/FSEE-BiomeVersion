@@ -8,12 +8,12 @@
 			"translate": "Treasure Room"
 		},
 		"description": {
-			"translate": "Obtain a Treasure Head from a chest in an End City"
+			"translate": "Obtain a rare Treasure Head from a chest in an End City. Can you find all 105?"
 		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
-		"hidden": false
+		"hidden": true
 	},
 	"parent": "fokastudio:end/whos_the_thief_now",
 	"criteria": {
@@ -35,8 +35,5 @@
 		[
 			"obtain_head"
 		]
-	],
-	"rewards": {
-		"experience": 300
-	}
+	]
 }

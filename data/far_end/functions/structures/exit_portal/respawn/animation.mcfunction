@@ -3,6 +3,7 @@ scoreboard players add @s fe.timer 1
 
 ### Animation ###
 execute if score @s fe.timer matches 1 run function far_end:structures/exit_portal/deactivated/generate
+execute if score @s fe.timer matches 1 run advancement grant @a[distance=..32] only fokastudio:end/sacrificial_ritual
 #execute if score @s fe.timer matches 1 run setblock ~ ~5 ~ minecraft:dragon_egg
 
 ### Cancel Animation ###

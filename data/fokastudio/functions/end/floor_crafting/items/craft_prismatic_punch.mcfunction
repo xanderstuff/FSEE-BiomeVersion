@@ -15,4 +15,4 @@ particle dust 0.647 0.243 0.98 2.3 ~ ~ ~ .5 .5 .5 0 3 normal
 
 particle end_rod ~ ~.1 ~ 0 0 0 0.1 25 normal
 
-function fokastudio:end/floor_crafting/particles_base
+function fokastudio:end/floor_crafting/global_effects
