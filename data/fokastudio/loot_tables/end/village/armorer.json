@@ -1,1 +1,72 @@
-{}
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 5,
+				"max": 8
+			},
+			"entries": [
+				{
+					"type": "minecraft:tag",
+					"weight": 1,
+					"name": "fokastudio:end/village/armor",
+					"expand": true,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 22,
+							"treasure": true,
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.44
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:coal",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 8
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"weight": 8,
+							"name": "minecraft:gold_ingot"
+						},
+						{
+							"type": "minecraft:item",
+							"weight": 8,
+							"name": "minecraft:iron_ingot"
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 7
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

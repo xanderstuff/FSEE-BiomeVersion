@@ -1,1 +1,49 @@
-{}
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 6,
+				"max": 9
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"quality": -1,
+					"name": "minecraft:bread",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							},
+							"add": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"quality": 1,
+					"name": "minecraft:cookie",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 11
+							},
+							"add": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"quality": 1,
+					"name": "minecraft:cake"
+				}
+			]
+		}
+	]
+}

@@ -1,1 +1,47 @@
-{}
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 4,
+				"max": 6
+			},
+			"entries": [
+				{
+					"type": "minecraft:tag",
+					"weight": 1,
+					"name": "fokastudio:end/village/meat",
+					"expand": true
+				}
+			]
+		},
+		{
+			"rolls": 7,
+			"entries": [
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:ice"
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:snowball"
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		}
+	]
+}
