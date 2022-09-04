@@ -24,3 +24,4 @@ kill @e[type=marker,tag=foka.dragon_marker]
 scoreboard players reset @s fe.timer
 
 execute as @e[type=marker,tag=foka.altar_of_accursed,tag=!foka.aota_activated] at @s run function fokastudio:end/floor_crafting/aota_activate
+execute as @e[type=armor_stand,tag=foka.dragonblade_holder] run data merge entity @s {DisabledSlots:4144958}
