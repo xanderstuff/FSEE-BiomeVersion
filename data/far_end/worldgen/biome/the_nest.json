@@ -81,8 +81,7 @@
 		[],
 		[
 			"fokastudio:nest/replace_blocks",
-			"fokastudio:nest/transition",
-			 
+			"fokastudio:nest/transition"
 		]
 	]
 }

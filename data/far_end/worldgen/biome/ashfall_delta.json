@@ -86,8 +86,7 @@
 		[],
 		[
 			"fokastudio:ash/replace_blocks",
-			"fokastudio:ash/magma",
-			 
+			"fokastudio:ash/magma"
 		]
 	]
 }
