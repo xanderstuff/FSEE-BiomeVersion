@@ -1,6 +1,6 @@
 execute as @e[type=marker,tag=foka.end_portal] at @s run function fokastudio:end/visuals/end_portal_animation/animation/marker_loop
 execute as @e[type=marker,tag=foka.end_portal_animation] at @s run function fokastudio:end/visuals/end_portal_animation/animation/main
-execute as @e[type=armor_stand,tag=!foka.end_portal_animation.eye_poof] at @s run function fokastudio:end/visuals/end_portal_animation/animation/eyes_poof
+execute as @e[type=armor_stand,tag=foka.end_portal_animation.eye,tag=!foka.end_portal_animation.eye_poof] at @s run function fokastudio:end/visuals/end_portal_animation/animation/eyes_poof
 
 execute as @e[type=marker,tag=foka.altar_of_accursed,tag=foka.aota_activated] at @s run function fokastudio:end/visuals/altar_of_the_accursed/loop
 # Soul escape animation check triggers every 5 seconds
