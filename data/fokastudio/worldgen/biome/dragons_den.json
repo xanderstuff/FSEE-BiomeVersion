@@ -21,10 +21,9 @@
 	"spawn_costs": {},
 	"carvers": {},
 	"features": [
-		[],
-		[],
-		[],
-		[],
+		[
+			"fokastudio:dragons_den/hills"
+		],
 		[],
 		[],
 		[],
@@ -32,8 +31,16 @@
 		[],
 		[],
 		[
+			"fokastudio:dragons_den/obsidian"
+		],
+		[
+			"fokastudio:dragons_den/patches"
+		],
+		[],
+		[
 			"far_end:general/end_spike/center",
-			"far_end:general/end_spike/ring"
+			"far_end:general/end_spike/ring",
+			"fokastudio:dragons_den/obsidian_spike_decor"
 		]
 	]
 }
