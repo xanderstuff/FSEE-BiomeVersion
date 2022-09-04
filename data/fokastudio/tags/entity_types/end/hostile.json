@@ -13,6 +13,9 @@
 		"minecraft:witch",
 		"minecraft:piglin",
 		"minecraft:piglin_brute",
-		"minecraft:wither"
+		"minecraft:wither",
+		"minecraft:enderman",
+		"minecraft:spider",
+		"minecraft:cave_spider"
 	]
 }
