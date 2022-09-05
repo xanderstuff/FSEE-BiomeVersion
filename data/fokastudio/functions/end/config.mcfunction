@@ -27,18 +27,6 @@ execute if score foka.config foka.config.custom_music matches 1 run tellraw @s {
 execute if score foka.config foka.config.custom_music matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
 tellraw @s " "
 
-tellraw @s {"text":"Entering End Effects - Custom Messages","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.enter_end_effects.flavor_text","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Enabled","color":"#91FF7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.enter_end_effects.flavor_text "}}
-tellraw @s {"text":"Sends a random spooky message upon entering The End","color":"#C8ADD6"}
-execute if score foka.config foka.config.enter_end_effects.flavor_text matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
-execute if score foka.config foka.config.enter_end_effects.flavor_text matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
-tellraw @s " "
-
-tellraw @s {"text":"Entering End Effects - Sounds","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.enter_end_effects.sounds","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Enabled","color":"#91FF7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.enter_end_effects.sounds "}}
-tellraw @s {"text":"Plays some sounds upon entering The End","color":"#C8ADD6"}
-execute if score foka.config foka.config.enter_end_effects.sounds matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
-execute if score foka.config foka.config.enter_end_effects.sounds matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
-tellraw @s " "
-
 tellraw @s {"text":"Join Message","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.join_message","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Enabled","color":"#91FF7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set foka.config foka.config.join_message "}}
 tellraw @s [{"text":"Whether to send a short message to all players who are new to a server to notify them they can play with their ofc favorite pack of all time ❤❤ (nah, not really)","color":"#C8ADD6"}]
 execute if score foka.config foka.config.join_message matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}

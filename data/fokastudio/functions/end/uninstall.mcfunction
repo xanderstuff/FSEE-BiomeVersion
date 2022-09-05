@@ -16,8 +16,6 @@ scoreboard objectives remove fe.variable
 scoreboard objectives remove foka.end_music
 
 scoreboard objectives remove foka.config.custom_music
-scoreboard objectives remove foka.config.enter_end_effects.flavor_text
-scoreboard objectives remove foka.config.enter_end_effects.sounds
 scoreboard objectives remove foka.config.auto_butcher.phantoms
 scoreboard objectives remove foka.config.auto_butcher.silverfish
 scoreboard objectives remove foka.config.join_message
