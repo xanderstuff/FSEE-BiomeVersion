@@ -50,61 +50,51 @@
 				"config": {
 					"features": [
 						{
-							"chance": 0.012,
+							"chance": 0.007,
 							"feature": {
 								"feature": {
-									"type": "minecraft:block_column",
+									"type": "minecraft:tree",
 									"config": {
-										"direction": "up",
-										"allowed_placement": {
-											"type": "minecraft:true"
+										"minimum_size": {
+											"type": "minecraft:two_layers_feature_size"
 										},
-										"prioritize_tip": false,
-										"layers": [
-											{
-												"height": {
-													"type": "minecraft:uniform",
-													"value": {
-														"min_inclusive": 4,
-														"max_inclusive": 7
-													}
-												},
-												"provider": {
-													"type": "minecraft:simple_state_provider",
-													"state": {
-														"Name": "minecraft:bone_block",
-														"Properties": {
-															"axis": "y"
-														}
-													}
-												}
-											},
-											{
-												"height": {
-													"type": "minecraft:weighted_list",
-													"distribution": [
-														{
-															"weight": 20,
-															"data": 0
-														},
-														{
-															"weight": 2,
-															"data": 1
-														}
-													]
-												},
-												"provider": {
-													"type": "minecraft:simple_state_provider",
-													"state": {
-														"Name": "minecraft:soul_lantern",
-														"Properties": {
-															"hanging": "false",
-															"waterlogged": "false"
-														}
-													}
+										"dirt_provider": {
+											"type": "minecraft:simple_state_provider",
+											"state": {
+												"Name": "minecraft:bone_block",
+												"Properties": {
+													"axis": "y"
 												}
 											}
-										]
+										},
+										"trunk_provider": {
+											"type": "minecraft:simple_state_provider",
+											"state": {
+												"Name": "minecraft:bone_block",
+												"Properties": {
+													"axis": "y"
+												}
+											}
+										},
+										"foliage_provider": {
+											"type": "minecraft:simple_state_provider",
+											"state": {
+												"Name": "minecraft:air"
+											}
+										},
+										"trunk_placer": {
+											"type": "minecraft:forking_trunk_placer",
+											"base_height": 6,
+											"height_rand_a": 1,
+											"height_rand_b": 8
+										},
+										"foliage_placer": {
+											"type": "minecraft:blob_foliage_placer",
+											"radius": 0,
+											"offset": 0,
+											"height": 0
+										},
+										"decorators": []
 									}
 								},
 								"placement": []

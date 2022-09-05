@@ -36,7 +36,9 @@
 		[
 			"fokastudio:dragons_den/patches"
 		],
-		[],
+		[
+			"fokastudio:dragons_den/chorus_plant"
+		],
 		[
 			"far_end:general/end_spike/center",
 			"far_end:general/end_spike/ring",
