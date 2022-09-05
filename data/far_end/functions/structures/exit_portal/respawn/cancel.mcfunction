@@ -4,3 +4,5 @@ execute as @e[type=end_crystal,predicate=fokastudio:end/locations/in_the_end] at
 
 scoreboard players reset @s fe.timer
 tag @s remove fe.respawn
+
+kill @e[type=marker,tag=foka.respawn_animation]
