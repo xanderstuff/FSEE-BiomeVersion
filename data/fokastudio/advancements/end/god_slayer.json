@@ -1,14 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_sword"
+			"item": "minecraft:netherite_axe"
 		},
 		"title": {
-			"translate": "advancements.end.kill_dragon.title",
+			"translate": "God Slayer",
 			"color": "#D400FF"
 		},
 		"description": {
-			"translate": "The Beast is now dead, and The End is waiting for you to discover its secrets...",
+			"translate": "You have proven yourself worthy by defeating the foul Beast twice",
 			"color": "#E562FF"
 		},
 		"frame": "challenge",
@@ -16,13 +16,13 @@
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "fokastudio:end/judgement_day",
+	"parent": "minecraft:end/dragon_breath",
 	"criteria": {
-		"kill_dragon": {
+		"kill_dragon_again": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
-		"experience": 12000
+		"experience": 2500
 	}
 }

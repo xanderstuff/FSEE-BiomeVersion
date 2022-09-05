@@ -4,7 +4,8 @@
 			"item": "minecraft:end_crystal"
 		},
 		"title": {
-			"translate": "Sacrificial Ritual"
+			"translate": "Sacrificial Ritual",
+			"color": "#E251FF"
 		},
 		"description": {
 			"translate": "Place down 4 End Crystals on top of the 4 elevated Obsidian Blocks to awake the vicious beast..."
@@ -16,24 +17,8 @@
 	},
 	"parent": "minecraft:end/root",
 	"criteria": {
-		"killed_dragon": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:ender_dragon"
-						}
-					}
-				]
-			}
+		"requirement": {
+			"trigger": "minecraft:impossible"
 		}
-	},
-	"requirements": [
-		[
-			"killed_dragon"
-		]
-	]
+	}
 }
