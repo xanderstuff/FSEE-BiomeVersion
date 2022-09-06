@@ -21,7 +21,7 @@
 			"conditions": {
 				"distance": {
 					"y": {
-						"min": 150
+						"min": 600
 					}
 				}
 			}
@@ -33,6 +33,6 @@
 		]
 	],
 	"rewards": {
-		"experience": 400
+		"experience": 1250
 	}
 }
