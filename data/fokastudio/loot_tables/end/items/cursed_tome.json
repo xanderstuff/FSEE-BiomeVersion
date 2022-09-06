@@ -1,0 +1,47 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Cursed Tome",
+								"color": "#E30000",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,foka.special_item:\"cursed_tome\",Recipes:[]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "Right click to absorb ancient knowledge",
+									"color": "#FF9E9E",
+									"italic": false
+								},
+								{
+									"translate": "Can be used again to remind yourself",
+									"color": "#FF9E9E",
+									"italic": false
+								},
+								{
+									"translate": "about all of its secrets",
+									"color": "#FF9E9E",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

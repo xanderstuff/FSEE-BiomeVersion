@@ -47,3 +47,6 @@ tag @e[nbt={OnGround:1b,Item:{id:"minecraft:wither_skeleton_skull",Count:1b}},di
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:bow",Count:1b}},distance=..1] add foka.altar_of_the_accursed.bow
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:feather",Count:10b}},distance=..1] add foka.altar_of_the_accursed.10_feathers
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:gold_ingot",Count:12b}},distance=..1] add foka.altar_of_the_accursed.12_gold_ingots
+
+# Tag for Cursed Guidebook
+tag @e[nbt={OnGround:1b,Item:{id:"minecraft:enchanted_book",Count:1b}},distance=..1] add foka.altar_of_the_accursed.enchanted_book

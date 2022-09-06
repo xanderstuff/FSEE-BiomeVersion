@@ -37,6 +37,7 @@ scoreboard objectives add foka.misc.paper dummy
 scoreboard objectives add foka.misc.elytra_trail_id dummy
 scoreboard objectives add foka.misc.end_portal_animation dummy
 scoreboard objectives add foka.misc.shot_bow minecraft.used:minecraft.bow
+scoreboard objectives add foka.misc.used_knowledge_book minecraft.used:minecraft.knowledge_book
 
 ## Creating teams
 # Currently only used for purple glow color

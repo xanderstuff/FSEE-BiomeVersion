@@ -3,6 +3,7 @@
 ### THIS WAS SO HARD BCS I KNOW NO SHIT
 ### ABOUT ANYTHING
 
+scoreboard players reset @s foka.misc.shot_bow
 
 execute store result score #damage foka.misc run data get entity @e[type=#arrows,limit=1,sort=nearest] damage 10
 

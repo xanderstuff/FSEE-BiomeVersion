@@ -5,12 +5,12 @@
 			"nbt": "{CustomModelData:90000}"
 		},
 		"title": {
-			"translate": "Cursed Crafting",
-            "color": "#B80000"
+			"translate": "An Introduction to Dark Magic",
+            "color": "#E30000"
 		},
 		"description": [
 			{
-				"translate": "Use"
+				"translate": "Throw an Enchanted Book over"
 			},
 			" ",
 			{
@@ -19,15 +19,15 @@
 			},
 			" ",
 			{
-				"text": "to craft some powerful gear"
+				"translate": "to imbue it with Dark Magic"
 			}
 		],
-		"frame": "task",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "fokastudio:end/an_introduction_to_dark_magic",
+	"parent": "minecraft:end/kill_dragon",
 	"criteria": {
 		"craft_using_aota": {
 			"trigger": "minecraft:impossible"
