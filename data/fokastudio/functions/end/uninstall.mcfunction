@@ -37,6 +37,7 @@ scoreboard objectives remove foka.items.sabrewing.until_charge_reset
 
 scoreboard objectives remove foka.mechanics.void_fishing_length
 scoreboard objectives remove foka.mechanics.crystal_count
+scoreboard objectives remove foka.mechanics.void_totem_protection_time
 
 scoreboard objectives remove foka.misc
 scoreboard objectives remove foka.misc.move_x

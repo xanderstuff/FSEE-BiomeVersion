@@ -27,6 +27,7 @@ scoreboard objectives add foka.items.sabrewing.until_charge_reset dummy
 # Mechanics
 scoreboard objectives add foka.mechanics.void_fishing_length dummy
 scoreboard objectives add foka.mechanics.crystal_count dummy
+scoreboard objectives add foka.mechanics.void_totem_protection_time dummy
 
 # Misc
 scoreboard objectives add foka.misc dummy
