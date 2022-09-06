@@ -26,3 +26,6 @@ execute as @a[tag=foka.scheduled_void_totem_effect] at @s run function fokastudi
 
 # Scheduled checks for End Portal animation
 execute as @e[type=marker,tag=foka.end_portal_animation,tag=foka.end_portal_animation.check_schedule] at @s run function fokastudio:end/visuals/end_portal_animation/checks/base
+
+# Tridents return in Void
+execute as @e[type=trident] at @s if predicate fokastudio:end/locations/below_y_0 run data merge entity @s {DealtDamage:1b}
