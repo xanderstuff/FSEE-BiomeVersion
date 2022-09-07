@@ -3,17 +3,13 @@
 		{
 			"structure": "minecraft:end_city",
 			"weight": 1
-		},
-		{
-			"structure": "fokastudio:end/village",
-			"weight": 4
 		}
 	],
 	"placement": {
 		"type": "minecraft:random_spread",
 		"salt": 10387313,
 		"spread_type": "triangular",
-		"spacing": 42,
-		"separation": 37
+		"spacing": 30,
+		"separation": 27
 	}
 }
