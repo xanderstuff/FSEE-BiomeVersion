@@ -18,3 +18,5 @@ execute as @a[tag=foka.scheduled_void_totem_effect] at @s run function fokastudi
 execute as @a[predicate=fokastudio:end/utils/with_totem_over_void] run effect give @s instant_health 1 15 true
 
 execute as @a[predicate=fokastudio:end/utils/with_totem_in_void] at @s run function fokastudio:end/mechanics/void_totem_protection/main
+
+execute as @e[type=item,tag=!foka.dragon_egg.added_lore,nbt={Item:{id:"minecraft:dragon_egg"}}] run function fokastudio:end/mechanics/dragon_egg/add_lore
