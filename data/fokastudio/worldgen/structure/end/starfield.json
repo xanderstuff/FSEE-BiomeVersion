@@ -9,10 +9,10 @@
 	"start_height": {
 		"type": "minecraft:uniform",
 		"min_inclusive": {
-			"absolute": 22
+			"absolute": 55
 		},
 		"max_inclusive": {
-			"absolute": 65
+			"absolute": 70
 		}
 	},
 	"project_start_to_heightmap": "MOTION_BLOCKING",
