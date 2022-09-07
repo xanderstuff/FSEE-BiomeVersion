@@ -9,7 +9,7 @@
 				"type": "minecraft:mul",
 				"argument1": {
 					"type": "minecraft:add",
-					"argument1": "fokastudio:end/offset",
+					"argument1": "fokastudio:end/depth",
 					"argument2": {
 						"type": "minecraft:mul",
 						"argument1": "fokastudio:end/jaggedness",
@@ -18,7 +18,7 @@
 							"argument": {
 								"type": "minecraft:noise",
 								"noise": "fokastudio:end/jagged",
-								"xz_scale": 770,
+								"xz_scale": 800,
 								"y_scale": 0
 							}
 						}

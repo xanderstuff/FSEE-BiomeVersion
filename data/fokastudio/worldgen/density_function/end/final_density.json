@@ -17,23 +17,23 @@
 							"type": "minecraft:mul",
 							"argument1": {
 								"type": "minecraft:y_clamped_gradient",
-								"from_y": 0,
-								"to_y": 35,
-								"from_value": -0.2,
-								"to_value": 0.9
+								"from_y": -10,
+								"to_y": 27,
+								"from_value": 0,
+								"to_value": 1
 							},
 							"argument2": {
 								"type": "minecraft:add",
 								"argument1": 1.4,
 								"argument2": {
 									"type": "minecraft:add",
-									"argument1": -0.11,
+									"argument1": -0.1,
 									"argument2": {
 										"type": "minecraft:mul",
 										"argument1": {
 											"type": "minecraft:y_clamped_gradient",
-											"from_y": 166,
-											"to_y": 240,
+											"from_y": 145,
+											"to_y": 205,
 											"from_value": 1,
 											"to_value": 0
 										},
@@ -44,14 +44,14 @@
 												"type": "minecraft:range_choice",
 												"input": "fokastudio:end/main_island/avg",
 												"min_inclusive": -1000000,
-												"max_exclusive": 0.0011,
+												"max_exclusive": 0.0019,
 												"when_in_range": {
 													"type": "minecraft:range_choice",
 													"input": "fokastudio:end/main_island/avg",
 													"min_inclusive": -1000000,
 													"max_exclusive": 0.0005,
 													"when_in_range": "fokastudio:end/main_island/island",
-													"when_out_of_range": 0.08
+													"when_out_of_range": 0.1
 												},
 												"when_out_of_range": "fokastudio:end/sloped_cheese"
 											}
