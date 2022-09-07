@@ -30,6 +30,6 @@
 		"salt": 5783475,
 		"spread_type": "triangular",
 		"spacing": 35,
-		"separation": 20
+		"separation": 25
 	}
 }
