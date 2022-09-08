@@ -10,7 +10,7 @@
 		"salt": 1327375055,
 		"exclusion_zone": {
 			"other_set": "minecraft:end_cities",
-			"chunk_count": 12
+			"chunk_count": 16
 		},
 		"spread_type": "triangular",
 		"spacing": 30,

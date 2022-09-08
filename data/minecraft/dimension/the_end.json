@@ -13,11 +13,11 @@
 						"humidity": 0,
 						"continentalness": [
 							-0.3,
-							-0.18
+							-0.23
 						],
 						"erosion": [
 							-0.2,
-							-0.11
+							-0.12
 						],
 						"weirdness": 0,
 						"depth": 0,
@@ -28,22 +28,22 @@
 					"biome": "fokastudio:shattered_end",
 					"parameters": {
 						"temperature": -0.4,
-						"humidity": -0.1,
-						"continentalness": -0.11,
-						"erosion": -0.3,
+						"humidity": 0,
+						"continentalness": -0.44,
+						"erosion": -0.25,
 						"weirdness": 0,
 						"depth": 0,
-						"offset": 0.17
+						"offset": 0.133
 					}
 				},
 				{
 					"biome": "far_end:ender_waste",
 					"parameters": {
-						"temperature": 0.4,
-						"humidity": 0.2,
-						"continentalness": 0.6,
-						"erosion": 0,
-						"weirdness": -0.3,
+						"temperature": 0.3,
+						"humidity": 0.1,
+						"continentalness": 0.52,
+						"erosion": 0.24,
+						"weirdness": 0,
 						"depth": 0,
 						"offset": 0
 					}
@@ -51,10 +51,10 @@
 				{
 					"biome": "minecraft:the_end",
 					"parameters": {
-						"temperature": 0.5,
+						"temperature": 0.4,
 						"humidity": 0.2,
-						"continentalness": 0.6,
-						"erosion": 0,
+						"continentalness": 0.52,
+						"erosion": 0.24,
 						"weirdness": 0,
 						"depth": 0,
 						"offset": 0
@@ -63,7 +63,7 @@
 				{
 					"biome": "far_end:end_wilds",
 					"parameters": {
-						"temperature": 0.3,
+						"temperature": 0.28,
 						"humidity": 0.0,
 						"continentalness": 0.3,
 						"erosion": 0.04,
@@ -219,11 +219,11 @@
 				{
 					"biome": "minecraft:end_highlands",
 					"parameters": {
-						"temperature": 0.39,
-						"humidity": 0.13,
+						"temperature": 0.33,
+						"humidity": 0.11,
 						"continentalness": 0.6,
-						"erosion": 0.3,
-						"weirdness": 0.54,
+						"erosion": 0.25,
+						"weirdness": 0.47,
 						"depth": 0,
 						"offset": 0
 					}
@@ -233,9 +233,9 @@
 					"parameters": {
 						"temperature": -0.5,
 						"humidity": -0.2,
-						"continentalness": 0.5,
+						"continentalness": 0.44,
 						"erosion": 0,
-						"weirdness": 0.6,
+						"weirdness": 0.55,
 						"depth": 0,
 						"offset": 0
 					}
@@ -245,9 +245,9 @@
 					"parameters": {
 						"temperature": 0.23,
 						"humidity": -0.3,
-						"continentalness": 0.7,
-						"erosion": 0.23,
-						"weirdness": 0.82,
+						"continentalness": 0.6,
+						"erosion": 0.2,
+						"weirdness": 0.84,
 						"depth": 0,
 						"offset": 0.45
 					}
