@@ -3,7 +3,7 @@
 	"placement": [
 		{
 			"type": "minecraft:rarity_filter",
-			"chance": 4
+			"chance": 6
 		},
 		{
 			"type": "minecraft:count",
@@ -11,11 +11,11 @@
 				"type": "minecraft:weighted_list",
 				"distribution": [
 					{
-						"weight": 10,
+						"weight": 12,
 						"data": 1
 					},
 					{
-						"weight": 3,
+						"weight": 4,
 						"data": 2
 					},
 					{
