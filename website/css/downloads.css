@@ -1,20 +1,37 @@
 @media screen and (max-width: 800px) {
 	* {
-		--button-padding: 2%;
-		--button-font-size: 3vw;
+		--button-padding: 0%;
+		--button-font-size: 7vw;
+
+		--commitlist-width: 105%;
+		--commitlist-height: 50%;
+		--commitlist-offset: 0%;
+		--commitlist-padding: 2.5%;
 	}
 }
   
 @media screen and (min-width: 800px) {
 	* {
-		--button-padding: 2%;
-		--button-font-size: 1.7vw;
+		--button-padding: 0%;
+		--button-font-size: 2.2vw;
+
+		--commitlist-width: 66.666%;
+		--commitlist-height: 66.666%;
+		--commitlist-offset: 17.5%;
+		--commitlist-padding: 5%;
 	}
 }
 
 body, html {
 	height: 100%;
 	background-color: rgb(31, 31, 31);
+	-ms-overflow-style: none; /* Hides scrollbar on Edge */
+	scrollbar-width: none; /* Hides scrollbar on Firefox */
+
+}
+
+body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
+  display: none;
 }
 
 
@@ -24,6 +41,15 @@ body, html {
 	background-repeat: repeat-x;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+#commitlist {
+	width: var(--commitlist-width);
+	height: var(--commitlist-height);
+	margin-left: var(--commitlist-offset);
+	padding: var(--commitlist-padding);
+	background-color: #636363;
+	border-radius: 14px;
 }
 
 hr {
@@ -37,7 +63,7 @@ hr {
 	color: #FFFFFF;
 	text-align: center;
 	font-size: var(--button-font-size);
-	font-family: 'MinecraftiaRegular'; 
+	font-family: 'AnimaticSC-Bold'; 
 	padding: var(--button-padding);
 	padding-bottom: 0px;
 	width: 95%;

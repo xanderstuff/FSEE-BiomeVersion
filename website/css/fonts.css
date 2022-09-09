@@ -1,18 +1,20 @@
 @media screen and (max-width: 800px) {
 	* {
-		--h1-size: 200%;
-		--p-size: 115%;
+		--h1-size: 400%;
+		--h2-size: 300%;
+		--p-size: 200%;
 		--br-margin: 10px;
-		--glow-size: 250%;
+		--glow-size: 500%;
 	}
 }
   
 @media screen and (min-width: 800px) {
 	* {
-		--h1-size: 300%;
-		--p-size: 125%;
+		--h1-size: 600%;
+		--h2-size: 400%;
+		--p-size: 250%;
 		--br-margin: 10px;
-		--glow-size: 500%;
+		--glow-size: 700%;
 	}
 }
 
@@ -26,14 +28,34 @@
 	src: url(../assets/fonts/IllagerSmallOutline.ttf);
 }
 
+@font-face {
+	font-family: 'AnimaticSC';
+	src: url(../assets/fonts/AmaticSC.ttf);
+}
+
+@font-face {
+	font-family: 'AnimaticSC-Bold';
+	src: url(../assets/fonts/AmaticSC-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Quicksand';
+	src: url(../assets/fonts/Quicksand.ttf);
+}
+
 p, h1, h2, h3, h4, h5, h6, pre {
-	font-family: 'MinecraftiaRegular';
+	font-family: 'AnimaticSC';
 	color: whitesmoke;
 	padding: 0;
 }
 
 h1 {
 	font-size: var(--h1-size);
+	text-align: center;
+}
+
+h2 {
+	font-size: var(--h2-size);
 	text-align: center;
 }
 
@@ -50,8 +72,13 @@ hr {
 	font-family: 'IllagerAlt';
 }
 
+.minecraftia {
+	font-family: 'MinecraftiaRegular';
+}
+
 .glow {
 	font-size: var(--glow-size);
+	font-family: 'AnimaticSC-Bold';
 	color: white;
 	animation: glow 2s ease-in-out infinite alternate;
 }

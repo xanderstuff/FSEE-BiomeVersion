@@ -2,14 +2,14 @@
 	* {
 		--illageralt-font-size: 180%;
 		
-		--carousel-title-size: 130%;
-		--carousel-caption-size: 90%;
+		--carousel-title-size: 200%;
+		--carousel-caption-size: 140%;
 		
 		--kofi-card-width: 100%;
 		--kofi-card-height: 100%;
 
-		--button-padding: 2%;
-		--button-font-size: 3vw;
+		--button-padding: 0%;
+		--button-font-size: 7vw;
 	}
 }
   
@@ -17,20 +17,27 @@
 	* {
 		--illageralt-font-size: 300%;
 		
-		--carousel-title-size: 250%;
-		--carousel-caption-size: 160%;
+		--carousel-title-size: 420%;
+		--carousel-caption-size: 260%;
 		
 		--kofi-card-width: 50%;
 		--kofi-card-height: 50%;
 
-		--button-padding: 2%;
-		--button-font-size: 1.7vw;
+		--button-padding: 0%;
+		--button-font-size: 2.2vw;
 	}
 }
 
 body, html {
 	height: 100%;
 	background-color: rgb(31, 31, 31);
+	-ms-overflow-style: none; /* Hides scrollbar on Edge */
+  	scrollbar-width: none; /* Hides scrollbar on Firefox */
+
+}
+
+body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
+	display: none;
 }
 
 #hero-image {
@@ -118,7 +125,7 @@ a[data-tip]:hover {
 	color: #FFFFFF;
 	text-align: center;
 	font-size: var(--button-font-size);
-	font-family: 'MinecraftiaRegular'; 
+	font-family: 'AnimaticSC-Bold'; 
 	padding: var(--button-padding);
 	padding-bottom: 0px;
 	width: 95%;

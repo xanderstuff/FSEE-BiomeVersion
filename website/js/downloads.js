@@ -1,5 +1,11 @@
-fetch('https://api.github.com/repos/ChocolateLoverRaj/canvideo/commits?per_page=1')
+var array = [];
+
+fetch('https://api.github.com/repos/FokaStudio/FSEE/commits?per_page=3')
 	.then(res => res.json())
 	.then(res => {
-		document.getElementById('commitmsg').innerHTML = res[0].commit.message
+		array.push(res[0].commit.message + "<br>")
+		array.push(res[1].commit.message + "<br>")
+		array.push(res[2].commit.message)
+		const commitlist = array.join('')
+		document.getElementById('commitmsg').innerHTML = commitlist
 })

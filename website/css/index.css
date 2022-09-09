@@ -5,10 +5,22 @@
 		--logo-margin: 15%;
 
 		--button-width: 95%;
-		--button-padding: 2%;
-		--button-font-size: 3vw;
+		--button-padding: 0%;
+		--button-font-size: 7vw;
 		--button-margin: 2%;
+		--button-scale: 1.05;
 	}
+
+	body {
+		overflow-x: hidden;
+		-ms-overflow-style: none; /* Hides scrollbar on Edge */
+  		scrollbar-width: none; /* Hides scrollbar on Firefox */
+	}
+
+	body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
+		display: none;
+	}
+
 }
   
 @media screen and (min-width: 800px) {
@@ -18,9 +30,14 @@
 		--logo-margin: 10%;
 
 		--button-width: 30%;
-		--button-padding: 2%;
-		--button-font-size: 1.7vw;
+		--button-padding: 0%;
+		--button-font-size: 2.2vw;
 		--button-margin: 1%;
+		--button-scale: 1.1;
+	}
+
+	body {
+		overflow: hidden
 	}
 }
 
@@ -38,7 +55,6 @@
 
 body {
 	background-color: black;
-	overflow: hidden
 }
 
 #random-bg {
@@ -121,7 +137,7 @@ body {
 	color: #FFFFFF;
 	text-align: center;
 	font-size: var(--button-font-size);
-	font-family: 'MinecraftiaRegular'; 
+	font-family: 'AnimaticSC-Bold'; 
 	padding: var(--button-padding);
 	padding-bottom: 0px;
 	width: var(--button-width);
@@ -142,7 +158,7 @@ body {
 .fancy-button:hover {
 	outline: 4px solid white;
 	color: white;
-	scale: 1.1;
+	scale: var(--button-scale);
 }
   
 .fancy-button span {

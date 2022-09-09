@@ -1,0 +1,105 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sweet_berries",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Duskberry",
+								"color": "#950000",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": ""
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "foka.duskberry.damage",
+									"amount": 0.15,
+									"operation": "multiply_total",
+									"id": "b04f96a1-50f4-468f-9174-948364581a8d",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"name": "foka.duskberry.speed",
+									"amount": 0.05,
+									"operation": "multiply_total",
+									"id": "49b3cc0b-636c-426d-9de4-cebb0cf71dd9",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "foka.duskberry.damage",
+									"amount": 0.15,
+									"operation": "multiply_total",
+									"id": "b04f96a1-50f4-468f-9174-948364581a8d",
+									"slot": "offhand"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"name": "foka.duskberry.speed",
+									"amount": 0.05,
+									"operation": "multiply_total",
+									"id": "49b3cc0b-636c-426d-9de4-cebb0cf71dd9",
+									"slot": "offhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "Empowers your speed",
+									"color": "#A53535",
+									"italic": false
+								},
+								{
+									"translate": "and strength while held",
+									"color": "#A53535",
+									"italic": false
+								},
+								{
+									"translate": "Consuming or planting might",
+									"color": "#A53535",
+									"italic": false
+								},
+								{
+									"translate": "have dire consequences",
+									"color": "#A53535",
+									"italic": false
+								},
+								" ",
+								{
+									"translate": "Member #666 Item",
+									"color": "#640000",
+									"italic": false,
+									"obfuscated": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,HideFlags:3,Enchantments:[{}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
