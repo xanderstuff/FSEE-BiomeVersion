@@ -20,6 +20,7 @@ execute as @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=
 # Or I could, but definitely not in the way I would want to
 execute as @e[type=marker,tag=fe.exit_portal,tag=!foka.post_gen.initialized] in minecraft:the_end run function fokastudio:end/post_gen/initialize
 
+
 # Scheduled checks for End Portal animation
 execute as @e[type=marker,tag=foka.end_portal_animation,tag=foka.end_portal_animation.check_schedule] at @s run function fokastudio:end/visuals/end_portal_animation/checks/base
 

@@ -19,10 +19,6 @@
 			"from_value": 1,
 			"to_value": -2
 		},
-		"argument2": {
-			"type": "minecraft:mul",
-			"argument1": 1.6,
-			"argument2": "fokastudio:end/offset"
-		}
+		"argument2": "fokastudio:end/offset"
 	}
 }
