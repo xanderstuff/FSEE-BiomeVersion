@@ -1,3 +1,21 @@
+@media screen and (max-width: 800px) {
+	* {
+		--h1-size: 200%;
+		--p-size: 115%;
+		--br-margin: 10px;
+		--glow-size: 250%;
+	}
+}
+  
+@media screen and (min-width: 800px) {
+	* {
+		--h1-size: 300%;
+		--p-size: 125%;
+		--br-margin: 10px;
+		--glow-size: 500%;
+	}
+}
+
 @font-face {
 	font-family: 'MinecraftiaRegular';
 	src: url(../assets/fonts/Minecraftia-Regular.ttf);
@@ -15,17 +33,17 @@ p, h1, h2, h3, h4, h5, h6, pre {
 }
 
 h1 {
-	font-size: 300%;
+	font-size: var(--h1-size);
 	text-align: center;
 }
 
 p {
-	font-size: 125%;
+	font-size: var(--p-size);
 }
 
 hr {
 	color: whitesmoke;
-	margin: 10px;
+	margin: var(--br-margin);
 }
 
 .illageralt {
@@ -33,7 +51,7 @@ hr {
 }
 
 .glow {
-	font-size: 500%;
+	font-size: var(--glow-size);
 	color: white;
 	animation: glow 2s ease-in-out infinite alternate;
 }

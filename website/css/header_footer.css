@@ -1,6 +1,24 @@
+@media screen and (max-width: 800px) {
+	* {
+		--header-logo-text-width: 35%;
+		--header-logo-text-height: 35%;
+		--top-padding: 3%;
+		--bottom-padding: 3%;
+	}
+}
+  
+@media screen and (min-width: 800px) {
+	* {
+		--header-logo-text-width: 13%;
+		--header-logo-text-height: 13%;
+		--top-padding: 1%;
+		--bottom-padding: 1%;
+	}
+}
+
 header {
 	text-align: center;
-	padding: 1%;
+	padding: var(--top-padding);
 	background-color: black;
 	color: white;
 	z-index: 30;
@@ -17,8 +35,13 @@ header img:hover {
 
 footer {
 	text-align: center;
-	padding: 1%;
+	padding: var(--bottom-padding);
 	background-color: black;
 	color: white;
 	z-index: 30;
+}
+
+#logotext {
+	width: var(--header-logo-text-width);
+	height:  var(--header-logo-text-height);
 }
