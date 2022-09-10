@@ -18,6 +18,7 @@
 	}
 }
 
+/* Registering fonts */
 @font-face {
 	font-family: 'MinecraftiaRegular';
 	src: url(../assets/fonts/Minecraftia-Regular.ttf);
@@ -38,13 +39,9 @@
 	src: url(../assets/fonts/AmaticSC-Bold.ttf);
 }
 
-@font-face {
-	font-family: 'Quicksand';
-	src: url(../assets/fonts/Quicksand.ttf);
-}
+/* Global text formatting */
 
 p, h1, h2, h3, h4, h5, h6, pre {
-	font-family: 'AnimaticSC';
 	color: whitesmoke;
 	padding: 0;
 }
@@ -59,8 +56,13 @@ h2 {
 	text-align: center;
 }
 
-p {
+p, pre {
 	font-size: var(--p-size);
+	font-family: 'AnimaticSC';
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'AnimaticSC-Bold';
 }
 
 hr {
@@ -68,10 +70,119 @@ hr {
 	margin: var(--br-margin);
 }
 
+/* Using special fonts for special objects */
 .illageralt {
 	font-family: 'IllagerAlt';
 }
 
 .minecraftia {
 	font-family: 'MinecraftiaRegular';
+}
+
+/* Animated texts */
+.glow {
+	animation: glow-color-change 3s infinite linear;
+}
+
+@keyframes glow-color-change {
+	0% { color: #C000D4; }
+	25% { color: #E700FF; }
+	50% { color: #F169FF; }
+	75% { color: #E700FF; }
+	100% { color: #C000D4; }
+}
+
+.rainbow {
+	animation: rainbow-color-change 5s infinite linear;
+}
+
+@keyframes rainbow-color-change {
+	0% { color: red; }
+	14.5% { color: orange; }
+	29% { color: yellow; }
+	43.5% { color: lime; }
+	58% { color: aqua; }
+	72.5% { color: cornflowerblue; }
+	87% { color: magenta; }
+	100% { color: red; }
+}
+
+.fire {
+	animation: fire-color-change 1.5s infinite linear;
+}
+
+@keyframes fire-color-change {
+	0% { color: red; }
+	50% { color: orange; }
+	100% { color: red; }
+}
+
+.donator {
+	animation: donator-color-change 1.5s infinite linear;
+}
+
+@keyframes donator-color-change {
+	0% { color: #66a67b; }
+	50% { color: #99D6AD; }
+	100% { color: #66a67b; }
+}
+
+/* Hyperlinks formatting */
+a {
+	color: mediumvioletred; 
+	text-decoration: none;
+	position: relative;
+	font-size: inherit;
+}
+
+/* Hover text for hyperlinks */
+a[data-tip] {
+	transition-duration: 0.2s;
+}
+
+a[data-tip]:after {
+	position: absolute;
+	width: 12em;
+	background-color: #31052c;
+	content: attr(data-tip);
+	padding: 0.6em 0;
+	color: whitesmoke;
+	margin: auto;
+	left: -4.5em;
+	right: 0;
+	bottom: 3em;
+	text-align: center;
+	border-radius: 0.2em;
+}
+
+a[data-tip]:before {
+	position: absolute;
+	content: "";
+	height: 0;
+	width: 0;
+	border-top: 0.5em solid #31052c;
+	border-left: 0.5em solid transparent;
+	border-right: 0.5em solid transparent;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 2.6em
+}
+
+a[data-tip]:before, a[data-tip]:after {
+	display: none;
+}
+
+a[data-tip]:hover:before, a[data-tip]:hover:after {
+	display: block;
+}
+
+a[data-tip]:hover {
+	color: palevioletred;
+	transition-duration: 0.2s;
+}
+
+/* Tweak Bootstrap carousels */
+.carousel-item {
+	font-family: 'AnimaticSC-Bold';
 }

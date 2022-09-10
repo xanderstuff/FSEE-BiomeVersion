@@ -34,7 +34,7 @@
 		<!-- Header -->
 		<header>
 			<div style="text-align: left; margin-left: 1%;">
-				<a href="../../index.html"><img style="display: inline-block; width: 10%; height: 10%;" src="../assets/text.png"></a>
+				<a href="../../index.html"><img id="logotext" src="../assets/text.png"></a>
 			</div>
 		</header>
 				
@@ -43,32 +43,45 @@
 			<br>
 			<div class="container-sm p-5">
 				<div>
-					<h1 class="glow" style="color: #e60073;">Downloads Library</h1>
+					<h1 class="glow">Downloads Library</h1>
 					<br><br>
-					<p>Here you can download both newest versions of FSEE, as well as older ones for older versions of MC.</p>
+					<p>
+						<b>Here you can download both newest versions of FSEE, as well as older ones for past versions of MC.</b>
+					</p>
 					
 				</div>
 				<br><br><hr><br><br>
 				<div>
-					<h1 >Latest</h1>
-					<br><br>
+					<h1 style="color: #D76EFF;">Latest Versions</h1>
+					<br><br><br><br><br>
 					<div style="text-align: center;">
-						<h2>Stable Branch</h2>
-						<a button href="http://adfoc.us/66592085150708" target="_blank" class="fancy-button"><span>Latest stable</span></a>
+						<h2 style="color: #D197E7;">Stable Branch</h2>
+						<a button href="http://adfoc.us/66592085150708" target="_blank" class="fancy-button"><span>Download latest Stable</span></a>
 						<br><br>
 						<p>
-							<b>Current latest stable release:</b> 1.5b for <i>1.19 - 1.19.2</i>
+							Stable versions. Will not break at random and is <a href="javascript:void(0)" onclick="doingClick();" data-tip="Almost...">bug free</a>!<br>
+							<span style="color: #B773FF;"><b>Current latest stable release:</b> 1.5b for <i>1.19 - 1.19.2</i></span>
 						</p>
-						<br><hr><br>
-						<h2>Dev Branch</h2>
-						<a button href="http://adfoc.us/66592085148550" target="_blank" class="fancy-button"><span>Dev version</span></a>
+						<br><br><br><br><br>
+						<h2 class="rainbow">Dev Branch</h2>
+						<a button href="http://adfoc.us/66592085148550" target="_blank" class="fancy-button"><span>Download latest Dev</span></a>
 						<br><br>
 						<p>
-							Contains every of my latest tests and additions. 
-							<b>Beware, as these versions are considered unstable and might break at any point!</b> 
-							Though you can also help me search for bugs by using this version!
-							<br><br>
-							Current dev versions are for <i>1.19 - 1.19.2</i>
+							<span class="rainbow">
+								Contains every of my latest tests and additions.
+							</span>
+							<br>
+							<b style="color: #FF5353;">
+								Beware, as these versions are considered unstable and might become broken at any point!
+								<br>
+								Do not use in production unless recommended by FokaStudio!
+							</b>
+							<br>
+							<span style="color: #A8FF73;">
+								Altough by using this verision, you can help me search for and fix bugs before officialy releasing new versions!
+							</span>
+							<br>
+							<b>Current dev versions are for <i>1.19 - 1.19.2</i></b>
 							<br><br>
 							<b>Latest changes:</b>
 						</p>
@@ -79,42 +92,62 @@
 							</div>
 							<br><br>
 						<p>
-							<u>Make sure to unzip the downloaded file!</u>
+							<u style="color: #FFE800;">Make sure to unzip the downloaded file!</u>
 						</p>
 					</div>
 				</div>
 				<br><br><hr><br><br>
 				<div>
-					<h1>Server Installation</h1>
+					<h1 style="color: #B879FF;">Server Installation</h1>
 					<br><br>
 					<p>
-						Spigot/Paper/Purpur/etc. have a bug that basically causes world generation packs to not work, with regular worldgen being applied instead.<br>
-						FSEE is no exception for this one...<br><br>
+						<span style="color: #FFEF28;">Spigot</span>/<span style="color: #F6F6F6;">Paper</span>/<span style="color: #AA28FF;">Purpur</span>/etc. have a bug that basically causes world generation packs to not work, with regular worldgen being applied instead.<br>
+						<span style="color: #FF8080;">FSEE is no exception...</span>
+						<br><br>
 
-						<b>How to prevent/fix this?</b><br><br>
+						<b>How to prevent/fix this?</b>
 						
-						1️⃣ Drop the datapack into its directory (world/datapacks)<br>
-						2️⃣ Turn on your server<br>
-						3️⃣ Wait until it finishes loading, and the turn it off<br>
-						4️⃣ Head to 'world_the_end' folder and delete 'region' and 'entities' folders found inside<br>
-							Or 'world/DIM1' on Fabric, and straight to 'DIM'1 on Vanilla servers<br>
-						5️⃣ Start your server<br><br>
+						<br><br>
+						
+						1️⃣ Drop the datapack into its directory <span style="color: #B5B5B5;">(world/datapacks)</span><br>
+						2️⃣ <span style="color: #64FF00;">Start</span> your server<br>
+						3️⃣ Wait until it finishes loading, and then <span style="color: #FF0000;">stop</span> it<br>
+						4️⃣ Head to <span style="color: #B5B5B5;">'world_the_end'</span> folder and delete <span style="color: #B5B5B5;">'region'</span> and <span style="color: #B5B5B5;">'entities'</span> folders found inside<br>
+							Or <span style="color: #B5B5B5;">'world/DIM1'</span> on Fabric, or straight to <span style="color: #B5B5B5;">'DIM1'</span> on Vanilla servers<br>
+						5️⃣ <span style="color: #64FF00;">Start your server again</span><br>
+						<br>
 
-						Works 99% of the time<br>
-						<i>The other 1% is you being unable to do these steps correctly.</i><br>
+						Works 99% of the time!
+						<br>
+						
+						<i style="color: #FFA3A3;">
+							If you happen to be that unfortunate 1%, just try again!
+							<br>
+							'Now Until The Moment It Works!'
+						</i>
+						
+						<br>
 					</p>
 
 				</div>
 				<br><br><hr><br><br>
-				<div>
-					<h1>Legacy</h1>
+				<div style="text-align: center;">
+					<h1 class="fire">Legacy</h1>
 					<br><br>
-					<p>Nothe that I do not provide support for people using older versions, neither will I backport any features/bugfixes to these. Just move on.</p>
-					<br>
-					<br>
+					<p>
+						<span style="color: #E04040;">
+							Note that I do not provide support for people using older versions, neither will I backport any features/bugfixes to these.
+						</span>
+						<br>
+						<b class="fire">Just move on. There is no point in staying with older versions....</b>
+					</p>
+					
+					<br><br>
+					
 					<a button href="http://adfoc.us/66592085148525" target="_blank" class="fancy-button"><span>1.18.2 (v1.4)</span></a>
 					<br><br>
 					<a button href="http://adfoc.us/66592085148551" target="_blank" class="fancy-button"><span>1.18 and 1.18.1 (v1.2)</span></a>
+					
 					<br><br>
 					
 				</div>

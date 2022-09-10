@@ -69,56 +69,6 @@ body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
 	background-size: cover;
 }
 
-a[data-tip] {
-	color: mediumvioletred; 
-	text-decoration: none;
-	position: relative;
-	font-size: inherit;
-	transition-duration: 0.2s;
-}
-
-a[data-tip]:after {
-	position: absolute;
-	width: 12em;
-	background-color: #31052c;
-	content: attr(data-tip);
-	padding: 0.6em 0;
-	color: whitesmoke;
-	margin: auto;
-	left: -4.5em;
-	right: 0;
-	bottom: 3em;
-	text-align: center;
-	border-radius: 0.2em;
-}
-
-a[data-tip]:before {
-	position: absolute;
-	content: "";
-	height: 0;
-	width: 0;
-	border-top: 0.5em solid #31052c;
-	border-left: 0.5em solid transparent;
-	border-right: 0.5em solid transparent;
-	margin: auto;
-	left: 0;
-	right: 0;
-	bottom: 2.6em
-}
-
-a[data-tip]:before, a[data-tip]:after {
-	display: none;
-}
-
-a[data-tip]:hover:before, a[data-tip]:hover:after {
-	display: block;
-}
-
-a[data-tip]:hover {
-	color: palevioletred;
-	transition-duration: 0.2s;
-}
-
 .fancy-button {
 	display: inline-block;
 	background-image: url(https://i.ibb.co/rb2TWXL/bgbtn.png);
