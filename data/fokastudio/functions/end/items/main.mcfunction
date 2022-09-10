@@ -24,3 +24,6 @@ execute as @e[tag=foka.items.living_flesh.hunger_remove_schedule] run function f
 
 # Cursed Tome
 execute as @a[scores={foka.misc.used_knowledge_book=1},predicate=fokastudio:end/utils/holding_cursed_tome] at @s run function fokastudio:end/items/cursed_tome/use
+
+# Duskberry
+execute as @e[type=area_effect_cloud,tag=foka.duskberry_cloud] at @s unless block ~ ~ ~ sweet_berry_bush run kill @s

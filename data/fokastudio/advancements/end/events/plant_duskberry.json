@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"plant_duskberry": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sweet_berries"
+					],
+					"nbt": "{foka.special_item:\"duskberry\"}"
+				},
+				"location": {
+					"block": {
+						"tag": "fokastudio:end/duskberry_plantable_on"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"plant_duskberry"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/items/duskberry/plant"
+	}
+}

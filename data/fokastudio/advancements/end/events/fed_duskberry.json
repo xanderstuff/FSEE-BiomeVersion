@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"feed_duskberry": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sweet_berries"
+					],
+					"nbt": "{foka.special_item:\"duskberry\"}"
+				},
+				"entity": {
+					"type": "fox"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"feed_duskberry"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/items/duskberry/feed"
+	}
+}

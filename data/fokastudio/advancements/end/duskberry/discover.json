@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sweet_berries",
+            "nbt": "{Enchantments:[{}],CustomModelData:90000}"
+        },
+        "title": {
+            "translate": "Don't Bush Your Luck!"
+        },
+        "description": {
+            "translate": "Pick up a Duskberry from a chest in Hallow's End Ship"
+        },
+        "frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "obtain_duskberry": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:sweet_berries"
+                        ],
+                        "nbt": "{foka.special_item:\"duskberry\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"eat_duskberry": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sweet_berries"
+					],
+					"nbt": "{foka.special_item:\"duskberry\"}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_duskberry"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/items/duskberry/eat"
+	}
+}
