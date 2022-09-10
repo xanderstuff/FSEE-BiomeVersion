@@ -137,7 +137,7 @@ body {
 	color: #FFFFFF;
 	text-align: center;
 	font-size: var(--button-font-size);
-	font-family: 'AnimaticSC-Bold'; 
+	font-family: 'AmaticSC-Bold'; 
 	padding: var(--button-padding);
 	padding-bottom: 0px;
 	width: var(--button-width);
@@ -149,10 +149,9 @@ body {
 	text-align: center;
 	transition-duration: 0.33s;
 	opacity: 0; 
-	vertical-align:middle; 
+	vertical-align: middle; 
 	animation: fadeInAnimationWithYChange ease 3s; 
 	animation-fill-mode: forwards; 
-	display: inline-block; 
 }
 
 .fancy-button:hover {

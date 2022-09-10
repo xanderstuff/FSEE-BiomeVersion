@@ -2,9 +2,16 @@
 	* {
 		--h1-size: 400%;
 		--h2-size: 300%;
+		--h4-size: 300%;
+		--h6-size: 200%;
+
 		--p-size: 200%;
+
 		--br-margin: 10px;
+
 		--glow-size: 500%;
+
+		--emoji-size: 150%;
 	}
 }
   
@@ -12,9 +19,16 @@
 	* {
 		--h1-size: 600%;
 		--h2-size: 400%;
+		--h4-size: 300%;
+		--h6-size: 200%;
+
 		--p-size: 250%;
+
 		--br-margin: 10px;
+
 		--glow-size: 700%;
+
+		--emoji-size: 10%;
 	}
 }
 
@@ -30,12 +44,12 @@
 }
 
 @font-face {
-	font-family: 'AnimaticSC';
+	font-family: 'AmaticSC';
 	src: url(../assets/fonts/AmaticSC.ttf);
 }
 
 @font-face {
-	font-family: 'AnimaticSC-Bold';
+	font-family: 'AmaticSC-Bold';
 	src: url(../assets/fonts/AmaticSC-Bold.ttf);
 }
 
@@ -56,13 +70,23 @@ h2 {
 	text-align: center;
 }
 
+h4 {
+	font-size: var(--h4-size);
+	text-align: center;
+}
+
+h6 {
+	font-size: var(--h6-size);
+	text-align: center;
+}
+
 p, pre {
 	font-size: var(--p-size);
-	font-family: 'AnimaticSC';
+	font-family: 'AmaticSC';
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'AnimaticSC-Bold';
+	font-family: 'AmaticSC-Bold';
 }
 
 hr {
@@ -86,9 +110,11 @@ hr {
 
 @keyframes glow-color-change {
 	0% { color: #C000D4; }
-	25% { color: #E700FF; }
-	50% { color: #F169FF; }
-	75% { color: #E700FF; }
+	16.5% { color: #E700FF; }
+	33% { color: #F169FF; }
+	49.5% { color: #f7b3ff; }
+	66% { color: #F169FF; }
+	82.5% { color: #E700FF; }
 	100% { color: #C000D4; }
 }
 
@@ -117,8 +143,18 @@ hr {
 	100% { color: red; }
 }
 
+.soulfire {
+	animation: soulfire-color-change 1.5s infinite linear;
+}
+
+@keyframes soulfire-color-change {
+	0% { color: blue; }
+	50% { color: aqua; }
+	100% { color: blue; }
+}
+
 .donator {
-	animation: donator-color-change 1.5s infinite linear;
+	animation: donator-color-change 3s infinite linear;
 }
 
 @keyframes donator-color-change {
@@ -184,5 +220,21 @@ a[data-tip]:hover {
 
 /* Tweak Bootstrap carousels */
 .carousel-item {
-	font-family: 'AnimaticSC-Bold';
+	font-family: 'AmaticSC-Bold';
+}
+
+/* Block CTRL A */
+body {
+	-webkit-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+/* Reduce Twemoji size */
+img.emoji {
+	height: 0.9em;
+	width: 0.9em;
+	margin: 0 .05em 0 .1em;
+	vertical-align: -0.1em;
 }
