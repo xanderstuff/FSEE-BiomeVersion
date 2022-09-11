@@ -27,3 +27,4 @@ execute as @a[scores={foka.misc.used_knowledge_book=1..},predicate=fokastudio:en
 
 # Duskberry
 execute as @e[type=area_effect_cloud,tag=foka.duskberry_cloud] at @s unless block ~ ~ ~ sweet_berry_bush run kill @s
+execute as @a[predicate=fokastudio:end/items/holding_duskberry] run effect give @s night_vision 11 0 true

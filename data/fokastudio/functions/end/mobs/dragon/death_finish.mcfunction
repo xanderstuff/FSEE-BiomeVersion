@@ -23,7 +23,7 @@ team join foka.purple_glow @e[type=item,limit=1,sort=nearest,tag=foka.ender_insi
 kill @e[type=marker,tag=foka.dragon_marker]
 scoreboard players reset @s fe.timer
 
-advancement grant @a[distance=..100,advancements={minecraft:end/kill_dragon=true,fokastudio:end/god_slayer=false}] only fokastudio:end/god_slayer
+advancement grant @a[distance=..100,advancements={minecraft:end/kill_dragon=true,fokastudio:end/dragons_den/god_slayer=false}] only fokastudio:end/dragons_den/god_slayer
 advancement grant @a[distance=..100,advancements={minecraft:end/kill_dragon=false}] only minecraft:end/kill_dragon
 
 execute as @e[type=marker,tag=foka.altar_of_accursed,tag=!foka.aota_activated] at @s run function fokastudio:end/floor_crafting/aota_activate
