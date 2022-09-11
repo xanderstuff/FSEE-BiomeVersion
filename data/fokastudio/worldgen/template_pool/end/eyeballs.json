@@ -1,0 +1,42 @@
+{
+	"name": "fokastudio:end/eyeballs",
+	"fallback": "fokastudio:end/eyeballs",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/eyeballs/generic",
+				"processors": "fokastudio:end/eyeballs"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/eyeballs/retinazer",
+				"processors": "fokastudio:end/eyeballs"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/eyeballs/spazmatism",
+				"processors": "fokastudio:end/eyeballs"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/eyeballs/cthulhu",
+				"processors": "fokastudio:end/eyeballs"
+			}
+		}
+	]
+}
