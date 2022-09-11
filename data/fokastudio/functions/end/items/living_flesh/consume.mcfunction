@@ -1,4 +1,4 @@
-advancement revoke @s only fokastudio:end/events/eat_living_flesh
+advancement revoke @s only fokastudio:end/events/items/eat_living_flesh
 
 effect give @s regeneration 2 6 false
 

@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather_chestplate",
+			"nbt": "{CustomModelData:90002,display:{color:11041988}}"
+		},
+		"title": {
+			"translate": "I am Titanium!",
+			"color": "#B533FF"
+		},
+		"description": [
+			{
+				"translate": "Craft a full set of Shulker Armor by combining 16 Shulker Shells and Netherite Armor over"
+			},
+			" ",
+			{
+				"translate": "Altar of The Accursed",
+				"color": "#B80000"
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/aota/cursed_crafting",
+	"criteria": {
+		"craft_shulker_helmet": {
+			"trigger": "minecraft:impossible"
+		},
+		"craft_shulker_chestplate": {
+			"trigger": "minecraft:impossible"
+		},
+		"craft_shulker_leggings": {
+			"trigger": "minecraft:impossible"
+		},
+		"craft_shulker_boots": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 300
+	}
+}

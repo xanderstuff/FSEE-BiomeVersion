@@ -1,4 +1,4 @@
-advancement revoke @s only fokastudio:end/events/eat_duskberry
+advancement revoke @s only fokastudio:end/events/items/duskberry/eat
 
 effect give @s darkness 300
 effect give @s nausea 300

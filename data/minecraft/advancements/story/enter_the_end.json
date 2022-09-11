@@ -14,7 +14,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "fokastudio:end/the_deed_is_done",
+	"parent": "fokastudio:end/stronghold/the_deed_is_done",
 	"criteria": {
 		"entered_end": {
 			"trigger": "minecraft:changed_dimension",

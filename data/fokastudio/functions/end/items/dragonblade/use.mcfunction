@@ -1,4 +1,4 @@
-advancement revoke @s only fokastudio:end/events/attack_with_dragonblade
+advancement revoke @s only fokastudio:end/events/items/attack_with_dragonblade
 
 # Same situation as in init.mcfunction
 execute unless score @s foka.items.dragonblade_cooldown matches -2147483647..2147483647 run scoreboard players set @s foka.items.dragonblade_cooldown 0

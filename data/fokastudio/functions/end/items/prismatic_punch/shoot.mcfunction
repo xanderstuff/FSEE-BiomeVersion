@@ -1,4 +1,4 @@
-advancement revoke @s only fokastudio:end/events/shoot_prismatic_punch
+advancement revoke @s only fokastudio:end/events/items/shoot_prismatic_punch
 
 kill @e[type=#fokastudio:end/ammo,limit=1,sort=nearest,tag=!foka.aware]
 

@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword",
+			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "Dragonborn",
+			"color": "#CD6AFF"
+		},
+		"description": {
+			"translate": "Obtain the Dragonblade, the legendary sword forged in the far corners of The End"
+		},
+		"frame": "goal"
+	},
+	"parent": "fokastudio:end/aota/cursed_crafting",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_sword"
+						],
+						"nbt": "{foka.special_item:\"dragonblade\"}"
+					}
+				]
+			}
+		}
+	}
+}

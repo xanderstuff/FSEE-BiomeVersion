@@ -16,7 +16,7 @@
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "fokastudio:end/judgement_day",
+	"parent": "fokastudio:end/dragons_den/judgement_day",
 	"criteria": {
 		"kill_dragon": {
 			"trigger": "minecraft:impossible"

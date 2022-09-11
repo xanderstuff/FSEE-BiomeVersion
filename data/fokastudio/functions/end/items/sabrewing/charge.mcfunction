@@ -1,4 +1,4 @@
-advancement revoke @s only fokastudio:end/events/charge_sabrewing
+advancement revoke @s only fokastudio:end/events/items/charge_sabrewing
 
 effect give @s slowness 1 4 true
 effect give @p jump_boost 1 128 true
