@@ -7,7 +7,7 @@ tellraw @s ["\n",{"text":"Throw these items over the","color":"#E5E5E5"}," ",{"t
 
 tellraw @s [{"text":"Cursed Tome","color":"#E30000","bold":true},"\n",{"text":"Any","bold":false,"color":"#E5E5E5"}," ",{"text":"Enchanted Book","bold":false,"color":"yellow"},"\n\n\n"]
 
-tellraw @s [{"text":"Shulker Armor","color":"#976A97","bold":true},"\n",{"text":"Any piece of","bold":false,"color":"#E5E5E5"}," ",{"text":"Netherite Armor","bold":false,"color":"#545454"},{"text":" + ","bold":false,"color":"#E5E5E5"},{"text":"Shulker Shells","bold":false,"color":"#976A97"},"\n\n\n"]
+tellraw @s [{"text":"Shulker Armor","color":"#976A97","bold":true},"\n",{"text":"Any piece of","bold":false,"color":"#E5E5E5"}," ",{"text":"Netherite Armor","bold":false,"color":"#545454"},{"text":" + ","bold":false,"color":"#E5E5E5"},{"text":"16 ","bold":false,"color":"#E5E5E5"},{"text":"Shulker Shells","bold":false,"color":"#976A97"},"\n\n\n"]
 
 tellraw @s [{"text":"Elytra","color":"yellow","bold":true},"\n",{"text":"20 Phantom Membranes","bold":false,"color":"#E5E5E5"},{"text":" + ","bold":false,"color":"#E5E5E5"},{"text":"Nether Star","bold":false,"color":"yellow"},{"text":" + ","bold":false,"color":"#E5E5E5"},{"text":"Netherite Ingot","bold":false,"color":"#545454"},"\n\n\n"]
 
