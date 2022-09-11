@@ -27,8 +27,12 @@
 			]
 		},
 		{
-			"processor_type": "minecraft:protected_blocks",
-			"value": "#fokastudio:end/structure_cannot_replace"
+			"processor_type": "minecraft:block_ignore",
+			"blocks": [
+				{
+					"Name": "minecraft:structure_void"
+				}
+			]
 		}
 	]
 }

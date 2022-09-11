@@ -8,7 +8,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/end_house/end_house_0",
-				"processors": "fokastudio:end/simple_cannot_replace"
+				"processors": "fokastudio:end/end_houses"
 			}
 		},
         {
@@ -17,7 +17,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/end_house/end_house_1",
-				"processors": "fokastudio:end/simple_cannot_replace"
+				"processors": "fokastudio:end/end_houses"
 			}
 		},
         {
@@ -26,7 +26,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/end_house/end_house_2",
-				"processors": "fokastudio:end/simple_cannot_replace"
+				"processors": "fokastudio:end/end_houses"
 			}
 		}
 	]
