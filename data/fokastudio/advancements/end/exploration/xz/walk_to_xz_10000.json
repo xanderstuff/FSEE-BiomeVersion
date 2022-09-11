@@ -5,10 +5,10 @@
 			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "I Ventured Through Our Whole Galaxy"
+			"translate": "I am an Astronaut!"
 		},
 		"description": {
-			"translate": "Venture 100000 blocks away from Dragon's Den"
+			"translate": "Venture 10000 blocks away from Dragon's Den"
 		},
 		"frame": "challenge",
 		"hidden": false
