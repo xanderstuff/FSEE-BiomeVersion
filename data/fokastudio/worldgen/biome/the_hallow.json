@@ -38,7 +38,7 @@
 	},
 	"spawn_costs": {
 		"minecraft:vex": {
-			"energy_budget": 0.13,
+			"energy_budget": 0.33,
 			"charge": 1.25
 		}
 	},

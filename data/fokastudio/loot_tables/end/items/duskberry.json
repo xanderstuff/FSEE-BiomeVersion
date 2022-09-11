@@ -38,7 +38,7 @@
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "foka.duskberry.speed",
-									"amount": 0.12,
+									"amount": 0.15,
 									"operation": "multiply_total",
 									"id": "49b3cc0b-636c-426d-9de4-cebb0cf71dd9",
 									"slot": "mainhand"
@@ -54,7 +54,7 @@
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "foka.duskberry.speed",
-									"amount": 0.12,
+									"amount": 0.15,
 									"operation": "multiply_total",
 									"id": "49b3cc0b-636c-426d-9de4-cebb0cf71dd9",
 									"slot": "offhand"
@@ -65,7 +65,7 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Empowers your speed",
+									"translate": "Empowers your speed, sight",
 									"color": "#A53535",
 									"italic": false
 								},

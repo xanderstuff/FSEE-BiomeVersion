@@ -63,10 +63,10 @@
 				{
 					"biome": "far_end:end_wilds",
 					"parameters": {
-						"temperature": 0.3,
+						"temperature": 0.377,
 						"humidity": 0.0,
 						"continentalness": 0.3,
-						"erosion": 0.04,
+						"erosion": 0.07,
 						"weirdness": 0,
 						"depth": 0,
 						"offset": 0
@@ -247,9 +247,9 @@
 						"humidity": -0.3,
 						"continentalness": 0.7,
 						"erosion": 0.23,
-						"weirdness": 0.52,
+						"weirdness": 0.42,
 						"depth": 0,
-						"offset": 0.45
+						"offset": 0.4
 					}
 				},
 				{

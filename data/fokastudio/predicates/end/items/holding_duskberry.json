@@ -21,7 +21,7 @@
 				"entity": "this",
 				"predicate": {
 					"equipment": {
-						"mainhand": {
+						"offhand": {
 							"items": [
 								"minecraft:sweet_berries"
 							],

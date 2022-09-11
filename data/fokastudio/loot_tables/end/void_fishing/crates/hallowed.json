@@ -31,7 +31,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 7,
 					"name": "minecraft:amethyst_shard",
 					"functions": [
 						{
@@ -46,7 +46,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
+					"weight": 2,
 					"name": "minecraft:diorite",
 					"functions": [
 						{
@@ -61,7 +61,7 @@
 				},
 				{
 					"type": "minecraft:tag",
-					"weight": 1,
+					"weight": 4,
 					"name": "minecraft:wool",
 					"expand": true,
 					"functions": [
@@ -74,6 +74,21 @@
 							"add": false
 						}
 					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/duskberry"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.5714
 				}
 			]
 		}
