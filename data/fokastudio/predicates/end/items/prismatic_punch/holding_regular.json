@@ -1,52 +1,15 @@
 [
 	{
-		"condition": "minecraft:entity_properties",
-		"entity": "this",
-		"predicate": {
-			"equipment": {
-				"mainhand": {
-					"items": [
-						"minecraft:crossbow"
-					],
-					"nbt": "{foka.special_item:\"prismatic_punch\"}"
-				}
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:reference",
+				"name": "fokastudio:end/items/prismatic_punch/regular_mainhand"
+			},
+			{
+				"condition": "minecraft:reference",
+				"name": "fokastudio:end/items/prismatic_punch/regular_offhand"
 			}
-		}
-	},
-	{
-		"condition": "minecraft:inverted",
-		"term": {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"mainhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:multishot"
-							}
-						]
-					}
-				}
-			}
-		}
-	},
-	{
-		"condition": "minecraft:inverted",
-		"term": {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-				"equipment": {
-					"mainhand": {
-						"enchantments": [
-							{
-								"enchantment": "minecraft:piercing"
-							}
-						]
-					}
-				}
-			}
-		}
+		]
 	}
 ]

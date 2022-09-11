@@ -9,9 +9,9 @@
 					"equipment": {
 						"mainhand": {
 							"items": [
-								"minecraft:bow"
+								"minecraft:crossbow"
 							],
-							"nbt": "{foka.special_item:\"sharanga\"}"
+							"nbt": "{Charged:0b,foka.special_item:\"clockwork_crossbow\"}"
 						}
 					}
 				}
@@ -23,9 +23,9 @@
 					"equipment": {
 						"offhand": {
 							"items": [
-								"minecraft:bow"
+								"minecraft:crossbow"
 							],
-							"nbt": "{foka.special_item:\"sharanga\"}"
+							"nbt": "{Charged:0b,foka.special_item:\"clockwork_crossbow\"}"
 						}
 					}
 				}

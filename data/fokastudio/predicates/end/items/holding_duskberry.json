@@ -9,9 +9,9 @@
 					"equipment": {
 						"mainhand": {
 							"items": [
-								"minecraft:bow"
+								"minecraft:sweet_berries"
 							],
-							"nbt": "{foka.special_item:\"sharanga\"}"
+							"nbt": "{foka.special_item:\"duskberry\"}"
 						}
 					}
 				}
@@ -21,11 +21,11 @@
 				"entity": "this",
 				"predicate": {
 					"equipment": {
-						"offhand": {
+						"mainhand": {
 							"items": [
-								"minecraft:bow"
+								"minecraft:sweet_berries"
 							],
-							"nbt": "{foka.special_item:\"sharanga\"}"
+							"nbt": "{foka.special_item:\"duskberry\"}"
 						}
 					}
 				}
