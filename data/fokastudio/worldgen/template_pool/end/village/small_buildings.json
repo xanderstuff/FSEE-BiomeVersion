@@ -38,6 +38,15 @@
 				"processors": "minecraft:empty"
 			}
 		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/village/archer_tower_3",
+				"processors": "minecraft:empty"
+			}
+		},
         {
 			"weight": 3,
 			"element": {
