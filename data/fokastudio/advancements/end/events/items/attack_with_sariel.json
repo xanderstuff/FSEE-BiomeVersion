@@ -12,6 +12,11 @@
 							"nbt": "{foka.special_item:\"sariel\"}"
 						}
 					}
+				},
+				"damage": {
+					"dealt": {
+						"min": 3
+					}
 				}
 			}
 		}
