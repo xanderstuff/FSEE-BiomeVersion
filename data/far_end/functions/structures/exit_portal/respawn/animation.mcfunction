@@ -3,7 +3,7 @@ scoreboard players add @s fe.timer 1
 
 ### Animation ###
 execute if score @s fe.timer matches 1 run function far_end:structures/exit_portal/deactivated/generate
-execute if score @s fe.timer matches 1 run advancement grant @a[distance=..32] only fokastudio:end/sacrificial_ritual
+execute if score @s fe.timer matches 1 run advancement grant @a[distance=..32] only fokastudio:end/dragons_den/sacrificial_ritual
 execute if score @s fe.timer matches 1 run summon marker ~ ~5 ~ {Tags:["foka.respawn_animation"]}
 scoreboard players operation @e[type=marker,tag=foka.respawn_animation,limit=1,sort=nearest] fe.timer = @s fe.timer
 
