@@ -31,7 +31,7 @@
 		"monster": [
 			{
 				"type": "minecraft:blaze",
-				"weight": 33,
+				"weight": 20,
 				"minCount": 3,
 				"maxCount": 3
 			},
@@ -43,7 +43,7 @@
 			},
 			{
 				"type": "minecraft:magma_cube",
-				"weight": 25,
+				"weight": 30,
 				"minCount": 4,
 				"maxCount": 4
 			}

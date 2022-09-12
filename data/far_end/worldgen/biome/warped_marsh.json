@@ -32,9 +32,23 @@
 		"water_ambient": [
 			{
 				"type": "minecraft:tropical_fish",
-				"weight": 25,
+				"weight": 50,
 				"minCount": 8,
 				"maxCount": 8
+			}
+		],
+		"monster": [
+			{
+				"type": "minecraft:slime",
+				"weight": 25,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:slime",
+				"weight": 50,
+				"minCount": 2,
+				"maxCount": 2
 			}
 		]
 	},

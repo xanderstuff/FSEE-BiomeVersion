@@ -450,7 +450,8 @@
 					"type": "minecraft:biome",
 					"biome_is": [
 						"fokastudio:frosted_hills",
-						"fokastudio:snowy_warped_forest"
+						"fokastudio:snowy_warped_forest",
+						"fokastudio:snowy_crimson_forest"
 					]
 				},
 				"then_run": {
@@ -635,7 +636,8 @@
 				"if_true": {
 					"type": "minecraft:biome",
 					"biome_is": [
-						"fokastudio:snowy_warped_forest"
+						"fokastudio:snowy_warped_forest",
+						"fokastudio:snowy_crimson_forest"
 					]
 				},
 				"then_run": {
@@ -761,7 +763,8 @@
 							"type": "minecraft:biome",
 							"biome_is": [
 								"fokastudio:snowy_warped_forest",
-								"far_end:flesh_tundra"
+								"far_end:flesh_tundra",
+								"fokastudio:snowy_crimson_forest"
 							]
 						},
 						"then_run": {

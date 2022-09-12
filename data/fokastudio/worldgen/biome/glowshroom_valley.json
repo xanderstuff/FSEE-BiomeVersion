@@ -23,7 +23,7 @@
 		},
 		"particle": {
 			"options": {
-				"type": "crimson_spore"
+				"type": "warped_spore"
 			},
 			"probability": 0.0003
 		}

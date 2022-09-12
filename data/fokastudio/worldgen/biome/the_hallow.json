@@ -15,15 +15,11 @@
 			"block_search_extent": 6,
 			"offset": 2
 		},
-		"additions_sound": {
-			"sound": "ambient.warped_forest.additions",
-			"tick_chance": 0.001
-		},
 		"particle": {
 			"options": {
 				"type": "end_rod"
 			},
-			"probability": 0.00062
+			"probability": 0.00124
 		}
 	},
 	"spawners": {
@@ -32,20 +28,20 @@
 				"type": "minecraft:vex",
 				"weight": 5,
 				"minCount": 1,
-				"maxCount": 1
+				"maxCount": 2
 			}
 		]
 	},
 	"spawn_costs": {
 		"minecraft:vex": {
-			"energy_budget": 0.33,
+			"energy_budget": 0.44,
 			"charge": 1.25
 		}
 	},
 	"carvers": {
 		"air": [
 			"fokastudio:end/cave",
- 			"fokastudio:end/ravine",
+			"fokastudio:end/ravine",
 			"fokastudio:end/crack"
 		]
 	},

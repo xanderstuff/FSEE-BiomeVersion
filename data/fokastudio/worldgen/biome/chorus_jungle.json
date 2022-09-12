@@ -29,22 +29,16 @@
 	"spawners": {
 		"monster": [
 			{
-				"type": "minecraft:creeper",
-				"weight": 25,
-				"minCount": 2,
-				"maxCount": 3
-			},
-			{
 				"type": "minecraft:enderman",
-				"weight": 15,
+				"weight": 20,
 				"minCount": 4,
 				"maxCount": 4
 			},
 			{
 				"type": "minecraft:spider",
 				"weight": 30,
-				"minCount": 2,
-				"maxCount": 2
+				"minCount": 3,
+				"maxCount": 3
 			}
 		],
 		"creature": [],

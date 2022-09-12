@@ -18,9 +18,9 @@
 		},
 		"particle": {
 			"options": {
-				"type": "smoke"
+				"type": "mycelium"
 			},
-			"probability": 0.00333
+			"probability": 0.012
 		}
 	},
 	"spawners": {},

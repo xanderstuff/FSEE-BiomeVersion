@@ -62,6 +62,12 @@
 								"predicate": {
 									"biome": "fokastudio:snowy_warped_forest"
 								}
+							},
+							{
+								"condition": "minecraft:location_check",
+								"predicate": {
+									"biome": "fokastudio:snowy_crimson_forest"
+								}
 							}
 						]
 					}

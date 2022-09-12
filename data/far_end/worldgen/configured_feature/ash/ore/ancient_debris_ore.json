@@ -1,8 +1,8 @@
 {
   "type": "minecraft:scattered_ore",
   "config": {
-    "size": 10,
-    "discard_chance_on_air_exposure": 0.2,
+    "size": 4,
+    "discard_chance_on_air_exposure": 0.44,
     "targets": [
       {
         "state": {
@@ -10,7 +10,7 @@
         },
         "target": {
           "predicate_type": "tag_match",
-          "tag": "fokastudio:ashfall_deltas/ancient_debris_replacable"
+          "tag": "fokastudio:end/ashfall_deltas/ancient_debris_replacable"
         }
       }
       

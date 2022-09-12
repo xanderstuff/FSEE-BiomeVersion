@@ -206,6 +206,16 @@
 				}
 			}
 		},
+		"snowy_crimson_forest": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "fokastudio:snowy_crimson_forest"
+					}
+				}
+			}
+		},
 		"warped_marsh": {
 			"trigger": "minecraft:location",
 			"conditions": {
@@ -294,6 +304,9 @@
 		],
 		[
 			"snowy_warped_forest"
+		],
+		[
+			"snowy_crimson_forest"
 		],
 		[
 			"warped_marsh"

@@ -9,31 +9,31 @@
 		"fog_color": 12638463,
 		"water_color": 7515062,
 		"water_fog_color": 4420745,
-		"grass_color": 30592,
-		"foliage_color": 105867,
-		"ambient_sound": "ambient.warped_forest.loop",
+		"grass_color": 12860219,
+		"foliage_color": 12860219,
+		"ambient_sound": "ambient.crimson_forest.loop",
 		"mood_sound": {
-			"sound": "ambient.warped_forest.mood",
+			"sound": "ambient.crimson_forest.mood",
 			"tick_delay": 500,
-			"block_search_extent": 10,
-			"offset": 100
+			"block_search_extent": 8,
+			"offset": 2
 		},
 		"additions_sound": {
-			"sound": "ambient.warped_forest.additions",
-			"tick_chance": 0.01333
+			"sound": "ambient.crimson_forest.additions",
+			"tick_chance": 0.006
 		},
 		"particle": {
 			"options": {
-				"type": "snowflake"
+				"type": "crimson_spore"
 			},
-			"probability": 0.005
+			"probability": 0.05
 		}
 	},
 	"spawners": {
 		"monster": [
 			{
-				"type": "minecraft:enderman",
-				"weight": 15,
+				"type": "minecraft:stray",
+				"weight": 80,
 				"minCount": 4,
 				"maxCount": 4
 			}
@@ -43,37 +43,37 @@
 	"carvers": {
 		"air": [
 			"fokastudio:end/cave",
- 			"fokastudio:end/ravine",
+			"fokastudio:end/ravine",
 			"fokastudio:end/crack"
 		]
 	},
 	"features": [
 		[
-			"fokastudio:frosted_hills/stalactite",
-			"fokastudio:frosted_hills/hills",
-			"fokastudio:frosted_hills/icicle",
-			"fokastudio:frosted_hills/icicle_upwards"
+			"fokastudio:snowy_crimson_forest/stalactite",
+			"fokastudio:snowy_crimson_forest/icicle"
 		],
 		[],
 		[],
 		[],
+		[
+			"fokastudio:snowy_crimson_forest/frozen_lava_lake"
+		],
 		[],
-		[],
+		[
+			"fokastudio:frosted_hills/ore_blue_ice",
+			"fokastudio:frosted_hills/ore_snow",
+			"fokastudio:snowy_crimson_forest/blocks_random_replace"
+		],
 		[],
 		[],
 		[
-			"fokastudio:frosted_hills/blocks_random_replace"
+			"fokastudio:snowy_crimson_forest/fungus"
 		],
 		[
 			"fokastudio:global/snowy/first_layer",
 			"fokastudio:global/snowy/second_layer",
 			"fokastudio:global/snowy/third_layer",
 			"fokastudio:global/snowy/freeze_layers"
-		],
-		[
-			"fokastudio:frosted_hills/ore_blue_ice",
-			"fokastudio:frosted_hills/ore_snow"
-			 
 		]
 	]
 }

@@ -7,8 +7,8 @@
 	"effects": {
 		"sky_color": 7907327,
 		"fog_color": 12638463,
-		"water_color": 8221366,
-		"water_fog_color": 5653385,
+		"water_color": 7515062,
+		"water_fog_color": 4420745,
 		"grass_color": 30592,
 		"foliage_color": 105867,
 		"ambient_sound": "ambient.warped_forest.loop",

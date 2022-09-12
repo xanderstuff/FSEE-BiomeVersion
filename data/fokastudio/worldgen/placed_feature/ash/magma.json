@@ -3,13 +3,7 @@
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": {
-				"type": "minecraft:uniform",
-				"value": {
-					"min_inclusive": 88,
-					"max_inclusive": 204
-				}
-			}
+			"count": 200
 		},
 		{
 			"type": "minecraft:in_square"
@@ -28,7 +22,7 @@
 		},
 		{
 			"type": "minecraft:surface_relative_threshold_filter",
-			"heightmap": "OCEAN_FLOOR_WG"
+			"heightmap": "OCEAN_FLOOR"
 		},
 		{
 			"type": "minecraft:biome"

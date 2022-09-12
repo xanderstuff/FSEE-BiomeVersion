@@ -33,19 +33,13 @@
 		"monster": [
 			{
 				"type": "minecraft:enderman",
-				"weight": 10,
+				"weight": 7,
 				"minCount": 4,
 				"maxCount": 4
 			},
 			{
 				"type": "minecraft:skeleton",
-				"weight": 5,
-				"minCount": 4,
-				"maxCount": 4
-			},
-			{
-				"type": "minecraft:husk",
-				"weight": 25,
+				"weight": 10,
 				"minCount": 4,
 				"maxCount": 4
 			}

@@ -12,6 +12,10 @@
 		{
 			"condition": "minecraft:reference",
 			"name": "fokastudio:end/locations/biomes/in_frosted_hills"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_snowy_crimson_forest"
 		}
 	]
 }

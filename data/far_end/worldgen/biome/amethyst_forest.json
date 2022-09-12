@@ -31,19 +31,19 @@
 		"monster": [
 			{
 				"type": "minecraft:enderman",
-				"weight": 30,
+				"weight": 45,
 				"minCount": 4,
 				"maxCount": 4
 			},
 			{
 				"type": "minecraft:vex",
-				"weight": 10,
+				"weight": 5,
 				"minCount": 4,
 				"maxCount": 4
 			},
 			{
 				"type": "minecraft:witch",
-				"weight": 30,
+				"weight": 17,
 				"minCount": 4,
 				"maxCount": 4
 			}

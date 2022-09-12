@@ -43,8 +43,7 @@
 				"minCount": 4,
 				"maxCount": 4
 			}
-		],
-		"misc": []
+		]
 	},
 	"spawn_costs": {},
 	"carvers": {
@@ -56,8 +55,6 @@
 	},
 	"features": [
 		[
-			"fokastudio:global/stalactite_1",
-			"fokastudio:global/stalactite_2",
 			"far_end:ash/island/basalt_bottom"
 		],
 		[
@@ -73,7 +70,8 @@
 		[],
 		[
 			"minecraft:basalt_blobs",
-			"far_end:ash/ore/ancient_debris"
+			"far_end:ash/ore/ancient_debris",
+			"far_end:ash/ore/ancient_debris_ore"
 		],
 		[],
 		[
