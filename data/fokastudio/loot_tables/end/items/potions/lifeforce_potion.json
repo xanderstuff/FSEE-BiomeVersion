@@ -1,0 +1,28 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:21,Amplifier:4,Duration:3600}],CustomPotionColor:16733011}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "Lifeforce Potion",
+								"color": "#FF5757",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:6,Amplifier:4},{Id:10,Amplifier:1,Duration:720},{Id:21,Amplifier:1,Duration:720}],CustomPotionColor:16761942}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "Royal Jelly",
+								"color": "#DF9800",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

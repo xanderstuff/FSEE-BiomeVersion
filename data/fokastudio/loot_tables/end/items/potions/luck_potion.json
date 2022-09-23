@@ -1,0 +1,28 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:26,Duration:3600}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "Luck Potion",
+								"color": "#339900",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

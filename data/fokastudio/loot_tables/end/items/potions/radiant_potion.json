@@ -1,0 +1,65 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{HideFlags:32,CustomPotionEffects:[{Id:22,Amplifier:9,Duration:300},{Id:24,Amplifier:0,Duration:600},{Id:16,Amplifier:0,Duration:600}],CustomPotionColor:16766046}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "Radiant Potion",
+								"color": "#FFD457",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"translate": "effect.minecraft.absorption",
+										"color": "blue",
+										"italic": false
+									},
+									" X ",
+									{
+										"text": "(0:15)",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "Radiant Glow",
+										"color": "blue",
+										"italic": false
+									},
+									" ",
+									{
+										"text": "(0:30)",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								" ",
+								{
+									"translate": "Developer Item",
+									"color": "#BA02D7",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

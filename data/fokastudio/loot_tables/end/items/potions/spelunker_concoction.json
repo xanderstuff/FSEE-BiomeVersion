@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:3,Amplifier:1,Duration:6000},{Id:16,Duration:6000}],CustomPotionColor:16773694}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "Spelunker Concoction",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
