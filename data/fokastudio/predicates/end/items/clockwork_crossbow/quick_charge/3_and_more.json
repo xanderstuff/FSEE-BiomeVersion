@@ -1,0 +1,51 @@
+[
+	{
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:crossbow"
+							],
+							"nbt": "{foka.special_item:\"clockwork_crossbow\"}",
+							"enchantments": [
+								{
+									"enchantment": "minecraft:quick_charge",
+									"levels": {
+										"min": 3
+									}
+								}
+							]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"offhand": {
+							"items": [
+								"minecraft:crossbow"
+							],
+							"nbt": "{foka.special_item:\"clockwork_crossbow\"}",
+							"enchantments": [
+								{
+									"enchantment": "minecraft:quick_charge",
+									"levels": {
+										"min": 3
+									}
+								}
+							]
+						}
+					}
+				}
+			}
+		]
+	}
+]
