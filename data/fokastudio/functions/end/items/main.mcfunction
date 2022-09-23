@@ -2,15 +2,21 @@ function fokastudio:end/items/ender_insignia/check
 function fokastudio:end/items/pandoras_barrel/loop
 function fokastudio:end/items/armors/main
 
+# Dragonblade
 execute as @a[scores={foka.items.dragonblade_cooldown=1..}] run scoreboard players remove @s foka.items.dragonblade_cooldown 1
 
-execute as @a[scores={foka.misc.shot_bow=1..},predicate=fokastudio:end/items/holding_sharanga] at @s run function fokastudio:end/items/sharanga/shoot
-
+# Clockwork Crossbow
 execute as @a[predicate=fokastudio:end/items/clockwork_crossbow/holding_unloaded_any] run function fokastudio:end/items/clockwork_crossbow/check
 
+# Sharanga
+execute as @a[scores={foka.misc.shot_bow=1..},predicate=fokastudio:end/items/holding_sharanga] at @s run function fokastudio:end/items/sharanga/shoot
 execute as @e[type=spectral_arrow,tag=foka.spectral_bolt] at @s run function fokastudio:end/items/sharanga/arrow_loop
+execute as @e[type=spectral_arrow,tag=!foka.items.sharanga.buffed_velocity,tag=foka.spectral_bolt] run function fokastudio:end/items/sharanga/velocity
+
+# Prismatic Punch
 execute as @e[type=marker,tag=foka.prismatic_blast] at @s run function fokastudio:end/items/prismatic_punch/blast_loop
 
+# Sariel
 execute as @e[type=marker,tag=foka.sariel.heal_orb] at @s anchored eyes run function fokastudio:end/items/sariel/orb_loop
 
 # Sabrewing
