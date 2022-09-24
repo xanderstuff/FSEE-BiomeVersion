@@ -154,13 +154,33 @@ hr {
 }
 
 .donator {
-	animation: donator-color-change 3s infinite linear;
+	animation: donator-color-change 4s infinite linear;
 }
 
 @keyframes donator-color-change {
 	0% { color: #66a67b; }
 	50% { color: #99D6AD; }
 	100% { color: #66a67b; }
+}
+
+.danger {
+	animation: danger-color-change 5s infinite linear;
+}
+
+@keyframes danger-color-change {
+	0% { color: darkred; }
+	50% { color: #FF5353; }
+	100% { color: darkred; }
+}
+
+.warning {
+	animation: warning-color-change 5s infinite linear;
+}
+
+@keyframes warning-color-change {
+	0% { color: yellow; }
+	50% { color: rgb(255, 248, 154); }
+	100% { color: yellow; }
 }
 
 /* Hyperlinks formatting */
@@ -217,6 +237,10 @@ a[data-tip]:hover {
 	color: palevioletred;
 	transition-duration: 0.2s;
 }
+a[data-tip].fancy-button:hover {
+	color: white;
+	transition-duration: 0.2s;
+}
 
 /* Tweak Bootstrap carousels */
 .carousel-item {
@@ -237,4 +261,11 @@ img.emoji {
 	width: 0.9em;
 	margin: 0 .05em 0 .1em;
 	vertical-align: -0.1em;
+}
+
+hr.dotted {
+	border: 1px dotted #ff0000;
+	border-style: none none dotted; 
+	color: #fff; 
+	background-color: #fff;
 }
