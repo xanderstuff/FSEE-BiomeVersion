@@ -4,18 +4,18 @@
 	"step": "surface_structures",
 	"spawn_overrides": {
 		"monster": {
-			"bounding_box": "piece",
+			"bounding_box": "full",
 			"spawns": [
 				{
 					"type": "minecraft:pillager",
 					"weight": 10,
-					"minCount": 3,
-					"maxCount": 3
+					"minCount": 4,
+					"maxCount": 4
 				},
 				{
 					"type": "minecraft:vindicator",
 					"weight": 8,
-					"minCount": 3,
+					"minCount": 4,
 					"maxCount": 4
 				},
 				{
@@ -26,9 +26,9 @@
 				},
 				{
 					"type": "minecraft:witch",
-					"weight": 4,
-					"minCount": 3,
-					"maxCount": 3
+					"weight": 6,
+					"minCount": 4,
+					"maxCount": 4
 				},
 				{
 					"type": "minecraft:illusioner",

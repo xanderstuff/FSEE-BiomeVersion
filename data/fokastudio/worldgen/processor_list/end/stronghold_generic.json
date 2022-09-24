@@ -16,7 +16,7 @@
 								"waterlogged": "false"
 							}
 						},
-						"probability": 0.75
+						"probability": 0.82
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -29,13 +29,9 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_blockstate_match",
 						"block_state": {
-							"Name": "minecraft:wall_torch",
-							"Properties": {
-								"hanging": "true",
-								"waterlogged": "false"
-							}
+							"Name": "minecraft:wall_torch"
 						},
-						"probability": 0.75
+						"probability": 0.82
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -49,12 +45,8 @@
 						"predicate_type": "minecraft:random_blockstate_match",
 						"block_state": {
 							"Name": "minecraft:torch",
-							"Properties": {
-								"hanging": "true",
-								"waterlogged": "false"
-							}
 						},
-						"probability": 0.75
+						"probability": 0.82
 					},
 					"output_state": {
 						"Name": "minecraft:air"
