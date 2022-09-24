@@ -44,7 +44,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_blockstate_match",
 						"block_state": {
-							"Name": "minecraft:torch",
+							"Name": "minecraft:torch"
 						},
 						"probability": 0.82
 					},
