@@ -1,6 +1,9 @@
+function fokastudio:end/items/knowledge_book_give_back
+
 function fokastudio:end/items/ender_insignia/check
 function fokastudio:end/items/pandoras_barrel/loop
 function fokastudio:end/items/armors/main
+function fokastudio:end/items/spellbooks/main
 
 # Dragonblade
 execute as @a[scores={foka.items.dragonblade_cooldown=1..}] run scoreboard players remove @s foka.items.dragonblade_cooldown 1
@@ -29,7 +32,7 @@ execute as @e[type=#arrows,tag=foka.items.sabrewing.arrow] at @s run function fo
 execute as @e[tag=foka.items.living_flesh.hunger_remove_schedule] run function fokastudio:end/items/living_flesh/remove_hunger
 
 # Cursed Tome
-execute as @a[scores={foka.misc.used_knowledge_book=1..},predicate=fokastudio:end/items/holding_cursed_tome] at @s run function fokastudio:end/items/cursed_tome/use
+execute as @a[scores={foka.misc.used_knowledge_book=1..},tag=foka.holding.cursed_tome] at @s run function fokastudio:end/items/cursed_tome/use
 
 # Duskberry
 execute as @e[type=area_effect_cloud,tag=foka.duskberry_cloud] at @s unless block ~ ~ ~ sweet_berry_bush run kill @s
@@ -37,3 +40,8 @@ execute as @a[predicate=fokastudio:end/items/holding_duskberry] run effect give 
 
 # Crest of The End
 execute as @e[scores={foka.items.crest_of_the_end.curse_cooldown=1..}] run scoreboard players remove @s foka.items.crest_of_the_end.curse_cooldown 1
+
+#################################
+# THIS HAS TO BE ON THE BOTTOM! #
+#################################
+function fokastudio:end/items/knowledge_book_fix

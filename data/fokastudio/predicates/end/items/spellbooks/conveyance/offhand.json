@@ -1,0 +1,19 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:knowledge_book"
+						],
+						"nbt": "{foka.special_item:\"book_of_conveyance\"}"
+					}
+				}
+			}
+		}
+	]
+}
