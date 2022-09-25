@@ -2,7 +2,40 @@
 	"type": "minecraft:jigsaw",
 	"biomes": "#fokastudio:end/has_structure/village",
 	"step": "top_layer_modification",
-	"spawn_overrides": {},
+	"spawn_overrides": {
+		"ambient": {
+			"bounding_box": "full",
+			"spawns": []
+		},
+		"axolotls": {
+			"bounding_box": "full",
+			"spawns": []
+		},
+		"creature": {
+			"bounding_box": "full",
+			"spawns": []
+		},
+		"misc": {
+			"bounding_box": "full",
+			"spawns": []
+		},
+		"monster": {
+			"bounding_box": "full",
+			"spawns": []
+		},
+		"underground_water_creature": {
+			"bounding_box": "full",
+			"spawns": []
+		},
+		"water_ambient": {
+			"bounding_box": "full",
+			"spawns": []
+		},
+		"water_creature": {
+			"bounding_box": "full",
+			"spawns": []
+		}
+	},
 	"terrain_adaptation": "beard_box",
 	"start_pool": "fokastudio:end/village/layouts",
 	"size": 6,
