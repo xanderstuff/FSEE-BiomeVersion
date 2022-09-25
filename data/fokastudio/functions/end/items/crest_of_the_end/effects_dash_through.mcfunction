@@ -1,7 +1,7 @@
 scoreboard players set @s foka.items.crest_of_the_end.curse_cooldown 100
 
-effect give @s blindness 7 1 true
-effect give @s slowness 7 4 true
+effect give @s blindness 7 0 true
+effect give @s slowness 7 3 true
 effect give @s weakness 7 1 true
 
 playsound minecraft:entity.elder_guardian.curse player @a ~ ~ ~ 0.15 1
