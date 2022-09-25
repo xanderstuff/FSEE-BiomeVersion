@@ -1,0 +1,90 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_banner_pattern",
+							"patterns": [
+								{
+									"pattern": "minecraft:base",
+									"color": "purple"
+								},
+								{
+									"pattern": "minecraft:gradient",
+									"color": "magenta"
+								},
+								{
+									"pattern": "minecraft:triangle_top",
+									"color": "black"
+								},
+								{
+									"pattern": "minecraft:triangle_bottom",
+									"color": "black"
+								},
+								{
+									"pattern": "minecraft:cross",
+									"color": "purple"
+								},
+								{
+									"pattern": "minecraft:curly_border",
+									"color": "black"
+								},
+								{
+									"pattern": "minecraft:flower",
+									"color": "purple"
+								},
+								{
+									"pattern": "minecraft:flower",
+									"color": "black"
+								}
+							],
+							"append": false
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"crest_of_the_end\",CustomModelData:90000,HideFlags:32}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Crest of The End",
+								"color": "#9936D6",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "Trades blocking for a dash",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								{
+									"translate": "Weakens all enemies you dash through",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								{
+									"translate": "Dashing exhausts your hunger",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								{
+									"translate": "Sneak for default Shield behavior",
+									"color": "#E5E5E5",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

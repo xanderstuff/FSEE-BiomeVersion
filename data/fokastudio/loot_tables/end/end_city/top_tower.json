@@ -4,8 +4,8 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 3,
-				"max": 5
+				"min": 5,
+				"max": 7
 			},
 			"bonus_rolls": {
 				"min": 0,
@@ -71,22 +71,6 @@
 								"type": "minecraft:uniform",
 								"min": 2,
 								"max": 6
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:beetroot_seeds",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 10
 							},
 							"add": false
 						}
@@ -255,7 +239,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 3,
 					"name": "minecraft:ender_pearl",
 					"functions": [
 						{
@@ -270,7 +254,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 1,
+					"quality": -2,
 					"name": "minecraft:purpur_block",
 					"functions": [
 						{
@@ -279,13 +264,14 @@
 								"min": 6,
 								"max": 14
 							},
-							"add": false
+							"add": true
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
+					"weight": 1,
+					"quality": -2,
 					"name": "minecraft:end_stone",
 					"functions": [
 						{
@@ -294,33 +280,14 @@
 								"min": 8,
 								"max": 23
 							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:firework_rocket",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.7
+							"add": true
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 3,
+					"quality": -1,
 					"name": "minecraft:amethyst_shard"
 				}
 			]
@@ -372,6 +339,21 @@
 						{
 							"condition": "minecraft:random_chance",
 							"chance": 0.66
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/crest_of_the_end",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.3
 						}
 					]
 				}

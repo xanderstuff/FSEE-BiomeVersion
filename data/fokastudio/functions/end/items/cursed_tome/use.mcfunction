@@ -1,5 +1,3 @@
-scoreboard players reset @s foka.misc.used_knowledge_book
-
 playsound minecraft:item.book.page_turn player @a ~ ~ ~ 1 1
 particle enchant ~ ~1 ~ .3 .55 .3 0 30 normal
 

@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:shield"
+					],
+					"nbt": "{foka.special_item:\"crest_of_the_end\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/crest_of_the_end/shield"
+	}
+}
