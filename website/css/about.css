@@ -41,7 +41,7 @@ body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
 }
 
 #hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/screenshots/frosted_flesh.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/screenshots/den.png");
 
 	height: 50%;
 	width: 100%;

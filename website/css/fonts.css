@@ -263,9 +263,6 @@ img.emoji {
 	vertical-align: -0.1em;
 }
 
-hr.dotted {
-	border: 1px dotted #ff0000;
-	border-style: none none dotted; 
-	color: #fff; 
-	background-color: #fff;
+.fa-white {
+	color: whitesmoke;
 }

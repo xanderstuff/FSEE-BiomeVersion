@@ -1,6 +1,6 @@
 window.onload = choosePic;
 
-var Thumbnails = new Array("snow","barrens","stronghold","village", "frosted_flesh", "islands");
+var Thumbnails = new Array("snow","barrens","stronghold","village", "frosted_flesh", "islands", "den", "hallow");
 var body= document.getElementById('random-bg');
 function choosePic() {
     var randomNum = Math.floor(Math.random() * Thumbnails.length);
