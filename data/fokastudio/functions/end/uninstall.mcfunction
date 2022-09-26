@@ -2,6 +2,7 @@
 
 bossbar remove fe:ender_dragon
 bossbar remove fokastudio:end/crystal_count
+bossbar remove fokastudio:end/eol
 
 # Remove all scoreboards
 scoreboard objectives remove constant
@@ -50,9 +51,6 @@ scoreboard objectives remove foka.misc.shot_bow
 
 # Remove teams
 team remove foka.purple_glow
-
-# No more forceload
-forceload remove -1 -1 1 1
 
 # Clear schedules
 schedule clear fokastudio:end/5_second_loop

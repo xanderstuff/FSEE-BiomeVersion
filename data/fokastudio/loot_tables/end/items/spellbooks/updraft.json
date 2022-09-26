@@ -1,0 +1,64 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Book of Updraft",
+								"color": "#E0E0E0",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90002,foka.special_item:\"book_of_updraft\",Recipes:[]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "Right Click to summon a cloud",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								{
+									"translate": "that will boost upwards anything",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								{
+									"translate": "that goes through it",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								[
+									{
+										"translate": "Cooldown:",
+										"color": "#9E9E9E",
+										"italic": false
+									},
+									{
+										"text": " 7 ",
+										"color": "#C6C6C6",
+										"italic": false
+									},
+									{
+										"translate": "seconds",
+										"color": "#9E9E9E",
+										"italic": false
+									}
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

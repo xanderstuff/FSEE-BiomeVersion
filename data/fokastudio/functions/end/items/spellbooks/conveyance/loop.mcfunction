@@ -1,8 +1,8 @@
 # Age
 scoreboard players add @s foka.misc 1
-execute if score @s foka.misc matches 200.. run kill @s
+execute if score @s foka.misc matches 100.. run kill @s
 
-tp @s ^ ^ ^.4
+tp @s ^ ^ ^.8
 
 execute anchored eyes rotated as @p positioned ^ ^ ^5 rotated as @s positioned ^ ^ ^40 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
