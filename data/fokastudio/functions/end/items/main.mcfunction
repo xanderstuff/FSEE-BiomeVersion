@@ -1,4 +1,4 @@
-function fokastudio:end/items/knowledge_book_give_back
+function fokastudio:end/items/knowledge_book_util/give_back
 
 function fokastudio:end/items/ender_insignia/check
 function fokastudio:end/items/pandoras_barrel/loop
@@ -44,4 +44,4 @@ execute as @e[scores={foka.items.crest_of_the_end.curse_cooldown=1..}] run score
 #################################
 # THIS HAS TO BE ON THE BOTTOM! #
 #################################
-function fokastudio:end/items/knowledge_book_fix
+function fokastudio:end/items/knowledge_book_util/is_holding
