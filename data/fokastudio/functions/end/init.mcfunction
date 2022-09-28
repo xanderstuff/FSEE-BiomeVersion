@@ -27,6 +27,8 @@ scoreboard objectives add foka.items.crest_of_the_end.curse_cooldown dummy
 scoreboard objectives add foka.items.spellbook.conveyance.cooldown dummy
 scoreboard objectives add foka.items.spellbook.conveyance.id dummy
 scoreboard objectives add foka.items.spellbook.updraft.cooldown dummy
+scoreboard objectives add foka.items.spellbook.light.cooldown dummy
+scoreboard objectives add foka.items.spellbook.radiance.cooldown dummy
 
 # Mobs
 # Empress of Light

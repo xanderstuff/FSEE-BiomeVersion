@@ -1,4 +1,5 @@
 function fokastudio:end/items/knowledge_book_util/give_back
+function fokastudio:end/items/knowledge_book_util/offhand
 
 function fokastudio:end/items/ender_insignia/check
 function fokastudio:end/items/pandoras_barrel/loop

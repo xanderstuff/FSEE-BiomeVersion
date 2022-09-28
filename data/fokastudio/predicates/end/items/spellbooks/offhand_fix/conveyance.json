@@ -3,11 +3,11 @@
 	"entity": "this",
 	"predicate": {
 		"equipment": {
-			"mainhand": {
+			"offhand": {
 				"items": [
 					"minecraft:knowledge_book"
 				],
-				"nbt": "{foka.special_item:\"cursed_tome\"}"
+				"nbt": "{foka.special_item:\"book_of_conveyance\"}"
 			}
 		}
 	}

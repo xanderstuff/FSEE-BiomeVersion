@@ -37,6 +37,11 @@
 									"color": "#E5E5E5",
 									"italic": false
 								},
+								{
+									"translate": "You also fall slower while holding this book",
+									"color": "#E5E5E5",
+									"italic": false
+								},
 								[
 									{
 										"translate": "Cooldown:",

@@ -16,7 +16,7 @@ execute if score @s foka.misc matches 19.. facing entity @p eyes positioned ^ ^ 
 
 particle firework ~ ~ ~ 0 0 0 .014 1 force
 
-execute positioned ~ ~-1 ~ if entity @a[distance=..1] positioned ~ ~1 ~ run function fokastudio:end/items/sariel/orb_heal
+execute if score @s foka.misc matches 7.. positioned ~ ~-1 ~ if entity @a[distance=..1] positioned ~ ~1 ~ run function fokastudio:end/items/sariel/orb_heal
 
 # Age tracker
 scoreboard players add @s foka.misc 1

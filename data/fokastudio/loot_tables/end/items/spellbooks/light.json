@@ -10,30 +10,25 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Book of Conveyance",
-								"color": "#A946E7",
+								"translate": "Book of Light",
+								"color": "#FFF300",
 								"italic": false
 							}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,foka.special_item:\"book_of_conveyance\",Recipes:[]}"
+							"tag": "{CustomModelData:90004,foka.special_item:\"book_of_light\",Recipes:[]}"
 						},
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Right Click to cast a slow-moving Conveyance Spark",
+									"translate": "Right Click to summon up to 4 Healing Orbs",
 									"color": "#E5E5E5",
 									"italic": false
 								},
 								{
-									"translate": "that will teleport you to first block it hits",
-									"color": "#E5E5E5",
-									"italic": false
-								},
-								{
-									"translate": "Tilt your head around to guide it",
+									"translate": "that will heal you or any nearby player",
 									"color": "#E5E5E5",
 									"italic": false
 								},
@@ -44,7 +39,7 @@
 										"italic": false
 									},
 									{
-										"text": " 12 ",
+										"text": " 22 ",
 										"color": "#C6C6C6",
 										"italic": false
 									},
