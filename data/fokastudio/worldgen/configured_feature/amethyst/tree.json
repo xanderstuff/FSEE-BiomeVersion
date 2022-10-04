@@ -40,9 +40,21 @@
 					}
 				},
 				{
+					"weight": 7,
+					"data": {
+						"Name": "minecraft:amethyst_block"
+					}
+				},
+				{
 					"weight": 1,
 					"data": {
 						"Name": "minecraft:glowstone"
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:budding_amethyst"
 					}
 				}
 			]

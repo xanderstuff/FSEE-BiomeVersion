@@ -69,10 +69,6 @@
 		},
 		"decorators": [
 			{
-				"type": "minecraft:leave_vine",
-				"probability": 0.25
-			},
-			{
 				"type": "minecraft:alter_ground",
 				"provider": {
 					"type": "minecraft:weighted_state_provider",

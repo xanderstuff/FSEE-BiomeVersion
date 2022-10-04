@@ -1,9 +1,9 @@
 {
-	"feature": "fokastudio:amethyst/trees",
+	"feature": "fokastudio:amethyst/tree",
 	"placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
-			"count": 6
+			"count": 4
 		},
 		{
 			"type": "minecraft:biome"

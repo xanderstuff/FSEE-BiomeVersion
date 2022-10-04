@@ -130,7 +130,7 @@
 					"biome": "fokastudio:prismarine_forest",
 					"parameters": {
 						"temperature": 0.4,
-						"humidity": 0.58,
+						"humidity": 0.44,
 						"continentalness": 0.35,
 						"erosion": 0.22,
 						"weirdness": 0,

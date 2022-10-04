@@ -12,9 +12,9 @@
 		"foliage_color": 13931775,
 		"mood_sound": {
 			"sound": "ambient.underwater.loop.additions.rare",
-			"tick_delay": 300,
-			"block_search_extent": 10,
-			"offset": 100
+			"tick_delay": 340,
+			"block_search_extent": 5,
+			"offset": 2
 		},
 		"additions_sound": {
 			"sound": "ambient.underwater.loop.additions.ultra_rare",
@@ -22,30 +22,41 @@
 		},
 		"particle": {
 			"options": {
-				"type": "dripping_obsidian_tear"
+				"type": "minecraft:dust_color_transition",
+				"fromColor": [
+					0.87,
+					0.67,
+					1
+				],
+				"toColor": [
+					0.71,
+					0.278,
+					1
+				],
+				"scale": 1.333
 			},
-			"probability": 0.0035
+			"probability": 0.00512
 		}
 	},
 	"spawners": {
 		"monster": [
 			{
 				"type": "minecraft:enderman",
-				"weight": 45,
+				"weight": 33,
 				"minCount": 4,
 				"maxCount": 4
 			},
 			{
 				"type": "minecraft:vex",
-				"weight": 5,
-				"minCount": 4,
-				"maxCount": 4
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 2
 			},
 			{
 				"type": "minecraft:witch",
-				"weight": 17,
-				"minCount": 4,
-				"maxCount": 4
+				"weight": 12,
+				"minCount": 2,
+				"maxCount": 2
 			}
 		]
 	},
@@ -73,12 +84,11 @@
 		[],
 		[],
 		[
-			"fokastudio:amethyst/trees",
 			"far_end:amethyst/vegetation/amethyst",
-			"far_end:amethyst/vegetation/hanging_amethyst",
 			"far_end:amethyst/vegetation/flower",
 			"far_end:amethyst/vegetation/patch_grass",
-			"far_end:amethyst/vegetation/patch_crying_obsidian"
+			"far_end:amethyst/vegetation/patch_crying_obsidian",
+			"fokastudio:amethyst/trees"
 		],
 		[]
 	]
