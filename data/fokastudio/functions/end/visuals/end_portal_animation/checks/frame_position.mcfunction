@@ -1,4 +1,5 @@
-stopsound @a * block.end_portal.spawn
+# Insant stopsound didn't work 100% of the time
+schedule function fokastudio:end/visuals/end_portal_animation/stopsound 1t
 
 # Facing north
 execute if block ~1 ~ ~ end_portal_frame[facing=north] unless block ~-1 ~ ~ end_portal_frame[facing=north] run tp @s ~1 ~ ~-2
