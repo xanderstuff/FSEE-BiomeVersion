@@ -51,7 +51,15 @@
 													"min_inclusive": -1000000,
 													"max_exclusive": 0.0005,
 													"when_in_range": "fokastudio:end/main_island/island",
-													"when_out_of_range": 0.1
+													"when_out_of_range": {
+															"type": "minecraft:mul",
+															"argument1": "fokastudio:end/sloped_cheese",
+															"argument2":  {
+																"type": "minecraft:mul",
+																"argument1": 150,
+																"argument2":"fokastudio:end/main_island/avg"
+															}
+													}
 												},
 												"when_out_of_range": "fokastudio:end/sloped_cheese"
 											}
