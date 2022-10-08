@@ -70,9 +70,9 @@
 					"biome": "far_end:warped_marsh",
 					"parameters": {
 						"temperature": 0.44,
-						"humidity": 0.6,
-						"continentalness": 0.34,
-						"erosion": 0.12,
+						"humidity": 0.66,
+						"continentalness": 0.26,
+						"erosion": 0.1,
 						"weirdness": 0,
 						"depth": 0,
 						"offset": 0
@@ -135,7 +135,7 @@
 						"erosion": 0.22,
 						"weirdness": 0,
 						"depth": 0,
-						"offset": 0.14
+						"offset": 0.0889
 					}
 				},
 				{
@@ -225,10 +225,10 @@
 				{
 					"biome": "minecraft:end_midlands",
 					"parameters": {
-						"temperature": 0.37,
-						"humidity": 0.13,
+						"temperature": 0.35,
+						"humidity": 0.12,
 						"continentalness": 0.5,
-						"erosion": 0.18,
+						"erosion": 0.22,
 						"weirdness": 0.4,
 						"depth": 0,
 						"offset": 0

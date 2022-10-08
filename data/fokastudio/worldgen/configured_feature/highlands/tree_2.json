@@ -12,13 +12,13 @@
 		"dirt_provider": {
 			"type": "minecraft:simple_state_provider",
 			"state": {
-				"Name": "minecraft:obsidian"
+				"Name": "minecraft:dirt"
 			}
 		},
 		"trunk_provider": {
 			"type": "minecraft:simple_state_provider",
 			"state": {
-				"Name": "minecraft:stripped_warped_stem",
+				"Name": "minecraft:stripped_mangrove_log",
 				"Properties": {
 					"axis": "y"
 				}
@@ -28,27 +28,33 @@
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 50,
+					"weight": 25,
 					"data": {
-						"Name": "minecraft:purple_stained_glass"
+						"Name": "minecraft:yellow_stained_glass"
 					}
 				},
 				{
-					"weight": 50,
+					"weight": 25,
 					"data": {
-						"Name": "minecraft:black_stained_glass"
+						"Name": "minecraft:red_stained_glass"
 					}
 				},
 				{
-					"weight": 3,
+					"weight": 25,
 					"data": {
-						"Name": "minecraft:sea_lantern"
+						"Name": "minecraft:orange_stained_glass"
 					}
 				},
 				{
-					"weight": 28,
+					"weight": 8,
 					"data": {
-						"Name": "minecraft:tinted_glass"
+						"Name": "minecraft:shroomlight"
+					}
+				},
+				{
+					"weight": 8,
+					"data": {
+						"Name": "minecraft:glowstone"
 					}
 				}
 			]

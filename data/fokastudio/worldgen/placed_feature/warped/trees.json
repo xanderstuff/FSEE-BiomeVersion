@@ -1,9 +1,13 @@
 {
-	"feature": "fokastudio:warped/big_oak_rooted",
+	"feature": "fokastudio:warped/trees",
 	"placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
-			"count": 25
+			"count": 8
+		},
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 3
 		},
 		{
 			"type": "minecraft:block_predicate_filter",
@@ -17,12 +21,8 @@
 				}
 			}
 		},
-		{
-			"type": "minecraft:surface_water_depth_filter",
-			"max_water_depth": 5
-		},
-		{
-			"type":"biome"
+        {
+			"type": "minecraft:biome"
 		}
 	]
 }

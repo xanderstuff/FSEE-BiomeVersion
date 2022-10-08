@@ -23,22 +23,22 @@
 			"options": {
 				"type": "crimson_spore"
 			},
-			"probability": 0.002
+			"probability": 0.003
 		}
 	},
 	"spawners": {
 		"monster": [
 			{
 				"type": "minecraft:enderman",
-				"weight": 20,
+				"weight": 25,
 				"minCount": 4,
 				"maxCount": 4
 			},
 			{
 				"type": "minecraft:hoglin",
 				"weight": 10,
-				"minCount": 4,
-				"maxCount": 4
+				"minCount": 3,
+				"maxCount": 3
 			}
 		]
 	},
@@ -52,8 +52,7 @@
 	},
 	"features": [
 		[
-			"fokastudio:global/stalactite_1",
-			"fokastudio:global/stalactite_2"
+			"fokastudio:highlands/stalactite"
 		],
 		[],
 		[],
