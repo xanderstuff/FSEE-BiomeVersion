@@ -127,34 +127,7 @@
 								"offset": 1,
 								"height": 3
 							},
-							"decorators": [
-								{
-									"type": "minecraft:alter_ground",
-									"provider": {
-										"type": "minecraft:weighted_state_provider",
-										"entries": [
-											{
-												"weight": 1,
-												"data": {
-													"Name": "minecraft:end_stone"
-												}
-											},
-											{
-												"weight": 3,
-												"data": {
-													"Name": "minecraft:moss_block"
-												}
-											},
-											{
-												"weight": 7,
-												"data": {
-													"Name": "minecraft:grass_block"
-												}
-											}
-										]
-									}
-								}
-							]
+							"decorators": []
 						}
 					},
 					"placement": []
@@ -231,34 +204,7 @@
 								"offset": 1,
 								"height": 3
 							},
-							"decorators": [
-								{
-									"type": "minecraft:alter_ground",
-									"provider": {
-										"type": "minecraft:weighted_state_provider",
-										"entries": [
-											{
-												"weight": 1,
-												"data": {
-													"Name": "minecraft:end_stone"
-												}
-											},
-											{
-												"weight": 3,
-												"data": {
-													"Name": "minecraft:moss_block"
-												}
-											},
-											{
-												"weight": 7,
-												"data": {
-													"Name": "minecraft:grass_block"
-												}
-											}
-										]
-									}
-								}
-							]
+							"decorators": []
 						}
 					},
 					"placement": []
