@@ -1,51 +1,45 @@
 @media screen and (max-width: 800px) {
 	* {
 		--illageralt-font-size: 180%;
-		
 		--carousel-title-size: 200%;
 		--carousel-caption-size: 140%;
-		
 		--kofi-card-width: 100%;
 		--kofi-card-height: 100%;
-
 		--button-padding: 0%;
 		--button-font-size: 7vw;
-	}
+   }
 }
-  
+
 @media screen and (min-width: 800px) {
 	* {
 		--illageralt-font-size: 300%;
-		
 		--carousel-title-size: 420%;
 		--carousel-caption-size: 260%;
-		
 		--kofi-card-width: 50%;
 		--kofi-card-height: 50%;
-
 		--button-padding: 0%;
 		--button-font-size: 2.2vw;
-	}
+   }
 }
 
 body, html {
 	height: 100%;
 	background-color: rgb(31, 31, 31);
-	-ms-overflow-style: none; /* Hides scrollbar on Edge */
-  	scrollbar-width: none; /* Hides scrollbar on Firefox */
-
+	-ms-overflow-style: none;
+   /* Hides scrollbar on Edge */
+	scrollbar-width: none;
+   /* Hides scrollbar on Firefox */
 }
 
-body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
+body::-webkit-scrollbar {
+   /* Hides scrollbar on Chrome */
 	display: none;
 }
 
 #hero-image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/screenshots/den.png");
-
 	height: 50%;
 	width: 100%;
-
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -63,7 +57,7 @@ body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
 }
 
 .hr {
-	height: 11%; 
+	height: 11%;
 	background-image: url(../assets/hr.png);
 	background-repeat: repeat-x;
 	background-repeat: no-repeat;
@@ -76,7 +70,7 @@ body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
 	color: #FFFFFF;
 	text-align: center;
 	font-size: var(--button-font-size);
-	font-family: 'AmaticSC-Bold'; 
+	font-family: 'AmaticSC-Bold';
 	padding: var(--button-padding);
 	padding-bottom: 0px;
 	width: 95%;
@@ -86,10 +80,9 @@ body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
 	margin: 1%;
 	text-align: center;
 	transition-duration: 0.33s;
-	vertical-align: middle; 
-	display: inline-block; 
+	vertical-align: middle;
+	display: inline-block;
 }
-
 
 .fancy-button:hover {
 	outline: 4px solid white;
@@ -125,33 +118,33 @@ body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
 	font-size: var(--carousel-caption-size);
 }
 
-/* Team cards */
+/* 'Team' cards */
 .user-pic {
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    border-radius: 100%;
-    margin: 20px auto 20px;
-    border-left: 3px solid #ddd;
-    border-right: 3px solid #ddd;
-    border-top: 3px solid currentColor;
-    border-bottom: 3px solid currentColor;
-    transition: 0.5s;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	border-radius: 100%;
+	margin: 20px auto 20px;
+	border-left: 3px solid #ddd;
+	border-right: 3px solid #ddd;
+	border-top: 3px solid currentColor;
+	border-bottom: 3px solid currentColor;
+	transition: 0.5s;
 }
 
 .card-box:hover .user-pic {
-    rotate: 10deg;
-    scale: 1.1;
+	rotate: 10deg;
+	scale: 1.1;
 }
 
 .card-box {
-    padding: 15px;
-    background-color: #555555;
-    margin: 20px 0px;
-    border-radius: 10px;
-    border: 1px solid #eee;
-    box-shadow: 0px 0px 8px 0px #d4d4d4;
-    transition: 0.5s;
+	padding: 15px;
+	background-color: #555555;
+	margin: 20px 0px;
+	border-radius: 10px;
+	border: 1px solid #eee;
+	box-shadow: 0px 0px 8px 0px #d4d4d4;
+	transition: 0.5s;
 }
 
 .card-box:hover {
@@ -159,18 +152,24 @@ body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
 }
 
 .card-box p {
-    color: #d4d4d4;
+	color: #d4d4d4;
 }
 
-/* Team special glow effects */
+/* 'Team' special glow effects */
 .SAGA {
 	animation: SAGA-color-change 3s infinite linear;
 }
 
 @keyframes SAGA-color-change {
-	0% { color: white; }
-	50% { color: red; }
-	100% { color: white; }
+	0% {
+		color: white;
+   }
+	50% {
+		color: red;
+   }
+	100% {
+		color: white;
+   }
 }
 
 .Hex {
@@ -178,9 +177,15 @@ body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
 }
 
 @keyframes hex-color-change {
-	0% { color: rgb(0, 0, 0); }
-	50% { color: rgb(184, 184, 184); }
-	100% { color: rgb(0, 0, 0); }
+	0% {
+		color: rgb(0, 0, 0);
+   }
+	50% {
+		color: rgb(184, 184, 184);
+   }
+	100% {
+		color: rgb(0, 0, 0);
+   }
 }
 
 .IEatPotatoes_ {
@@ -188,9 +193,31 @@ body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
 }
 
 @keyframes IEatPotatoes_-color-change {
-	0% { color: rgb(132, 0, 255); }
-	50% { color: rgb(79, 96, 255); }
-	100% { color: rgb(132, 0, 255); }
+	0% {
+		color: rgb(132, 0, 255);
+   }
+	50% {
+		color: rgb(79, 96, 255);
+   }
+	100% {
+		color: rgb(132, 0, 255);
+   }
+}
+
+.YaGirlGiulles {
+	animation: YaGirlGiulles-color-change 3s infinite linear;
+}
+
+@keyframes YaGirlGiulles-color-change {
+	0% {
+		color: #FEC8D8;
+   }
+	50% {
+		color: #C6E2E9;
+   }
+	100% {
+		color: #FEC8D8;
+   }
 }
 
 .RaiderRoss {
@@ -202,7 +229,6 @@ body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
 	-webkit-text-fill-color: transparent;
 	animation: Rossgradient 10s linear infinite;
 }
-
 .RaiderRossBorder {
 	animation: Rossborder 5s linear infinite;
 }
@@ -210,25 +236,35 @@ body::-webkit-scrollbar { /* Hides scrollbar on Chrome */
 @keyframes Rossgradient {
 	0% {
 		background-position: 0% 0%;
-	}
+   }
 	25% {
 		background-position: 0% 100%;
-	}
+   }
 	50% {
 		background-position: 0% 200%;
-	}
+   }
 	75% {
 		background-position: 0% 100%;
-	}
+   }
 	50% {
 		background-position: 0% 0%;
-	}
+   }
 }
 
 @keyframes Rossborder {
-	0% { color: #ee7752; }
-	25% { color: #e73c7e; }
-	50% { color: #9D6DFB; }
-	75% { color: #e73c7e; }
-	100% { color: #ee7752; }
+	0% {
+		color: #ee7752;
+   }
+	25% {
+		color: #e73c7e;
+   }
+	50% {
+		color: #9D6DFB;
+   }
+	75% {
+		color: #e73c7e;
+   }
+	100% {
+		color: #ee7752;
+   }
 }
