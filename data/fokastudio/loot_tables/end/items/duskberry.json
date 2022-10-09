@@ -12,17 +12,9 @@
 							"function": "minecraft:set_name",
 							"name": {
 								"translate": "Duskberry",
-								"color": "#950000",
+								"color": "#8100CB",
 								"italic": false
 							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								{
-									"translate": ""
-								}
-							]
 						},
 						{
 							"function": "minecraft:set_attributes",
@@ -66,30 +58,31 @@
 							"lore": [
 								{
 									"translate": "Empowers your speed, sight",
-									"color": "#A53535",
+									"color": "#AB6AD1",
 									"italic": false
 								},
 								{
 									"translate": "and strength while held",
-									"color": "#A53535",
+									"color": "#AB6AD1",
 									"italic": false
 								},
 								{
 									"translate": "Consuming or planting might",
-									"color": "#A53535",
+									"color": "#AB6AD1",
 									"italic": false
 								},
 								{
 									"translate": "have dire consequences",
-									"color": "#A53535",
+									"color": "#AB6AD1",
 									"italic": false
 								},
 								" ",
 								{
 									"translate": "Member #666 Item",
-									"color": "#640000",
+									"color": "#76389B",
 									"italic": false,
-									"obfuscated": true
+									"obfuscated": true,
+									"font": "illageralt"
 								}
 							]
 						},
