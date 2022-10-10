@@ -8,8 +8,10 @@
 		"FokaStudio"
 	],
 	"contact": {
-		"homepage": "https://fokastudio.github.io/FSEE"
-	},
+		"homepage": "https://fokastudio.github.io/FSEE",
+		"sources": "https://github.com/FokaStudio/FSEE",
+		"issues": "https://discord.gg/J6guYAySN"
+	  },
 	"license": "All Rights Reserved",
 	"icon": "pack.png",
 	"environment": "*",
