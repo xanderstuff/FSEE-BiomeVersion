@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"eat_mystical_heartfish": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_cod"
+					],
+					"nbt": "{foka.special_item:\"mystical_heartfish\"}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"eat_mystical_heartfish"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/items/fish/mystical_heartfish/eat"
+	}
+}

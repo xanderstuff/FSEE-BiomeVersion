@@ -6,84 +6,19 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
 					"weight": 60,
-					"name": "minecraft:cooked_cod",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 1
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "Prismite",
-								"color": "#E165FF",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,foka.special_item:\"prismite\"}"
-						}
-					]
+					"name": "fokastudio:end/items/fish/prismite"
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 7,
-					"name": "minecraft:cooked_cod",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 1
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "Mystical Heartfish",
-								"color": "#FF65D7",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90002,foka.special_item:\"mystical_heartfish\"}"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"weight": 8,
+					"name": "fokastudio:end/items/fish/mystical_heartfish"
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
 					"weight": 10,
-					"name": "minecraft:barrel",
-					"functions": [
-						{
-							"function": "minecraft:set_loot_table",
-							"type": "minecraft:barrel",
-							"name": "fokastudio:end/void_fishing/crates/hallowed"
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "Hallowed Crate",
-								"color": "#F4A6FF",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "Place and open!",
-									"color": "#EEEEEE",
-									"italic": false
-								}
-							]
-						}
-					]
+					"name": "fokastudio:end/items/fish/crates/hallowed_crate"
 				}
 			]
 		}

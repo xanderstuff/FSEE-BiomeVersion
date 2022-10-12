@@ -4,29 +4,14 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
 					"weight": 40,
-					"name": "minecraft:cooked_cod",
-					"functions": [
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "Shadowfish",
-								"color": "#51336D",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90007,foka.special_item:\"shadowfish\"}"
-						}
-					]
+					"name": "fokastudio:end/items/fish/shadowfish"
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
 					"weight": 20,
-					"name": "minecraft:cooked_cod",
+					"name": "fokastudio:end/items/fish/shadowfish",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -35,51 +20,17 @@
 								"max": 4
 							},
 							"add": false
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "Shadowfish",
-								"color": "#51336D",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90007,foka.special_item:\"shadowfish\"}"
 						}
 					]
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
 					"weight": 10,
-					"name": "minecraft:barrel",
+					"name": "fokastudio:end/items/fish/crates/ender_crate",
 					"functions": [
 						{
-							"function": "minecraft:set_loot_table",
-							"type": "minecraft:barrel",
-							"name": "minecraft:chests/end_city_treasure"
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "Ender Crate",
-								"color": "#B978C6",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "Place and open!",
-									"color": "#EEEEEE",
-									"italic": false
-								}
-							]
+							"function": "minecraft:set_count",
+							"count": 1
 						}
 					]
 				}

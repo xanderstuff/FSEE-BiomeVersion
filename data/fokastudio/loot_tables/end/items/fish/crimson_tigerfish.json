@@ -1,0 +1,52 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_cod",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "Crimson Tigerfish",
+								"color": "#C24747",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90004,foka.special_item:\"crimson_tigerfish\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"translate": "effect.minecraft.regeneration",
+										"color": "blue",
+										"italic": false
+									},
+									" ",
+									{
+										"translate": "potion.potency.2",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": " (0:12)",
+										"color": "blue",
+										"italic": false
+									}
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

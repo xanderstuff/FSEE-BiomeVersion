@@ -8,6 +8,6 @@ data remove storage fokastudio:end/temp object.tag.display.Lore[-1]
 
 #destroy item if broken
 item modify entity @s weapon.offhand fokastudio:end/append_durability_lore
-execute if score $player.out_0 foka.misc matches -1..0 run playsound minecraft:entity.item.break player @a[distance=..16]
+execute if score $player.out_0 foka.misc matches -1..0 at @s run playsound minecraft:entity.item.break player @a[distance=..16]
 execute if score $player.out_0 foka.misc matches 0 run item replace entity @s weapon.offhand with minecraft:air
 

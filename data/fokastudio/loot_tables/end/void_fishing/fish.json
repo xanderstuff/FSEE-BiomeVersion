@@ -6,51 +6,28 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
 					"weight": 33,
-					"name": "minecraft:cooked_cod",
+					"name": "fokastudio:end/items/fish/ender_koi",
 					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"ender_koi\"}"
-						},
 						{
 							"function": "minecraft:set_count",
 							"count": 1
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "Ender Koi",
-								"color": "#B265FF",
-								"italic": false
-							}
 						}
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 10,
-					"name": "minecraft:cooked_cod",
+					"type": "minecraft:loot_table",
+					"weight": 15,
+					"name": "fokastudio:end/items/fish/ender_koi",
 					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"ender_koi\"}"
-						},
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 2,
-								"max": 6
-							}
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "Ender Koi",
-								"color": "#B265FF",
-								"italic": false
-							}
+								"max": 5
+							},
+							"add": false
 						}
 					]
 				},

@@ -29,6 +29,7 @@ scoreboard objectives add foka.items.spellbook.conveyance.id dummy
 scoreboard objectives add foka.items.spellbook.updraft.cooldown dummy
 scoreboard objectives add foka.items.spellbook.light.cooldown dummy
 scoreboard objectives add foka.items.spellbook.radiance.cooldown dummy
+scoreboard objectives add foka.items.fish.mystical_heartfish.total_consumed dummy
 
 # Mobs
 # Empress of Light

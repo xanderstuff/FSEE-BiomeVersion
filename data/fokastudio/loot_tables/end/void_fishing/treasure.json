@@ -60,36 +60,9 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:barrel",
-					"weight": 1,
-					"functions": [
-						{
-							"function": "minecraft:set_loot_table",
-							"type": "minecraft:barrel",
-							"name": "minecraft:chests/end_city_treasure"
-						},
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": {
-								"translate": "Ender Crate",
-								"color": "#B978C6",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "Place and open!",
-									"color": "#EEEEEE",
-									"italic": false
-								}
-							]
-						}
-					]
+					"type": "minecraft:loot_table",
+					"weight": 7,
+					"name": "fokastudio:end/items/fish/crates/ender_crate"
 				}
 			]
 		}

@@ -5,6 +5,7 @@ function fokastudio:end/items/ender_insignia/check
 function fokastudio:end/items/pandoras_barrel/loop
 function fokastudio:end/items/armors/main
 function fokastudio:end/items/spellbooks/main
+function fokastudio:end/items/fish/main
 
 # Dragonblade
 execute as @a[scores={foka.items.dragonblade_cooldown=1..}] run scoreboard players remove @s foka.items.dragonblade_cooldown 1
