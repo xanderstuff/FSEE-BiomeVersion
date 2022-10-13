@@ -4,7 +4,7 @@ execute as @e[type=minecraft:end_crystal,distance=..5,tag=!fe.respawn_crystal] i
 execute as @e[type=minecraft:end_crystal,distance=..5,tag=!fe.respawn_crystal] if predicate far_end:mobs/ender_dragon/respawn/end_crystal_south run tag @s add fe.respawn_crystal
 execute as @e[type=minecraft:end_crystal,distance=..5,tag=!fe.respawn_crystal] if predicate far_end:mobs/ender_dragon/respawn/end_crystal_west run tag @s add fe.respawn_crystal
 
-execute at @e[type=minecraft:end_crystal,tag=fe.respawn_crystal] run setblock ~ ~ ~ minecraft:soul_fire
+execute at @e[type=minecraft:end_crystal,tag=fe.respawn_crystal] run setblock ~ ~ ~ minecraft:fire
 execute at @e[type=minecraft:end_crystal,tag=fe.respawn_crystal] run particle enchant ~ ~1 ~ 0 0 0 1 2 normal
 execute at @e[type=minecraft:end_crystal,tag=fe.respawn_crystal] run particle portal ~ ~1 ~ 0 0 0 1 1 normal
 
