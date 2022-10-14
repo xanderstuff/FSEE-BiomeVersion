@@ -16,7 +16,7 @@
 								"waterlogged": "false"
 							}
 						},
-						"probability": 0.82
+						"probability": 0.66
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -29,9 +29,66 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_blockstate_match",
 						"block_state": {
-							"Name": "minecraft:wall_torch"
+							"Name": "minecraft:wall_torch",
+							"Properties": {
+								"facing": "north"
+							}
 						},
-						"probability": 0.82
+						"probability": 0.66
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:wall_torch",
+							"Properties": {
+								"facing": "south"
+							}
+						},
+						"probability": 0.66
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:wall_torch",
+							"Properties": {
+								"facing": "east"
+							}
+						},
+						"probability": 0.66
+					},
+					"output_state": {
+						"Name": "minecraft:air"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_blockstate_match",
+						"block_state": {
+							"Name": "minecraft:wall_torch",
+							"Properties": {
+								"facing": "west"
+							}
+						},
+						"probability": 0.66
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -46,7 +103,7 @@
 						"block_state": {
 							"Name": "minecraft:torch"
 						},
-						"probability": 0.82
+						"probability": 0.66
 					},
 					"output_state": {
 						"Name": "minecraft:air"
@@ -55,14 +112,54 @@
 			]
 		},
 		{
-			"processor_type": "minecraft:block_age",
-			"mossiness": 0.1333
-		},
-		{
 			"processor_type": "minecraft:block_ignore",
 			"blocks": [
 				{
 					"Name": "minecraft:structure_void"
+				}
+			]
+		},
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone_bricks",
+						"probability": 0.077
+					},
+					"output_state": {
+						"Name": "minecraft:mossy_stone_bricks"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone_bricks",
+						"probability": 0.044
+					},
+					"output_state": {
+						"Name": "minecraft:cracked_stone_bricks"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:stone_bricks",
+						"probability": 0.013
+					},
+					"output_state": {
+						"Name": "minecraft:infested_stone_bricks"
+					}
 				}
 			]
 		}

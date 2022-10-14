@@ -118,6 +118,13 @@
 				"location": "fokastudio:end/stronghold/illagers/witch",
 				"processors": "minecraft:empty"
 			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:empty_pool_element",
+				"projection": "rigid"
+			}
 		}
 	]
 }

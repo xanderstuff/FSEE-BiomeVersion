@@ -102,16 +102,7 @@
 			}
 		},
 		{
-			"weight": 7,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "fokastudio:end/stronghold/corridors/stairs_round_lower",
-				"processors": "fokastudio:end/stronghold_generic"
-			}
-		},
-		{
-			"weight": 7,
+			"weight": 9,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -120,7 +111,7 @@
 			}
 		},
 		{
-			"weight": 7,
+			"weight": 9,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -129,7 +120,7 @@
 			}
 		},
 		{
-			"weight": 16,
+			"weight": 9,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
@@ -138,7 +129,7 @@
 			}
 		},
 		{
-			"weight": 16,
+			"weight": 9,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
