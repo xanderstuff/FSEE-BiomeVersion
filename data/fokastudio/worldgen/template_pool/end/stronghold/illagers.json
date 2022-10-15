@@ -43,43 +43,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "fokastudio:end/stronghold/illagers/4_pillagers",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
 				"location": "fokastudio:end/stronghold/illagers/evoker",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "fokastudio:end/stronghold/illagers/evoker_2_vindicators",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "fokastudio:end/stronghold/illagers/evoker_2_vindicators_pillager",
-				"processors": "minecraft:empty"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"location": "fokastudio:end/stronghold/illagers/evoker_vindicator",
 				"processors": "minecraft:empty"
 			}
 		},
@@ -120,7 +84,7 @@
 			}
 		},
 		{
-			"weight": 7,
+			"weight": 6,
 			"element": {
 				"element_type": "minecraft:empty_pool_element",
 				"projection": "rigid"

@@ -8,33 +8,33 @@
 			"spawns": [
 				{
 					"type": "minecraft:pillager",
-					"weight": 10,
+					"weight": 3,
 					"minCount": 4,
 					"maxCount": 4
 				},
 				{
 					"type": "minecraft:vindicator",
-					"weight": 8,
+					"weight": 3,
 					"minCount": 4,
 					"maxCount": 4
 				},
 				{
 					"type": "minecraft:evoker",
-					"weight": 1,
+					"weight": 3,
 					"minCount": 1,
-					"maxCount": 1
+					"maxCount": 2
 				},
 				{
 					"type": "minecraft:witch",
-					"weight": 6,
+					"weight": 3,
 					"minCount": 4,
 					"maxCount": 4
 				},
 				{
 					"type": "minecraft:illusioner",
-					"weight": 1,
-					"minCount": 2,
-					"maxCount": 2
+					"weight": 3,
+					"minCount": 3,
+					"maxCount": 3
 				}
 			]
 		}
@@ -45,7 +45,7 @@
 	"start_height": {
 		"type": "minecraft:uniform",
 		"min_inclusive": {
-			"above_bottom": 15
+			"above_bottom": 25
 		},
 		"max_inclusive": {
 			"absolute": 25

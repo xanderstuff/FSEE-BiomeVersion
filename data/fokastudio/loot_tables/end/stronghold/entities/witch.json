@@ -18,7 +18,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 2
+								"max": 4
 							},
 							"add": false
 						},
@@ -27,7 +27,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 1
+								"max": 2
 							}
 						}
 					]
@@ -41,7 +41,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 2
+								"max": 4
 							},
 							"add": false
 						},
@@ -50,7 +50,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 1
+								"max": 2
 							}
 						}
 					]
@@ -64,7 +64,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 2
+								"max": 4
 							},
 							"add": false
 						},
@@ -73,7 +73,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 1
+								"max": 2
 							}
 						}
 					]
@@ -87,7 +87,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 2
+								"max": 4
 							},
 							"add": false
 						},
@@ -96,7 +96,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 1
+								"max": 2
 							}
 						}
 					]
@@ -110,7 +110,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 2
+								"max": 4
 							},
 							"add": false
 						},
@@ -119,7 +119,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 1
+								"max": 2
 							}
 						}
 					]
@@ -133,7 +133,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 2
+								"max": 4
 							},
 							"add": false
 						},
@@ -142,7 +142,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 1
+								"max": 2
 							}
 						}
 					]
@@ -157,7 +157,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 2
+								"max": 4
 							},
 							"add": false
 						},
@@ -166,7 +166,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 1
+								"max": 2
 							}
 						}
 					]
@@ -178,23 +178,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 1,
-								"max": 4
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 6,
-					"name": "minecraft:glass_bottle",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
+								"min": 0,
+								"max": 8
 							},
 							"add": false
 						}
@@ -214,7 +199,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "fokastudio:end/items/random_potion",
-					"weight": 9
+					"weight": 12
 				}
 			]
 		}
