@@ -79,6 +79,33 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/sniffer_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/rascal_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/tuff_golem_crossing",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
 				"location": "fokastudio:end/stronghold/corridors/ritual_crossing",
 				"processors": "fokastudio:end/stronghold_generic"
 			}

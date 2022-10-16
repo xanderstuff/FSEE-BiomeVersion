@@ -4,7 +4,7 @@
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_box",
-	"start_pool": "fokastudio:end/random_end_spike",
+	"start_pool": "fokastudio:end/obsidian_spikes",
 	"size": 1,
 	"start_height": {
 		"absolute": 1
