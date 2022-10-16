@@ -17,19 +17,61 @@
 								"min": 1,
 								"max": 4
 							},
-							"add": false
+							"add": true
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:flint_and_steel",
-					"conditions": [
+					"name": "minecraft:black_candle",
+					"functions": [
 						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.39
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							},
+							"add": true
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:candle",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							},
+							"add": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:flint_and_steel",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.25,
+								"max": 0.88
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.44
 				}
 			]
 		}
