@@ -58,6 +58,7 @@ scoreboard objectives add foka.misc.shot_bow minecraft.used:minecraft.bow
 scoreboard objectives add foka.misc.thrown_trident minecraft.used:minecraft.trident
 scoreboard objectives add foka.misc.used_knowledge_book minecraft.used:minecraft.knowledge_book
 scoreboard objectives add foka.misc.hunger food
+scoreboard objectives add foka.misc.invul_timer dummy
 
 ## Creating teams
 # Currently only used for purple glow color
