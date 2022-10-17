@@ -34,7 +34,7 @@ FUNCTIONS:
 		𝘪𝘴 𝘰𝘶𝘵𝘥𝘢𝘵𝘦𝘥 𝘣𝘺 𝘭𝘪𝘬𝘦 5 𝘷𝘦𝘳𝘴𝘪𝘰𝘯𝘴...
 
 	4P5 - https://www.planetminecraft.com/member/4p5/
-		Elytra trails (AKA 'imbuements')
+		Elytra trails
 		I just kindly borrowed the offsets for particles
 		for them to align with wings, as I had no idea
 		what to offset by how much.
@@ -131,7 +131,11 @@ TRANSLATIONS:
 
 TEXTURES:
 
-	IEatPotatoes_:
+	IEatPotatoes_
+
+	DuskAdler
+
+	YaGirlGiulles
 		
 
 

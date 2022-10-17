@@ -1,5 +1,6 @@
-function fokastudio:end/mechanics/crystal_bossbar/main
 function fokastudio:end/mechanics/void_fishing/main
+
+execute if entity @e[type=ender_dragon] run function fokastudio:end/mechanics/crystal_bossbar/main
 
 execute as @a[tag=foka.is_gliding] at @s run function fokastudio:end/mechanics/elytra_trails/main
 

@@ -4,4 +4,6 @@ execute as @a[predicate=fokastudio:end/utils/wearing_elytra] run function fokast
 
 execute as @a at @s run function fokastudio:end/utils/get_moving
 
+execute as @a[scores={foka.items.fish.mystical_heartfish.total_consumed=-2147483648..}] run function fokastudio:end/items/fish/mystical_heartfish/increase_max_hp
+
 schedule function fokastudio:end/1_second_loop 1s
