@@ -27,4 +27,4 @@ advancement grant @a[distance=..100,advancements={minecraft:end/kill_dragon=true
 advancement grant @a[distance=..100,advancements={minecraft:end/kill_dragon=false}] only minecraft:end/kill_dragon
 
 execute as @e[type=marker,tag=foka.altar_of_accursed,tag=!foka.aota_activated] at @s run function fokastudio:end/floor_crafting/aota_activate
-execute as @e[type=armor_stand,tag=foka.dragonblade_holder] run data merge entity @s {DisabledSlots:4144702}
+execute as @e[type=armor_stand,tag=foka.dragonblade_holder] run data merge entity @s {DisabledSlots:4144702,Marker:0b}
