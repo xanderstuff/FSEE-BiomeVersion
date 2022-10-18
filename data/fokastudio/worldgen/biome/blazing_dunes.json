@@ -66,7 +66,6 @@
 	"features": [
 		[
 			"fokastudio:global/stalactite_2",
-			"fokastudio:blazing_dunes/stalactite",
 			"fokastudio:blazing_dunes/columns"
 		],
 		[
@@ -74,8 +73,6 @@
 			"fokastudio:blazing_dunes/basalt_columns"
 		],
 		[
-			"fokastudio:blazing_dunes/ore_gold",
-			"fokastudio:blazing_dunes/ore_quartz",
 			"fokastudio:blazing_dunes/lava_spring",
 			"fokastudio:blazing_dunes/patch_fire"
 		],

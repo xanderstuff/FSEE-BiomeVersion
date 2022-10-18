@@ -44,7 +44,7 @@
 									0
 								],
 								"blocks": [
-									"minecraft:netherrack",
+									"minecraft:end_stone",
                                     "magma_block",
                                     "end_stone",
                                     "end_stone_bricks"

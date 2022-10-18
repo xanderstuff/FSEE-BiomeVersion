@@ -9,13 +9,18 @@
 						"type": "minecraft:huge_fungus",
 						"config": {
 							"hat_state": {
-								"Name": "minecraft:warped_wart_block"
+								"Name": "minecraft:azalea_leaves",
+								"Properties": {
+									"distance": "1",
+									"persistent": "true",
+									"waterlogged": "false"
+								}
 							},
 							"decor_state": {
-								"Name": "minecraft:sea_lantern"
+								"Name": "minecraft:shroomlight"
 							},
 							"stem_state": {
-								"Name": "minecraft:warped_stem",
+								"Name": "minecraft:stripped_oak_log",
 								"Properties": {
 									"axis": "y"
 								}
@@ -211,14 +216,14 @@
 				}
 			},
 			{
-				"chance": 0.5,
+				"chance": 0.77,
 				"feature": {
 					"feature": "fokastudio:warped/big_oak_rooted",
 					"placement": []
 				}
 			},
 			{
-				"chance": 0.5,
+				"chance": 0.77,
 				"feature": {
 					"feature": "fokastudio:warped/big_oak",
 					"placement": []

@@ -111,10 +111,7 @@
 			"leaf_placement_attempts": 70
 		},
 		"decorators": [
-			{
-				"type": "minecraft:leave_vine",
-				"probability": 0.35
-			}
+
 		]
 	}
 }

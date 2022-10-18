@@ -18,7 +18,7 @@
 		"ground_state": {
 			"type": "minecraft:simple_state_provider",
 			"state": {
-				"Name": "minecraft:netherrack"
+				"Name": "minecraft:end_stone"
 			}
 		},
 		"vegetation_feature": {
@@ -50,7 +50,7 @@
 							"provider": {
 								"type": "minecraft:simple_state_provider",
 								"state": {
-									"Name": "minecraft:netherrack"
+									"Name": "minecraft:end_stone"
 								}
 							}
 						}
