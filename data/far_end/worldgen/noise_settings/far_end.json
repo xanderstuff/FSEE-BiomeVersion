@@ -332,12 +332,6 @@
 									}
 								}
 							}
-						},
-						{
-							"type": "minecraft:block",
-							"result_state": {
-								"Name": "minecraft:netherrack"
-							}
 						}
 					]
 				}
@@ -787,21 +781,6 @@
 							"type": "minecraft:block",
 							"result_state": {
 								"Name": "minecraft:diorite"
-							}
-						}
-					},
-					{
-						"type": "minecraft:condition",
-						"if_true": {
-							"type": "minecraft:biome",
-							"biome_is": [
-								"far_end:ashfall_delta"
-							]
-						},
-						"then_run": {
-							"type": "minecraft:block",
-							"result_state": {
-								"Name": "minecraft:tuff"
 							}
 						}
 					},

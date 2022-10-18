@@ -67,10 +67,7 @@
       "offset": 0
     },
     "decorators": [
-      {
-        "type": "minecraft:leave_vine" ,
-				"probability": 0.25
-      }
+
     ]
   }
 }
