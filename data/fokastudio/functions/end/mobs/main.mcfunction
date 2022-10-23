@@ -9,3 +9,6 @@ execute as @e[type=vindicator,tag=foka.eol] at @s run function fokastudio:end/mo
 
 # Wandering Trader extra End-themed recipe
 execute as @e[type=wandering_trader,predicate=!fokastudio:end/locations/in_the_end,tag=!foka.wt_extra_end_trades,tag=!foka.aware,predicate=fokastudio:end/utils/chance/75percent] run function fokastudio:end/mobs/wandering_trader/add_extra_recipe 
+
+# Dragon stuff
+execute as @e[type=marker,tag=foka.dragon_marker] at @s run function fokastudio:end/mobs/dragon/attacks/loop

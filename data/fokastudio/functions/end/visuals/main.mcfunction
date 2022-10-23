@@ -6,3 +6,4 @@ execute as @e[type=marker,tag=foka.altar_of_accursed,tag=foka.aota_activated] at
 # Soul escape animation check triggers every 5 seconds
 
 execute as @e[type=#fokastudio:end/eye_and_pearl] at @s run particle witch ~ ~ ~ .1 .1 .1 0.1 1 normal
+execute as @e[type=marker,tag=foka.dragon_respawn.beam] at @s run function fokastudio:end/visuals/dragon_respawn_animation/beam_loop
