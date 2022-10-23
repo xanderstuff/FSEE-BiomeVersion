@@ -1,13 +1,14 @@
 modLoader="lowcodefml"
 loaderVersion="[40,)"
 license="All Rights Reserved"
-issueTrackerURL="https://github.com/ChaosAwakens/ChaosAwakens/issues"
+issueTrackerURL="https://github.com/FokaStudio/FSEE/issues"
 
 [[mods]]
 	modId="fsee"
 	version="1.6a"
 	displayName="FokaStudio's Ender Expansion"
 	logoFile="pack.png"
+	logoBlur=false
 	authors="FokaStudio"
 	description='''
 		Harder End, new biomes, items and more!
