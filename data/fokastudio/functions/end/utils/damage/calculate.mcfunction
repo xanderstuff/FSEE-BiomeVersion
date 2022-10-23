@@ -21,7 +21,7 @@ function fokastudio:end/utils/damage/calculate_attributes
 execute unless entity @s[tag=foka.dead] run function fokastudio:end/utils/damage/apply_damage
 tag @s remove foka.dead
 
-execute if entity @s[tag=foka.holy_protected] run function fokastudio:end/items/armors/hallowed_armor/holy_protection_off
+execute if entity @s[tag=foka.holy_protection] run function fokastudio:end/items/armors/hallowed_armor/holy_protection_off
 
 tag @s remove foka.damage.example_cause
 tag @s remove foka.damage.sharanga_explosion
