@@ -50,7 +50,7 @@
 				"config": {
 					"features": [
 						{
-							"chance": 0.007,
+							"chance": 0.0033,
 							"feature": {
 								"feature": {
 									"type": "minecraft:tree",
