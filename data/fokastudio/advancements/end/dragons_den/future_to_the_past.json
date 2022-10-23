@@ -30,9 +30,14 @@
 									"y": {
 										"min": -64
 									}
-								},
-								"dimension": "minecraft:the_end"
+								}
 							}
+						}
+					},
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end"
 						}
 					},
 					{
