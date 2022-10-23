@@ -13,72 +13,72 @@
 							"name": [
 								{
 									"text": "P",
-									"color": "#ff8585",
+									"color": "red",
 									"italic": false
 								},
 								{
 									"text": "r",
-									"color": "#eca575",
+									"color": "#ea7439",
 									"italic": false
 								},
 								{
 									"text": "i",
-									"color": "#e7c968",
+									"color": "#dbaa34",
 									"italic": false
 								},
 								{
 									"text": "s",
-									"color": "#faf463",
+									"color": "#efdb3a",
 									"italic": false
 								},
 								{
 									"text": "m",
-									"color": "#b7ff63",
+									"color": "#e0fe3f",
 									"italic": false
 								},
 								{
 									"text": "a",
-									"color": "#65ff70",
+									"color": "#79fe3f",
 									"italic": false
 								},
 								{
 									"text": "t",
-									"color": "#68ffcf",
+									"color": "#30ef30",
 									"italic": false
 								},
 								{
 									"text": "i",
-									"color": "#63eded",
+									"color": "#0ecc0e",
 									"italic": false
 								},
 								{
 									"text": "c ",
-									"color": "#56cbcb",
+									"color": "#13d14e",
 									"italic": false
 								},
 								{
 									"text": "P",
-									"color": "#6a9fe5",
+									"color": "#35f4d6",
 									"italic": false
 								},
 								{
 									"text": "u",
-									"color": "#917bff",
+									"color": "#88b4fe",
 									"italic": false
 								},
 								{
 									"text": "n",
-									"color": "#e176ff",
+									"color": "#ef4dfe",
 									"italic": false
 								},
 								{
 									"text": "c",
-									"color": "#e765e7",
+									"color": "#e021e0",
 									"italic": false
 								},
 								{
 									"text": "h",
-									"color": "#c34fc3",
+									"color": "dark_purple",
 									"italic": false
 								}
 							]
