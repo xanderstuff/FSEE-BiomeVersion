@@ -9,7 +9,37 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"ender_insignia\",CustomModelData:90000,display:{Lore: ['{\"translate\":\"Greatly increases life regen when\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"held and not moving\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The Dragon\\'s Power is withing your hands\",\"font\":\"illageralt\",\"color\":\"dark_purple\",\"italic\":false}'],Name:'{\"translate\":\"Ender Insignia\",\"color\":\"#A25AFF\",\"italic\":false}'},Enchantments:[{}]}"
+							"tag": "{foka.special_item:\"ender_insignia\",CustomModelData:90000,Enchantments:[{}]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "Greatly increases life regen",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								{
+									"translate": "when held and not moving",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								{
+									"translate": "The Dragon's Power is withing your hands",
+									"color": "dark_purple",
+									"font": "illageralt",
+									"italic": false
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Ender Insignia",
+								"color": "#A25AFF",
+								"italic": false
+							}
 						}
 					]
 				}
