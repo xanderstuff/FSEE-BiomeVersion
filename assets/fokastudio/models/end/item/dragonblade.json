@@ -1,6 +1,1 @@
-{
-	"parent": "minecraft:item/handheld",
-	"textures": {
-		"layer0": "fokastudio:end/item/dragonblade"
-	}
-}
+{"parent":"minecraft:item/handheld","textures":{"layer0":"fokastudio:end/item/dragonblade"}}

@@ -1,6 +1,1 @@
-{
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "fokastudio:end/item/cursed_tome"
-	}
-}
+{"parent":"minecraft:item/generated","textures":{"layer0":"fokastudio:end/item/cursed_tome"}}

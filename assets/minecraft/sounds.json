@@ -8,14 +8,14 @@
 			"mob/endermen/idle5"
 		],
 		"subtitle":"subtitles.entity.enderman.ambient",
-        "replace": true
+		"replace":true
 	},
 	"entity.enderman.death":{
 		"sounds":[
 			"mob/endermen/death"
 		],
 		"subtitle":"subtitles.entity.enderman.death",
-        "replace": true
+		"replace":true
 	},
 	"entity.enderman.hurt":{
 		"sounds":[
@@ -25,7 +25,7 @@
 			"mob/endermen/hit4"
 		],
 		"subtitle":"subtitles.entity.enderman.hurt",
-        "replace": true
+		"replace":true
 	},
 	"entity.enderman.scream":{
 		"sounds":[
@@ -35,15 +35,21 @@
 			"mob/endermen/scream4"
 		],
 		"subtitle":"subtitles.entity.enderman.ambient",
-        "replace": true
+		"replace":true
 	},
 	"entity.enderman.stare":{
 		"sounds":[
-			"fokastudio:end/mob/enderman/stare_1",
-			"fokastudio:end/mob/enderman/stare_2"
+			{
+				"name":"fokastudio:end/mob/enderman/stare_1",
+				"volume":0.5
+			},
+			{
+				"name":"fokastudio:end/mob/enderman/stare_2",
+				"volume":0.5
+			}
 		],
 		"subtitle":"subtitles.entity.enderman.stare",
-        "replace": true
+		"replace":true
 	},
 	"entity.enderman.teleport":{
 		"sounds":[
@@ -57,7 +63,7 @@
 			"fokastudio:end/mob/enderman/teleport_8"
 		],
 		"subtitle":"subtitles.entity.enderman.teleport",
-        "replace": true
+		"replace":true
 	},
 	"entity.endermite.ambient":{
 		"sounds":[
@@ -66,7 +72,7 @@
 			"fokastudio:end/mob/endermite/idle_3"
 		],
 		"subtitle":"subtitles.entity.endermite.ambient",
-        "replace": true
+		"replace":true
 	},
 	"entity.endermite.death":{
 		"sounds":[
@@ -74,7 +80,7 @@
 			"fokastudio:end/mob/endermite/death_2"
 		],
 		"subtitle":"subtitles.entity.endermite.death",
-        "replace": true
+		"replace":true
 	},
 	"entity.endermite.hurt":{
 		"sounds":[
@@ -83,80 +89,80 @@
 			"fokastudio:end/mob/endermite/hurt_3"
 		],
 		"subtitle":"subtitles.entity.endermite.hurt",
-        "replace": true
+		"replace":true
 	},
 	"entity.shulker.ambient":{
 		"sounds":[
 			"fokastudio:end/mob/shulker/idle_1",
-            "fokastudio:end/mob/shulker/idle_2",
-            "fokastudio:end/mob/shulker/idle_3",
-            "fokastudio:end/mob/shulker/idle_4",
-            "fokastudio:end/mob/shulker/idle_5",
-            "fokastudio:end/mob/shulker/idle_6",
-            "fokastudio:end/mob/shulker/idle_7"
+			"fokastudio:end/mob/shulker/idle_2",
+			"fokastudio:end/mob/shulker/idle_3",
+			"fokastudio:end/mob/shulker/idle_4",
+			"fokastudio:end/mob/shulker/idle_5",
+			"fokastudio:end/mob/shulker/idle_6",
+			"fokastudio:end/mob/shulker/idle_7"
 		],
 		"subtitle":"subtitles.entity.shulker.ambient",
-        "replace": true
+		"replace":true
 	},
 	"entity.shulker.close":{
 		"sounds":[
 			"fokastudio:end/mob/shulker/close_1",
-            "fokastudio:end/mob/shulker/close_2",
-            "fokastudio:end/mob/shulker/close_3",
-            "fokastudio:end/mob/shulker/close_4"
+			"fokastudio:end/mob/shulker/close_2",
+			"fokastudio:end/mob/shulker/close_3",
+			"fokastudio:end/mob/shulker/close_4"
 		],
 		"subtitle":"subtitles.entity.shulker.close",
-        "replace": true
+		"replace":true
 	},
 	"entity.shulker.death":{
 		"sounds":[
 			"fokastudio:end/mob/shulker/death_1",
-            "fokastudio:end/mob/shulker/death_2",
-            "fokastudio:end/mob/shulker/death_3",
-            "fokastudio:end/mob/shulker/death_4"
+			"fokastudio:end/mob/shulker/death_2",
+			"fokastudio:end/mob/shulker/death_3",
+			"fokastudio:end/mob/shulker/death_4"
 		],
 		"subtitle":"subtitles.entity.shulker.death",
-        "replace": true
+		"replace":true
 	},
 	"entity.shulker.hurt":{
 		"sounds":[
 			"fokastudio:end/mob/shulker/hurt_open_1",
-            "fokastudio:end/mob/shulker/hurt_open_2",
-            "fokastudio:end/mob/shulker/hurt_open_3",
-            "fokastudio:end/mob/shulker/hurt_open_4"
+			"fokastudio:end/mob/shulker/hurt_open_2",
+			"fokastudio:end/mob/shulker/hurt_open_3",
+			"fokastudio:end/mob/shulker/hurt_open_4"
 		],
 		"subtitle":"subtitles.entity.shulker.hurt",
-        "replace": true
+		"replace":true
 	},
 	"entity.shulker.hurt_closed":{
 		"sounds":[
 			"fokastudio:end/mob/shulker/hurt_closed_1",
-            "fokastudio:end/mob/shulker/hurt_closed_2",
-            "fokastudio:end/mob/shulker/hurt_closed_3",
-            "fokastudio:end/mob/shulker/hurt_closed_4"
+			"fokastudio:end/mob/shulker/hurt_closed_2",
+			"fokastudio:end/mob/shulker/hurt_closed_3",
+			"fokastudio:end/mob/shulker/hurt_closed_4"
 		],
 		"subtitle":"subtitles.entity.shulker.hurt",
-        "replace": true
+		"replace":true
 	},
 	"entity.shulker.open":{
 		"sounds":[
 			"fokastudio:end/mob/shulker/open_1",
-            "fokastudio:end/mob/shulker/open_2",
-            "fokastudio:end/mob/shulker/open_3",
-            "fokastudio:end/mob/shulker/open_4"
+			"fokastudio:end/mob/shulker/open_2",
+			"fokastudio:end/mob/shulker/open_3",
+			"fokastudio:end/mob/shulker/open_4"
 		],
 		"subtitle":"subtitles.entity.shulker.open",
-        "replace": true
+		"replace":true
 	},
 	"entity.shulker.shoot":{
 		"sounds":[
 			"fokastudio:end/mob/shulker/shoot_1",
-            "fokastudio:end/mob/shulker/shoot_2",
-            "fokastudio:end/mob/shulker/shoot_3",
-            "fokastudio:end/mob/shulker/shoot_4"
+			"fokastudio:end/mob/shulker/shoot_2",
+			"fokastudio:end/mob/shulker/shoot_3",
+			"fokastudio:end/mob/shulker/shoot_4"
 		],
 		"subtitle":"subtitles.entity.shulker.shoot",
-        "replace": true
+		"replace":true
 	},
 	"entity.shulker.teleport":{
 		"sounds":[
@@ -164,17 +170,17 @@
 			"mob/endermen/portal2"
 		],
 		"subtitle":"subtitles.entity.shulker.teleport",
-        "replace": true
+		"replace":true
 	},
 	"entity.shulker_bullet.hit":{
 		"sounds":[
 			"fokastudio:end/mob/shulker_bullet/hit_1",
-            "fokastudio:end/mob/shulker_bullet/hit_2",
-            "fokastudio:end/mob/shulker_bullet/hit_3",
-            "fokastudio:end/mob/shulker_bullet/hit_4"
+			"fokastudio:end/mob/shulker_bullet/hit_2",
+			"fokastudio:end/mob/shulker_bullet/hit_3",
+			"fokastudio:end/mob/shulker_bullet/hit_4"
 		],
 		"subtitle":"subtitles.entity.shulker_bullet.hit",
-        "replace": true
+		"replace":true
 	},
 	"entity.shulker_bullet.hurt":{
 		"sounds":[
@@ -184,6 +190,46 @@
 			"entity/shulker_bullet/hit4"
 		],
 		"subtitle":"subtitles.entity.shulker_bullet.hurt",
-        "replace": true
+		"replace":true
+	},
+	"block.glass.place":{
+		"sounds":[
+			"step/stone1",
+			"step/stone2",
+			"step/stone3",
+			"step/stone4",
+			"step/stone5"
+		],
+		"subtitle":"subtitles.block.generic.place",
+		"replace":true
+	},
+	"music.credits":{
+		"sounds":[
+			{
+				"name":"fokastudio:end/music/credits",
+				"stream":true
+			}
+		],
+		"replace":true
+	},
+	"music.end":{
+		"sounds":[
+			{
+				"name":"music/game/end/end",
+				"stream":true
+			},
+			{
+				"name":"music/game/end/ancestry",
+				"stream":true,
+				"weight":2
+			},
+			{
+				"name":"music/game/nether/nether_wastes/rubedo",
+				"stream":true,
+				"volume":0.5,
+				"weight":2
+			}
+		],
+		"replace":true
 	}
 }
