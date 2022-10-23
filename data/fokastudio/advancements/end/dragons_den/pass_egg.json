@@ -8,7 +8,7 @@
 			"translate": "The Future Belongs to Us"
 		},
 		"description": {
-			"translate": "Pass the Dragon Egg to another Player"
+			"translate": "Pass the Dragon Egg to someone"
 		},
 		"frame": "challenge",
 		"show_toast": true,
@@ -20,7 +20,6 @@
 			"trigger": "minecraft:thrown_item_picked_up_by_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:player",
 					"distance": {
 						"absolute": {
 							"min": 1
