@@ -11,10 +11,11 @@
 
 
  ## Insert Armor Toughness
-  execute store result score #temp_1 foka.misc run attribute @s minecraft:generic.armor_toughness get 10
+execute store result score #temp_1 foka.misc run attribute @s minecraft:generic.armor_toughness get 10
 
   # Create value for first portion of max(armor ÷ 5, ATF)
   # This leads to armor ÷ 5 being stored in #temp_2
+
 scoreboard players operation #temp_2 foka.misc = #temp_0 foka.misc
 scoreboard players operation #temp_2 foka.misc /= #5 foka.misc
 

@@ -1,0 +1,5 @@
+tag @s add foka.eol.nighttime
+
+data merge entity @s {CustomName:'[{"text":"E","color":"light_purple"},{"text":"m","color":"#fe4afe"},{"text":"p","color":"#fe55fe"},{"text":"r","color":"#fe60fe"},{"text":"e","color":"#fe6bfe"},{"text":"s","color":"#fe77fe"},{"text":"s ","color":"#fe82fe"},{"text":"o","color":"#fe8dfe"},{"text":"f ","color":"#fe98fe"},{"text":"L","color":"#fea4fe"},{"text":"i","color":"#feaffe"},{"text":"g","color":"#febafe"},{"text":"h","color":"#fec5fe"},{"text":"t","color":"#ffd1ff"}]'}
+bossbar set fokastudio:end/eol color pink
+bossbar set fokastudio:end/eol name [{"text":"E","color":"light_purple"},{"text":"m","color":"#fe4afe"},{"text":"p","color":"#fe55fe"},{"text":"r","color":"#fe60fe"},{"text":"e","color":"#fe6bfe"},{"text":"s","color":"#fe77fe"},{"text":"s ","color":"#fe82fe"},{"text":"o","color":"#fe8dfe"},{"text":"f ","color":"#fe98fe"},{"text":"L","color":"#fea4fe"},{"text":"i","color":"#feaffe"},{"text":"g","color":"#febafe"},{"text":"h","color":"#fec5fe"},{"text":"t","color":"#ffd1ff"}]
