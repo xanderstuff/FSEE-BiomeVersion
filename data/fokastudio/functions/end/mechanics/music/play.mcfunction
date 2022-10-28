@@ -1,4 +1,6 @@
-scoreboard players reset @s foka.end_music
+execute unless predicate fokastudio:end/music/in_end_music_biomes run stopsound @s music music.end
+
+scoreboard players reset @s foka.mechanics.end_music
 
 execute if predicate fokastudio:end/music/in_basalt_deltas_music_biomes run playsound music.nether.basalt_deltas music @s
 execute if predicate fokastudio:end/music/in_crimson_forest_music_biomes run playsound music.nether.crimson_forest music @s

@@ -5,10 +5,6 @@ function fokastudio:end/butcher_mobs
 function fokastudio:end/mobs/main
 function fokastudio:end/utils/main
 
-# On load did not trigger correctly
-# Fuck paper
-execute unless score foka.misc foka.misc.paper matches -2147483648..2147483647 run function fokastudio:end/paper_stuff/check
-
 # Some Minecraft change causes default Ender Dragon to spawn
 # no matter what in 1.19, and this is ruining the whole system
 # It DOES NOT come with the tags though! Nor the special marker!
