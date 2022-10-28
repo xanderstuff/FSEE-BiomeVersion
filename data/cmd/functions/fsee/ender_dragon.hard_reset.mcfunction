@@ -22,3 +22,6 @@ tag @e[type=minecraft:marker,tag=fe.structure,tag=fe.exit_portal] remove fe.loca
 tag @e[type=minecraft:marker,tag=fe.structure,tag=fe.exit_portal] remove fe.location_20
 
 tag @e[type=minecraft:marker,tag=fe.structure,tag=fe.exit_portal] add fe.deactivated.spawn_dragon
+
+tellraw @s ["\n",{"text":"Completely reset the Ender Dragon, witness the horror!","color":"#DD6AFF","bold":true},"\n"]
+function fokastudio:end/utils/send_command_feedback/off
