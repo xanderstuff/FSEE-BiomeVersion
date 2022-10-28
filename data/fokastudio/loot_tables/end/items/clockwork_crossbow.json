@@ -35,12 +35,17 @@
 									"italic": false
 								},
 								{
-									"translate": "and deal 20% less damage",
+									"translate": "and deal less damage",
 									"color": "#EEEEEE",
 									"italic": false
 								},
                                 {
-									"translate": "33% chance not to consume arrows",
+									"translate": "33% chance to not consume arrows,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "increased with Quick Charge enchantment",
 									"color": "#EEEEEE",
 									"italic": false
 								},
