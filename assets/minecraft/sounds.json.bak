@@ -8,14 +8,14 @@
 			"mob/endermen/idle5"
 		],
 		"subtitle":"subtitles.entity.enderman.ambient",
-		"replace":true
+		"replace": true
 	},
 	"entity.enderman.death":{
 		"sounds":[
 			"mob/endermen/death"
 		],
 		"subtitle":"subtitles.entity.enderman.death",
-		"replace":true
+		"replace": true
 	},
 	"entity.enderman.hurt":{
 		"sounds":[
@@ -25,7 +25,7 @@
 			"mob/endermen/hit4"
 		],
 		"subtitle":"subtitles.entity.enderman.hurt",
-		"replace":true
+		"replace": true
 	},
 	"entity.enderman.scream":{
 		"sounds":[
@@ -35,21 +35,15 @@
 			"mob/endermen/scream4"
 		],
 		"subtitle":"subtitles.entity.enderman.ambient",
-		"replace":true
+		"replace": true
 	},
 	"entity.enderman.stare":{
 		"sounds":[
-			{
-				"name":"fokastudio:end/mob/enderman/stare_1",
-				"volume":0.5
-			},
-			{
-				"name":"fokastudio:end/mob/enderman/stare_2",
-				"volume":0.5
-			}
+			"fokastudio:end/mob/enderman/stare_1",
+			"fokastudio:end/mob/enderman/stare_2"
 		],
 		"subtitle":"subtitles.entity.enderman.stare",
-		"replace":true
+		"replace": true
 	},
 	"entity.enderman.teleport":{
 		"sounds":[
@@ -63,7 +57,7 @@
 			"fokastudio:end/mob/enderman/teleport_8"
 		],
 		"subtitle":"subtitles.entity.enderman.teleport",
-		"replace":true
+		"replace": true
 	},
 	"entity.endermite.ambient":{
 		"sounds":[
@@ -72,7 +66,7 @@
 			"fokastudio:end/mob/endermite/idle_3"
 		],
 		"subtitle":"subtitles.entity.endermite.ambient",
-		"replace":true
+		"replace": true
 	},
 	"entity.endermite.death":{
 		"sounds":[
@@ -80,7 +74,7 @@
 			"fokastudio:end/mob/endermite/death_2"
 		],
 		"subtitle":"subtitles.entity.endermite.death",
-		"replace":true
+		"replace": true
 	},
 	"entity.endermite.hurt":{
 		"sounds":[
@@ -89,7 +83,7 @@
 			"fokastudio:end/mob/endermite/hurt_3"
 		],
 		"subtitle":"subtitles.entity.endermite.hurt",
-		"replace":true
+		"replace": true
 	},
 	"entity.shulker.ambient":{
 		"sounds":[
@@ -102,7 +96,7 @@
 			"fokastudio:end/mob/shulker/idle_7"
 		],
 		"subtitle":"subtitles.entity.shulker.ambient",
-		"replace":true
+		"replace": true
 	},
 	"entity.shulker.close":{
 		"sounds":[
@@ -112,7 +106,7 @@
 			"fokastudio:end/mob/shulker/close_4"
 		],
 		"subtitle":"subtitles.entity.shulker.close",
-		"replace":true
+		"replace": true
 	},
 	"entity.shulker.death":{
 		"sounds":[
@@ -122,7 +116,7 @@
 			"fokastudio:end/mob/shulker/death_4"
 		],
 		"subtitle":"subtitles.entity.shulker.death",
-		"replace":true
+		"replace": true
 	},
 	"entity.shulker.hurt":{
 		"sounds":[
@@ -132,7 +126,7 @@
 			"fokastudio:end/mob/shulker/hurt_open_4"
 		],
 		"subtitle":"subtitles.entity.shulker.hurt",
-		"replace":true
+		"replace": true
 	},
 	"entity.shulker.hurt_closed":{
 		"sounds":[
@@ -142,7 +136,7 @@
 			"fokastudio:end/mob/shulker/hurt_closed_4"
 		],
 		"subtitle":"subtitles.entity.shulker.hurt",
-		"replace":true
+		"replace": true
 	},
 	"entity.shulker.open":{
 		"sounds":[
@@ -152,7 +146,7 @@
 			"fokastudio:end/mob/shulker/open_4"
 		],
 		"subtitle":"subtitles.entity.shulker.open",
-		"replace":true
+		"replace": true
 	},
 	"entity.shulker.shoot":{
 		"sounds":[
@@ -162,7 +156,7 @@
 			"fokastudio:end/mob/shulker/shoot_4"
 		],
 		"subtitle":"subtitles.entity.shulker.shoot",
-		"replace":true
+		"replace": true
 	},
 	"entity.shulker.teleport":{
 		"sounds":[
@@ -170,7 +164,7 @@
 			"mob/endermen/portal2"
 		],
 		"subtitle":"subtitles.entity.shulker.teleport",
-		"replace":true
+		"replace": true
 	},
 	"entity.shulker_bullet.hit":{
 		"sounds":[
@@ -180,7 +174,7 @@
 			"fokastudio:end/mob/shulker_bullet/hit_4"
 		],
 		"subtitle":"subtitles.entity.shulker_bullet.hit",
-		"replace":true
+		"replace": true
 	},
 	"entity.shulker_bullet.hurt":{
 		"sounds":[
@@ -190,59 +184,46 @@
 			"entity/shulker_bullet/hit4"
 		],
 		"subtitle":"subtitles.entity.shulker_bullet.hurt",
-		"replace":true
+		"replace": true
 	},
-	"block.glass.place":{
-		"sounds":[
+	"block.glass.place": {
+		"sounds": [
 			"step/stone1",
 			"step/stone2",
 			"step/stone3",
 			"step/stone4",
 			"step/stone5"
 		],
-		"subtitle":"subtitles.block.generic.place",
-		"replace":true
+		"subtitle": "subtitles.block.generic.place",
+		"replace": true
 	},
-	"music.credits":{
-		"sounds":[
+	"music.credits": {
+		"sounds": [
 			{
-				"name":"fokastudio:end/music/credits",
-				"stream":true
+				"name": "fokastudio:end/music/credits",
+				"stream": true
 			}
 		],
-		"replace":true
+		"replace": true
 	},
-	"music.end":{
-		"sounds":[
+	"music.end": {
+		"sounds": [
 			{
-				"name":"music/game/end/end",
+				"name": "music/game/end/end",
 				"stream": true
 			},
 			{
-				"name":"music/game/ancestry",
-				"stream": true
+				"name": "music/game/end/ancestry",
+				"stream": true,
+				"weight": 2
 			},
 			{
-				"name":"fokastudio:end/music/ki",
+				"name": "music/game/nether/nether_wastes/rubedo",
 				"stream": true,
-				"volume": 0.33
-			},
-			{
-				"name":"fokastudio:end/music/intro",
-				"stream": true,
-				"volume": 0.33
-			},
-			{
-				"name":"fokastudio:end/music/excuse",
-				"stream": true,
-				"volume": 0.33
-			},
-			{
-				"name":"fokastudio:end/music/eleven",
-				"stream": true,
-				"volume": 0.33
+				"volume": 0.5,
+				"weight": 2
 			}
 		],
-		"replace":true
+		"replace": true
 	}
 }

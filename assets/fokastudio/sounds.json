@@ -1,1 +1,368 @@
-{"end/entity.enderman.attack":{"sounds":["fokastudio:end/mob/enderman/attack_1","fokastudio:end/mob/enderman/attack_2","fokastudio:end/mob/enderman/attack_3"],"subtitle":"Enderman Attacks"},"end/entity.enderman.2d_static":{"sounds":["fokastudio:end/mob/enderman/2d_static"],"subtitle":"Enderman Kills"},"end/entity.endermite.attack":{"sounds":["fokastudio:end/mob/endermite/attack_1","fokastudio:end/mob/endermite/attack_2","fokastudio:end/mob/endermite/attack_3"],"subtitle":"Endermite Attacks"},"end/item.sabrewing.arrow_impact_level_1":{"sounds":["fokastudio:end/item/sabrewing/impact_level_1_1","fokastudio:end/item/sabrewing/impact_level_1_2","fokastudio:end/item/sabrewing/impact_level_1_3"],"subtitle":"Sabrewing Arrow Explodes"},"end/item.sabrewing.arrow_impact_level_2":{"sounds":["fokastudio:end/item/sabrewing/impact_level_2_1","fokastudio:end/item/sabrewing/impact_level_2_2","fokastudio:end/item/sabrewing/impact_level_2_3"],"subtitle":"Sabrewing Arrow Explodes"},"end/item.sabrewing.arrow_impact_level_3":{"sounds":["fokastudio:end/item/sabrewing/impact_level_3_1","fokastudio:end/item/sabrewing/impact_level_3_2","fokastudio:end/item/sabrewing/impact_level_3_3"],"subtitle":"Sabrewing Arrow Explodes"}}
+{
+	"end/entity.enderman.attack":{
+		"sounds":[
+			"fokastudio:end/mob/enderman/attack_1",
+			"fokastudio:end/mob/enderman/attack_2",
+			"fokastudio:end/mob/enderman/attack_3"
+		],
+		"subtitle":"Enderman Attacks"
+	},
+	"end/entity.enderman.2d_static":{
+		"sounds":[
+			"fokastudio:end/mob/enderman/2d_static"
+		],
+		"subtitle":"Enderman Kills"
+	},
+	"end/entity.endermite.attack":{
+		"sounds":[
+			"fokastudio:end/mob/endermite/attack_1",
+			"fokastudio:end/mob/endermite/attack_2",
+			"fokastudio:end/mob/endermite/attack_3"
+		],
+		"subtitle":"Endermite Attacks"
+	},
+	"end/item.sabrewing.arrow_impact_level_1":{
+		"sounds":[
+			"fokastudio:end/item/sabrewing/impact_level_1_1",
+			"fokastudio:end/item/sabrewing/impact_level_1_2",
+			"fokastudio:end/item/sabrewing/impact_level_1_3"
+		],
+		"subtitle":"Sabrewing Arrow Explodes"
+	},
+	"end/item.sabrewing.arrow_impact_level_2":{
+		"sounds":[
+			"fokastudio:end/item/sabrewing/impact_level_2_1",
+			"fokastudio:end/item/sabrewing/impact_level_2_2",
+			"fokastudio:end/item/sabrewing/impact_level_2_3"
+		],
+		"subtitle":"Sabrewing Arrow Explodes"
+	},
+	"end/item.sabrewing.arrow_impact_level_3":{
+		"sounds":[
+			"fokastudio:end/item/sabrewing/impact_level_3_1",
+			"fokastudio:end/item/sabrewing/impact_level_3_2",
+			"fokastudio:end/item/sabrewing/impact_level_3_3"
+		],
+		"subtitle":"Sabrewing Arrow Explodes"
+	},
+    "end/music.amethyst_forest": {
+        "sounds": [
+            {
+                "name": "music/game/nether/crimson_forest/chrysopoeia",
+                "stream": true,
+                "volume": 0.5
+            },
+            {
+                "name": "music/game/infinite_amethyst",
+                "stream": true
+            }
+        ]
+    },
+    "end/music.prismarine_forest": {
+        "sounds": [
+            {
+                "name": "music/game/water/axolotl",
+                "stream": true,
+                "volume": 0.4
+            },
+            {
+                "name": "music/game/water/dragon_fish",
+                "stream": true,
+                "volume": 0.4
+            },
+            {
+                "name": "music/game/water/shuniji",
+                "stream": true,
+                "volume": 0.4
+            },
+            {
+                "name": "music/game/nuance2",
+                "stream": true
+            }
+        ]
+    },
+    "end/music.ashfall_delta": {
+        "sounds": [
+            {
+                "name": "music/game/nether/soulsand_valley/so_below",
+                "stream": true,
+                "volume": 0.5
+            }
+        ]
+    },
+    "end/music.blazing_dunes": {
+        "sounds": [
+            {
+                "name": "music/game/nether/soulsand_valley/so_below",
+                "stream": true,
+                "volume": 0.5
+            },
+            {
+                "name": "music/game/nether/nether_wastes/rubedo",
+                "stream": true,
+                "volume": 0.5
+            },
+            {
+                "name": "music/game/nether/nether1",
+                "stream": true
+            },
+            {
+                "name": "music/game/nether/nether2",
+                "stream": true
+            },
+            {
+                "name": "music/game/nether/nether3",
+                "stream": true
+            },
+            {
+                "name": "music/game/nether/nether4",
+                "stream": true
+            }
+        ]
+    },
+    "end/music.chorus_jungle": {
+        "sounds": [
+            {
+                "name": "music/game/nether/crimson_forest/chrysopoeia",
+                "stream": true,
+                "volume": 0.5
+            }
+        ]
+    },
+    "end/music.warped_marsh": {
+        "sounds": [
+            {
+                "name": "music/game/swamp/firebugs",
+                "stream": true,
+                "volume": 1
+            },
+            {
+                "name": "music/game/swamp/labyrinthine",
+                "stream": true,
+                "volume": 1
+            }
+        ]
+    },
+    "end/music.end_highlands": {
+        "sounds": [
+            {
+                "name": "music/game/swamp/firebugs",
+                "stream": true,
+                "volume": 1
+            },
+            {
+                "name": "music/game/swamp/aerie",
+                "stream": true,
+                "volume": 1
+            }
+        ]
+    },
+    "end/music.end_midlands": {
+        "sounds": [
+            {
+                "name": "music/game/floating_dream",
+                "stream": true,
+                "volume": 1
+            },
+            {
+                "name": "music/game/comforting_memories",
+                "stream": true,
+                "volume": 1
+            },
+            {
+                "name": "music/game/creative/creative4",
+                "stream": true
+            },
+            {
+                "name": "music/game/piano1",
+                "stream": true
+            }
+        ]
+    },
+    "end/music.end_wilds": {
+        "sounds": [
+            {
+                "name": "music/game/swamp/aerie",
+                "stream": true,
+                "volume": 1
+            },
+            {
+                "name": "music/game/hal1",
+                "stream": true
+            }
+        ]
+    },
+    "end/music.ender_waste": {
+        "sounds": [
+            {
+                "name": "music.end",
+                "type": "event"
+            }
+        ]
+    },
+    "end/music.end_barrens": {
+        "sounds": [
+            {
+                "name": "music.end",
+                "type": "event"
+            },
+            {
+                "name": "music/game/nether/nether_wastes/rubedo",
+                "stream": true,
+                "volume": 0.5
+            }
+        ]
+    },
+    "end/music.flesh_tundra": {
+        "sounds": [
+            {
+                "name": "music/game/nether/crimson_forest/chrysopoeia",
+                "stream": true,
+                "volume": 0.5
+            },
+            {
+                "name": "fokastudio:end/music/excuse",
+                "stream": true,
+                "volume": 0.33
+            },
+            {
+                "name": "fokastudio:end/music/intro",
+                "stream": true,
+                "volume": 0.33
+            }
+        ]
+    },
+    "end/music.frosted_hills": {
+        "sounds": [
+            {
+                "name": "music/game/nether/nether_wastes/rubedo",
+                "stream": true,
+                "volume": 0.5
+            }
+        ]
+    },
+    "end/music.snowy_warped_forest": {
+        "sounds": [
+            {
+                "name": "music/game/nether/nether_wastes/rubedo",
+                "stream": true,
+                "volume": 0.5
+            }
+        ]
+    },
+    "end/music.snowy_crimson_forest": {
+        "sounds": [
+            {
+                "name": "music/game/nether/nether_wastes/rubedo",
+                "stream": true,
+                "volume": 0.5
+            },
+            {
+                "name": "music/game/nether/crimson_forest/chrysopoeia",
+                "stream": true,
+                "volume": 0.5
+            }
+        ]
+    },
+    "end/music.glowshroom_valley": {
+        "sounds": [
+            {
+                "name": "music/game/swamp/aerie",
+                "stream": true
+            },
+            {
+                "name": "music/game/infinite_amethyst",
+                "stream": true
+            },
+            {
+                "name": "music/game/creative/creative4",
+                "stream": true
+            }
+        ]
+    },
+    "end/music.shattered_end": {
+        "sounds": [
+            {
+                "name": "music.end",
+                "type": "event"
+            }
+        ]
+    },
+    "end/music.small_end_islands": {
+        "sounds": [
+            {
+                "name": "music.end",
+                "type": "event"
+            },
+            {
+                "name": "music/game/nuance1",
+                "stream": true
+            }
+        ]
+    },
+    "end/music.the_end": {
+        "sounds": [
+            {
+                "name": "music.end",
+                "type": "event"
+            }
+        ]
+    },
+    "end/music.the_nest": {
+        "sounds": [
+            {
+                "name": "fokastudio:end/music/ki",
+                "stream": true,
+                "volume": 0.33
+            }
+        ]
+    },
+    "end/music.sculk_growth": {
+        "sounds": [
+            {
+                "name": "music/game/ancestry",
+                "stream": true
+            },
+            {
+                "name": "music/game/nether/nether3",
+                "stream": true
+            }
+        ]
+    },
+    "end/music.the_void": {
+        "sounds": [
+            {
+                "name": "music/game/ancestry",
+                "stream": true
+            },
+            {
+                "name": "music/game/nether/nether4",
+                "stream": true
+            }
+        ]
+    },
+    "end/music.the_hallow": {
+        "sounds": [
+            {
+                "name": "music/game/swamp/aerie",
+                "stream": true
+            },
+            {
+                "name": "music/game/swamp/firebugs",
+                "stream": true
+            },
+            {
+                "name": "music/game/creative/creative4",
+                "stream": true
+            },
+            {
+                "name": "music/game/hal3",
+                "stream": true
+            },
+            {
+                "name": "music/game/piano3",
+                "stream": true
+            }
+        ]
+    }
+}

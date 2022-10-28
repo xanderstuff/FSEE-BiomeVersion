@@ -436,7 +436,7 @@ Technoblade never dies!
 ### This is a separator, and also a splash :D
 Has stuff beyond the ending!
 §7Slenderman!!
-§dMay contain dragon!
+§dMay contain dragons!
 Does not contain Gipples!
 §oMaybe compatible??
 not made with c++!
@@ -491,3 +491,4 @@ Made with §9VisualStudioCode§e!
 >:D
 >:3
 >:/
+Contains weird warping fruits!
