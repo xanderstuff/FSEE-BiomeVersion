@@ -4,6 +4,9 @@
 # Like please, who would get scared if an MC datapack
 # would print out smth like `I know ur IP`?
 
+# These were removed and are kept just for sake of me
+# re-implementing them somtime in the next 4 years
+
 scoreboard players set in math 1
 scoreboard players set in1 math 3
 function math:rng/range
