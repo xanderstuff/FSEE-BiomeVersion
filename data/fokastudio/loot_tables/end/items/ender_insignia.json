@@ -15,12 +15,22 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Greatly increases life regen",
+									"translate": "Greatly increases life regeneration",
 									"color": "#E5E5E5",
 									"italic": false
 								},
 								{
-									"translate": "when held and not moving",
+									"translate": "while sneaking, effects starts weak and",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								{
+									"translate": "gets stronger with time",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								{
+									"translate": "Standing up or being hurt resets its healing capabilities",
 									"color": "#E5E5E5",
 									"italic": false
 								},

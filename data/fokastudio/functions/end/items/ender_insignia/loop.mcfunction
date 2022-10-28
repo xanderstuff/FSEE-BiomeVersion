@@ -1,5 +1,18 @@
 scoreboard players add @s foka.items.ender_insignia.hold_duration 1 
 
+effect give @s slowness 1 1 true
+effect give @p jump_boost 1 128 true
+
+# Removing effects
+execute if entity @s[nbt={HurtTime:9s}] run function fokastudio:end/items/ender_insignia/remove
+execute if entity @s[scores={foka.misc.invul_timer=9}] run function fokastudio:end/items/ender_insignia/remove
+
+execute if entity @s[predicate=!fokastudio:end/utils/player/is_sneaking,tag=foka.ender_insignia.active] run function fokastudio:end/items/ender_insignia/remove
+execute if entity @s[predicate=!fokastudio:end/items/holding_ender_insignia,tag=foka.ender_insignia.active] run function fokastudio:end/items/ender_insignia/remove
+
+execute if score @s foka.items.ender_insignia.hold_duration matches 1 run playsound minecraft:block.beacon.activate player @a ~ ~ ~
+
+
 # Tier 1 (5 - 10 seconds)
 execute if score @s foka.items.ender_insignia.hold_duration matches 101 run function fokastudio:end/items/ender_insignia/effects/1
 # Tier 2 (10 - 15 seconds)

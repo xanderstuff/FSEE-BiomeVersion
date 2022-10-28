@@ -14,7 +14,7 @@ scoreboard objectives remove fe.health
 scoreboard objectives remove fe.timer
 scoreboard objectives remove fe.variable
 
-scoreboard objectives remove foka.end_music
+scoreboard objectives remove foka.mechanics.end_music
 
 scoreboard objectives remove foka.config.custom_music
 scoreboard objectives remove foka.config.auto_butcher.phantoms
@@ -41,11 +41,6 @@ scoreboard objectives remove foka.mechanics.crystal_count
 scoreboard objectives remove foka.mechanics.void_totem_protection_time
 
 scoreboard objectives remove foka.misc
-scoreboard objectives remove foka.misc.move_x
-scoreboard objectives remove foka.misc.move_y
-scoreboard objectives remove foka.misc.move_z
-scoreboard objectives remove foka.misc.paper
-scoreboard objectives remove foka.misc.elytra_trail_id
 scoreboard objectives remove foka.misc.end_portal_animation
 scoreboard objectives remove foka.misc.shot_bow
 
