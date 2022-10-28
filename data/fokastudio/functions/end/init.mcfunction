@@ -56,7 +56,7 @@ scoreboard objectives add foka.misc.invul_timer dummy
 # Detecting whether FSEE is being used on a server, or as a mod
 # Different things happen on different loaders
 execute unless score #reload foka.misc matches 1.. unless score #foka.config foka.config.join_message matches 0 run schedule function fokastudio:end/tellraw 5t
-execute unless score #reload foka.misc matches 1.. run schedule function fokastudio:end/loader_detection/detect 1s
+execute unless score #reload foka.misc matches 1.. unless score #foka.is_spigot foka.misc matches 0.. unless score #foka.is_forge foka.misc matches 0.. unless score #foka.is_fabric foka.misc matches 0.. run schedule function fokastudio:end/loader_detection/detect 1s
 
 ## Creating teams
 # Currently only used for purple glow color
