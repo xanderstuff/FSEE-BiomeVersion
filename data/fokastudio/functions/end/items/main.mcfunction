@@ -43,6 +43,10 @@ execute as @a[predicate=fokastudio:end/items/holding_duskberry] run effect give 
 # Crest of The End
 execute as @a[scores={foka.items.crest_of_the_end.curse_cooldown=1..}] run scoreboard players remove @s foka.items.crest_of_the_end.curse_cooldown 1
 
+# Starstruck Carcanet
+execute as @e[type=area_effect_cloud,tag=foka.carcanet.aec] at @s run function fokastudio:end/items/starstruck_carcanet/aec_loop
+execute as @e[type=marker,tag=foka.carcanet.star] at @s run function fokastudio:end/items/starstruck_carcanet/star_loop
+
 #################################
 # THIS HAS TO BE ON THE BOTTOM! #
 #################################

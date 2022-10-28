@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"items": [
+							"minecraft:gold_nugget"
+						],
+						"nbt": "{foka.special_item:\"starstruck_carcanet\"}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [
+							"minecraft:gold_nugget"
+						],
+						"nbt": "{foka.special_item:\"starstruck_carcanet\"}"
+					}
+				}
+			}
+		}
+	]
+}

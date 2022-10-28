@@ -1,0 +1,48 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"starstruck_carcanet\",CustomModelData:90000}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Starstruck Carcanet",
+								"color": "#FFDB6C",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "Causes Stars to fall nearby when hurt",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "Stars fully ignore enemy armor",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "This effect has lesser impact on other players",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							],
+							"replace": false
+						}
+					]
+				}
+			]
+		}
+	]
+}
