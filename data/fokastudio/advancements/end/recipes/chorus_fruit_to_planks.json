@@ -1,0 +1,27 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_fruit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:chorus_fruit"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_fruit"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"fokastudio:end/chorus_fruit_to_planks"
+		]
+	}
+}
