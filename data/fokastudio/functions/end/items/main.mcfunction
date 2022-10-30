@@ -27,7 +27,7 @@ execute as @e[type=marker,tag=foka.sariel.heal_orb] at @s anchored eyes run func
 # Sabrewing
 execute as @a[scores={foka.misc.shot_bow=1},predicate=fokastudio:end/items/holding_sabrewing] at @s run function fokastudio:end/items/sabrewing/shoot
 execute as @a[scores={foka.items.sabrewing.until_charge_reset=1..}] run scoreboard players remove @s foka.items.sabrewing.until_charge_reset 1
-execute as @a[scores={foka.items.sabrewing.until_charge_reset=0}] run scoreboard players reset @s foka.items.sabrewing.charge
+execute as @a[scores={foka.items.sabrewing.until_charge_reset=0}] run function fokastudio:end/items/sabrewing/reset_charge
 execute as @e[type=#arrows,tag=foka.items.sabrewing.arrow] at @s run function fokastudio:end/items/sabrewing/charged_shots/loop
 
 # Living Flesh

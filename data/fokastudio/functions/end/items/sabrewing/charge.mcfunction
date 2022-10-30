@@ -1,7 +1,11 @@
 advancement revoke @s only fokastudio:end/events/items/charge_sabrewing
 
+# Reduce mobility
 effect give @s slowness 1 4 true
 effect give @p jump_boost 1 128 true
+# Weaken player
+attribute @s minecraft:generic.armor modifier add c668131f-5a90-4dd0-8071-fbd28bd61b6a "foka.sabrewing.weaken" -0.3333 multiply
+attribute @s minecraft:generic.armor_toughness modifier add 9c02599b-1681-4818-a6be-693d3788e931 "foka.sabrewing.weaken" -0.3333 multiply
 
 # Charge sounds
 # Yes, it is this long
