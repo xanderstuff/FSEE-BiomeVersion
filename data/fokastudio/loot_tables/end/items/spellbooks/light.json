@@ -24,12 +24,12 @@
 							"lore": [
 								{
 									"translate": "Right Click to summon up to 4 Healing Orbs",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "that will heal you or any nearby player",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								[

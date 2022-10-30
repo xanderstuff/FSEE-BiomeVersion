@@ -16,22 +16,22 @@
 							"lore": [
 								{
 									"translate": "Greatly increases life regeneration",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "while sneaking, effects starts weak and",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "gets stronger with time",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "Standing up or being hurt resets its healing capabilities",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{

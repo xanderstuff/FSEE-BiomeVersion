@@ -24,22 +24,22 @@
 							"lore": [
 								{
 									"translate": "Right Click to summon a cloud",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "that will boost upwards anything",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "that goes through it",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "You also fall slower while holding this book",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								[

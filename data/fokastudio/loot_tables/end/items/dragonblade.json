@@ -25,7 +25,7 @@
 								[
 									{
 										"translate": "Hit enemies explode into clouds of ",
-										"color": "#E5E5E5",
+										"color": "#EEEEEE",
 										"italic": false
 									},
 									{
@@ -35,18 +35,18 @@
 									},
 									{
 										"text": ",",
-										"color": "#E5E5E5",
+										"color": "#EEEEEE",
 										"italic": false
 									}
 								],
 								{
 									"translate": "that weakens enemies that step into them",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "After explosions, you get a burst of Strength",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								}
 							]

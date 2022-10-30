@@ -30,12 +30,12 @@
 							"lore": [
 								{
 									"translate": "Consume to permanently increase your",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "maximum number of hearts by 1",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								}
 							]

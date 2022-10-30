@@ -27,12 +27,12 @@
 								[
 									{
 										"translate": "Consume to",
-										"color": "#E5E5E5",
+										"color": "#EEEEEE",
 										"italic": false
 									},
 									{
 										"text": " propably perish :/",
-										"color": "#E5E5E5",
+										"color": "#EEEEEE",
 										"italic": false,
 										"font": "illageralt",
 										"obfuscated": true

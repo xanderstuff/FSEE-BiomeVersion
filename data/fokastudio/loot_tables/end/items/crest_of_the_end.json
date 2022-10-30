@@ -62,22 +62,22 @@
 							"lore": [
 								{
 									"translate": "Trades blocking for a dash",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "Weakens all enemies you dash through",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "Dashing exhausts your hunger",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "Sneak for default Shield behavior",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								}
 							]

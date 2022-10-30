@@ -24,17 +24,17 @@
 							"lore": [
 								{
 									"translate": "Right Click to cast a slow-moving Conveyance Spark",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "that will teleport you to first block it hits",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "Tilt your head around to guide it",
-									"color": "#E5E5E5",
+									"color": "#EEEEEE",
 									"italic": false
 								},
 								[
