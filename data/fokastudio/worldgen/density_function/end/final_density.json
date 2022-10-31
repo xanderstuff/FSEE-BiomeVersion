@@ -53,12 +53,12 @@
 													"when_in_range": "fokastudio:end/main_island/island",
 													"when_out_of_range": {
 															"type": "minecraft:mul",
-															"argument1": "fokastudio:end/sloped_cheese",
-															"argument2":  {
+															"argument1": {
 																"type": "minecraft:mul",
-																"argument1": 150,
+																"argument1": 400,
 																"argument2":"fokastudio:end/main_island/avg"
-															}
+															},
+															"argument2": "fokastudio:end/sloped_cheese"
 													}
 												},
 												"when_out_of_range": "fokastudio:end/sloped_cheese"
