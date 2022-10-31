@@ -78,10 +78,6 @@
 			"offset": 0,
 			"height": 0
 		},
-		"decorators": [
-			{
-				"type": "minecraft:trunk_vine"
-			}
-		]
+		"decorators": []
 	}
 }

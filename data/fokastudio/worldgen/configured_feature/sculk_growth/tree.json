@@ -54,10 +54,6 @@
 			"foliage_height": 4,
 			"leaf_placement_attempts": 90
 		},
-		"decorators": [
-			{
-				"type": "minecraft:trunk_vine"
-			}
-		]
+		"decorators": []
 	}
 }

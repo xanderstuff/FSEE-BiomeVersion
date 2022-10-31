@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:noise",
 	"noise": "fokastudio:end/continentalness_smooth",
-	"xz_scale": 4,
-	"y_scale": 2
+	"xz_scale": 2,
+	"y_scale": 0.5
 }
