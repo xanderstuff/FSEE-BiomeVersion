@@ -29,3 +29,4 @@ tag @s remove foka.damage.eol.ethereal_lance
 tag @s remove foka.damage.eol.prismatic_bolt
 tag @s remove foka.damage.eol.dash
 tag @s remove foka.damage.carcanet
+tag @s remove foka.damage.spirit_dagger

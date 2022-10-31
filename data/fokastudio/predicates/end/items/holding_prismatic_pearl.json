@@ -1,0 +1,35 @@
+[
+	{
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:ender_pearl"
+							],
+							"nbt": "{foka.special_item:\"prismatic_pearl\"}"
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"offhand": {
+							"items": [
+								"minecraft:ender_pearl"
+							],
+							"nbt": "{foka.special_item:\"prismatic_pearl\"}"
+						}
+					}
+				}
+			}
+		]
+	}
+]

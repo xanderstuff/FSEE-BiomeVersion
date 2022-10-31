@@ -47,7 +47,24 @@ execute as @a[scores={foka.items.crest_of_the_end.curse_cooldown=1..}] run score
 execute as @e[type=area_effect_cloud,tag=foka.carcanet.aec] at @s run function fokastudio:end/items/starstruck_carcanet/aec_loop
 execute as @e[type=marker,tag=foka.carcanet.star] at @s run function fokastudio:end/items/starstruck_carcanet/star_loop
 
+# Spirit Dagger
+tag @a[tag=foka.spirit_dagger.teleport] remove foka.spirit_dagger.teleport
+execute as @e[type=!#fokastudio:end/invalid_targets_no_player,scores={foka.items.spirit_dagger.attract_cooldown=1..}] at @s run function fokastudio:end/items/spirit_dagger/entity_loop
+execute as @e[type=armor_stand,tag=foka.spirit_dagger.spirit] at @s anchored eyes positioned ^ ^ ^ run function fokastudio:end/items/spirit_dagger/spirit_loop
+execute as @a[predicate=fokastudio:end/items/spirit_dagger/holding,predicate=fokastudio:end/items/spirit_dagger/looking_at_spirit] run function fokastudio:end/items/spirit_dagger/player_looking_loop
+execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=1..}] run scoreboard players remove @s foka.items.spirit_dagger.until_consume_reset 1
+execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=0}] run function fokastudio:end/items/spirit_dagger/reset_charge
+
+# Prismatic Pearl
+
+execute as @a[scores={foka.misc.used_ender_pearl=1..},tag=foka.prismatic_pearl.holding] at @s run function fokastudio:end/items/prismatic_pearl/throw
+tag @a[tag=foka.prismatic_pearl.holding] remove foka.prismatic_pearl.holding
+execute as @a[predicate=fokastudio:end/items/holding_prismatic_pearl] run tag @s add foka.prismatic_pearl.holding
+execute as @a[scores={foka.items.prismatic_pearl.cooldown=1..}] run scoreboard players remove @s foka.items.prismatic_pearl.cooldown 1
+execute as @a[scores={foka.items.prismatic_pearl.cooldown=1}] at @s run function fokastudio:end/items/prismatic_pearl/give_back
+execute as @e[type=ender_pearl,tag=foka.prismatic_pearl] at @s run function fokastudio:end/items/prismatic_pearl/trail
+
 #################################
-# THIS HAS TO BE ON THE BOTTOM! #
+# THIS HAS TO BE AT THE BOTTOM! #
 #################################
 function fokastudio:end/items/knowledge_book_util/is_holding

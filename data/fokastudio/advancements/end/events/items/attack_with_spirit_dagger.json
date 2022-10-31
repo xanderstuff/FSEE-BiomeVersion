@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"click": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "fokastudio:end/items/spirit_dagger/holding_any"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/spirit_dagger/attack"
+	}
+}

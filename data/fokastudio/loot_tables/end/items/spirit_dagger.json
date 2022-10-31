@@ -1,0 +1,87 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Spirit Dagger",
+								"color": "#8AE0E5",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "Holding one will give you a chance to attract Spirits on attacks",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "Equipping it in both your left and right hand",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "will allow you to consume said Spirits by focusing on them",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "Consume Spirits to instantly teleport to their place",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "and gain an attack buff for a short duration",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "'yes, I like roblox, okay?'",
+									"color": "#EEEEEE",
+									"italic": true
+								},
+								{
+									"translate": "Developer Item",
+									"color": "#BA02D7",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": 4,
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"amount": -2,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,foka.special_item:\"spirit_dagger\",foka_durability:{enabled:1b,max_dur:894}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

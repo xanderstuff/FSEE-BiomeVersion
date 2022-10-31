@@ -27,6 +27,10 @@ scoreboard objectives add foka.items.spellbook.updraft.cooldown dummy
 scoreboard objectives add foka.items.spellbook.light.cooldown dummy
 scoreboard objectives add foka.items.spellbook.radiance.cooldown dummy
 scoreboard objectives add foka.items.fish.mystical_heartfish.total_consumed dummy
+scoreboard objectives add foka.items.spirit_dagger.attract_cooldown dummy
+scoreboard objectives add foka.items.spirit_dagger.consume_time dummy
+scoreboard objectives add foka.items.spirit_dagger.until_consume_reset dummy
+scoreboard objectives add foka.items.prismatic_pearl.cooldown dummy
 
 # Mobs
 # Empress of Light
@@ -50,6 +54,7 @@ scoreboard objectives add foka.misc.end_portal_animation dummy
 scoreboard objectives add foka.misc.shot_bow minecraft.used:minecraft.bow
 scoreboard objectives add foka.misc.thrown_trident minecraft.used:minecraft.trident
 scoreboard objectives add foka.misc.used_knowledge_book minecraft.used:minecraft.knowledge_book
+scoreboard objectives add foka.misc.used_ender_pearl minecraft.used:minecraft.ender_pearl
 scoreboard objectives add foka.misc.hunger food
 scoreboard objectives add foka.misc.invul_timer dummy
 
