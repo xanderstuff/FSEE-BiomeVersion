@@ -2,17 +2,13 @@
 	"structures": [
 		{
 			"structure": "fokastudio:end/fossil",
-			"weight": 2
-		},
-		{
-			"structure": "fokastudio:end/eyeball",
 			"weight": 1
 		}
 	],
 	"placement": {
 		"type": "minecraft:random_spread",
 		"salt": 14357922,
-		"frequency": 0.66,
+		"frequency": 0.22,
 		"spacing": 2,
 		"separation": 1
 	}

@@ -32,7 +32,7 @@
                 "type": "minecraft:netherrack_replace_blobs",
                 "config": {
                     "state": {
-                        "Name": "minecraft:grass_block",
+                        "Name": "minecraft:crimson_nylium",
                         "Properties": {
                             "snowy": "false"
                         }

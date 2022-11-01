@@ -1,596 +1,15 @@
 {
-	"type": "minecraft:entity",
 	"pools": [
 		{
 			"rolls": 1,
-			"bonus_rolls": {
-				"type": "minecraft:uniform",
-				"min": 0,
-				"max": 1
-			},
 			"entries": [
 				{
-					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/new_treasure_heads",
-					"weight": 10
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"I am not fire bbh ffs\",\"italic\":false}']},SkullOwner:\"Jingothejumper\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Amogus still funi\",\"italic\":false}']},SkullOwner:\"Jerhom\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",SkullOwner:\"JumperSniper61\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"de4f is unpog\",\"italic\":false}']},SkullOwner:\"G2106\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"im sasarious\",\"italic\":false}']},SkullOwner:\"HaiseSasaki\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"UwU? UwU.\",\"italic\":false}']},SkullOwner:\"FERJGU\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"It\\'s cold you know.\",\"italic\":false}']},SkullOwner:\"Aischii\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Yamete kudasai\",\"italic\":false}']},SkullOwner:\"De4f\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"will always find u\",\"italic\":false}']},SkullOwner:\"Affifindsyou\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"cooler than your mother\",\"italic\":false}']},SkullOwner:\"RealResistance\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"I\\'m sure there are aspects of my personality buried within me that will surface as soon as I know I am completely loved\",\"italic\":false}']},SkullOwner:\"fogggyhead\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"GET OUT OF HERE STALKER!\",\"italic\":false}']},SkullOwner:\"ChoiceTheorem\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"I\\'m a girl btw\",\"italic\":false}']},SkullOwner:\"Wonder_Islanders\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"I\\'m bout to head out\",\"italic\":false}']},SkullOwner:\"SirGrunch\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Watch out for monsters!\",\"italic\":false}']},SkullOwner:\"RedScuro\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"turkey marines can drive\",\"italic\":false}']},SkullOwner:\"rasmusveike\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Are you my mother?\",\"italic\":false}']},SkullOwner:\"ThePlagueDucktor\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Gorillas can be killed by land mines placed along forest paths\",\"italic\":false}']},SkullOwner:\"DapperCannibal\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Pineapple\",\"italic\":false}']},SkullOwner:\"DinoDesmond\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Trust the signs!\",\"italic\":false}']},SkullOwner:\"Homeless_Mage\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Have a Lubly Day!\",\"italic\":false}']},SkullOwner:\"Lubcubs\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Attention! Fragile\",\"italic\":false}']},SkullOwner:\"Lucanoria\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Never put off to tomorrow what you can put off to the day after tomorrow just as well :D\",\"italic\":false}']},SkullOwner:\"Mister16\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Name:'{\"text\":\"DrunkAxeGuy\\'s Head\",\"color\":\"dark_red\",\"italic\":false}',Lore:['{\"text\":\"[Hex\\'s Patron]\",\"color\":\"red\",\"italic\":false}','{\"text\":\"Any one of you (belches) Everyone, damn it... (sobs)\",\"italic\":false}']},SkullOwner:\"DrunkAxeGuy\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"EAT MY COOKIS\",\"italic\":false}']},SkullOwner:\"Silver_UT\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"hi! have a fun day :)\",\"italic\":false}']},SkullOwner:\"igxo\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Hey you! Put me down!\",\"italic\":false}']},SkullOwner:\"BabyyyYoda\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"hey, hey, hey, calm down let’s vibe\",\"italic\":false}']},SkullOwner:\"viperwaves\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"My cheese has something to tell you\",\"italic\":false}']},SkullOwner:\"MonkeyBurrito\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"What is this for?\",\"italic\":false}']},SkullOwner:\"Sunny\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Don\\'t touch me there step-player\",\"italic\":false}']},SkullOwner:\"FatherRussia\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\">:)\",\"italic\":false}']},SkullOwner:\"BruhPP\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Voulez-vous coucher avec moi?\",\"italic\":false}']},SkullOwner:\"Parfaitement\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"what are you doing with my head step-player?\",\"italic\":false}']},SkullOwner:\"Dyzur\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Why do they call it oven when you of in the cold food of out hot eat the food\",\"italic\":false}']},SkullOwner:\"Bla5tb0t\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"My cats are not made out of silver though\",\"italic\":false}']},SkullOwner:\"silvercatz\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Somebody once told me, hands off my macaroni-\",\"italic\":false}']},SkullOwner:\"Adhscientist\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Harbinger of chaos and useless scientific facts\",\"italic\":false}']},SkullOwner:\"Crisptex\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Immortal until proven otherwise.\",\"italic\":false}']},SkullOwner:\"KingOfCozyness\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Get me out of this chest! PLEASE!\",\"italic\":false}']},SkullOwner:\"Mitchy_Moo\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Hai :)\",\"italic\":false}']},SkullOwner:\"Crisptex\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Ayo why do you have my head?\",\"italic\":false}']},SkullOwner:\"rito_the_great\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Angels can be sinners too, y’know.\",\"italic\":false}']},SkullOwner:\"ArchAngela\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\" Hey PeSh! Look at me, im in a chest now :\\'3\",\"italic\":false}']},SkullOwner:\"ShaneDon36\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"im taking your taxes at Some point you filthy tax evader\",\"italic\":false}']},SkullOwner:\"taxGatherer\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\",\"italic\":false}']},SkullOwner:\"Wumpus0\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"what if we kissed in the Forgotten Field of Flanders... haha jk... unless??\",\"italic\":false}']},SkullOwner:\"DaveBxb\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"You were expecting treasure in here, weren\\'t you!\",\"italic\":false}']},SkullOwner:\"Ferogreywolf7\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"[Server Booster]\",\"color\":\"light_purple\",\"italic\":false}','{\"text\":\"LOOK DAVID, IM IN A DATAPACK\",\"italic\":false}']},SkullOwner:\"Jwoob\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"so many soup cans\",\"italic\":false}']},SkullOwner:\"Coolfood\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"haha data pack go brrrrr\",\"italic\":false}']},SkullOwner:\"pancitoepic\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"1000 fkdr btw lolmao\",\"italic\":false}']},SkullOwner:\"Abjures\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"bro look theres a titan right behind you.\",\"italic\":false}']},SkullOwner:\"a1r2\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"The mitochondria is the powerhouse of the cell\",\"italic\":false}']},SkullOwner:\"Fly\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Name:'{\"text\":\"Azael_Ijima\\'s Head\",\"color\":\"#FFA200\",\"italic\":false}',Lore:['{\"text\":\"[Hex\\'s Patron]\",\"color\":\"red\",\"italic\":false}','{\"text\":\"Remember to stay hydrated.. I didn\\'t and look what\",\"italic\":false}','{\"text\":\"happened to me.\",\"italic\":false}']},Enchantments:[{id:\"minecraft:aqua_affinity\",lvl:1s}],SkullOwner:\"Azael_Ijima\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Name:'{\"text\":\"RealisticCarrot\\'s Head\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"[Hex\\'s Patron]\",\"color\":\"red\",\"italic\":false}','{\"text\":\"The day is coming when a single carrot, freshly\",\"italic\":false}','{\"text\":\"observed, will set off a revolution!\",\"italic\":false}']},SkullOwner:\"RealisticCarrot\"}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:player_head",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Name:'{\"text\":\"DailySin\\'s Head\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"[Hex\\'s Patron]\",\"color\":\"red\",\"italic\":false}','{\"text\":\"Beannnsss\",\"italic\":false}']},SkullOwner:\"Dailysins\"}"
-						}
-					]
-				},
-				{
 					"type": "minecraft:item",
 					"name": "minecraft:player_head",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"throw this into lava it\\'ll be funny bro trust me\",\"italic\":false}']},SkullOwner:\"Elithris\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"thats a problem that tomorrow me can probably handle\",\"italic\":false}']},SkullOwner:\"YaGirlGiulles\"}"
 						}
 					]
 				},
@@ -600,7 +19,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Beans\",\"italic\":false}']},SkullOwner:\"NaM\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"[Far End\\'s Original Creator]\",\"color\":\"#FFC32F\"}','{\"text\":\"404\",\"italic\":false,\"bold\":true,\"color\":\"red\"}']},SkullOwner:\"Hex_gone\"}"
 						}
 					]
 				},
@@ -610,7 +29,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Why me?\",\"italic\":false}']},SkullOwner:\"Thorn_123\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"I wonder what hand sanitizer tastes like?\",\"italic\":false}']},SkullOwner:\"IEatPotatoes_\"}"
 						}
 					]
 				},
@@ -620,7 +39,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"legend has it that throwing this head in lava will free up your inventory a bit\",\"italic\":false}']},SkullOwner:\"Polylimp\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"you guys know that the name of this pack can be called fseex for short?\",\"italic\":false}']},SkullOwner:\"INQIZZO\"}"
 						}
 					]
 				},
@@ -630,7 +49,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Wearing this head gives you +5 attack when using True Ice Bows.\",\"italic\":false}']},SkullOwner:\"Chweps\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"地獄へ行こうとしている\",\"italic\":false}','{\"text\":\"だけありますね\",\"italic\":false}','{\"text\":\" \",\"italic\":false}','{\"text\":\"中々の腕前でございます\",\"italic\":false}']},SkullOwner:\"FokaStudio\"}"
 						}
 					]
 				},
@@ -640,7 +59,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Don\\'t be like me, villagers are not your slaves :(\",\"italic\":false}']},SkullOwner:\"IzLuis10\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Wow, this is garbage,\",\"italic\":false}','{\"text\":\"you actually like this?\",\"italic\":false}']},SkullOwner:\"FokaStudio\"}"
 						}
 					]
 				},
@@ -650,7 +69,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Look mom! I\\'m famous!\",\"italic\":false}']},SkullOwner:\"GBBGerben\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"This pack was made with pain\",\"italic\":false}']},SkullOwner:\"FokaStudio\"}"
 						}
 					]
 				},
@@ -660,7 +79,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"sup\",\"italic\":false}']},SkullOwner:\"akari7174\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"I RELEASED 1.19 VERSION, NOW SHUT UP\",\"italic\":false}']},SkullOwner:\"FokaStudio\"}"
 						}
 					]
 				},
@@ -670,17 +89,17 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Oh, you\\'re picking me up?\",\"italic\":false}']},SkullOwner:\"WhynautMe\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"End Music Disc when?\",\"italic\":false}']},SkullOwner:\"IEatPotatoes_\"}"
 						}
 					]
 				},
-				{
+                {
 					"type": "minecraft:item",
 					"name": "minecraft:player_head",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"this is the best datapack i add to my server so far. if u find it tell me 16hir0#2514\",\"italic\":false}']},SkullOwner:\"16hir0\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"It\\'s Me! Number 1 Rated Salesman!\",\"italic\":false}']},SkullOwner:\"IEatPotatoes_\"}"
 						}
 					]
 				},
@@ -690,7 +109,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"my name is my name is Ovuvuevuevue Enyetuenwuevue Ugbemugbem Osas.\",\"italic\":false}']},SkullOwner:\"Q7_S\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"I am one hell of a butler\",\"italic\":false}']},SkullOwner:\"BlancButler\"}"
 						}
 					]
 				},
@@ -700,7 +119,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Trans rights.\",\"italic\":false}']},SkullOwner:\"Nova_Ember\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"#tasttherainbow\",\"italic\":false}']},SkullOwner:\"ElijahBeans\"}"
 						}
 					]
 				},
@@ -710,7 +129,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"The Maid Who Leaves Fate to the Dream of Eternity\",\"italic\":false}']},SkullOwner:\"FokaStudio\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"#cancelfortninte\",\"italic\":false}']},SkullOwner:\"ElijahBeans\"}"
 						}
 					]
 				},
@@ -720,7 +139,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"this head is such a troll\",\"italic\":false}']},SkullOwner:\"trol_master\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"This Is A Pog Head\",\"italic\":false}']},SkullOwner:\"ElijahBeans\"}"
 						}
 					]
 				},
@@ -730,7 +149,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"If we shouldn\\'t eat at night, then why is here a light in the fridge?\",\"italic\":false}']},SkullOwner:\"Waffle_Wizard_\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"You’ve messed with the wrong Muh.\",\"italic\":false}']},SkullOwner:\"muh_rye_AHH\"}"
 						}
 					]
 				},
@@ -740,7 +159,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Привет Россия!\",\"italic\":false}']},SkullOwner:\"okzerus\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"boi theres a titan hamster right behind you, look out\",\"italic\":false}']},SkullOwner:\"a1r2\"}"
 						}
 					]
 				},
@@ -750,7 +169,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"look behind you.\",\"italic\":false}']},SkullOwner:\"SonkeyHong\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"squidward is on a chair\",\"italic\":false}']},SkullOwner:\"wsolitude\"}"
 						}
 					]
 				},
@@ -760,7 +179,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Slainte. When you invest in pud, you invest in your friends\",\"italic\":false}']},SkullOwner:\"Kaarter\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Proud owner of the \",\"italic\":false}','{\"text\":\" H O L E\",\"italic\":false, \"bold\":true,\"color\":\"black\"}']},SkullOwner:\"css_scripter\"}"
 						}
 					]
 				},
@@ -770,7 +189,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"It\\'s called trash can, not trash can\\'t\",\"italic\":false}']},SkullOwner:\"RainbowSaber\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"Game breaking\",\"italic\":false}']},SkullOwner:\"css_scripter\"}"
 						}
 					]
 				},
@@ -780,7 +199,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"run away from that gigantic mutant hamster behind you\",\"italic\":false}']},SkullOwner:\"oranwein\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"omfg sand underman form understory game by tony fox 🦊💀💀💀\",\"italic\":false}']},SkullOwner:\"IEatPotatoes_\"}"
 						}
 					]
 				},
@@ -790,7 +209,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"there is no cake\",\"italic\":false}']},SkullOwner:\"TwilightHunter00\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"pssst foka bring the gasoline\",\"italic\":false}']},SkullOwner:\"aimwar\"}"
 						}
 					]
 				},
@@ -800,7 +219,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"The cake is not a lie\",\"italic\":false}']},SkullOwner:\"Ahydul\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"bruh\",\"italic\":false}']},SkullOwner:\"myylesss\"}"
 						}
 					]
 				},
@@ -810,7 +229,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"still waiting for my dungeon to load :/\",\"italic\":false}']},SkullOwner:\"YoannBB2\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"been moddeling cheese ALL FUCKING DAY add cheese\",\"italic\":false}']},SkullOwner:\"_humanoid\"}"
 						}
 					]
 				},
@@ -820,7 +239,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{dnl.checkpoint_head:1b,foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"put this in beepbob26\\'s chest\",\"italic\":false}']},SkullOwner:\"rxveen\"}"
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"SQQUEED NARD NOOO\",\"italic\":false}']},SkullOwner:\"IEatPotatoes_\"}"
 						}
 					]
 				}

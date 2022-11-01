@@ -5,7 +5,7 @@
 		"argument1": 0.333333,
 		"argument2": {
 			"type": "minecraft:add",
-			"argument1": -0.22,
+			"argument1": -0.2,
 			"argument2": {
 				"type": "minecraft:interpolated",
 				"argument": {
@@ -55,7 +55,7 @@
 															"type": "minecraft:mul",
 															"argument1": {
 																"type": "minecraft:mul",
-																"argument1": 400,
+																"argument1": 250,
 																"argument2":"fokastudio:end/main_island/avg"
 															},
 															"argument2": "fokastudio:end/sloped_cheese"

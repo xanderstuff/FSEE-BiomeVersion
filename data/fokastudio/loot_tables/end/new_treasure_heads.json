@@ -9,6 +9,16 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"thats a problem that tomorrow me can probably handle\",\"italic\":false}']},SkullOwner:\"YaGirlGiulles\"}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
 							"tag": "{foka.special_item:\"treasure_head\",display:{Lore:['{\"text\":\"[Far End\\'s Original Creator]\",\"color\":\"#FFC32F\"}','{\"text\":\"404\",\"italic\":false,\"bold\":true,\"color\":\"red\"}']},SkullOwner:\"Hex_gone\"}"
 						}
 					]

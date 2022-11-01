@@ -2,15 +2,7 @@
 	"type": "minecraft:huge_fungus",
 	"config": {
 		"hat_state": {
-			"Name": "minecraft:red_mushroom_block",
-			"Properties": {
-				"down": "true",
-				"east": "true",
-				"north": "true",
-				"south": "true",
-				"up": "true",
-				"west": "true"
-			}
+			"Name": "minecraft:nether_wart_block"
 		},
 		"decor_state": {
 			"Name": "minecraft:jungle_leaves",
@@ -27,7 +19,7 @@
 			}
 		},
 		"valid_base_block": {
-			"Name": "minecraft:crimson_nylium"
+			"Name": "minecraft:nether_wart_block"
 		},
 		"planted": true
 	}
