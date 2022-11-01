@@ -16,12 +16,14 @@ out vec3 pos;
 out vec2 Pos;
 out vec4 vertexColor;
 flat out int endSky;
+out float isNeg;
+out vec2 ScrSize;
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
     vertexColor = Color;
     texCoord0 = UV0;
-
+    
     endSky = 0;
     pos = IViewRotMat * Position;
     vec2 texsize = textureSize(Sampler0, 0);
@@ -32,4 +34,8 @@ void main() {
 
     Pos.x = atan(ModelViewMat[0][2], ModelViewMat[0][0]);
     Pos.y = (ModelViewMat * vec4(1)).z;
+    
+    isNeg = float(UV0.y < 0);
+
+    ScrSize = 2 / vec2(ProjMat[0][0], -ProjMat[1][1]);
 }

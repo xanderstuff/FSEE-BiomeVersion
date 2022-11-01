@@ -14,12 +14,28 @@ in vec2 texCoord0;
 in vec4 vertexColor;
 flat in int endSky;
 in vec2 Pos;
+in float isNeg;
+in vec2 ScrSize;
 
 out vec4 fragColor;
 
+// A single iteration of Bob Jenkins' One-At-A-Time hashing algorithm.
+int hash(int x) {
+    x += ( x << 10 );
+    x ^= ( x >>  6 );
+    x += ( x <<  3 );
+    x ^= ( x >> 11 );
+    x += ( x << 15 );
+    return x;
+}
+
+int noise(ivec2 v, int seed) {
+    return hash(v.x ^ hash(v.y + seed) ^ seed);
+}
+
 void main() {
     vec2 uv = texCoord0;
-    vec4 color;
+    vec4 color = texture(Sampler0, texCoord0) * vertexColor;
     vec2 texSize = textureSize(Sampler0, 0);
     if (Pos.y != -1999) {
         if (texSize.x > texSize.y) {
@@ -55,28 +71,20 @@ void main() {
                 vc = vec4(1);
                 color = texture(Sampler0, uv) * vc;
             }
-        }
+        }        
         else {
-            float panorams = textureSize(Sampler0, 0).y / textureSize(Sampler0, 0).x;
-
-            float Time = Pos.x * panorams / 6.2831853 * TIMES;
-
-            float frame = floor(Time);
-            float slide = Time - frame;
-
-            vec2 coords = texCoord0 * vec2(1, 1.0 / panorams) + vec2(0, 1.0 / panorams) * frame;
-
-            vec4 color1 = texture(Sampler0, coords) * vertexColor;
-
-            vec4 color2 = texture(Sampler0, coords + vec2(0, 1.0 / panorams)) * vertexColor;
-
-            color = mix(color1, color2, clamp((slide) * CHANGE_SPEED, 0, 1));
+            #moj_import <background-transitions.glsl>
         }
     }
     else {
-        color = texture(Sampler0, texCoord0) * vertexColor;
-        
+        #ifdef EXPECTED_TEXSIZE
+            if(texSize == EXPECTED_TEXSIZE)
+        #endif
+        {
+            #moj_import <menus-enchanted.glsl>
+        }
     }
+    
     
     
 
