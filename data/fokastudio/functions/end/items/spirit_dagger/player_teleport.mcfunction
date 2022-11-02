@@ -9,8 +9,8 @@ effect give @s slow_falling 1 0 true
 tp @s ~ ~-0.2 ~
 
 # Attack buffs
-effect give @s strength 1 0
-effect give @s speed 2 1
+effect give @s strength 3 0
+effect give @s speed 3 1
 effect give @s instant_health 1 0
 
 # Reset actionbar
