@@ -12,6 +12,13 @@
 				"damage": {
 					"dealt": {
 						"min": 5
+					},
+					"source_entity": {
+						"distance": {
+							"absolute": {
+								"max": 70
+							}
+						}
 					}
 				}
 			}
