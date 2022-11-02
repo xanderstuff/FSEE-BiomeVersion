@@ -1,5 +1,5 @@
 execute unless score @s foka.items.spirit_dagger.consume_time matches 7.. run scoreboard players add @s foka.items.spirit_dagger.consume_time 1
-scoreboard players set @s foka.items.spirit_dagger.until_consume_reset 21
+scoreboard players set @s foka.items.spirit_dagger.until_consume_reset 31
 
 title @s actionbar [{"score":{"name": "@s","objective": "foka.items.spirit_dagger.consume_time"},"color":"#8DE1E4"},{"text":"/","color":"#EEEEEE"},{"text":"7","color":"#C781E6"}]
 
