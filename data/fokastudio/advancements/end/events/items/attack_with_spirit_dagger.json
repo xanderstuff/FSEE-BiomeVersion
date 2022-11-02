@@ -8,7 +8,12 @@
 						"condition": "minecraft:reference",
 						"name": "fokastudio:end/items/spirit_dagger/holding_any"
 					}
-				]
+				],
+				"damage": {
+					"dealt": {
+						"min": 5
+					}
+				}
 			}
 		}
 	},
