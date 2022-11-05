@@ -34,8 +34,9 @@
 </div>
 
 ## Obtaining
-Sharanga has a chance to drop from Illusioners in [Strongholds](../structures/stronghold.md) with a 9% base chance. Each level of Looting increases the odds by 3%, up to a total of 18% with Looting III.
-Usage
+Sharanga has a chance to drop from Illusioners in [Strongholds](../structures/stronghold.md)) with a 9% base chance. Each level of Looting increases the odds by 3%, up to a total of 18% with Looting III.
+
+## Usage
 Unless Spectral Arrows are used as ammunition for this Bow, it has no special properties other than reduced durability.
 
 When firing Spectral Arrows though, they are converted into high velocity Spectral Bolts. Spectral Bolts can pierce through 20 enemies, inflicting 10 seconds of Glowing, while moving at 1.5x the velocity of standard Arrows.

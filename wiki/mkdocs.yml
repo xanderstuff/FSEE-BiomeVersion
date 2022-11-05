@@ -10,11 +10,11 @@ repo_name: Ender Expansion on Github
 
 nav:
   - Home: index.md
-  #- Biomes: 
-  #  - biomes/index.md
-  #  - The Hallow: biomes/the_hallow.md
+  - Biomes: 
+    - biomes/index.md
+    - The Hallow: biomes/the_hallow.md
   - Items: 
-    #- items/index.md
+    - items/index.md
     - Sharanga: items/sharanga.md
     - Clockwork Crossbow: items/clockwork_crossbow.md
     #- Dragonblade: items/dragonblade.md

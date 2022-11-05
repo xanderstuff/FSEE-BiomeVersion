@@ -34,7 +34,7 @@
 </div>
 
 ## Obtaining
-Clockwork Crossbow has a chance to drop from Pillagers in [Strongholds](../structures/strongholds.md) with a 7% base chance. Each level of Looting increases the odds by 2%, up to a total of 13% with Looting III.
+Clockwork Crossbow has a chance to drop from Pillagers in [Strongholds](../structures/stronghold.md) with a 7% base chance. Each level of Looting increases the odds by 2%, up to a total of 13% with Looting III.
 
 ## Usage
 Holding Clockwork Crossbow in your hands will automatically load it, provided you have at least 1 Arrow in your inventory. Arrows will be stripped of its special properties (e.g. Spectral Arrows -> Arrows). 
