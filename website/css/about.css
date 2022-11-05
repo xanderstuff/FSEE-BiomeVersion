@@ -118,7 +118,9 @@ body::-webkit-scrollbar {
 	font-size: var(--carousel-caption-size);
 }
 
-/* 'Team' cards */
+/* 
+	'Team' cards
+*/
 .user-pic {
 	width: 150px;
 	height: 150px;
@@ -155,7 +157,9 @@ body::-webkit-scrollbar {
 	color: #d4d4d4;
 }
 
-/* 'Team' special glow effects */
+/* 
+	'Team' special glow effects 
+*/
 .SAGA {
 	animation: SAGA-color-change 5s infinite linear;
 }
