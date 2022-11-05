@@ -10,9 +10,27 @@ repo_name: Ender Expansion on Github
 
 nav:
   - Home: index.md
-  - Biomes: 
-    - biomes/index.md
-    - The Hallow: biomes/the_hallow.md
+  #- Biomes: 
+  #  - biomes/index.md
+  #  - The Hallow: biomes/the_hallow.md
+  - Items: 
+    #- items/index.md
+    - Sharanga: items/sharanga.md
+    - Clockwork Crossbow: items/clockwork_crossbow.md
+    #- Dragonblade: items/dragonblade.md
+    - Prismatic Punch: items/prismatic_punch.md
+    #- Kung-Fu Stick: items/kung_fu_stick.md
+    #- Pandora's Barrel: items/pandoras_barrel.md
+    #- Ender Insignia: items/ender_insignia.md
+    - Pixie Dust: items/pixie_dust.md
+    - Sariel: items/sariel.md
+    - Sabrewing: items/sabrewing.md
+    #- Spirit Dagger: items/spirit_dagger.md
+    #- Duskberry: items/duskberry.md
+    #- Armor sets:
+    #  - Ancient Armor: items/armor/ancient_armor.md
+    #  - Hallowed Armor: items/armor/hallowed_armor.md
+    # - Shulker Armor: items/armor/shulker_armor.md
 
 markdown_extensions:
   - extra
@@ -54,10 +72,10 @@ copyright: Copyright &copy FokaStudio; 2021 - 2021
 plugins:
   - search:
       lang: en
-  - git-revision-date-localized:
-      type: datetime
-      fallback_to_build_date: true
-      enable_creation_date: true
+  #- git-revision-date-localized:
+  #    type: datetime
+  #    fallback_to_build_date: true
+  #    enable_creation_date: true
 
 theme:
   name: material
@@ -129,6 +147,7 @@ theme:
 
 extra_css:
   - css/extra.css
+  - css/icons-minecraft-0.5.css
 
 extra_javascript:
   - js/extra.js
