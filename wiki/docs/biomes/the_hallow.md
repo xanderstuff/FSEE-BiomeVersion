@@ -67,11 +67,11 @@ Apart from regular End music, these tracks play when the player is in The Hallow
 
 | Filename | Soundtrack title | Soundtrack | Author | Track |
 | :--- | :--- | :--- | :--- | :--- |
-| music/game/swamp/aerie | Aerie | Minecraft: Wild Update OST | Lena Raine | |
-| music/game/swamp/firebugs | Firebugs | Minecraft: Wild Update OST | Lena Raine | |
-| music/game/swamp/aerie | Aerie | Minecraft: Wild Update OST | Lena Raine | |
-| music/game/swamp/aerie | Aerie | Minecraft: Wild Update OST | Lena Raine | |
-| music/game/swamp/aerie | Aerie | Minecraft: Wild Update OST | Lena Raine | |
+| `music/game/swamp/aerie` | Aerie | Minecraft: Wild Update OST | Lena Raine | <audio controls controlslist="nodownload noplaybackrate" src="../../assets/audio/music/aerie.ogg" type="audio/ogg"></audio> |
+| `music/game/swamp/firebugs` | Firebugs | Minecraft: Wild Update OST | Lena Raine | <audio controls controlslist="nodownload noplaybackrate" src="../../assets/audio/music/firebugs.ogg" type="audio/ogg"></audio> |
+| `music/game/creative/creative4` | Aria Math | Minecraft - Volume Beta | C418 | <audio controls controlslist="nodownload noplaybackrate" src="../../assets/audio/music/creative4.ogg" type="audio/ogg"></audio> |
+| `music/game/hal3` | Haggstrom | Minecraft - Volume Alpha | C418 | <audio controls controlslist="nodownload noplaybackrate" src="../../assets/audio/music/hal3.ogg" type="audio/ogg"></audio> |
+| `music/game/piano3` | Mice on Venus | Minecraft - Volume Alpha | C418 | <audio controls controlslist="nodownload noplaybackrate" src="../../assets/audio/music/piano3.ogg" type="audio/ogg"></audio> |
 
 ## Ambiance
 | Name | Sound | Group |
@@ -97,14 +97,14 @@ Apart from regular End music, these tracks play when the player is in The Hallow
 
 -  **1.6a**
     - Reduced number of Large Amethyst Stalactites.
-    - Pixie Dust can now be used to craft [[Prismatic Punch]] and [[Sariel]].
-    - Added Empress of Light.
-    - Fixed abnormal amounts of Pixies spawning all over The Hallow.
-    - Allays can rarely replace Pixies when these spawn.
+    - Pixie Dust can now be used to craft [Prismatic Punch](../items/prismatic_punch.md) and [Sariel](../items/sariel.md).
+    - Added Empress of Light - a boss themed around this biome.
+    - Fixed abnormal amounts of [Pixies](../mobs/pixie.md) spawning all over The Hallow.
+    - Allays can rarely replace [Pixies](../mobs/pixie.md) when these spawn.
 * **1.5b**
-    - Added Pixies, they served no purpose other than ambience or aquiring [[Pixie Dust]].
+    - Added [Pixies](../mobs/pixie.md), they served no purpose other than ambience or aquiring [[Pixie Dust]].
 * **1.5a**
-    - Hallowed Crate, [[Mystical Heartfish]] and [[Prismite]] can now be caught while [[Void Fishing]] in The Hallow.
+    - [Hallowed Crate](../mechanics/void_fishing.md#crates), [Mystical Heartfish](../mechanics/void_fishing.md#fish) and [Prismite](../mechanics/void_fishing.md#fish)) can now be caught while [Void Fishing](../mechanics/void_fishing.md) in The Hallow.
 * **1.4a**
     - Changed generation requirements once more.
 * **1.3a**

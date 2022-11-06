@@ -157,6 +157,7 @@ body {
 */
 .md-typeset__table {
     width: 100%;
+    vertical-align: middle
 }
   
 .md-typeset__table table:not(#infobox) {
@@ -165,6 +166,10 @@ body {
 
 th {
     background-color: var(--md-primary-fg-color--dark);
+}
+
+th, td, tr {
+    vertical-align: middle !important;
 }
 
 .foka-infobox-grid {
@@ -182,7 +187,7 @@ table#foka-infobox {
 table#foka-infobox--item {
     float: right;
     margin: 0px;
-    width: 300px;
+    width: 256px;
 }
 
 table#foka-infobox--item th.foka-infobox--top-image {
@@ -199,8 +204,8 @@ div.foka-infobox-table {
 }
 
 th.foka-infobox--top-image img {
-    width: 256px;
-    height: 256px;
+    width: 200px;
+    height: 200px;
 }
 
 td span.foka-infobox-color {
@@ -261,4 +266,27 @@ img[alt="logo"]:hover {
 
 img[alt="logo"] {
     transition-duration: 0.5s;
+}
+
+/* 
+    Footer
+*/
+.md-footer, .md-footer__inner, .md-footer-meta__inner {
+    max-width: 100%;
+}
+
+/* 
+    Image stuff
+*/
+
+img.border:not(.twemoji) {
+    border: 2px solid rgb(202, 202, 202);
+}
+
+figure.foka-side-image--right {
+    float: right;
+}
+
+figure.foka-side-image--left {
+    float: left;
 }
