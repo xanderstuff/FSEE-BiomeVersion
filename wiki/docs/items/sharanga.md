@@ -56,7 +56,7 @@ Spectral Bolts also explode after hitting a block, or after 1.5 seconds passes. 
 - Due to how Arrow damage works in Minecraft, Sharanga actually deals 1.5x damage a regular Bow would do.
 - Because of how rounding works Spectral Bolts' Explosion deals between 2.3 - 2.7 damage for Power levels 2 and 3, and not full 3.
 - The armor-ignoring properties of Spectral Explosion do not work in PvP.
-- This bow can deal up to 21 damage with Power V. This is balanced with with short range.
+- This bow can deal up to 21 damage with Power V. This is balanced with its shorter range.
 - Arrows will always disappear after 1.5 seconds, not after travelling a set distance.
 - Sharanga has reduced durability compared to regular bows, so enchant it with Unbreaking (and/or Mending) as soon as possible to use it for as long as possible!
 
