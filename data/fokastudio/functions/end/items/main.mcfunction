@@ -8,7 +8,8 @@ function fokastudio:end/items/spellbooks/main
 function fokastudio:end/items/fish/main
 
 # Dragonblade
-execute as @a[scores={foka.items.dragonblade_cooldown=1..}] run scoreboard players remove @s foka.items.dragonblade_cooldown 1
+execute as @e[scores={foka.items.dragonblade.cooldown=1..}] at @s run function fokastudio:end/items/dragonblade/cooldown
+execute as @e[scores={foka.items.dragonblade.stacks=1..}] at @s run function fokastudio:end/items/dragonblade/entity_loop
 
 # Clockwork Crossbow
 execute as @a[predicate=fokastudio:end/items/clockwork_crossbow/holding_unloaded_any] run function fokastudio:end/items/clockwork_crossbow/check
@@ -53,7 +54,7 @@ execute as @e[type=!#fokastudio:end/invalid_targets_no_player,scores={foka.items
 execute as @e[type=armor_stand,tag=foka.spirit_dagger.spirit] at @s anchored eyes positioned ^ ^ ^ run function fokastudio:end/items/spirit_dagger/spirit_loop
 execute as @a[predicate=fokastudio:end/items/spirit_dagger/holding,predicate=fokastudio:end/items/spirit_dagger/looking_at_spirit] run function fokastudio:end/items/spirit_dagger/player_looking_loop
 execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=1..}] run scoreboard players remove @s foka.items.spirit_dagger.until_consume_reset 1
-execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=0}] run function fokastudio:end/items/spirit_dagger/reset_charge
+execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=1}] run function fokastudio:end/items/spirit_dagger/reset_charge
 
 # Prismatic Pearl
 

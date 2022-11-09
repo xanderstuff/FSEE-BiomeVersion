@@ -1,5 +1,7 @@
-scoreboard players set @s foka.items.dragonblade_cooldown 140
-effect give @s strength 2 2 false
-execute anchored eyes positioned ^ ^ ^3 as @e[limit=1,sort=nearest,nbt={HurtTime:10s},type=!#fokastudio:end/invalid_targets] at @s run function fokastudio:end/items/dragonblade/strong_attack_entity
+scoreboard players set @s foka.items.dragonblade.cooldown 100
+function fokastudio:end/items/dragonblade/reset_stacks
 
-# There has to be a more efficient way to do this
+execute if entity @s[type=player] run function fokastudio:end/items/dragonblade/damage_player
+execute if entity @s[type=!player] run function fokastudio:end/items/dragonblade/damage_entity
+
+execute rotated as @p[predicate=fokastudio:end/items/holding_dragonblade] rotated ~ 0 run function fokastudio:end/items/dragonblade/punch/apply_motion

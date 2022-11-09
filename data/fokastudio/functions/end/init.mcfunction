@@ -8,7 +8,9 @@ scoreboard objectives add foka.config.change_gamerules dummy
 scoreboard objectives add foka.config.always_generate_egg dummy
 
 ## Items
-scoreboard objectives add foka.items.dragonblade_cooldown dummy
+scoreboard objectives add foka.items.dragonblade.cooldown dummy
+scoreboard objectives add foka.items.dragonblade.stacks dummy
+scoreboard objectives add foka.items.dragonblade.until_stack_reset dummy
 scoreboard objectives add foka.items.pandoras_barrel_raycast dummy
 scoreboard objectives add foka.items.pandoras_barrel_animation dummy
 scoreboard objectives add foka.items.pandoras_barrel_summon_id dummy

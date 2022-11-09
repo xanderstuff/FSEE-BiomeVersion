@@ -1,59 +1,69 @@
 {
 	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:netherite_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"dragonblade\",foka_durability:{enabled:1b,max_dur:1788},CustomModelData:90000}"
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "Dragonblade",
-								"color": "#CD6AFF",
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								[
-									{
-										"translate": "Hit enemies explode into clouds of ",
-										"color": "#EEEEEE",
-										"italic": false
-									},
-									{
-										"text": "Dragon's Breath",
-										"color": "dark_purple",
-										"italic": false
-									},
-									{
-										"text": ",",
-										"color": "#EEEEEE",
-										"italic": false
-									}
-								],
-								{
-									"translate": "that weakens enemies that step into them",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "After explosions, you get a burst of Strength",
-									"color": "#EEEEEE",
-									"italic": false
-								}
-							]
-						}
-					]
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_sword",
+			"functions": [
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{foka.special_item:\"dragonblade\",foka_durability:{enabled:1b,max_dur:1666},CustomModelData:90000}"
+			  },
+			  {
+				"function": "minecraft:set_name",
+				"name": {
+				  "translate": "Dragonblade",
+				  "color": "#CD6AFF",
+				  "italic": false
 				}
+			  },
+			  {
+				"function": "minecraft:set_lore",
+				"lore": [
+				  {
+					"translate": "A fearsome sword with an otherwordly punch!",
+					"color": "#EEEEEE",
+					"italic": false
+				  },
+				  "",
+				  {
+					"translate": "'It came from the edge of The End'",
+					"color": "#EEEEEE",
+					"italic": true
+				  }
+				]
+			  },
+			  {
+				"function": "minecraft:set_attributes",
+				"modifiers": [
+				  {
+					"attribute": "minecraft:generic.attack_damage",
+					"name": "",
+					"amount": {
+					  "min": 7,
+					  "max": 13
+					},
+					"operation": "addition",
+					"slot": "mainhand"
+				  },
+				  {
+					"attribute": "minecraft:generic.attack_speed",
+					"name": "",
+					"amount": {
+					  "min": -3.4,
+					  "max": -3
+					},
+					"operation": "addition",
+					"slot": "mainhand"
+				  }
+				]
+			  }
 			]
-		}
+		  }
+		]
+	  }
 	]
-}
+  }
+  

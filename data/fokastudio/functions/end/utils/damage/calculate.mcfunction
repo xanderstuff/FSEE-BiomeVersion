@@ -30,3 +30,4 @@ tag @s remove foka.damage.eol.prismatic_bolt
 tag @s remove foka.damage.eol.dash
 tag @s remove foka.damage.carcanet
 tag @s remove foka.damage.spirit_dagger
+tag @s remove foka.damage.dragonblade
