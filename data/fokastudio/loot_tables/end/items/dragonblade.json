@@ -42,8 +42,8 @@
 					"attribute": "minecraft:generic.attack_damage",
 					"name": "",
 					"amount": {
-					  "min": 7,
-					  "max": 13
+					  "min": 4,
+					  "max": 7
 					},
 					"operation": "addition",
 					"slot": "mainhand"
