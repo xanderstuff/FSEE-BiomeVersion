@@ -1,4 +1,4 @@
-scoreboard players set @s foka.items.dragonblade.cooldown 140
+scoreboard players set @s foka.items.dragonblade.cooldown 80
 function fokastudio:end/items/dragonblade/reset_stacks
 
 execute if entity @s[type=player] run function fokastudio:end/items/dragonblade/damage_player
