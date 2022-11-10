@@ -5,7 +5,7 @@ data merge entity @s {HurtTime:10s}
 
 # Edit health
 execute store result score @s foka.misc run data get entity @s Health 10
-scoreboard players set #damage foka.misc 160
+scoreboard players set #damage foka.misc 220
 scoreboard players operation @s foka.misc -= #damage foka.misc
 execute store result entity @s[scores={foka.misc=1..}] Health float 0.1 run scoreboard players get @s foka.misc
 
