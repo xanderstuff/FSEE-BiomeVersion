@@ -15,7 +15,7 @@
 				},
 				"damage": {
 					"dealt": {
-						"min": 3.9
+						"min": 2
 					}
 				},
 				"entity": {
