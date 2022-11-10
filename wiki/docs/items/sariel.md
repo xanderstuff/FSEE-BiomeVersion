@@ -30,7 +30,7 @@
 </div>
 </div>
 
-## Obtaininge
+## Obtaining
 Sariel can be crafted at an [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by combining an <i class="icon-minecraft icon-minecraft-iron-sword"></i>Iron Sword, <i class="icon-minecraft icon-minecraft-wither-skeleton-skull"></i>Wither Skeleton Skull and 10 [Pixie Dust](pixie_dust.md), meaning that in order to craft it, the player has to venture into [The Hallow](../biomes/the_hallow.md) first.
 
 ## Usage

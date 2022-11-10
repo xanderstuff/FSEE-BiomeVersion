@@ -17,11 +17,11 @@ nav:
     - items/index.md
     - Sharanga: items/sharanga.md
     - Clockwork Crossbow: items/clockwork_crossbow.md
-    #- Dragonblade: items/dragonblade.md
+    - Dragonblade: items/dragonblade.md
     - Prismatic Punch: items/prismatic_punch.md
     #- Kung-Fu Stick: items/kung_fu_stick.md
     #- Pandora's Barrel: items/pandoras_barrel.md
-    #- Ender Insignia: items/ender_insignia.md
+    - Ender Insignia: items/ender_insignia.md
     - Pixie Dust: items/pixie_dust.md
     - Sariel: items/sariel.md
     - Sabrewing: items/sabrewing.md
