@@ -95,6 +95,27 @@
 		"minecraft:amethyst_cluster",
 		"minecraft:lightning_rod",
 		"minecraft:pointed_dripstone",
-		"minecraft:bamboo_sapling"
+		"minecraft:bamboo_sapling",
+
+		"fire_coral",
+		"brain_coral",
+		"fire_coral",
+		"horn_coral",
+		"tube_coral",
+		"fire_coral_fan",
+		"brain_coral_fan",
+		"fire_coral_fan",
+		"horn_coral_fan",
+		"tube_coral_fan",
+		"dead_fire_coral",
+		"dead_brain_coral",
+		"dead_fire_coral",
+		"dead_horn_coral",
+		"dead_tube_coral",
+		"dead_fire_coral_fan",
+		"dead_brain_coral_fan",
+		"dead_fire_coral_fan",
+		"dead_horn_coral_fan",
+		"dead_tube_coral_fan"
 	]
 }
