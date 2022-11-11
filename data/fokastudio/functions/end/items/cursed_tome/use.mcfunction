@@ -17,6 +17,8 @@ tellraw @s [{"text": "S","color": "#f6f6f6","bold": true},{"text": "a","color": 
 
 tellraw @s [{"text": "P","color": "#ff8585","bold": true},{"text": "r","color": "#eca575","bold": true},{"text": "i","color": "#e7c968","bold": true},{"text": "s","color": "#faf463","bold": true},{"text": "m","color": "#b7ff63","bold": true},{"text": "a","color": "#65ff70","bold": true},{"text": "t","color": "#68ffcf","bold": true},{"text": "i","color": "#63eded","bold": true},{"text": "c ","color": "#56cbcb","bold": true},{"text": "P","color": "#6a9fe5","bold": true},{"text": "u","color": "#917bff","bold": true},{"text": "n","color": "#e176ff","bold": true},{"text": "c","color": "#e765e7","bold": true},{"text": "h","color": "#c34fc3","bold": true},"\n",{"text":"Crossbow","bold":false,"color":"#954D00"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"24","bold":false,"color":"#EEEEEE"}," ",{"text":"Pixie Dust","bold":false,"color":"#FFD655"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"6","bold":false,"color":"#EEEEEE"}," ",{"text":"Diamonds","bold":false,"color":"#63F6FF"},"\n\n"]
 
+tellraw @s [{"text":"Ancient Wooden Sword","color":"white","bold":true},"\n",{"text":"Wooden Sword","bold":false,"color":"#EEEEEE"},"\n\n"]
+
 tellraw @s [{"text":"Scroll up to the top to read everything","color":"#EEEEEE"},"\n"]
 
 tag @s[gamemode=!creative,gamemode=!spectator] add foka.kb_give_back.cursed_tome

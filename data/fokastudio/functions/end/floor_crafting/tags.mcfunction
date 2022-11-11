@@ -50,3 +50,6 @@ tag @e[nbt={OnGround:1b,Item:{id:"minecraft:gold_ingot",Count:12b}},distance=..1
 
 # Tag for Cursed Guidebook
 tag @e[nbt={OnGround:1b,Item:{id:"minecraft:enchanted_book",Count:1b}},distance=..1] add foka.altar_of_the_accursed.enchanted_book
+
+# Tag for Ancient Wooden Sword
+execute as @e[nbt={OnGround:1b,Item:{id:"minecraft:wooden_sword",Count:1b}},distance=..1] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.wooden_sword

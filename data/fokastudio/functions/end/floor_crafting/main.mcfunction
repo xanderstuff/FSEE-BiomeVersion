@@ -1,3 +1,5 @@
+data remove storage fokastudio:end/temp enchants
+
 function fokastudio:end/floor_crafting/tags
 
 function fokastudio:end/floor_crafting/shulker_armor/checks
