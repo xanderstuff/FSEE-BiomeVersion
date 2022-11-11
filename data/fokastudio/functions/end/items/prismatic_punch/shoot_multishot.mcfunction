@@ -2,11 +2,11 @@ advancement revoke @s only fokastudio:end/events/items/shoot_prismatic_punch_mul
 
 kill @e[type=#fokastudio:end/ammo,limit=3,sort=nearest,tag=!foka.aware]
 
-summon minecraft:marker ~ ~1 ~ {Tags:["foka.prismatic_blast"]}
-execute at @s rotated as @s as @e[type=marker,limit=1,sort=nearest,tag=foka.prismatic_blast,tag=!foka.prismatic_blast.pastel,tag=!foka.prismatic_blast.monochrome] run tp @s ~ ~1 ~ ~ ~
+execute anchored eyes run summon minecraft:marker ^ ^ ^ {Tags:["foka.prismatic_blast"]}
+execute anchored eyes run tp @e[type=marker,limit=1,sort=nearest,tag=foka.prismatic_blast,tag=!foka.prismatic_blast.pastel,tag=!foka.prismatic_blast.monochrome] ^ ^ ^ ~ ~
 
-summon minecraft:marker ~ ~1 ~ {Tags:["foka.prismatic_blast","foka.prismatic_blast.monochrome"]}
-execute rotated as @s as @e[type=marker,limit=1,sort=nearest,tag=foka.prismatic_blast.monochrome] run tp @s ~ ~1 ~ ~35 ~
+execute anchored eyes run summon minecraft:marker ^ ^ ^ {Tags:["foka.prismatic_blast","foka.prismatic_blast.monochrome"]}
+execute anchored eyes run tp @e[type=marker,limit=1,sort=nearest,tag=foka.prismatic_blast.monochrome] ^ ^ ^ ~35 ~
 
-summon minecraft:marker ~ ~1 ~ {Tags:["foka.prismatic_blast","foka.prismatic_blast.pastel"]}
-execute rotated as @s as @e[type=marker,limit=1,sort=nearest,tag=foka.prismatic_blast.pastel] run tp @s ~ ~1 ~ ~-35 ~
+execute anchored eyes run summon minecraft:marker ^ ^ ^ {Tags:["foka.prismatic_blast","foka.prismatic_blast.pastel"]}
+execute anchored eyes run tp @e[type=marker,limit=1,sort=nearest,tag=foka.prismatic_blast.pastel] ^ ^ ^ ~-35 ~
