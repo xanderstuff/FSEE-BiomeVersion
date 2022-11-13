@@ -69,7 +69,7 @@ Aditionally, running with a full set of Ancient Armor will produce a trail. It s
 
 ## Trivia
 
-- Ancient Armor, [Hallowed](hallowed_armor.md) Armor and [Living Flesh](../living_flesh.md) were one of the first items to have ever been added into FSEE.
+- Ancient Armor, [Hallowed](hallowed_armor.md) Armor and [Living Flesh](../living_flesh.md) were the first items to have ever been added into FSEE.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
     - While it got added as far back as 1.3a, Living Flesh had no use before 1.5a.
 - Prior to 1.5a, this armor set was known as `Ancient Diamond Armor`.
@@ -85,7 +85,7 @@ Aditionally, running with a full set of Ancient Armor will produce a trail. It s
 	- Each piece gained 0.3 Armor Toughness, for a total of 2. This puts Ancient Armor on par with Diamond Armor defense-wise
 	- Only Ancient Scalemail grants Attack Speed bonus. Bonus decreased *(+60% -> + 40%)*
 	- Nerfed quality of enchantments of armor pieces found in Chests.
-	- Chests in End Cities have a 66% chance to contain an Armor piece, of which there is a 50/50 chance it is going to be a piece of Ancient Armor. Previously, it would be Ancient Armor piece 3/4 of the time.
+	- Chests in End Cities have a 66% chance to contain an Armor piece, of which there is a 50/50 chance it is going to be a piece of Ancient Armor. Previously, it would be an Ancient Armor piece 3/4 of the time.
 
 - **1.5a**
 	- Reworked entire set. It no longer has randomized stats and instead focuses on increasing offensive capabilites.

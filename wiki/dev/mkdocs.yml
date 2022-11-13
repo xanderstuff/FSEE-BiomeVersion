@@ -29,8 +29,8 @@ nav:
     - Armor sets:
       - items/armor/index.md
       - Ancient Armor: items/armor/ancient_armor.md
-    #  - Hallowed Armor: items/armor/hallowed_armor.md
-    # - Shulker Armor: items/armor/shulker_armor.md
+      - Hallowed Armor: items/armor/hallowed_armor.md
+      #- Shulker Armor: items/armor/shulker_armor.md
     - Trinkets:
       - items/trinkets/index.md
       - Ender Insignia: items/trinkets/ender_insignia.md
