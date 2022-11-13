@@ -49,19 +49,19 @@
 								{
 									"attribute": "minecraft:generic.armor_toughness",
 									"name": " ",
-									"amount": 1,
+									"amount": 1.5,
 									"operation": "addition",
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.max_health",
-									"name": " ",
-									"amount": 6,
+									"attribute": "minecraft:generic.knockback_resistance",
+									"name": "",
+									"amount": 0.25,
 									"operation": "addition",
 									"slot": "chest"
 								}
 							]
-						} 
+						}
 					]
 				}
 			]

@@ -49,14 +49,14 @@
 								{
 									"attribute": "minecraft:generic.armor_toughness",
 									"name": " ",
-									"amount": 1,
+									"amount": 1.5,
 									"operation": "addition",
 									"slot": "feet"
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": " ",
-									"amount": 0.08,
+									"amount": 0.12,
 									"operation": "multiply_base",
 									"slot": "feet"
 								}
