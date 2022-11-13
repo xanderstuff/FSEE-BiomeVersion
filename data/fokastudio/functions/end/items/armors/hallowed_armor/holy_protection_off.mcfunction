@@ -1,5 +1,5 @@
 tag @s remove foka.holy_protection
-scoreboard players set @s foka.items.armors.holy_protection_cooldown 320
+scoreboard players set @s foka.items.armors.holy_protection_cooldown 440
 effect clear @s resistance
 
 execute rotated ~ 0 positioned ^ ^4 ^ run function fokastudio:end/items/armors/hallowed_armor/dodge_visual
@@ -13,8 +13,8 @@ effect give @s resistance 4 100 true
 effect give @s fire_resistance 7 100 true
 effect give @s water_breathing 7 100 true
 
-effect give @s speed 8 0 true
-effect give @s speed 4 1 true
+effect give @s speed 6 0 true
+effect give @s speed 3 1 true
 
 # Cannot remove KR straight away due to my i-frames mechanic
 # It is handled in loop.mcfunction
