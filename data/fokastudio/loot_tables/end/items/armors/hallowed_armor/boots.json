@@ -56,7 +56,7 @@
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": " ",
-									"amount": 0.12,
+									"amount": 0.1,
 									"operation": "multiply_base",
 									"slot": "feet"
 								}

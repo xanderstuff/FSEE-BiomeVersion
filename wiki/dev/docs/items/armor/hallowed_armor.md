@@ -21,9 +21,9 @@
 	<tr>
 		<td><b>Total Other Bonuses</b></td>
 		<td>
-			+12% Movement Speed
+			+10% Movement Speed
 			<br>
-            +25% Knockback Reduction
+            +20% Knockback Reduction
 		</td>
 	</tr>
 	<tr>
@@ -39,9 +39,11 @@ Pieces of Hallowed Armor have a 33% chance to generate in any Chest found inside
 
 ## Set Bonus
 
-Equipping full set of Hallowed armor will start a 22 seconds countdown. After said timespan, player will get a buff - **Holy Protection**. Upon taking <u>ANY</u> damage, Holy Protection will set all incoming damage to 0 for next 5 seconds, as well as making player immune to all forms of knockback. Additionaly, player will get Fire Protection and Water Breathing for next 8 seconds, as well as a short boost to Movement Speed that decays over timespan of 6 seconds.
+Equipping full set of Hallowed armor will start a 20 seconds countdown. After reaching 0, player will get a buff - **Holy Protection**. Upon taking <u>ANY</u> damage, Holy Protection will set all incoming damage to 0 for next 5 seconds, as well as making player immune to all forms of knockback. Additionaly, player will get Fire Protection and Water Breathing for next 8 seconds, as well as a short boost to Movement Speed that decays over timespan of 6 seconds.
 
-This dodge has a cooldown of another 22 seconds.
+This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapplied only when players takes off Hallowed Armor.
+
+If the dodge is not used in 15 seconds after starting Holy Protection, it will time out and require waiting another 16 seconds
 
 <figure markdown>
   ![Holy Protection](../../../assets/armor/hallowed/dodge.png){ align=right width="400vw" .border }
@@ -58,25 +60,25 @@ This dodge has a cooldown of another 22 seconds.
 - Ancient Armor, [Hallowed](hallowed_armor.md) Armor and [Living Flesh](../living_flesh.md) were the first items to have ever been added into FSEE.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
     - While it got added as far back as 1.3a, Living Flesh had no use before 1.5a.
-- Prior to 1.5a, this armor set was known as `Ancient Hallowed Armor`.
+- Prior to 1.5a, this armor set was known as `Hallowed Diamond Armor`.
     - It also used to have random stats. It could provide a random amount of Defense, Attack Speed, Armor Toughness and Movement Speed.
         - Movement Speed increase was so huge that players could trigger vanilla anti-cheat in Singleplayer while wearing 2 or more armor pieces.
         - Sometimes Armor Toughness would get listed twice due to some errors in loot tables. 
             - This has since been fixed.
 - When resource pack is enabled, golden parts of Hallowed Armor will glow in the dark.
-- Hallowed Armor was the most tweaked item in 1.6a that didn't receive a major rework, having 8 different properties altered.
+- Hallowed Armor was the most tweaked item in 1.6a that didn't receive a major rework.
 
 ## History
 - **1.6a**
 	- Now has a custom texture.
 	- Each piece gained 0.5 Armor Toughness, for a total of 1.5. This puts Hallowed Armor slightly before Diamond Armor defense-wise
-	- Holy Protection cooldown increased (16 seconds -> 22 seconds)
+	- Fixed Holy Protection cooldown being 3 - 4 seconds shorter than usual because of it starting before invincibility.
 	- Holy Protection duration increased (3 seconds -> 4 seconds)
 	- Holy Protection Fire Resistance duration increased (3 seconds -> 7 seconds)
 	- Holy Protection now also grants 7 seconds of Water Breathing.
 	- Holy Protection Speed boost now lasts longer (4 -> 6 seconds) and diminishes over time.
-	- Only Hallowed Treads now provide Movement Speed bonus (12% boost)
-	- Each Hallowed Armor piece no longer provides extra 7.5%:heart:HP. 
+	- Only Hallowed Treads now provide Movement Speed bonus (12% -> 10% boost)
+	- Each Hallowed Armor piece no longer provides extra 7.5%:heart:HP. It instead grants 20% reduced taken knockback.
 	- Fixed Holy Protection invincibility being removable with <i class="icon-minecraft icon-minecraft-milk-bucket"></i>Milk.
 	- Nerfed quality of enchantments of armor pieces found in Chests.
 	- Chests in End Cities have a 66% chance to contain an Armor piece, of which there is a 50/50 chance it is going to be a piece of Hallowed Armor. Previously, it would be a Hallowed Armor piece 1/4 of the time.
