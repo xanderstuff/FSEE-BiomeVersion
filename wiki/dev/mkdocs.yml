@@ -1,7 +1,5 @@
 site_name: FokaStudio's Ender Expansion Wiki
 site_url: https://fokastudio.github.io/wiki/
-nav:
-    - Home: index.md
 site_description: >-
   Wiki for FokaStudio's Ender Expansion Minecraft mod/datapack
 
@@ -9,7 +7,10 @@ repo_url: https://github.com/FokaStudio/FSEE
 repo_name: Ender Expansion on Github
 
 nav:
-  - Home: index.md
+  - Home:
+    - Home: index.md
+    - Installation: installation.md
+    - Downloads: downloads.md
   - Biomes: 
     - biomes/index.md
     - The Hallow: biomes/the_hallow.md
@@ -21,7 +22,7 @@ nav:
     - Prismatic Punch: items/prismatic_punch.md
     #- Kung-Fu Stick: items/kung_fu_stick.md
     #- Pandora's Barrel: items/pandoras_barrel.md
-    - Pixie Dust: items/pixie_dust.md
+    - Pixie Dust: items/other/pixie_dust.md
     - Sariel: items/sariel.md
     - Sabrewing: items/sabrewing.md
     - Spirit Dagger: items/spirit_dagger.md
@@ -30,11 +31,16 @@ nav:
       - items/armor/index.md
       - Ancient Armor: items/armor/ancient_armor.md
       - Hallowed Armor: items/armor/hallowed_armor.md
-      #- Shulker Armor: items/armor/shulker_armor.md
+      - Shulker Armor: items/armor/shulker_armor.md
     - Trinkets:
       - items/trinkets/index.md
       - Ender Insignia: items/trinkets/ender_insignia.md
       - Duskberry: items/trinkets/duskberry.md
+    - Other:
+      - items/other/index.md
+      - Pixie Dust: items/other/pixie_dust.md
+      - Living Flesh: items/other/living_flesh.md
+      - Potions: items/other/potions.md
 
 markdown_extensions:
   - extra
@@ -82,6 +88,9 @@ plugins:
   #    enable_creation_date: true
   - minify:
       minify_html: true
+  - redirects:
+      redirect_maps:
+          'downloads.md': 'http://fokastudio.github.io/FSEE/downloads.html'
 
 theme:
   name: material
@@ -153,6 +162,7 @@ theme:
 
 extra_css:
   - css/extra.css
+  - css/themes.css
   - css/icons-minecraft-0.5.css
   - css/icons-fsee.css
 

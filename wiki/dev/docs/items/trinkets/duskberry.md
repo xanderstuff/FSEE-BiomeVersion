@@ -23,7 +23,7 @@
 </div>
 
 ## Obtaining
-Duskberries can be found in Ships in [End Cities](../structures/end_city.md), but only if they generate in [The Hallow](../biomes/the_hallow.md). They can be found in <u>non-treasure</u> Chest at an oddly specific 57.14% chance.
+Duskberries can be found in Ships in [End Cities](../../structures/end_city.md), but only if they generate in [The Hallow](../../biomes/the_hallow.md). They can be found in <u>non-treasure</u> Chest at an oddly specific 57.14% chance.
 
 ## Usage
 <div class="result" markdown>
@@ -49,7 +49,7 @@ Doing all 3 of these things - eating, planting and feeding a Duskberry to a Fox 
         - This was done due to an in-game bug that caused Area Effect Cloud Darkness to not work properly.
 - Harvesting Duskberries from planted bushes will not work, meaning that **planting Duskberries will permanently use them**.
     - This can be annyoing if you were to accidentaly right click while holding it, since it will plant your held Duskberry.
-- Duskberries can also be found in [Hallowed Crates](../mechanics/void_fishing.md#crates), which is far easier than locating an End City in The Hallow.
+- Duskberries can also be found in [Hallowed Crates](../../mechanics/void_fishing.md#crates), which is far easier than locating an End City in The Hallow.
 - Duskberries are really versatile, fantastic both for combat *(due to a huge 22% damage increase)* as well as simple exploration *(due to 15% movement speed bonus)*. They are also perfect for caving because of permanent Night Vision.
 
 ## Trivia

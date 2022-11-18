@@ -38,7 +38,7 @@
 </div>
 
 ## Obtaining
-Prismatic Punch can be crafted at an [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by using a <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow, 24 <i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](pixie_dust.md) and 6 <i class="icon-minecraft icon-minecraft-diamond"></i>Diamonds. The Crossbow used to craft this weapon will have its special properties *(like enchantments)* removed in process.
+Prismatic Punch can be crafted at an [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by using a <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow, 24 <i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md) and 6 <i class="icon-minecraft icon-minecraft-diamond"></i>Diamonds. The Crossbow used to craft this weapon will have its special properties *(like enchantments)* removed in process.
 
 ## Usage
 Upon shooting, Prismatic Punch will transform any Arrow into a powerful Prismatic Blast. They are slow and deccelerate over timespan of 10 seconds until stopping completely. After stopping they will linger in place for about 15 more second until they self-detonate. They also bounce off walls.

@@ -102,7 +102,7 @@ Apart from regular End music, these tracks play when the player is in The Hallow
     - Fixed abnormal amounts of [Pixies](../mobs/pixie.md) spawning all over The Hallow.
     - Allays can rarely replace [Pixies](../mobs/pixie.md) when these spawn.
 * **1.5b**
-    - Added [Pixies](../mobs/pixie.md), they served no purpose other than ambience or aquiring [<i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](../items/pixie_dust.md).
+    - Added [Pixies](../mobs/pixie.md), they served no purpose other than ambience or aquiring [<i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](../items/other/pixie_dust.md).
 * **1.5a**
     - [Hallowed Crate](../mechanics/void_fishing.md#crates), [Mystical Heartfish](../mechanics/void_fishing.md#fish) and [Prismite](../mechanics/void_fishing.md#fish)) can now be caught while [Void Fishing](../mechanics/void_fishing.md) in The Hallow.
 * **1.4a**

@@ -178,7 +178,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:bone",
 					"functions": [
 						{
@@ -194,7 +194,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:gunpowder",
 					"functions": [
 						{
@@ -210,7 +210,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
@@ -226,7 +226,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 2,
+					"weight": 10,
 					"name": "fokastudio:end/items/living_flesh",
 					"functions": [
 						{
@@ -242,7 +242,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:string",
 					"functions": [
 						{

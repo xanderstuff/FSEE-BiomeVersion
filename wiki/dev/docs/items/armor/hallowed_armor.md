@@ -5,7 +5,7 @@
 <div class="foka-infobox-table">
   <table id="foka-infobox--item" markdown>
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/armor/hallowed/full.png" style="height: auto;"></th>
+		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/armor/hallowed/full.png" style="height: auto; image-rendering: auto;"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -57,7 +57,7 @@ If the dodge is not used in 15 seconds after starting Holy Protection, it will t
 
 ## Trivia
 
-- Ancient Armor, [Hallowed](hallowed_armor.md) Armor and [Living Flesh](../living_flesh.md) were the first items to have ever been added into FSEE.
+- [Ancient Armor](ancient_armor.md), Hallowed Armor and [Living Flesh](../living_flesh.md) were the first items to have ever been added into FSEE.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
     - While it got added as far back as 1.3a, Living Flesh had no use before 1.5a.
 - Prior to 1.5a, this armor set was known as `Hallowed Diamond Armor`.

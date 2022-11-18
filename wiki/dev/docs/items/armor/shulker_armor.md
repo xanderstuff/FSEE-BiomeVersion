@@ -1,11 +1,11 @@
 # Ancient Armor
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
-**Ancient Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities that trades off some defense in favor of increased fighting capabilities.</div>
+**Shulker Armor** is a post-Dragon armor set that is a direct upgrade of <i class="icon-minecraft icon-minecraft-netherite-chestplate"></i>Netherite Armor, focusing on making wearer as tanky as possible.</div>
 <div class="foka-infobox-table">
   <table id="foka-infobox--item" markdown>
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/armor/ancient/full.png" style="height: auto;"></th>
+		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/armor/shulker/full.png" style="height: auto; image-rendering: auto;"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -16,83 +16,76 @@
 	</tr>
 	<tr>
 		<td><b>Total Armor Toughness</b></td>
-		<td>8</td>
+		<td>16</td>
 	</tr>
 	<tr>
 		<td><b>Total Other Bonuses</b></td>
 		<td>
-			+40% Attack Speed
+			-12% Attack Speed
 			<br>
-			+20% Damage
+			-10% Movement Speed
+			<br>
+			-20% Damage
+			<br>
+			Knockback immunity 
 		</td>
 	</tr>
 	<tr>
 		<td><b>Full Set Bonus</b></td>
-		<td>Greatly increased damage</td>
+		<td>
+			Shulker Bullets are spawned to protect you
+			<br>
+			20% reduced incoming damage
+			<br>
+			Immune to Levitation
+		</td>
 	</tr>
 </table>
 </div>
 </div>
 
 ## Obtaining
-Pieces of Ancient Armor have a 33% chance to generate in any Chest found inside [End Cities](../../structures/end_city.md), except for the ones on Ships. It has an additional 36% chance to have random enchantments.
+Each piece of Shulker Armor can be crafted by combining any piece of <i class="icon-minecraft icon-minecraft-netherite-chestplate"></i>Netherite Armor with 16 <i class="icon-minecraft icon-minecraft-shulker-shell"></i>Shulker Shells over an [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md)
 
 ## Set Bonus
 
-Wearing full set of Ancient Armor will grant the wearer a 30% damage boost to <u>Sword, Crossbow and Bow</u> damage. This boost stacks with default 20% boost from just armor pieces for a total of 50% increased damage.
+While equipped with full Shulker Armor, after being hit, up to 3 Shulker Bullets will be spawned. They will automatically seek out nearby enemies, dealing 4:heart::heart: damage as well as applying Levitation for 10 seconds. Wearer will also become immune to Levitation debuff.
 
-!!! example "Examples of total stat increases with full set of Ancient Armor"
-	| Weapon | Attack Speed | Damage |
-	| :--- | :--- | :--- |
-	| <i class="icon-minecraft icon-minecraft-iron-sword"></i>Iron Sword | 1.6 -> 2.24 | 6 -> 9 |
-	| <i class="icon-minecraft icon-minecraft-netherite-sword"></i>Netherite Sword | 1.6 -> 2.24 | 8 -> 12 |
-	| <i class="icon-minecraft icon-minecraft-bow"></i>Bow | 1.6 -> 2.24 | 11 -> 17.5 (max charge) |
-	| <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow | 1.6 -> 2.24 | 11 -> 17.5 |
-	| <i class="icon-fsee icon-fsee-sariel"></i>Sariel | 2.8 -> 3.9 | 4 -> 6 |
-	| <i class="icon-fsee icon-fsee-ancient-wooden-sword"></i>Ancient Wooden Sword | :x: | 5 -> 7.5 |
-	| <i class="icon-fsee icon-fsee-spirit-dagger"></i>Spirit Dagger | 2 -> 2.8 | 5 -> 7.5 |
+Set bonus also applies permanent Resistance II, which is equal to guaranteed 20% damage reduction.
 
-
-Aditionally, running with a full set of Ancient Armor will produce a trail. It serves no purpose other than bein a neat little visual effect.
-<figure markdown>
-  ![Trail](../../../assets/armor/ancient/trail.png){ align=right width="300vw" .border }
-  <figcaption>Ancient Armor trail<br>seen while running</figcaption>
-</figure>
+### Comparison between Shulker and Netherite Armor
+| X | Netherite Armor | Shulker Armor |
+| :--- | :--- | :--- |
+| Total Defense | 20 + 12 Armor Toughness | 20 + 16 Armor Toughness |
+| Obtainable After | Entering the Nether | Finding an End City |
+| Has Set Bonus | :x: | :white_check_mark: |
+| Flat Damage Reduction | :x: | 20% *(with Set Bonus)* |
+| Knockback Resistance | 40% | 100% |
+| Drawbacks | :x: | Reduced damage, attack speed and agility |
 
 ## Tips
 
-- This armor set pairs extremely well with:
-    - <i class="icon-fsee icon-fsee-sabrewing"></i>[Sabrewing](../sabrewing.md) - Supercharged shots can reach up to **60:heart: x 30 damage**, and even up to **150:heart: x 75** with Power enchantment.
-    - <i class="icon-fsee icon-fsee-ancient-wooden-sword"></i>[Ancient Wooden Sword](../ancient_wooden_sword.md) - with Sharpness V, it can deal 10.5:heart: x 5 1/4 damage per swing, which will make this weapon's single target DPS comparable to the one of a Sharpness V Netherite Sword *(without Ancient Armor)* 
-    - <i class="icon-fsee icon-fsee-sariel"></i>[Sariel](../sariel.md) - Sariel already has a quick attack speed. Paired with Ancient Armor, its swing cooldown will be reduced to just 0.25 seconds, meaning that you can land more hits *(which equals to increased heal chance)*
-    - <i class="icon-fsee icon-fsee-dragonblade"></i>[Dragonblade](../dragonblade.md) - Ancient Armor almost doubles its attack speed, which is very needed due to how slow it is. This effectively allows for quicker and more reliable application of Stacks.
+- It won't remove Levitation given to players after falling into the Void.
+- Damage and Movement Speed decreases can be countered by using a [Duskberry](../trinkets/duskberry.md), but it is hard to find.
+- [Endurance Potions](../other/potions.md#endurance_potion) are redundant due to set bonus giving Resistance status effect instead of directly reducing damage taken by 1/5th.
 
 ## Trivia
 
-- Ancient Armor, [Hallowed](hallowed_armor.md) Armor and [Living Flesh](../living_flesh.md) were the first items to have ever been added into FSEE.
-    - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
-    - While it got added as far back as 1.3a, Living Flesh had no use before 1.5a.
-- Prior to 1.5a, this armor set was known as `Ancient Diamond Armor`.
-    - It also used to have random stats. It could provide a random amount of Defense, Attack Speed, Attack Knockback and Movement Speed.
-        - Due to how Attack Knockback works in Minecraft, it didn't increase anything.
-        - Movement Speed increase was so huge that players could trigger vanilla anti-cheat in Singleplayer while wearing 2 or more armor pieces.
+- This is the third set to be added into FSEE, 4 months after [Ancient Armor](ancient_armor.md) and [Hallowed Armor](hallowed_armor.md).
+- The only reason FokaStudio added Levitation immunity into the set bonus was because very rarely Shulker Bullets spawned when hit could hit player, which felt rather awkward.
+- This armor set is an alternative to `Enderite Armor`, since FokaStudio didn't want to add an all-in-one armor set with a generic recipe that requires just gathering some ores.
 
 ## History
 - **1.6a**
-	- Fixed Ancient Leggings being a piece of Diamond Armor *(1.5a rework leftover)*
 	- Now has a custom texture.
-	- Set bonus damage reduced *(+50% -> +30%, for a 50% total instead of 70%)*
-	- Each piece gained 0.3 Armor Toughness, for a total of 2. This puts Ancient Armor on par with Diamond Armor defense-wise
-	- Only Ancient Scalemail grants Attack Speed bonus. Bonus decreased *(+60% -> + 40%)*
-	- Nerfed quality of enchantments of armor pieces found in Chests.
-	- Chests in End Cities have a 66% chance to contain an Armor piece, of which there is a 50/50 chance it is going to be a piece of Ancient Armor. Previously, it would be Ancient Armor piece 3/4 of the time.
+	- Fixed CustomModelData values of Shulker Armor pieces being same as Hallowed Armor's.
+	- Recipe now uses 16 <i class="icon-minecraft icon-minecraft-shulker-shell"></i>Shulker Shells instead of 15.
+	- Added an advancement for crafting all 4 pieces of Shulker Armor.
+	- Shulker Armor pieces now keep enchantments of Netherite Armor pieces used for crafting them.
+	- Buffed damage (-28% -> -20%)
+    - Increased Attack Speed (-16% -> -14%)
+	- Increased Movement speed (-14% -> -10%)
 
 - **1.5a**
-	- Reworked entire set. It no longer has randomized stats and instead focuses on increasing offensive capabilites.
-	- Added a full set bonus.
-	- Turned into a dyed Leather Armor with custom durability, instead of using Diamond Armor.
-	- Added a trail while moving around with full set.
-
-- **1.3a**
-	- Introduced.
+	- Introduced
   

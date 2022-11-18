@@ -5,19 +5,19 @@
 <div class="foka-infobox-table">
   <table id="foka-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/pixie_dust.png"></th>
+		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/items/pixie_dust.png"></th>
 	</tr>
 </table>
 </div>
 </div>
 
 ## Obtaining
-Pixies found in [The Hallow](../biomes/the_hallow.md) biome have a 100% chance to drop 0 - 3 Pixie Dust on death, so obtaining large quantities doesn't require a lot of effort.
+Pixies found in [The Hallow](../../biomes/the_hallow.md) biome have a 100% chance to drop 0 - 3 Pixie Dust on death, so obtaining large quantities doesn't require a lot of effort.
 
 Each level of looting increases max drop amount by 1, for up to 0 - 6 being dropped with Looting III.
 
 ## Usage
-Pixie Dust is used to craft [Sariel](sariel.md) and [Prismatic Punch](prismatic_punch.md) on the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md).
+Pixie Dust is used to craft [Sariel](../sariel.md) and [Prismatic Punch](../prismatic_punch.md) on the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md).
 
 ## Trivia
 
