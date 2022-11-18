@@ -18,7 +18,7 @@
 		"age=5": [
 			{
 				"model": "minecraft:block/chorus_flower_dead",
-				"weight": 2
+				"weight": 3
 			},
 			{
 				"model": "minecraft:block/chorus_flower_dead_1",

@@ -8,8 +8,8 @@
 					"§6FokaStudio",
 					"",
 					"§6Hex §7(Original Creator)",
-					"CloudWolf and UltroGhast §7(RNG)",
-					"ICY105 §7(Custom Durability & Movement Checks)",
+					"CloudWolf and UltroGhast §7(RNG stuff)",
+					"ICY105 §7(Custom Durability)",
 					"Smithed §7(Custom Damage)",
                     "5uso §7(Loader Detection)"
 				]
@@ -53,7 +53,6 @@
 			{
 				"title":"§7Music",
 				"names":[
-					"DM Dokuro §7(Credits; \"Catastrophes Before The Calamity\")",
                     "C418 §7(The End; \"Eleven\", \"Ki\", \"Intro\", \"Excuse\")"
 				]
 			},
@@ -95,7 +94,8 @@
 					"_humanoid §7([Un]Luminous End)",
 					"dfsek §7('BetterEnd' Plugin)",
 					"Cavinator1 §7(BlazeAndCave's Advancement Pack)",
-					"Waffle_Wizard_"
+					"Waffle_Wizard_",
+					"Easy.gg"
 				]
 			}
 		]

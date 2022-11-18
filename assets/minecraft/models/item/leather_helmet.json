@@ -9,19 +9,19 @@
 			"predicate": {
 				"custom_model_data": 90000
 			},
-			"model": "fokastudio:end/item/ancient_armor/helmet"
+			"model": "fokastudio:item/ancient_armor/helmet"
 		},
         {
 			"predicate": {
 				"custom_model_data": 90001
 			},
-			"model": "fokastudio:end/item/hallowed_armor/helmet"
+			"model": "fokastudio:item/hallowed_armor/helmet"
 		},
         {
 			"predicate": {
 				"custom_model_data": 90002
 			},
-			"model": "fokastudio:end/item/shulker_armor/helmet"
+			"model": "fokastudio:item/shulker_armor/helmet"
 		}
 	]
 }

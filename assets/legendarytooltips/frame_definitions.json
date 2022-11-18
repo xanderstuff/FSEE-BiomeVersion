@@ -1,7 +1,7 @@
 {
 	"definitions":[
 		{
-			"image":"fokastudio:textures/end/tooltips/dragonblade.png",
+			"image":"fokastudio:textures/tooltips/dragonblade.png",
 			"index":0,
 			"startColor":"#FF00FF_#F3F3F3_#FF00FF",
 			"endColor":"purple_#F3F3F3_purple",
@@ -17,7 +17,7 @@
 			]
 		},
 		{
-			"image":"fokastudio:textures/end/tooltips/sariel.png",
+			"image":"fokastudio:textures/tooltips/sariel.png",
 			"index":0,
 			"startColor":"#ECECEC",
 			"endColor":"#FFEFAD",
@@ -31,7 +31,7 @@
 			]
 		},
 		{
-			"image":"fokastudio:textures/end/tooltips/sharanga.png",
+			"image":"fokastudio:textures/tooltips/sharanga.png",
 			"index":0,
 			"startColor":"#FF6B6B",
 			"endColor":"#A52E2E",
@@ -42,7 +42,7 @@
 			]
 		},
 		{
-			"image":"fokastudio:textures/end/tooltips/clockwork_crossbow.png",
+			"image":"fokastudio:textures/tooltips/clockwork_crossbow.png",
 			"index":0,
 			"priority":0,
 			"selectors":[
@@ -50,7 +50,7 @@
 			]
 		},
 		{
-			"image":"fokastudio:textures/end/tooltips/cursed_tome.png",
+			"image":"fokastudio:textures/tooltips/cursed_tome.png",
 			"index":0,
 			"priority":0,
 			"selectors":[
@@ -58,7 +58,7 @@
 			]
 		},
 		{
-			"image":"fokastudio:textures/end/tooltips/living_flesh.png",
+			"image":"fokastudio:textures/tooltips/living_flesh.png",
 			"index":0,
 			"priority":0,
 			"startColor":"#E53F3F",
@@ -68,7 +68,7 @@
 			]
 		},
 		{
-			"image":"fokastudio:textures/end/tooltips/prismatic_punch.png",
+			"image":"fokastudio:textures/tooltips/prismatic_punch.png",
 			"startColor":"red_gold_yellow_lime_green_light_blue_blue_magenta_purple",
 			"endColor":"red_gold_yellow_lime_green_light_blue_blue_magenta_purple",
 			"selectors":[
@@ -77,7 +77,7 @@
 			]
 		},
 		{
-			"image":"fokastudio:textures/end/tooltips/pufferfish.png",
+			"image":"fokastudio:textures/tooltips/pufferfish.png",
 			"startColor":"#F9F9F9",
 			"endColor":"#FFB826",
 			"selectors":[
@@ -85,7 +85,7 @@
 			]
 		},
 		{
-			"image":"fokastudio:textures/end/tooltips/duskberry.png",
+			"image":"fokastudio:textures/tooltips/duskberry.png",
 			"startColor":"#8100CB",
 			"endColor":"#39005A",
 			"selectors":[

@@ -8,25 +8,25 @@
 			"predicate": {
 				"custom_model_data": 90000
 			},
-			"model": "fokastudio:end/item/cursed_tome"
+			"model": "fokastudio:item/cursed_tome"
 		},
         {
 			"predicate": {
 				"custom_model_data": 90001
 			},
-			"model": "fokastudio:end/item/spellbooks/conveyance"
+			"model": "fokastudio:item/spellbooks/conveyance"
 		},
         {
 			"predicate": {
 				"custom_model_data": 90002
 			},
-			"model": "fokastudio:end/item/spellbooks/updraft"
+			"model": "fokastudio:item/spellbooks/updraft"
 		},
         {
 			"predicate": {
 				"custom_model_data": 90003
 			},
-			"model": "fokastudio:end/item/spellbooks/light"
+			"model": "fokastudio:item/spellbooks/light"
 		}
 	]
 }

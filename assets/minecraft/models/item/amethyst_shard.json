@@ -8,7 +8,7 @@
 			"predicate": {
 				"custom_model_data": 90000
 			},
-			"model": "fokastudio:end/item/ender_insignia"
+			"model": "fokastudio:item/ender_insignia"
 		}
 	]
 }

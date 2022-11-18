@@ -1,1 +1,1 @@
-{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/netherite_sword"},"overrides":[{"predicate":{"custom_model_data":9e4},"model":"fokastudio:end/item/dragonblade"}]}
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/netherite_sword"},"overrides":[{"predicate":{"custom_model_data":9e4},"model":"fokastudio:item/dragonblade"}]}

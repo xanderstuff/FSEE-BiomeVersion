@@ -1,51 +1,51 @@
 {
-	"end/entity.enderman.attack":{
+	"entity.enderman.attack":{
 		"sounds":[
-			"fokastudio:end/mob/enderman/attack_1",
-			"fokastudio:end/mob/enderman/attack_2",
-			"fokastudio:end/mob/enderman/attack_3"
+			"fokastudio:mob/enderman/attack_1",
+			"fokastudio:mob/enderman/attack_2",
+			"fokastudio:mob/enderman/attack_3"
 		],
 		"subtitle":"Enderman Attacks"
 	},
-	"end/entity.enderman.2d_static":{
+	"entity.enderman.2d_static":{
 		"sounds":[
-			"fokastudio:end/mob/enderman/2d_static"
+			"fokastudio:mob/enderman/2d_static"
 		],
 		"subtitle":"Enderman Kills"
 	},
-	"end/entity.endermite.attack":{
+	"entity.endermite.attack":{
 		"sounds":[
-			"fokastudio:end/mob/endermite/attack_1",
-			"fokastudio:end/mob/endermite/attack_2",
-			"fokastudio:end/mob/endermite/attack_3"
+			"fokastudio:mob/endermite/attack_1",
+			"fokastudio:mob/endermite/attack_2",
+			"fokastudio:mob/endermite/attack_3"
 		],
 		"subtitle":"Endermite Attacks"
 	},
-	"end/item.sabrewing.arrow_impact_level_1":{
+	"item.sabrewing.arrow_impact_level_1":{
 		"sounds":[
-			"fokastudio:end/item/sabrewing/impact_level_1_1",
-			"fokastudio:end/item/sabrewing/impact_level_1_2",
-			"fokastudio:end/item/sabrewing/impact_level_1_3"
+			"fokastudio:item/sabrewing/impact_level_1_1",
+			"fokastudio:item/sabrewing/impact_level_1_2",
+			"fokastudio:item/sabrewing/impact_level_1_3"
 		],
 		"subtitle":"Sabrewing Arrow Explodes"
 	},
-	"end/item.sabrewing.arrow_impact_level_2":{
+	"item.sabrewing.arrow_impact_level_2":{
 		"sounds":[
-			"fokastudio:end/item/sabrewing/impact_level_2_1",
-			"fokastudio:end/item/sabrewing/impact_level_2_2",
-			"fokastudio:end/item/sabrewing/impact_level_2_3"
+			"fokastudio:item/sabrewing/impact_level_2_1",
+			"fokastudio:item/sabrewing/impact_level_2_2",
+			"fokastudio:item/sabrewing/impact_level_2_3"
 		],
 		"subtitle":"Sabrewing Arrow Explodes"
 	},
-	"end/item.sabrewing.arrow_impact_level_3":{
+	"item.sabrewing.arrow_impact_level_3":{
 		"sounds":[
-			"fokastudio:end/item/sabrewing/impact_level_3_1",
-			"fokastudio:end/item/sabrewing/impact_level_3_2",
-			"fokastudio:end/item/sabrewing/impact_level_3_3"
+			"fokastudio:item/sabrewing/impact_level_3_1",
+			"fokastudio:item/sabrewing/impact_level_3_2",
+			"fokastudio:item/sabrewing/impact_level_3_3"
 		],
 		"subtitle":"Sabrewing Arrow Explodes"
 	},
-    "end/music.amethyst_forest": {
+    "music.amethyst_forest": {
         "sounds": [
             {
                 "name": "music/game/nether/crimson_forest/chrysopoeia",
@@ -58,7 +58,7 @@
             }
         ]
     },
-    "end/music.prismarine_forest": {
+    "music.prismarine_forest": {
         "sounds": [
             {
                 "name": "music/game/water/axolotl",
@@ -81,7 +81,7 @@
             }
         ]
     },
-    "end/music.ashfall_delta": {
+    "music.ashfall_delta": {
         "sounds": [
             {
                 "name": "music/game/nether/soulsand_valley/so_below",
@@ -90,7 +90,7 @@
             }
         ]
     },
-    "end/music.blazing_dunes": {
+    "music.blazing_dunes": {
         "sounds": [
             {
                 "name": "music/game/nether/soulsand_valley/so_below",
@@ -120,7 +120,7 @@
             }
         ]
     },
-    "end/music.chorus_jungle": {
+    "music.chorus_jungle": {
         "sounds": [
             {
                 "name": "music/game/nether/crimson_forest/chrysopoeia",
@@ -129,7 +129,7 @@
             }
         ]
     },
-    "end/music.warped_marsh": {
+    "music.warped_marsh": {
         "sounds": [
             {
                 "name": "music/game/swamp/firebugs",
@@ -143,7 +143,7 @@
             }
         ]
     },
-    "end/music.end_highlands": {
+    "music.end_highlands": {
         "sounds": [
             {
                 "name": "music/game/swamp/firebugs",
@@ -157,7 +157,7 @@
             }
         ]
     },
-    "end/music.end_midlands": {
+    "music.end_midlands": {
         "sounds": [
             {
                 "name": "music/game/floating_dream",
@@ -179,7 +179,7 @@
             }
         ]
     },
-    "end/music.end_wilds": {
+    "music.end_wilds": {
         "sounds": [
             {
                 "name": "music/game/swamp/aerie",
@@ -192,7 +192,7 @@
             }
         ]
     },
-    "end/music.ender_waste": {
+    "music.ender_waste": {
         "sounds": [
             {
                 "name": "music.end",
@@ -200,7 +200,7 @@
             }
         ]
     },
-    "end/music.end_barrens": {
+    "music.end_barrens": {
         "sounds": [
             {
                 "name": "music.end",
@@ -213,7 +213,7 @@
             }
         ]
     },
-    "end/music.flesh_tundra": {
+    "music.flesh_tundra": {
         "sounds": [
             {
                 "name": "music/game/nether/crimson_forest/chrysopoeia",
@@ -221,18 +221,18 @@
                 "volume": 0.5
             },
             {
-                "name": "fokastudio:end/music/excuse",
+                "name": "fokastudio:music/excuse",
                 "stream": true,
                 "volume": 0.33
             },
             {
-                "name": "fokastudio:end/music/intro",
+                "name": "fokastudio:music/intro",
                 "stream": true,
                 "volume": 0.33
             }
         ]
     },
-    "end/music.frosted_hills": {
+    "music.frosted_hills": {
         "sounds": [
             {
                 "name": "music/game/nether/nether_wastes/rubedo",
@@ -241,7 +241,7 @@
             }
         ]
     },
-    "end/music.snowy_warped_forest": {
+    "music.snowy_warped_forest": {
         "sounds": [
             {
                 "name": "music/game/nether/nether_wastes/rubedo",
@@ -250,7 +250,7 @@
             }
         ]
     },
-    "end/music.snowy_crimson_forest": {
+    "music.snowy_crimson_forest": {
         "sounds": [
             {
                 "name": "music/game/nether/nether_wastes/rubedo",
@@ -264,7 +264,7 @@
             }
         ]
     },
-    "end/music.glowshroom_valley": {
+    "music.glowshroom_valley": {
         "sounds": [
             {
                 "name": "music/game/swamp/aerie",
@@ -280,7 +280,7 @@
             }
         ]
     },
-    "end/music.shattered_end": {
+    "music.shattered_end": {
         "sounds": [
             {
                 "name": "music.end",
@@ -288,7 +288,7 @@
             }
         ]
     },
-    "end/music.small_end_islands": {
+    "music.small_end_islands": {
         "sounds": [
             {
                 "name": "music.end",
@@ -300,7 +300,7 @@
             }
         ]
     },
-    "end/music.the_end": {
+    "music.the_end": {
         "sounds": [
             {
                 "name": "music.end",
@@ -308,16 +308,16 @@
             }
         ]
     },
-    "end/music.the_nest": {
+    "music.the_nest": {
         "sounds": [
             {
-                "name": "fokastudio:end/music/ki",
+                "name": "fokastudio:music/ki",
                 "stream": true,
                 "volume": 0.33
             }
         ]
     },
-    "end/music.sculk_growth": {
+    "music.sculk_growth": {
         "sounds": [
             {
                 "name": "music/game/ancestry",
@@ -329,7 +329,7 @@
             }
         ]
     },
-    "end/music.the_void": {
+    "music.the_void": {
         "sounds": [
             {
                 "name": "music/game/ancestry",
@@ -341,7 +341,7 @@
             }
         ]
     },
-    "end/music.the_hallow": {
+    "music.the_hallow": {
         "sounds": [
             {
                 "name": "music/game/swamp/aerie",
