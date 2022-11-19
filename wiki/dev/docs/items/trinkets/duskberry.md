@@ -31,7 +31,7 @@ Duskberries can be found in Ships in [End Cities](../../structures/end_city.md),
   ![Planted Duskberry](../../assets/items/duskberry/planted.png){ align=right width="200vw" .border }
   <figcaption>Planted Duskberry</figcaption>
 </figure>
-While holding a Duskberry in your main hand or off hand, you get + 22% damage and +15% movement speed. You will also get permament Night Vision.
+While holding a Duskberry in your main hand or off hand, you get +15% damage and +12.5% movement speed. You will also get permament Night Vision.
 </div>
 
 Eating one will curse the consumer, giving them Darkness, Slowness, Mining Fatigue, Weakness and Nausea for 5 minutes each. 

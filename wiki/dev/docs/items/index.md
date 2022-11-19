@@ -32,6 +32,12 @@ I do not think I have to explain what items are.
 - <i class="icon-fsee icon-fsee-ancient-armor"></i>[Ancient Armor](ancient_armor.md)
 </div>
 
+## Trinkets
+<div markdown class="foka-list">
+- <i class="icon-fsee icon-fsee-ender-insignia"></i>[Ender Insignia](ender_insignia.md)
+- <i class="icon-fsee icon-fsee-duskberry"></i>[Duskberry](duskberry.md)
+</div>
+
 ### Other items
 <div markdown class="foka-list">
 - <i class="icon-fsee icon-fsee-prismatic-pearl"></i>[Prismatic Pearl](other/prismatic_pearl.md)
