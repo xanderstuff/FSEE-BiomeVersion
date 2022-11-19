@@ -8,7 +8,7 @@ It is based on [The Hallow](https://terraria.wiki.gg/wiki/The_Hallow "'The Hallo
 
 <div class="result" markdown>
 
-  ![Image title](../assets/biomes/hallow.png){ align=left width=800vw #foka-infobox--image}
+  ![Image title](../assets/biomes/hallow.png){ align=left #foka-infobox--image}
 
   <table id="foka-infobox" >
 	<tr>
@@ -16,38 +16,38 @@ It is based on [The Hallow](https://terraria.wiki.gg/wiki/The_Hallow "'The Hallo
 	</tr>
 	<tr>
 		<td><b>ID</b></td>
-		<td><code>fokastudio:the_hallow</code></td>
+		<td style="text-align: center;"><code>fokastudio:the_hallow</code></td>
 	</tr>
 	<tr>
 		<td><b>Category</b></td>
-		<td>Lush</td>
+		<td style="text-align: center;">Lush</td>
 	</tr>
 	<tr>
 		<td><b>Temperature</b></td>
-		<td>0.7</td>
+		<td style="text-align: center;">0.7</td>
 	</tr>
 	<tr>
 		<td><b>Structures</b></td>
-		<td>End Cities, End Villages</td>
+		<td style="text-align: center;">End Cities, End Villages</td>
 	</tr>
 	<tr>
 		<th colspan="2">Colors</th>
 	</tr>
 	<tr>
 		<td><b>Grass</b></td>
-		<td><span style="background-color: #4EC1E3;" class="foka-infobox-color"></span> #4EC1E3</td>
+		<td style="text-align: center;"><span style="background-color: #4EC1E3;" class="foka-infobox-color"></span> #4EC1E3</td>
 	</tr>
 	<tr>
 		<td><b>Foliage</b></td>
-		<td><span style="background-color: #4FA3E3;" class="foka-infobox-color"></span> #4FA3E3</td>
+		<td style="text-align: center;"><span style="background-color: #4FA3E3;" class="foka-infobox-color"></span> #4FA3E3</td>
 	</tr>
 	<tr>
 		<td><b>Water</b></td>
-		<td><span style="background-color: #F937ED;" class="foka-infobox-color"></span> #F937ED</td>
+		<td style="text-align: center;"><span style="background-color: #F937ED;" class="foka-infobox-color"></span> #F937ED</td>
 	</tr>
 	<tr>
 		<td><b>Water Fog</b></td>
-		<td><span style="background-color: #C639F9;" class="foka-infobox-color"></span> #C639F9</td>
+		<td style="text-align: center;"><span style="background-color: #C639F9;" class="foka-infobox-color"></span> #C639F9</td>
 	</tr>
 </table>
 </div>
@@ -60,7 +60,7 @@ Grass found here is blue, and Water has a magenta tint.
 
 The biome tends to generate on hilly, continental terrain, although it rarely generates on forms of terrain that are a bit more shattered.
 
-It is one of a few biomes where [End Villages](../structures/end_village.md) can be found. Apart from that, [End Cities](../structures/end_city.md) generate here as well, with Chests in the Ships having a small chance to contain [Dusbkerries](../items/duskberry.md).
+It is one of a few biomes where [End Villages](../structures/end_village.md) can be found. Apart from that, [End Cities](../structures/end_city.md) generate here as well, with Chests in the Ships having a small chance to contain <i class="icon-fsee icon-fsee-duskberry"></i>[Dusbkerries](../items/duskberry.md).
 
 ## Music
 Apart from regular End music, these tracks play when the player is in The Hallow specifically.
@@ -78,12 +78,6 @@ Apart from regular End music, these tracks play when the player is in The Hallow
 | :--- | :--- | :--- |
 | TBA | TBA | TBA |
 
-## Advancements
-| Icon | Advancement | In-game description | Parent | Actual requirements (if-different) | Rewards | Resource Location |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| | Hallowed be Thy Name | Once you enter Hallowed land you will see a rainbow in the sky | Unavoidable | Enter Hallow for the first time | - | `fokastudio:end/exploration/enter_hallow` |
-
-
 ## Trivia
 
 - So far it is the only dedicated biome in FSEE.
@@ -100,7 +94,7 @@ Apart from regular End music, these tracks play when the player is in The Hallow
     - Pixie Dust can now be used to craft [Prismatic Punch](../items/prismatic_punch.md) and [Sariel](../items/sariel.md).
     - Added Empress of Light - a boss themed around this biome.
     - Fixed abnormal amounts of [Pixies](../mobs/pixie.md) spawning all over The Hallow.
-    - Allays can rarely replace [Pixies](../mobs/pixie.md) when these spawn.
+    - Allays can rarely replace Pixies on spawn.
 * **1.5b**
     - Added [Pixies](../mobs/pixie.md), they served no purpose other than ambience or aquiring [<i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](../items/other/pixie_dust.md).
 * **1.5a**

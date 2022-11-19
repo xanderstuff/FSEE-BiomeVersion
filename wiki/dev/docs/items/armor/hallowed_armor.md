@@ -1,36 +1,39 @@
 # Hallowed Armor
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
-**Hallowed Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities that provides a tiny bit less defense than <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>Diamond Armor, but instead gives the ability to periodically dodge incoming attacks, nullifying all damage as well as all knockback.</div>
+**Hallowed Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities that provides a tiny bit less defense than <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>Diamond Armor, but instead boosts one's movement speed and provides a bit of Knockback Resistance.
+
+Full set bonus allows for dodging attacks, completely nullifying their damage and knockback. Dodging will also make player completely invulnerable for a very short time.
+</div>
 <div class="foka-infobox-table">
-  <table id="foka-infobox--item" markdown>
-	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/armor/hallowed/full.png" style="height: auto; image-rendering: auto;"></th>
-	</tr>
-	<tr>
-		<th colspan="2">Info</th>
-	</tr>
-	<tr>
-		<td><b>Total Defense</b></td>
-		<td>20</td>
-	</tr>
-	<tr>
-		<td><b>Total Armor Toughness</b></td>
-		<td>6</td>
-	</tr>
-	<tr>
-		<td><b>Total Other Bonuses</b></td>
-		<td>
-			+10% Movement Speed
-			<br>
-            +20% Knockback Reduction
-		</td>
-	</tr>
-	<tr>
-		<td><b>Full Set Bonus</b></td>
-		<td>Become immune to damage periodically</td>
-	</tr>
-</table>
+  	<table id="foka-infobox--item">
+		<tr>
+			<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/armor/hallowed/full.png" style="height: auto; image-rendering: auto;"></th>
+		</tr>
+		<tr>
+			<th colspan="2">Info</th>
+		</tr>
+		<tr>
+			<td><b>Total Defense</b></td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td><b>Total Armor Toughness</b></td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td><b>Total Other Bonuses</b></td>
+			<td>
+				+10% Movement Speed
+				<br>
+				+20% Knockback Resistance
+			</td>
+		</tr>
+		<tr>
+			<td><b>Full Set Bonus</b></td>
+			<td>Become immune to damage periodically</td>
+		</tr>
+	</table>
 </div>
 </div>
 
@@ -57,10 +60,10 @@ If the dodge is not used in 15 seconds after starting Holy Protection, it will t
 
 ## Trivia
 
-- [Ancient Armor](ancient_armor.md), Hallowed Armor and [Living Flesh](../living_flesh.md) were the first items to have ever been added into FSEE.
+- <i class="icon-fsee icon-fsee-ancient-armor"></i>[Ancient Armor](ancient_armor.md), <i class="icon-fsee icon-fsee-hallowed-armor"></i>Hallowed Armor and <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](../living_flesh.md) were the first items to have ever been added into FSEE.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
-    - While it got added as far back as 1.3a, Living Flesh had no use before 1.5a.
-- Prior to 1.5a, this armor set was known as `Hallowed Diamond Armor`.
+    - While it got added as far back as 1.3a, <i class="icon-fsee icon-fsee-living-flesh"></i>Living Flesh had no use before 1.5a.
+- Prior to 1.5a, this armor set was known as <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>`Hallowed Diamond Armor`.
     - It also used to have random stats. It could provide a random amount of Defense, Attack Speed, Armor Toughness and Movement Speed.
         - Movement Speed increase was so huge that players could trigger vanilla anti-cheat in Singleplayer while wearing 2 or more armor pieces.
         - Sometimes Armor Toughness would get listed twice due to some errors in loot tables. 

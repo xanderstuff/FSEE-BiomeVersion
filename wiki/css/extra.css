@@ -172,6 +172,7 @@ table#foka-infobox--item {
     float: right;
     margin: 0px;
     width: 256px;
+    max-width: 100%;
 }
 
 table#foka-infobox--item th.foka-infobox--top-image {
@@ -210,6 +211,9 @@ table#foka-infobox th, table#foka-infobox--item th {
 img#foka-infobox--image {
     border: 2px solid rgb(202, 202, 202);
     margin: auto;
+    margin-bottom: 10px;
+    max-width: 100%;
+    width: 800vw;
 }
 
 /* 

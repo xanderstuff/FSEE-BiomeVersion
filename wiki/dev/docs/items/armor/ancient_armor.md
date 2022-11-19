@@ -1,36 +1,39 @@
 # Ancient Armor
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
-**Ancient Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities that trades off some defense in favor of increased fighting capabilities.</div>
+**Ancient Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities that trades off a tiny fraction of defense in favor of increased combat capabilities.
+
+Full set bonus increases will even further expand player's fighting potential by further amplifying their damage.
+</div>
 <div class="foka-infobox-table">
-  <table id="foka-infobox--item" markdown>
-	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/armor/ancient/full.png" style="height: auto; image-rendering: auto;"></th>
-	</tr>
-	<tr>
-		<th colspan="2">Info</th>
-	</tr>
-	<tr>
-		<td><b>Total Defense</b></td>
-		<td>20</td>
-	</tr>
-	<tr>
-		<td><b>Total Armor Toughness</b></td>
-		<td>8</td>
-	</tr>
-	<tr>
-		<td><b>Total Other Bonuses</b></td>
-		<td>
-			+40% Attack Speed
-			<br>
-			+20% Damage
-		</td>
-	</tr>
-	<tr>
-		<td><b>Full Set Bonus</b></td>
-		<td>Greatly increased damage</td>
-	</tr>
-</table>
+	<table id="foka-infobox--item">
+		<tr>
+			<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/armor/ancient/full.png" style="height: auto; image-rendering: auto;"></th>
+		</tr>
+		<tr>
+			<th colspan="2">Info</th>
+		</tr>
+		<tr>
+			<td><b>Total Defense</b></td>
+			<td>20</td>
+		</tr>
+		<tr>
+			<td><b>Total Armor Toughness</b></td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td><b>Total Other Bonuses</b></td>
+			<td>
+				+40% Attack Speed
+				<br>
+				+20% Damage
+			</td>
+		</tr>
+		<tr>
+			<td><b>Full Set Bonus</b></td>
+			<td>Greatly increased damage</td>
+		</tr>
+	</table>
 </div>
 </div>
 
@@ -69,10 +72,10 @@ Aditionally, running with a full set of Ancient Armor will produce a trail. It s
 
 ## Trivia
 
-- Ancient Armor, [Hallowed Armor](hallowed_armor.md) and [Living Flesh](../living_flesh.md) were the first items to have ever been added into FSEE.
+- <i class="icon-fsee icon-fsee-ancient-armor"></i>Ancient Armor, <i class="icon-fsee icon-fsee-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md) and <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](../living_flesh.md) were the first items to have ever been added into FSEE.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
-    - While it got added as far back as 1.3a, Living Flesh had no use before 1.5a.
-- Prior to 1.5a, this armor set was known as `Ancient Diamond Armor`.
+    - While it got added as far back as 1.3a, <i class="icon-fsee icon-fsee-living-flesh"></i>Living Flesh had no use before 1.5a.
+- Prior to 1.5a, this armor set was known as <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>`Ancient Diamond Armor`.
     - It also used to have random stats. It could provide a random amount of Defense, Attack Speed, Attack Knockback and Movement Speed.
         - Due to how Attack Knockback works in Minecraft, it didn't increase anything.
         - Movement Speed increase was so huge that players could trigger vanilla anti-cheat in Singleplayer while wearing 2 or more armor pieces.
