@@ -42,6 +42,12 @@ nav:
       - Pixie Dust: items/other/pixie_dust.md
       - Living Flesh: items/other/living_flesh.md
       - Potions: items/other/potions.md
+  - Resource Pack:
+      - resource_pack/index.md
+      - Tweaks: resource_pack/tweaks.md
+      - End Poem: resource_pack/poem.md
+      - Credits Screen: resource_pack/credits.md
+      - Splashes: resource_pack/splashes.md
 
 markdown_extensions:
   - extra

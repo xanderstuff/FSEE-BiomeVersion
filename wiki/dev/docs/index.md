@@ -1,4 +1,4 @@
-# :sparkles: FokaStudio's Ender Expansion Wiki :sparkles:
+# FokaStudio's Ender Expansion Wiki
 
 > Because appareantly I spend more time explaining things rather than actually programming.
 >
