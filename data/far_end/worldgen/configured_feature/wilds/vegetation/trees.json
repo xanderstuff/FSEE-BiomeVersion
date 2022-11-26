@@ -24,9 +24,6 @@
 				}
 			}
 		],
-		"default": {
-			"feature": "far_end:nothing",
-			"placement": []
-		}
+		"default": "far_end:nothing"
 	}
 }

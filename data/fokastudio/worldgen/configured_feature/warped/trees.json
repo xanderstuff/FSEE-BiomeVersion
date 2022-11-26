@@ -113,29 +113,6 @@
 				}
 			}
 		],
-		"default": {
-			"feature": {
-				"type": "minecraft:huge_fungus",
-				"config": {
-					"hat_state": {
-						"Name": "minecraft:warped_wart_block"
-					},
-					"decor_state": {
-						"Name": "minecraft:air"
-					},
-					"stem_state": {
-						"Name": "minecraft:warped_stem",
-						"Properties": {
-							"axis": "y"
-						}
-					},
-					"valid_base_block": {
-						"Name": "minecraft:moss_block"
-					},
-					"planted": true
-				}
-			},
-			"placement": []
-		}
+		"default": "far_end:nothing"
 	}
 }

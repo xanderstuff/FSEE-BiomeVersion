@@ -41,9 +41,6 @@
 				}
 			]
 		},
-		"vegetation_feature": {
-			"feature": "far_end:nothing",
-			"placement": []
-		}
+		"vegetation_feature": "far_end:nothing"
 	}
 }

@@ -48,8 +48,7 @@
 	},
 	"spawn_costs": {},
 	"carvers": {
-		"air": [
-			"fokastudio:end/cave",
+		"air":  [
 			"fokastudio:end/ravine",
 			"fokastudio:end/crack"
 		]
@@ -58,30 +57,30 @@
 		[
 			"fokastudio:global/stalactite_1",
 			"fokastudio:global/stalactite_2",
-			"fokastudio:warped/patches",
-			"far_end:warped/aquatic/lake"
+			"fokastudio:warped/patches"
 		],
 		[],
 		[],
 		[
 			"far_end:warped/aquatic/delta",
-			"fokastudio:warped/spring",
-			"fokastudio:warped/deltas"
+			"fokastudio:warped/deltas",
+			"far_end:warped/vegetation/water/under_island_extra",
+			"far_end:warped/vegetation/water/pool",
+			"far_end:warped/aquatic/lake"
 		],
 		[],
 		[],
 		[],
 		[
+			"fokastudio:warped/spring"
+		],
+		[
+			"fokastudio:warped/trees",
 			"far_end:warped/vegetation/grass/patch_grass",
 			"far_end:warped/vegetation/grass/patch_blue_orchid",
 			"far_end:warped/vegetation/grass/patch_warped_roots",
 			"far_end:warped/vegetation/grass/patch_nether_sprouts",
-			"far_end:warped/vegetation/water/sea_pickle",
-			"far_end:warped/vegetation/water/under_island_extra",
-			"far_end:warped/vegetation/water/pool"
-		],
-		[
-			"fokastudio:warped/trees"
+			"far_end:warped/vegetation/water/sea_pickle"
 		],
 		[]
 	]

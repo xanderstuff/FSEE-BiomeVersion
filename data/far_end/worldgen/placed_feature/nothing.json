@@ -1,4 +1,7 @@
 {
-    "feature": "far_end:nothing",
-    "placement": []
+	"feature": {
+		"type": "minecraft:no_op",
+		"config": {}
+	},
+	"placement": []
 }

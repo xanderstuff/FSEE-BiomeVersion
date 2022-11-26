@@ -47,8 +47,7 @@
 	},
 	"spawn_costs": {},
 	"carvers": {
-		"air": [
-			"fokastudio:end/cave",
+		"air":  [
 			"fokastudio:end/ravine",
 			"fokastudio:end/crack"
 		]
