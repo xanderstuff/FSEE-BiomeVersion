@@ -1,8 +1,6 @@
 ## Scoreboards creation
 # Configuration
 scoreboard objectives add foka.config.custom_music dummy
-scoreboard objectives add foka.config.auto_butcher.phantoms dummy
-scoreboard objectives add foka.config.auto_butcher.silverfish dummy
 scoreboard objectives add foka.config.join_message dummy
 scoreboard objectives add foka.config.change_gamerules dummy
 scoreboard objectives add foka.config.always_generate_egg dummy

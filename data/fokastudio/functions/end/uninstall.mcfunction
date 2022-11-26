@@ -17,8 +17,6 @@ scoreboard objectives remove fe.variable
 scoreboard objectives remove foka.mechanics.end_music
 
 scoreboard objectives remove foka.config.custom_music
-scoreboard objectives remove foka.config.auto_butcher.phantoms
-scoreboard objectives remove foka.config.auto_butcher.silverfish
 scoreboard objectives remove foka.config.join_message
 scoreboard objectives remove foka.config.change_gamerules
 scoreboard objectives remove foka.config.always_generate_egg
@@ -48,12 +46,12 @@ scoreboard objectives remove foka.misc.shot_bow
 team remove foka.purple_glow
 
 # Clear schedules
-schedule clear fokastudio:end/5_second_loop
-schedule clear fokastudio:end/10_second_loop
-schedule clear fokastudio:end/3_tick_loop
-schedule clear fokastudio:end/1_second_loop
-schedule clear fokastudio:end/5_tick_loop
-schedule clear fokastudio:end/10_tick_loop
+schedule clear fokastudio:end/loops/10_second
+schedule clear fokastudio:end/loops/10_second
+schedule clear fokastudio:end/loops/3_tick
+schedule clear fokastudio:end/loops/1_second
+schedule clear fokastudio:end/loops/5_tick
+schedule clear fokastudio:end/loops/10_tick
 schedule clear far_end:bossbars/check
 
 

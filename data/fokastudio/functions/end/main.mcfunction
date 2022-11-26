@@ -1,8 +1,9 @@
 function fokastudio:end/items/main
 function fokastudio:end/mechanics/main
 function fokastudio:end/visuals/main
-function fokastudio:end/butcher_mobs
 function fokastudio:end/mobs/main
+
+# Helpful stuff :D
 function fokastudio:end/utils/main
 
 # Some Minecraft change causes default Ender Dragon to spawn

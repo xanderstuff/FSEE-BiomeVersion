@@ -9,18 +9,6 @@ tellraw @s ["\n",{"text":"1","color":"green"},{"text":" stands for ","color":"wh
 #execute if score #foka.config foka.config.X matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
 #tellraw @s " "
 
-tellraw @s {"text":"Auto Butcher - Phantoms","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.auto_butcher.phantoms","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Disabled","color":"#FF7B7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set #foka.config foka.config.auto_butcher.phantoms "}}
-tellraw @s {"text":"Automatically deletes all Phantoms that spawn in The End, except for the ones in the Dragon's Den","color":"#C8ADD6"}
-execute if score #foka.config foka.config.auto_butcher.phantoms matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
-execute if score #foka.config foka.config.auto_butcher.phantoms matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
-tellraw @s " "
-
-tellraw @s {"text":"Auto Butcher - Silverfish","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.auto_butcher.silverfish","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Disabled","color":"#FF7B7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set #foka.config foka.config.auto_butcher.silverfish "}}
-tellraw @s {"text":"Automatically deletes all Silverfish that spawn in The End, except for the ones in the Dragon's Den","color":"#C8ADD6"}
-execute if score #foka.config foka.config.auto_butcher.silverfish matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
-execute if score #foka.config foka.config.auto_butcher.silverfish matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
-tellraw @s " "
-
 tellraw @s {"text":"Join Message","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "foka.config.join_message","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Enabled","color":"#91FF7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set #foka.config foka.config.join_message "}}
 tellraw @s [{"text":"Whether to send a short message about FSEE being loaded properly upon entering this world","color":"#C8ADD6"}]
 execute if score #foka.config foka.config.join_message matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
