@@ -1,9 +1,8 @@
 function fokastudio:end/items/knowledge_book_util/give_back
 function fokastudio:end/items/knowledge_book_util/offhand
 
-function fokastudio:end/items/ender_insignia/check
-function fokastudio:end/items/pandoras_barrel/loop
 function fokastudio:end/items/armors/main
+function fokastudio:end/items/tools/main
 function fokastudio:end/items/spellbooks/main
 function fokastudio:end/items/fish/main
 
@@ -57,13 +56,23 @@ execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=1..}] run sco
 execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=1}] run function fokastudio:end/items/spirit_dagger/reset_charge
 
 # Prismatic Pearl
-
 execute as @a[scores={foka.misc.used_ender_pearl=1..},tag=foka.prismatic_pearl.holding] at @s run function fokastudio:end/items/prismatic_pearl/throw
 tag @a[tag=foka.prismatic_pearl.holding] remove foka.prismatic_pearl.holding
 execute as @a[predicate=fokastudio:end/items/holding_prismatic_pearl] run tag @s add foka.prismatic_pearl.holding
 execute as @a[scores={foka.items.prismatic_pearl.cooldown=1..}] run scoreboard players remove @s foka.items.prismatic_pearl.cooldown 1
 execute as @a[scores={foka.items.prismatic_pearl.cooldown=1}] at @s run function fokastudio:end/items/prismatic_pearl/give_back
 execute as @e[type=ender_pearl,tag=foka.prismatic_pearl] at @s run function fokastudio:end/items/prismatic_pearl/trail
+
+# Zephyr
+execute as @e[type=marker,tag=foka.zephyr.wind] at @s anchored eyes run function fokastudio:end/items/zephyr/wind_loop
+
+# Ender Insignia
+execute as @a[predicate=fokastudio:end/items/holding_ender_insignia,predicate=fokastudio:end/utils/player/is_sneaking,tag=!foka.ender_insignia.active] run tag @s add foka.ender_insignia.active
+execute as @a[tag=foka.ender_insignia.active] at @s run function fokastudio:end/items/ender_insignia/loop
+
+# Pandora's Barrel
+execute as @e[tag=foka.pandoras_barrel_armor_stand,type=armor_stand] at @s run function fokastudio:end/items/pandoras_barrel/animation_progress
+execute as @e[type=armor_stand,tag=foka.pandoras_barrel_armor_stand,tag=!foka.pandoras_barrel_as_checked] at @s run function fokastudio:end/items/pandoras_barrel/helmet_replace
 
 #################################
 # THIS HAS TO BE AT THE BOTTOM! #

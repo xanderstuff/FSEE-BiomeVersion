@@ -1,0 +1,74 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": 6,
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"amount": -2.4,
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"name": "",
+									"amount": 0.125,
+									"operation": "multiply_total",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "Killing enemies will give",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "you a short burst of speed",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								" ",
+								{
+									"translate": "Donator Item",
+									"color": "#F96854",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,foka.special_item:\"zephyr\",foka_durability:{enabled:1b,max_dur:379}}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Zephyr",
+								"color": "#E3E3E3",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

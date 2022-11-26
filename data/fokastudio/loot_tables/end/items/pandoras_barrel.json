@@ -26,17 +26,17 @@
 									"italic": false
 								},
 								{
-									"translate": "after being placed",
+									"translate": "shortly after being placed",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Outcome is dependant on the biome",
+									"translate": "Outcome is dependant on the biome you open it in",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Summons much deadlier mobs in darkness",
+									"translate": "Summons much deadlier mobs while surrounded with darkness",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -49,7 +49,7 @@
 								" ",
 								{
 									"translate": "Donator Item",
-									"color": "#F166FF",
+									"color": "#F96854",
 									"italic": false
 								}
 							]

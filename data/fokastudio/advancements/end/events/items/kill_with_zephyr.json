@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"damage1": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:golden_sword"
+							],
+							"nbt": "{foka.special_item:\"zephyr\"}"
+						}
+					}
+				},
+				"entity": {
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/zephyr/kill"
+	}
+}
