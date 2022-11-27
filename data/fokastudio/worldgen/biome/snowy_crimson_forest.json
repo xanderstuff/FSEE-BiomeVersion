@@ -40,12 +40,7 @@
 		]
 	},
 	"spawn_costs": {},
-	"carvers": {
-		"air":  [
-			"fokastudio:end/ravine",
-			"fokastudio:end/crack"
-		]
-	},
+	"carvers": {},
 	"features": [
 		[
 			"fokastudio:snowy_crimson_forest/stalactite",

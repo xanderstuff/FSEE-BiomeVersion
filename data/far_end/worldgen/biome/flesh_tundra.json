@@ -50,12 +50,7 @@
 		]
 	},
 	"spawn_costs": {},
-	"carvers": {
-		"air":  [
-			"fokastudio:end/ravine",
-			"fokastudio:end/crack"
-		]
-	},
+	"carvers": {},
 	"features": [
 		[
 			"far_end:tundra/surface/water",

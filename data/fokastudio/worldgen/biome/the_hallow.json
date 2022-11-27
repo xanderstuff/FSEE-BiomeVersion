@@ -38,12 +38,7 @@
 			"charge": 1.25
 		}
 	},
-	"carvers": {
-		"air":  [
-			"fokastudio:end/ravine",
-			"fokastudio:end/crack"
-		]
-	},
+	"carvers": {},
 	"features": [
 		[
 			"fokastudio:the_hallow/stalactite",

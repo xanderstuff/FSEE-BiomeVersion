@@ -46,12 +46,7 @@
 		]
 	},
 	"spawn_costs": {},
-	"carvers": {
-		"air":  [
-			"fokastudio:end/ravine",
-			"fokastudio:end/crack"
-		]
-	},
+	"carvers": {},
 	"features": [
 		[
 			"far_end:ash/island/basalt_bottom"
