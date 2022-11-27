@@ -2,10 +2,6 @@
 	"structures": [
 		{
 			"structure": "minecraft:stronghold",
-			"weight": 9
-		},
-		{
-			"structure": "fokastudio:end/old_stronghold",
 			"weight": 1
 		}
 	],
