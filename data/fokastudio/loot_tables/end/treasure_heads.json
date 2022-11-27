@@ -24,6 +24,84 @@
 						}
 					]
 				},
+                {
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",SkullOwner:\"FokaStudio\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'downloading this pack was your last mistake'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+                {
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",SkullOwner:\"FokaStudio\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'this head is fabulous!'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
+                {
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"treasure_head\",SkullOwner:\"FokaStudio\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": "'Nie musisz udawać",
+									"color": "#9D9D9D",
+									"italic": false
+								},
+                                {
+									"text": "Wiem dobrze czego pragniesz",
+									"color": "#9D9D9D",
+									"italic": false
+								},
+                                {
+									"text": "Chodź ci pokażę skarbie",
+									"color": "#9D9D9D",
+									"italic": false
+								},
+                                {
+									"text": "Jak to robić idealnie!'",
+									"color": "#9D9D9D",
+									"italic": false
+								}
+							]
+						}
+					]
+				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:player_head",
