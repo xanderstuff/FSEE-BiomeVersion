@@ -1,9 +1,6 @@
 {
 	"structures": [
-		{
-			"structure": "fokastudio:end/village",
-			"weight": 1
-		}
+		//{"structure": "fokastudio:end/village","weight": 1}
 	],
 	"placement": {
 		"type": "minecraft:random_spread",
