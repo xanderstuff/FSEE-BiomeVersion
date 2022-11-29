@@ -1,0 +1,20 @@
+{
+	"values": [
+		"#fokastudio:end/undead",
+		"#fokastudio:end/illagers",
+		"#fokastudio:end/nether",
+		"minecraft:elder_guardian",
+		"minecraft:guardian",
+		"minecraft:shulker",
+		"minecraft:silverfish",
+		"minecraft:slime",
+		"minecraft:vex",
+		"minecraft:witch",
+		"minecraft:piglin",
+		"minecraft:piglin_brute",
+		"minecraft:wither",
+		"minecraft:enderman",
+		"minecraft:spider",
+		"minecraft:cave_spider"
+	]
+}

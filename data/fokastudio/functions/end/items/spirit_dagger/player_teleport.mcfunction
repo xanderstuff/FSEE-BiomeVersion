@@ -1,12 +1,12 @@
 scoreboard players reset @s foka.items.spirit_dagger.consume_time
 
-tag @s add foka.spirit_dagger.teleport
-
 # Prevent any fall damage
 effect give @s slow_falling 1 0 true
 
 # Teleport
 tp @s ~ ~-0.2 ~
+tag @s add foka.spirit_dagger.teleport
+schedule function fokastudio:end/items/spirit_dagger/scheduled_remove_tag 1t
 
 # Attack buffs
 effect give @s strength 4 0

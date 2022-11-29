@@ -28,3 +28,4 @@ tellraw @s [{"text":"Zephyr","color":"#E3E3E3","bold":true},"\n",{"text":"Iron S
 tellraw @s [{"text":"Scroll up to the top to read everything","color":"#EEEEEE"},"\n"]
 
 tag @s[gamemode=!creative,gamemode=!spectator] add foka.kb_give_back.cursed_tome
+tag @s[gamemode=!creative,gamemode=!spectator] add foka.kb_give_back

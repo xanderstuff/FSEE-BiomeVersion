@@ -2,7 +2,7 @@
 scoreboard players add @s fe.timer 1
 
 # - bossbar disable
-execute if score @s fe.timer matches 1 run bossbar set fe:ender_dragon players
+execute if score @s fe.timer matches ..200 run bossbar set fokastudio:end/crystal_count players
 # - save dragon kill count
 execute if score @s fe.timer matches 1 as @s run scoreboard players add @s fe.variable 1
 

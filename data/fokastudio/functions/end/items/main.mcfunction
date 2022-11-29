@@ -1,5 +1,5 @@
-function fokastudio:end/items/knowledge_book_util/give_back
-function fokastudio:end/items/knowledge_book_util/offhand
+execute as @a[tag=foka.kb_give_back] run function fokastudio:end/utils/knowledge_books/give_back
+execute as @a[predicate=fokastudio:end/utils/knowledge_book/holding_in_offhand] run function fokastudio:end/utils/knowledge_books/offhand
 
 function fokastudio:end/items/armors/main
 function fokastudio:end/items/tools/main
@@ -16,7 +16,6 @@ execute as @a[predicate=fokastudio:end/items/clockwork_crossbow/holding_unloaded
 # Sharanga
 execute as @a[scores={foka.misc.shot_bow=1},predicate=fokastudio:end/items/holding_sharanga] at @s run function fokastudio:end/items/sharanga/shoot
 execute as @e[type=spectral_arrow,tag=foka.spectral_bolt] at @s run function fokastudio:end/items/sharanga/arrow_loop
-execute as @e[type=spectral_arrow,tag=!foka.items.sharanga.buffed_velocity,tag=foka.spectral_bolt] run function fokastudio:end/items/sharanga/velocity
 
 # Prismatic Punch
 execute as @e[type=marker,tag=foka.prismatic_blast] at @s run function fokastudio:end/items/prismatic_punch/blast_loop
@@ -26,8 +25,7 @@ execute as @e[type=marker,tag=foka.sariel.heal_orb] at @s anchored eyes run func
 
 # Sabrewing
 execute as @a[scores={foka.misc.shot_bow=1},predicate=fokastudio:end/items/holding_sabrewing] at @s run function fokastudio:end/items/sabrewing/shoot
-execute as @a[scores={foka.items.sabrewing.until_charge_reset=1..}] run scoreboard players remove @s foka.items.sabrewing.until_charge_reset 1
-execute as @a[scores={foka.items.sabrewing.until_charge_reset=0}] run function fokastudio:end/items/sabrewing/reset_charge
+execute as @a[scores={foka.items.sabrewing.until_charge_reset=1..}] run function fokastudio:end/items/sabrewing/reset_charge_countdown
 execute as @e[type=#arrows,tag=foka.items.sabrewing.arrow] at @s run function fokastudio:end/items/sabrewing/charged_shots/loop
 
 # Living Flesh
@@ -48,19 +46,16 @@ execute as @e[type=area_effect_cloud,tag=foka.carcanet.aec] at @s run function f
 execute as @e[type=marker,tag=foka.carcanet.star] at @s run function fokastudio:end/items/starstruck_carcanet/star_loop
 
 # Spirit Dagger
-tag @a[tag=foka.spirit_dagger.teleport] remove foka.spirit_dagger.teleport
 execute as @e[type=!#fokastudio:end/invalid_targets_no_player,scores={foka.items.spirit_dagger.attract_cooldown=1..}] at @s run function fokastudio:end/items/spirit_dagger/entity_loop
 execute as @e[type=armor_stand,tag=foka.spirit_dagger.spirit] at @s anchored eyes positioned ^ ^ ^ run function fokastudio:end/items/spirit_dagger/spirit_loop
 execute as @a[predicate=fokastudio:end/items/spirit_dagger/holding,predicate=fokastudio:end/items/spirit_dagger/looking_at_spirit] run function fokastudio:end/items/spirit_dagger/player_looking_loop
-execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=1..}] run scoreboard players remove @s foka.items.spirit_dagger.until_consume_reset 1
-execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=1}] run function fokastudio:end/items/spirit_dagger/reset_charge
+execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=1..}] run function fokastudio:end/items/spirit_dagger/reset_charge_countdown
 
 # Prismatic Pearl
 execute as @a[scores={foka.misc.used_ender_pearl=1..},tag=foka.prismatic_pearl.holding] at @s run function fokastudio:end/items/prismatic_pearl/throw
 tag @a[tag=foka.prismatic_pearl.holding] remove foka.prismatic_pearl.holding
 execute as @a[predicate=fokastudio:end/items/holding_prismatic_pearl] run tag @s add foka.prismatic_pearl.holding
-execute as @a[scores={foka.items.prismatic_pearl.cooldown=1..}] run scoreboard players remove @s foka.items.prismatic_pearl.cooldown 1
-execute as @a[scores={foka.items.prismatic_pearl.cooldown=1}] at @s run function fokastudio:end/items/prismatic_pearl/give_back
+execute as @a[scores={foka.items.prismatic_pearl.cooldown=1..}] run function fokastudio:end/items/prismatic_pearl/cooldown_countdown
 execute as @e[type=ender_pearl,tag=foka.prismatic_pearl] at @s run function fokastudio:end/items/prismatic_pearl/trail
 
 # Zephyr
@@ -75,6 +70,7 @@ execute as @e[tag=foka.pandoras_barrel_armor_stand,type=armor_stand] at @s run f
 execute as @e[type=armor_stand,tag=foka.pandoras_barrel_armor_stand,tag=!foka.pandoras_barrel_as_checked] at @s run function fokastudio:end/items/pandoras_barrel/helmet_replace
 
 #################################
-# THIS HAS TO BE AT THE BOTTOM! #
+# THIS HAS TO BE at THE BOTTOM! #
 #################################
-function fokastudio:end/items/knowledge_book_util/is_holding
+execute as @a[tag=foka.holding.knowledge_book] run function fokastudio:end/utils/knowledge_books/remove_tags
+execute as @a[predicate=fokastudio:end/utils/knowledge_book/holding_in_mainhand] run function fokastudio:end/utils/knowledge_books/is_holding_custom_book

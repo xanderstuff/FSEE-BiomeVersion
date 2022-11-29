@@ -1,6 +1,5 @@
 {
-  "values":[
-  "far_end:main",
-  "fokastudio:end/main"
-  ]
+	"values":[
+		"fokastudio:end/main"
+	]
 }

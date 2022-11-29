@@ -4,3 +4,5 @@ particle smoke ~ ~-0.3 ~ 0 0.3 0 0 1 normal
 
 particle dust_color_transition 0.722 0 0 1.33 0.15 0 0 ^ ^-1 ^1 0 0 0 0 1 normal 
 particle dust_color_transition 0.722 0 0 1.33 0.15 0 0 ^ ^-1 ^-1 0 0 0 0 1 normal 
+
+execute if predicate fokastudio:end/utils/chance/33percent run particle enchant ~ ~ ~ 0 0 0 1 1 normal

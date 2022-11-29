@@ -88,13 +88,14 @@ bossbar set fokastudio:end/eol style notched_10
 
 # Scheduling loops that do not need
 # to be executed every single tick
-schedule function fokastudio:end/loops/5_second 5s append
-schedule function fokastudio:end/loops/1_second 1s append
-schedule function fokastudio:end/loops/3_tick 3t append
 schedule function fokastudio:end/loops/2_tick 2t append
+#schedule function fokastudio:end/loops/3_tick 3t append
 schedule function fokastudio:end/loops/5_tick 5t append
-schedule function fokastudio:end/loops/10_tick 10t append
+#schedule function fokastudio:end/loops/10_tick 10t append
+schedule function fokastudio:end/loops/1_second 1s append
+schedule function fokastudio:end/loops/5_second 5s append
 schedule function fokastudio:end/loops/10_second 10s append
+
 
 # Initialize config scoreboards that do not have a value at start,
 # but require them to work properly (or at all)

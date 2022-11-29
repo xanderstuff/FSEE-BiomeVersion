@@ -10,6 +10,7 @@ execute as @a[scores={foka.misc.used_ender_pearl=1..}] run scoreboard players re
 
 # Custom damage invul ticks
 # Yes, they are handled differently
-# I could even omit them if I wanted to!
+# I could even skip them if I wanted to in custom damage events!
+# Imagine being damaged by e.g. Lava, but 20 times per second
 execute as @a[scores={foka.misc.invul_timer=1..}] run scoreboard players remove @s foka.misc.invul_timer 1
 execute as @a unless score @s foka.misc.invul_timer matches ..2147483647 run scoreboard players set @s foka.misc.invul_timer 0

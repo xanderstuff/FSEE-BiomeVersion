@@ -1,5 +1,2 @@
-effect give @s instant_damage 1 40 true
-
-tag @s add foka.scheduled_void_totem_effect
-
-scoreboard players set @s foka.mechanics.void_totem_protection_time 440
+execute if entity @s[predicate=fokastudio:end/utils/totem/over_void] run effect give @s instant_health 1 15 true
+execute if entity @s[predicate=fokastudio:end/utils/totem/in_void] run function fokastudio:end/mechanics/void_totem_protection/save
