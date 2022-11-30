@@ -7,8 +7,8 @@ function fokastudio:end/items/spellbooks/main
 function fokastudio:end/items/fish/main
 
 # Dragonblade
-execute as @e[scores={foka.items.dragonblade.cooldown=1..}] at @s run function fokastudio:end/items/dragonblade/cooldown
-execute as @e[scores={foka.items.dragonblade.stacks=1..}] at @s run function fokastudio:end/items/dragonblade/entity_loop
+execute as @e[type=!#fokastudio:end/invalid_targets_no_player,scores={foka.items.dragonblade.cooldown=1..}] at @s run function fokastudio:end/items/dragonblade/cooldown
+execute as @e[type=!#fokastudio:end/invalid_targets_no_player,scores={foka.items.dragonblade.stacks=1..}] at @s run function fokastudio:end/items/dragonblade/entity_loop
 
 # Clockwork Crossbow
 execute as @a[predicate=fokastudio:end/items/clockwork_crossbow/holding_unloaded_any] run function fokastudio:end/items/clockwork_crossbow/check
@@ -29,7 +29,7 @@ execute as @a[scores={foka.items.sabrewing.until_charge_reset=1..}] run function
 execute as @e[type=#arrows,tag=foka.items.sabrewing.arrow] at @s run function fokastudio:end/items/sabrewing/charged_shots/loop
 
 # Living Flesh
-execute as @e[tag=foka.items.living_flesh.hunger_remove_schedule] run function fokastudio:end/items/living_flesh/remove_hunger
+execute as @a[tag=foka.items.living_flesh.hunger_remove_schedule] run function fokastudio:end/items/living_flesh/remove_hunger
 
 # Cursed Tome
 execute as @a[scores={foka.misc.used_knowledge_book=1..},tag=foka.holding.cursed_tome] at @s run function fokastudio:end/items/cursed_tome/use
