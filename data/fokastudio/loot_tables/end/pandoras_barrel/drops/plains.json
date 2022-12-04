@@ -1,0 +1,124 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 3,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "minecraft:grass",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:tag",
+							"weight": 10,
+							"name": "fokastudio:end/pandoras_barrel/flowers/plains",
+							"expand": true,
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 6,
+										"max": 11
+									},
+									"add": false
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:alternative",
+									"terms": [
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:plains"
+											}
+										},
+										{
+											"condition": "minecraft:location_check",
+											"predicate": {
+												"biome": "minecraft:meadow"
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:tag",
+							"weight": 10,
+							"name": "fokastudio:end/pandoras_barrel/flowers/sunflower_plains",
+							"expand": true,
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 6,
+										"max": 11
+									},
+									"add": false
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "minecraft:sunflower_plains"
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:tall_grass",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 8
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:bee_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false,
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.3
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

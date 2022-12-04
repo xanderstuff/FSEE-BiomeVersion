@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_shrieker"
+		},
+		"title": {
+			"translate": "Take a Gamble"
+		},
+		"description": {
+			"translate": "Open a Pandora's Barrel in Deep Dark. Odds are that you will survive."
+		},
+		"frame": "challenge"
+	},
+	"parent": "fokastudio:end/aota/pandoras_barrel/place",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 150
+	}
+}

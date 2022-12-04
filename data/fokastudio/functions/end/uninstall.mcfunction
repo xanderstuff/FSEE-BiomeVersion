@@ -22,9 +22,9 @@ scoreboard objectives remove foka.config.change_gamerules
 scoreboard objectives remove foka.config.always_generate_egg
 
 scoreboard objectives remove foka.items.dragonblade.cooldown
-scoreboard objectives remove foka.items.pandoras_barrel_animation
-scoreboard objectives remove foka.items.pandoras_barrel_summon_id
-scoreboard objectives remove foka.items.pandoras_barrel_raycast
+scoreboard objectives remove foka.items.pandoras_barrel.animation
+scoreboard objectives remove foka.items.pandoras_barrel.summon_id
+scoreboard objectives remove foka.items.pandoras_barrel.raycast
 scoreboard objectives remove foka.items.armors.holy_protection_cooldown
 scoreboard objectives remove foka.items.sharanga.arrow_age
 scoreboard objectives remove foka.items.clockwork_crossbow.arrow_amount

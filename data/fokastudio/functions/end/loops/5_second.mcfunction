@@ -6,4 +6,6 @@ execute as @e[type=marker,tag=foka.altar_of_accursed,predicate=fokastudio:end/ut
 # Moved from far_end:structures/check
 execute as @e[type=minecraft:end_crystal,predicate=fokastudio:end/utils/exit_portal_crystal] at @s run function far_end:structures/replace/exit_portal
 
+execute as @e[type=slime,tag=foka.gloop] at @s run function fokastudio:end/mobs/gloop/main
+
 schedule function fokastudio:end/loops/5_second 5s

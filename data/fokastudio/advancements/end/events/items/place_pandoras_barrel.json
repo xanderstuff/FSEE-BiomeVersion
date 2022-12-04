@@ -1,16 +1,16 @@
 {
 	"criteria": {
-		"use_pandoras_box": {
+		"use_pandoras_barrel": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
 				"block": "minecraft:barrel",
 				"item": {
-					"nbt": "{foka.special_item:\"pandoras_box\"}"
+					"nbt": "{foka.special_item:\"pandoras_barrel\"}"
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "fokastudio:end/items/pandoras_box/use"
+		"function": "fokastudio:end/items/pandoras_barrel/use"
 	}
 }

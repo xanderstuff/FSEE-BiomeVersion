@@ -25,6 +25,8 @@ tellraw @s [{"text":"Battlestick","color":"#A66C00","bold":true},"\n",{"text":"S
 
 tellraw @s [{"text":"Zephyr","color":"#E3E3E3","bold":true},"\n",{"text":"Iron Sword","bold":false,"color":"#C3C3C3"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"Golden Sword","bold":false,"color":"yellow"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"10","bold":false,"color":"#EEEEEE"}," ",{"text":"Feathers","bold":false,"color":"#EEEEEE"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"6","bold":false,"color":"#EEEEEE"}," ",{"text":"Sugar","bold":false,"color":"#EEEEEE"},"\n\n"]
 
+tellraw @s [{"text":"Pandora's Barrel","color":"#934C00","bold":true},"\n",{"text":"Barrel","bold":false,"color":"#934C00"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"Block of Iron","bold":false,"color":"#C3C3C3"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"Block of Gold","bold":false,"color":"yellow"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"5","bold":false,"color":"#EEEEEE"}," ",{"text":"Sculk","bold":false,"color":"#10605E"},"\n\n"]
+
 tellraw @s [{"text":"Scroll up to the top to read everything","color":"#EEEEEE"},"\n"]
 
 tag @s[gamemode=!creative,gamemode=!spectator] add foka.kb_give_back.cursed_tome

@@ -51,3 +51,9 @@ tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:bamboo",Count:4b}},distanc
 # Tags for Zephyr
 execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:golden_sword",Count:1b}},distance=..1] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.golden_sword
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:sugar",Count:6b}},distance=..1] add foka.altar_of_the_accursed.6_sugar
+
+# Tags for Pandora's Barrel
+execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:barrel",Count:1b}},distance=..1] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.barrel
+tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:sculk",Count:5b}},distance=..1] add foka.altar_of_the_accursed.5_sculk
+tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:iron_block",Count:1b}},distance=..1] add foka.altar_of_the_accursed.1_iron_block
+tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:gold_block",Count:1b}},distance=..1] add foka.altar_of_the_accursed.1_gold_block

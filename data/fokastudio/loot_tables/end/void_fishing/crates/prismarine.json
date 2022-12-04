@@ -31,7 +31,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 7,
+					"weight": 8,
 					"name": "minecraft:prismarine_shard",
 					"functions": [
 						{
@@ -46,7 +46,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
+					"weight": 7,
 					"name": "minecraft:prismarine_crystals",
 					"expand": true,
 					"functions": [
@@ -80,9 +80,9 @@
 				},
 				{
 					"type": "minecraft:tag",
-					"weight": 5,
+					"weight": 1,
 					"expand": true,
-					"name": "fokastudio:end/coral_blocks",
+					"name": "fokastudio:end/corals",
 					"functions": [
 						{
 							"function": "minecraft:set_count",

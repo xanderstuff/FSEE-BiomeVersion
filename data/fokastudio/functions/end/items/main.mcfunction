@@ -66,11 +66,10 @@ execute as @a[predicate=fokastudio:end/items/holding_ender_insignia,predicate=fo
 execute as @a[tag=foka.ender_insignia.active] at @s run function fokastudio:end/items/ender_insignia/loop
 
 # Pandora's Barrel
-execute as @e[tag=foka.pandoras_barrel_armor_stand,type=armor_stand] at @s run function fokastudio:end/items/pandoras_barrel/animation_progress
-execute as @e[type=armor_stand,tag=foka.pandoras_barrel_armor_stand,tag=!foka.pandoras_barrel_as_checked] at @s run function fokastudio:end/items/pandoras_barrel/helmet_replace
+execute as @e[tag=foka.pandoras_barrel.armor_stand,type=armor_stand] at @s positioned ~ ~1.7 ~ run function fokastudio:end/items/pandoras_barrel/animation/progress
 
 #################################
-# THIS HAS TO BE at THE BOTTOM! #
+# THIS HAS TO BE AT THE BOTTOM! #
 #################################
 execute as @a[tag=foka.holding.knowledge_book] run function fokastudio:end/utils/knowledge_books/remove_tags
 execute as @a[predicate=fokastudio:end/utils/knowledge_book/holding_in_mainhand] run function fokastudio:end/utils/knowledge_books/is_holding_custom_book

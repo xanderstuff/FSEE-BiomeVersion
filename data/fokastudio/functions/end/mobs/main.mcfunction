@@ -11,3 +11,6 @@ execute as @e[type=wandering_trader,predicate=!fokastudio:end/locations/in_the_e
 
 # Dragon stuff
 execute as @e[type=ender_dragon] at @s run function fokastudio:end/mobs/dragon/main
+
+# Gloop Froggo protection
+execute as @e[type=slime,tag=foka.gloop] at @s if entity @e[type=frog,distance=..4] run effect give @s resistance 1 5 true

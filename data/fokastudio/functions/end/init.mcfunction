@@ -9,9 +9,9 @@ scoreboard objectives add foka.config.always_generate_egg dummy
 scoreboard objectives add foka.items.dragonblade.cooldown dummy
 scoreboard objectives add foka.items.dragonblade.stacks dummy
 scoreboard objectives add foka.items.dragonblade.until_stack_reset dummy
-scoreboard objectives add foka.items.pandoras_barrel_raycast dummy
-scoreboard objectives add foka.items.pandoras_barrel_animation dummy
-scoreboard objectives add foka.items.pandoras_barrel_summon_id dummy
+scoreboard objectives add foka.items.pandoras_barrel.raycast dummy
+scoreboard objectives add foka.items.pandoras_barrel.animation dummy
+scoreboard objectives add foka.items.pandoras_barrel.summon_id dummy
 scoreboard objectives add foka.items.armors.holy_protection_cooldown dummy
 scoreboard objectives add foka.items.armors.holy_protection_time dummy
 scoreboard objectives add foka.items.sharanga.arrow_age dummy

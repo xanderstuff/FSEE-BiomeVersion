@@ -9,7 +9,7 @@
 			},
 			"bonus_rolls": {
 				"min": 0,
-				"max": 2
+				"max": 1
 			},
 			"entries": [
 				{
@@ -239,7 +239,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 2,
+					"quality": -1,
 					"name": "minecraft:ender_pearl",
 					"functions": [
 						{
@@ -251,44 +252,6 @@
 							"add": false
 						}
 					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"quality": -2,
-					"name": "minecraft:purpur_block",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 6,
-								"max": 14
-							},
-							"add": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"quality": -2,
-					"name": "minecraft:end_stone",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 8,
-								"max": 23
-							},
-							"add": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"quality": -1,
-					"name": "minecraft:amethyst_shard"
 				}
 			]
 		},
@@ -349,13 +312,31 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/crest_of_the_end",
-					"conditions": [
+					"name": "fokastudio:end/items/crest_of_the_end"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/pandoras_barrel",
+					"functions": [
 						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.3
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							},
+							"add": false
 						}
 					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/zephyr"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.42
 				}
 			]
 		}
