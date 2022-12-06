@@ -7,15 +7,15 @@ issueTrackerURL="https://github.com/FokaStudio/FSEE/issues"
 	modId="fsee"
 	version="1.6a"
 	displayName="FokaStudio's Ender Expansion"
+	displayURL="https://fokastudio.github.io/FSEE"
 	logoFile="pack.png"
 	logoBlur=false
 	authors="FokaStudio"
 	description='''
 		Harder End, new biomes, items and more!
 	'''
-	credits="Hex, misode, dfsek, Starmute"
+	credits="Hex, misode"
 	itemIcon="minecraft:ender_eye"
-	displayURL="https://fokastudio.github.io/FSEE"
 
 	[[dependencies.fsee]]
 		modId="forge"
