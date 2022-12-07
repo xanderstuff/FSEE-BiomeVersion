@@ -1,0 +1,40 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "Golden Chorus Fruit",
+								"color": "light_cyan",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "Teleports you to a random location",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							],
+							"replace": false
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,foka.special_item:\"golden_chorus_fruit\",Enchantments:[{}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

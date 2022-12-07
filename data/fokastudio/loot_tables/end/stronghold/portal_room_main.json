@@ -9,7 +9,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:ender_pearl"
 				},
 				{
@@ -19,8 +19,12 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 3,
 					"name": "minecraft:blaze_powder"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 5
 				}
 			]
 		}

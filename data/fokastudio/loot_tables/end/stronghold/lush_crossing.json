@@ -3,45 +3,64 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 8,
-				"max": 10
+				"min": 5,
+				"max": 8
 			},
 			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 4,
 					"name": "minecraft:moss_block",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
-								"max": 7
+								"min": 2,
+								"max": 5
 							},
 							"add": true
 						}
 					]
 				},
 				{
-					"type": "minecraft:tag",
-					"weight": 3,
-					"name": "minecraft:leaves",
-					"expand": true,
-					"functions": [
+					"type": "minecraft:group",
+					"children": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 4,
-								"max": 7
-							},
-							"add": true
+							"type": "minecraft:item",
+							"weight": 2,
+							"name": "minecraft:azalea_leaves",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 5
+									},
+									"add": false
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"weight": 2,
+							"name": "minecraft:flowering_azalea_leaves",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 5
+									},
+									"add": false
+								}
+							]
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 2,
 					"name": "minecraft:glow_berries",
 					"functions": [
 						{
@@ -62,6 +81,33 @@
 							"function": "minecraft:set_count",
 							"count": 1,
 							"add": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:clay_ball",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tropical_fish",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
 						}
 					]
 				}

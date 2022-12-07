@@ -3,7 +3,7 @@
 	"pools": [
 		{
 			"rolls": 1,
-			"bonus_rolls": 0,
+			"bonus_rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
@@ -48,7 +48,6 @@
 					"type": "minecraft:item",
 					"weight": 7,
 					"name": "minecraft:prismarine_crystals",
-					"expand": true,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -81,8 +80,8 @@
 				{
 					"type": "minecraft:tag",
 					"weight": 1,
-					"expand": true,
 					"name": "fokastudio:end/corals",
+					"expand": true,
 					"functions": [
 						{
 							"function": "minecraft:set_count",

@@ -3,35 +3,24 @@
 	"pools": [
 		{
 			"rolls": {
-				"type": "minecraft:uniform",
-				"min": 8,
-				"max": 9
+				"min": 2,
+				"max": 3
 			},
-			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 4,
+					"weight": 5,
 					"name": "minecraft:emerald",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 4,
-								"max": 12
+								"max": 8
 							},
 							"add": false
 						}
 					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:ender_eye"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 8,
-					"name": "minecraft:ender_pearl"
 				},
 				{
 					"type": "minecraft:item",
@@ -43,6 +32,22 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4,
 								"max": 7
 							},
 							"add": false
@@ -51,31 +56,38 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 8,
-					"name": "minecraft:iron_ingot",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 5,
-								"max": 13
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 7,
 					"name": "minecraft:gold_ingot",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 8
+								"min": 4,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:iron_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.88
 							},
 							"add": false
 						}
@@ -83,20 +95,132 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:redstone",
+					"weight": 2,
+					"name": "minecraft:iron_sword",
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 4,
-								"max": 15
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.88
 							},
 							"add": false
 						}
 					]
 				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:iron_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.88
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.88
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"quality": 1,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 45,
+							"treasure": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:saddle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_horse_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_horse_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_horse_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_horse_armor"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_otherside"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_mellohi"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_stal"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.66
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_eye"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "minecraft:ender_pearl"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
 				{
 					"type": "minecraft:item",
 					"weight": 15,
@@ -131,84 +255,9 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:diamond_axe",
-					"functions": [
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 73,
-								"max": 235
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:diamond_sword",
-					"functions": [
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 73,
-								"max": 235
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
+					"weight": 2,
+					"quality": 3,
 					"name": "minecraft:golden_apple"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:saddle"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_horse_armor"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:golden_horse_armor"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:diamond_horse_armor"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:music_disc_otherside"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:music_disc_11"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:music_disc_mellohi"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:music_disc_stal"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:book",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": 45,
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:enchanted_golden_apple"
 				}
 			]
 		}

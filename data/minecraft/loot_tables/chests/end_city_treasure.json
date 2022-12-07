@@ -4,12 +4,12 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 4,
-				"max": 6
+				"min": 2,
+				"max": 3
 			},
 			"bonus_rolls": {
 				"min": 0,
-				"max": 2
+				"max": 1
 			},
 			"entries": [
 				{
@@ -22,8 +22,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 7
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -39,8 +39,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 4,
-								"max": 8
+								"min": 2,
+								"max": 3
 							},
 							"add": false
 						}
@@ -57,7 +57,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
-								"max": 7
+								"max": 3
 							},
 							"add": false
 						}
@@ -74,240 +74,9 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
-								"max": 6
+								"max": 4
 							},
 							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"quality": -1,
-					"name": "minecraft:diamond_horse_armor"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_sword",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_boots",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_chestplate",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_leggings",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_helmet",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_pickaxe",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_shovel",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_hoe",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:diamond_axe",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 20,
-								"max": 39
-							},
-							"treasure": true
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:ender_pearl",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 9
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 2,
-					"quality": -1,
-					"name": "minecraft:purpur_block",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 6,
-								"max": 14
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 2,
-					"quality": -1,
-					"name": "minecraft:end_stone",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 8,
-								"max": 23
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:firework_rocket",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 5
-							},
-							"add": false
-						}
-					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.7
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 2,
-					"quality": -1,
-					"name": "minecraft:amethyst_shard",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
 						}
 					]
 				}
@@ -315,11 +84,6 @@
 		},
 		{
 			"rolls": 1,
-			"bonus_rolls": {
-				"type": "minecraft:uniform",
-				"min": 0,
-				"max": 1
-			},
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
@@ -340,7 +104,6 @@
 		},
 		{
 			"rolls": 1,
-			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
@@ -362,6 +125,241 @@
 							"chance": 0.66
 						}
 					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond_shovel"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond_hoe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:diamond_axe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_horse_armor"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:enchant_with_levels",
+					"levels": {
+						"type": "minecraft:uniform",
+						"min": 15,
+						"max": 30
+					},
+					"treasure": true
+				},
+				{
+					"function": "minecraft:set_damage",
+					"damage": {
+						"min": 0.1,
+						"max": 0.87
+					},
+					"add": false
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"quality": -1,
+					"name": "minecraft:purpur_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"quality": -1,
+					"name": "minecraft:end_stone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:crying_obsidian",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"quality": -1,
+					"name": "minecraft:ender_pearl",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_rocket",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"quality": -1,
+					"name": "minecraft:amethyst_shard",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shulker_shell",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:phantom_membrane",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"quality": -1,
+					"name": "minecraft:chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"quality": 2,
+					"name": "fokastudio:end/golden_chorus_fruit"
 				}
 			]
 		}

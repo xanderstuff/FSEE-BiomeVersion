@@ -89,56 +89,6 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:leather_helmet",
-					"functions": [
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.05,
-								"max": 0.1
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:leather_boots",
-					"functions": [
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.05,
-								"max": 0.1
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:iron_axe",
-					"functions": [
-						{
-							"function": "minecraft:set_damage",
-							"damage": 0
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:fishing_rod",
-					"functions": [
-						{
-							"function": "minecraft:set_damage",
-							"damage": 0
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
 					"quality": 1,
 					"name": "minecraft:quartz"
 				},
@@ -167,7 +117,117 @@
 					"type": "minecraft:item",
 					"weight": 1,
 					"name": "minecraft:tripwire_hook"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_count",
+					"count": {
+						"min": 0,
+						"max": 2
+					},
+					"add": false
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.1
+							}
+						}
+					]
 				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.1
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.1
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.1
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:iron_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.1
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:fishing_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.05,
+								"max": 0.1
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 3,
+				"max": 5
+			},
+			"entries": [
 				{
 					"type": "minecraft:item",
 					"weight": 1,
@@ -262,96 +322,6 @@
 					"type": "minecraft:item",
 					"weight": 1,
 					"name": "minecraft:dark_oak_planks"
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:suspicious_stew",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Effects:[{EffectDuration:1200,EffectId:1}],display:{Lore:['{\"text\":\"Smells fishy ...\",\"italic\":false,\"color\":\"gray\"}']}}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:suspicious_stew",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Effects:[{EffectDuration:600,EffectId:2}],display:{Lore:['{\"text\":\"Looks a bit overdue ...\",\"italic\":false,\"color\":\"gray\"}']}}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:suspicious_stew",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Effects:[{EffectDuration:1200,EffectId:5}],display:{Lore:['{\"text\":\"There are crispy bits inside ...\",\"italic\":false,\"color\":\"gray\"}']}}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:suspicious_stew",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Effects:[{EffectDuration:240,EffectId:10}],display:{Lore:['{\"text\":\"Quite a bunch of\",\"italic\":false,\"color\":\"gray\"}','{\"text\":\"mushrooms inside of it ...\",\"italic\":false,\"color\":\"gray\"}']}}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:suspicious_stew",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Effects:[{EffectDuration:600,EffectId:17}],display:{Lore:['{\"text\":\"Seems to be glowing\",\"italic\":false,\"color\":\"gray\"}','{\"text\":\"in the dark ...\",\"italic\":false,\"color\":\"gray\"}']}}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:suspicious_stew",
-					"functions": [
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{Effects:[{EffectDuration:300,EffectId:19}],display:{Lore:['{\"text\":\"Is it supposed to be green?\",\"italic\":false,\"color\":\"gray\"}']}}"
-						}
-					]
-				},
-				{
-					"type": "minecraft:empty",
-					"weight": 30
-				}
-			]
-		},
-		{
-			"rolls": 0,
-			"bonus_rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:iron_ingot"
-				},
-				{
-					"type": "minecraft:empty",
-					"weight": 4
 				}
 			]
 		}

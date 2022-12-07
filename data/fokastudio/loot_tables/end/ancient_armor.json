@@ -24,14 +24,14 @@
 				{
 					"function": "minecraft:enchant_with_levels",
 					"levels": {
-						"min": 27,
-						"max": 35
+						"min": 25,
+						"max": 30
 					},
 					"treasure": true,
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",
-							"chance": 0.3666
+							"chance": 0.3333
 						}
 					]
 				}

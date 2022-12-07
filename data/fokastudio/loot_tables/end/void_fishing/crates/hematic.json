@@ -3,7 +3,7 @@
 	"pools": [
 		{
 			"rolls": 1,
-			"bonus_rolls": 0,
+			"bonus_rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
@@ -73,7 +73,6 @@
 					"type": "minecraft:item",
 					"weight": 4,
 					"name": "minecraft:bone",
-					"expand": true,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
