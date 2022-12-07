@@ -359,7 +359,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"quality": 2,
-					"name": "fokastudio:end/golden_chorus_fruit"
+					"name": "fokastudio:end/items/golden_chorus_fruit"
 				}
 			]
 		}
