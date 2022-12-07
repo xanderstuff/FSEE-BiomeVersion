@@ -13,7 +13,7 @@
 		},
 		"frame": "goal"
 	},
-	"parent": "fokastudio:end/aota/cursed_crafting",
+	"parent": "minecraft:end/kill_dragon",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:inventory_changed",

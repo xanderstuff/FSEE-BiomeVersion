@@ -8,7 +8,7 @@
 			"translate": "Return to the Roots"
 		},
 		"description": {
-			"translate": "Return to the Dragon's Den by using a Gateway in Far End"
+			"translate": "Return to the Dragon's Den by using a Gateway found in further corners of The End"
 		},
 		"frame": "goal",
 		"show_toast": true,

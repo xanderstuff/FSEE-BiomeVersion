@@ -1,14 +1,13 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:chest",
-			"nbt": "{Enchantments:[{}]}"
+			"item": "minecraft:ender_chest"
 		},
 		"title": {
 			"translate": "Who's The Thief Now?"
 		},
 		"description": {
-			"translate": "Open a Treasure Chest in an End City"
+			"translate": "Open a Treasure Chest in an End City. Congrats! You are propably a millionaire now"
 		},
 		"frame": "goal",
 		"show_toast": true,
@@ -17,19 +16,37 @@
 	},
 	"parent": "minecraft:end/find_end_city",
 	"criteria": {
-		"open_chest": {
+		"open_chest_1": {
 			"trigger": "minecraft:player_generates_container_loot",
 			"conditions": {
 				"loot_table": "minecraft:chests/end_city_treasure"
+			}
+		},
+		"open_chest_2": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "fokastudio:end/end_city/top_tower"
+			}
+		},
+		"open_chest_3": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "fokastudio:end/end_city/ship"
+			}
+		},
+		"open_chest_4": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "fokastudio:end/end_city/ship_treasure"
 			}
 		}
 	},
 	"requirements": [
 		[
-			"open_chest"
+			"open_chest_1",
+			"open_chest_2",
+			"open_chest_3",
+			"open_chest_4"
 		]
-	],
-	"rewards": {
-		"experience": 50
-	}
+	]
 }

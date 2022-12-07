@@ -16,7 +16,7 @@
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "minecraft:end/dragon_breath",
+	"parent": "minecraft:end/respawn_dragon",
 	"criteria": {
 		"kill_dragon_again": {
 			"trigger": "minecraft:impossible"

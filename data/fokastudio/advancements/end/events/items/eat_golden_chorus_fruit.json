@@ -1,22 +1,18 @@
 {
 	"criteria": {
-		"eat_chorus_fruit": {
+		"requirement": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
 					"items": [
 						"minecraft:chorus_fruit"
-					]
+					],
+					"nbt": "{foka.special_item:\"golden_chorus_fruit\"}"
 				}
 			}
 		}
 	},
-	"requirements": [
-		[
-			"eat_chorus_fruit"
-		]
-	],
 	"rewards": {
-		"function": "fokastudio:end/mechanics/chorus_fruit_buff/eat"
+		"function": "fokastudio:end/items/golden_chorus_fruit/eat"
 	}
 }
