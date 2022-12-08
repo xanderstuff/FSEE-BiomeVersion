@@ -27,15 +27,15 @@ I do not think I have to explain what items are.
 
 ### Armor sets
 <div markdown class="foka-list">
-- <i class="icon-fsee icon-fsee-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md)
-- <i class="icon-fsee icon-fsee-shulker-armor"></i>[Shulker Armor](shulker_armor.md)
-- <i class="icon-fsee icon-fsee-ancient-armor"></i>[Ancient Armor](ancient_armor.md)
+- <i class="icon-fsee icon-fsee-hallowed-armor"></i>[Hallowed Armor](armor/hallowed_armor.md)
+- <i class="icon-fsee icon-fsee-shulker-armor"></i>[Shulker Armor](armor/shulker_armor.md)
+- <i class="icon-fsee icon-fsee-ancient-armor"></i>[Ancient Armor](armor/ancient_armor.md)
 </div>
 
-## Trinkets
+### Trinkets
 <div markdown class="foka-list">
-- <i class="icon-fsee icon-fsee-ender-insignia"></i>[Ender Insignia](ender_insignia.md)
-- <i class="icon-fsee icon-fsee-duskberry"></i>[Duskberry](duskberry.md)
+- <i class="icon-fsee icon-fsee-ender-insignia"></i>[Ender Insignia](trinkets/ender_insignia.md)
+- <i class="icon-fsee icon-fsee-duskberry"></i>[Duskberry](trinkets/duskberry.md)
 </div>
 
 ### Other items

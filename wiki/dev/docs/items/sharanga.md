@@ -23,7 +23,7 @@
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
-		<td>Converts Spectral Arrows into powerful Spectral Boltsthat pierce multiple enemies</td>
+		<td>Converts Spectral Arrows into powerful Spectral Bolts that pierce multiple enemies</td>
 	</tr>
 	<tr>
 		<td><b>Durability</b></td>

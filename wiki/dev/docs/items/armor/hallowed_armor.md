@@ -49,7 +49,7 @@ This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapp
 If the dodge is not used in 15 seconds after starting Holy Protection, it will time out and require waiting another 16 seconds
 
 <figure markdown>
-  ![Holy Protection](../../../assets/armor/hallowed/dodge.png){ align=right width="400vw" .border }
+  ![Holy Protection](../../assets/armor/hallowed/dodge.png){ align=right width="400vw" .border }
   <figcaption>Dodging an attack with Hallowed Armor</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ If the dodge is not used in 15 seconds after starting Holy Protection, it will t
 
 ## Trivia
 
-- <i class="icon-fsee icon-fsee-ancient-armor"></i>[Ancient Armor](ancient_armor.md), <i class="icon-fsee icon-fsee-hallowed-armor"></i>Hallowed Armor and <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](../living_flesh.md) were the first items to have ever been added into FSEE.
+- <i class="icon-fsee icon-fsee-ancient-armor"></i>[Ancient Armor](ancient_armor.md), <i class="icon-fsee icon-fsee-hallowed-armor"></i>Hallowed Armor and <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](../other/living_flesh.md) were the first items to have ever been added into FSEE.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
     - While it got added as far back as 1.3a, <i class="icon-fsee icon-fsee-living-flesh"></i>Living Flesh had no use before 1.5a.
 - Prior to 1.5a, this armor set was known as <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>`Hallowed Diamond Armor`.

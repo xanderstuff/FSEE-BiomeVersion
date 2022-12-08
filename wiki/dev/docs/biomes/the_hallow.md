@@ -60,7 +60,7 @@ Grass found here is blue, and Water has a magenta tint.
 
 The biome tends to generate on hilly, continental terrain, although it rarely generates on forms of terrain that are a bit more shattered.
 
-It is one of a few biomes where [End Villages](../structures/end_village.md) can be found. Apart from that, [End Cities](../structures/end_city.md) generate here as well, with Chests in the Ships having a small chance to contain <i class="icon-fsee icon-fsee-duskberry"></i>[Dusbkerries](../items/duskberry.md).
+It is one of a few biomes where [End Villages](../structures/end_village.md) can be found. Apart from that, [End Cities](../structures/end_city.md) generate here as well, with Chests in the Ships having a small chance to contain <i class="icon-fsee icon-fsee-duskberry"></i>[Dusbkerries](../items/trinkets/duskberry.md).
 
 ## Music
 Apart from regular End music, these tracks play when the player is in The Hallow specifically.

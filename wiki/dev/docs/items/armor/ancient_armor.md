@@ -58,7 +58,7 @@ Wearing full set of Ancient Armor will grant the wearer a 30% damage boost to <u
 
 Aditionally, running with a full set of Ancient Armor will produce a trail. It serves no purpose other than bein a neat little visual effect.
 <figure markdown>
-  ![Trail](../../../assets/armor/ancient/trail.png){ align=right width="300vw" .border }
+  ![Trail](../../assets/armor/ancient/trail.png){ align=right width="300vw" .border }
   <figcaption>Ancient Armor trail<br>seen while running</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ Aditionally, running with a full set of Ancient Armor will produce a trail. It s
 
 ## Trivia
 
-- <i class="icon-fsee icon-fsee-ancient-armor"></i>Ancient Armor, <i class="icon-fsee icon-fsee-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md) and <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](../living_flesh.md) were the first items to have ever been added into FSEE.
+- <i class="icon-fsee icon-fsee-ancient-armor"></i>Ancient Armor, <i class="icon-fsee icon-fsee-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md) and <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](../other/living_flesh.md) were the first items to have ever been added into FSEE.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
     - While it got added as far back as 1.3a, <i class="icon-fsee icon-fsee-living-flesh"></i>Living Flesh had no use before 1.5a.
 - Prior to 1.5a, this armor set was known as <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>`Ancient Diamond Armor`.

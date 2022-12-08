@@ -19,7 +19,7 @@ When consumed, players will get Regeneration VII for 3 seconds *(enough to resto
 
 ## Trivia
 
-- [Ancient Armor](../armor/ancient_armor.md.md), [Hallowed Armor](../armor/hallowed_armor.md.md) and Living Flesh were the first items to have ever been added into FSEE.
+- [Ancient Armor](../armor/ancient_armor.md), [Hallowed Armor](../armor/hallowed_armor.md) and Living Flesh were the first items to have ever been added into FSEE.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
     - While it got added as far back as 1.3a, Living Flesh had no use before 1.5a.
 
