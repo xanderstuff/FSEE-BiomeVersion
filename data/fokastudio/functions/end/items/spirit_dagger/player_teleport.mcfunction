@@ -12,7 +12,7 @@ schedule function fokastudio:end/items/spirit_dagger/scheduled_remove_tag 1t
 effect give @s strength 4 0
 effect give @s haste 4 0
 effect give @s speed 4 1
-effect give @s instant_health 1 0
+effect give @s absorption 4 0
 
 # Reset actionbar
 title @s actionbar ""
