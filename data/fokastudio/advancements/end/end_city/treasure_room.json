@@ -8,7 +8,7 @@
 			"translate": "Treasure Room"
 		},
 		"description": {
-			"translate": "Obtain a rare Treasure Head from a chest in an End City. Can you find all 105?"
+			"translate": "Obtain a rare Treasure Head from a chest in an End City. Can you find all 55?"
 		},
 		"frame": "challenge",
 		"show_toast": true,
