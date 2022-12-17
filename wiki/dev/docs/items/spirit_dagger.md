@@ -45,6 +45,8 @@
 ## Obtaining
 Spirit Dagger has a 10% chance to drop from Phantoms **found anywhere in The End**. It won't drop in any other dimension to matter the circumstances. Looting enchantment increases the drop chance by 1% per level, for a max of 13% drop chance with Looting III.
 
+Spirit Dagger also has a <u>very low</u> chance to drop from Endermen **found anywhere in The End** as well, having a 1% base drop chance that is increased by 1% with every level of Looting, for a maximum drop chance of 4%.
+
 ## Usage
 <div class="result" markdown>
 <figure class="foka-side-image--right" markdown>

@@ -84,45 +84,15 @@ h5, h6 {
 /* 
     Better anchors
 */
-.md-content a {
+.md-main a {
     color: var(--md-primary-fg-color);
 }
-.md-content a:hover {
+.md-main a:hover {
     color: var(--md-primary-fg-color--dark);
 }
 
-.md-content a.headerlink:hover {
+.md-main a.headerlink:hover {
     color: var(--md-primary-fg-color);
-}
-
-/* 
-    Block CTRL A
-body {
-	-webkit-user-select: none;
-	-moz-user-select: -moz-none;
-	-ms-user-select: none;
-	user-select: none
-}
-
-
-/* 
-    Color social links
-    Somewhat inefficient way to do it, but whatever! :D 
-*/
-.md-social a.md-social__link[title="FokaStudio on Reddit"] {
-    color: orange !important;
-}
-
-.md-social a.md-social__link[title="FokaStudio's Youtube Channel"] {
-    color: red !important;
-}
-
-.md-social a.md-social__link[title="FokaStudio on GitHub"] {
-    color: gray !important;
-}
-
-.md-social a.md-social__link[title="Foka's Studios Discord Server"] {
-    color: #7289da;
 }
 
 /* 

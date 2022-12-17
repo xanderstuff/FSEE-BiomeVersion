@@ -58,7 +58,7 @@ Doing all 3 of these things - eating, planting and feeding a Duskberry to a Fox 
   <figcaption>Old Duskberry sprite</figcaption>
 </figure>
 
-- Duskberries are said to taste like Bizmuth.
+- Duskberries are said to taste like bismuth.
 - Duskberries are a special item dedicated to DuskAdler for being 666th member to join Foka's Studios Discord server.
 - Their original color scheme used for this item was Dark Red, but Dusk didn't really like it, so it was changed to Otherwordly Purple instead.
 - During development stage, Duskberry used to have a different texture than it has now. It looked like a berry far more than the current one.

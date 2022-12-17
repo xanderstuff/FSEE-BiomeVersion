@@ -21,9 +21,8 @@ nav:
     - Clockwork Crossbow: items/clockwork_crossbow.md
     - Dragonblade: items/dragonblade.md
     - Prismatic Punch: items/prismatic_punch.md
-    #- Kung-Fu Stick: items/kung_fu_stick.md
-    #- Pandora's Barrel: items/pandoras_barrel.md
-    - Pixie Dust: items/other/pixie_dust.md
+    #- Battlestick: items/battlestick.md
+    - Zephyr: items/zephyr.md
     - Sariel: items/sariel.md
     - Sabrewing: items/sabrewing.md
     - Spirit Dagger: items/spirit_dagger.md
@@ -40,14 +39,23 @@ nav:
     - Other:
       - items/other/index.md
       - Pixie Dust: items/other/pixie_dust.md
+      - Prismatic Pearl: items/other/prismatic_pearl.md
+      - Pandora's Barrel: items/other/pandoras_barrel.md
+      - Spellbooks: items/other/spellbooks.md
+      - Cursed Tome: items/other/cursed_tome.md
+      - Golden Chorus Fruit: items/other/golden_chorus_fruit.md
+      - Cursed Tome: items/other/cursed_tome.md
       - Living Flesh: items/other/living_flesh.md
       - Potions: items/other/potions.md
-  - Resource Pack:
-      - resource_pack/index.md
-      - Tweaks: resource_pack/tweaks.md
-      - End Poem: resource_pack/poem.md
-      - Credits Screen: resource_pack/credits.md
-      - Splashes: resource_pack/splashes.md
+  - Mechanics:
+      - mechanics/index.md
+      - Treasure Heads: mechanics/treasure_heads.md
+  #- Resource Pack:
+  #    - resource_pack/index.md
+  #    - Tweaks: resource_pack/tweaks.md
+  #    - End Poem: resource_pack/poem.md
+  #    - Credits Screen: resource_pack/credits.md
+  #    - Splashes: resource_pack/splashes.md
 
 markdown_extensions:
   - extra
