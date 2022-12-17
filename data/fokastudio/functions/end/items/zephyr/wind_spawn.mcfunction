@@ -1,3 +1,5 @@
+tag @s add foka.zephyr.killed_entity
+
 playsound item.trident.throw player @a ~ ~ ~ 1 0.5
 playsound item.trident.throw player @a ~ ~ ~ 1 2
 playsound item.trident.riptide_1 player @a ~ ~ ~ 0.5 0.88
