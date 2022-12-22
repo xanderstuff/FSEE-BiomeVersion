@@ -7,7 +7,7 @@
 			"translate": "Bullseye?"
 		},
 		"description": {
-			"translate": "Hit a bullseye of a Target Block with an Ender Pearl from at least 15 blocks"
+			"translate": "Hit a bullseye of a Target Block with an Ender Pearl from at least 10 blocks"
 		},
 		"frame": "challenge",
 		"show_toast": true,
@@ -23,7 +23,7 @@
 					"type": "minecraft:ender_pearl",
 					"distance": {
 						"horizontal": {
-							"min": 15
+							"min": 10
 						}
 					}
 				},
@@ -37,6 +37,6 @@
 		]
 	],
 	"rewards": {
-		"experience": 600
+		"experience": 400
 	}
 }

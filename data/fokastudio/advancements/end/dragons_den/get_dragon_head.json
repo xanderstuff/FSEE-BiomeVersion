@@ -8,14 +8,14 @@
 			"translate": "Headhunter"
 		},
 		"description": {
-			"translate": "Loot a Dragon's Head from an End City"
+			"translate": "Get your hands on a Dragon's Head - it is fake, but still a great trophy!"
 		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "minecraft:end/find_end_city",
+	"parent": "minecraft:end/dragon_egg",
 	"criteria": {
 		"get_dragon_head": {
 			"trigger": "minecraft:inventory_changed",

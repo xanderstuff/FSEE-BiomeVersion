@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_ingot"
+		},
+		"title": {
+			"translate": "Forged in The Depths"
+		},
+		"description": {
+			"translate": "Fuse Netherite Scrap and Gold Ingots into a powerful alloy - Netherite Ingot"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:nether/obtain_ancient_debris",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_ingot"
+						]
+					}
+				]
+			}
+		}
+	}
+}

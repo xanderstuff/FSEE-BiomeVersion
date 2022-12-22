@@ -5,11 +5,11 @@
 			"nbt": "{CustomModelData:90001,display:{color:16768338}}"
 		},
 		"title": {
-			"translate": "Holy Protected",
+			"translate": "Hallelujah!",
 			"color": "#FFCC38"
 		},
 		"description": {
-			"translate": "Negate an attack with a full set of Hallowed Armor"
+			"translate": "Dodge an attack while wearing a full set of Hallowed Armor"
 		},
 		"frame": "goal",
 		"show_toast": true,

@@ -1,0 +1,48 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bread"
+		},
+		"title": [
+            {
+			    "translate": "[Ba]",
+                "color": "dark_green"
+            },
+            {
+			    "translate": "king",
+                "color": "white"
+            },
+            " ",
+            {
+			    "translate": "[Br]",
+                "color": "dark_green"
+            },
+            {
+			    "translate": "ead",
+                "color": "white"
+            }
+        ],
+		"description": {
+			"translate": "Turn Wheat into Bread. Delicious!"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:husbandry/plant_seed",
+	"criteria": {
+		"get_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bread"
+						]
+					}
+				]
+			}
+		}
+	}
+}

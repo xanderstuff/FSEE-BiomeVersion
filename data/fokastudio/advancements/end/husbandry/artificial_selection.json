@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:mule_spawn_egg"
+		},
+		"title": {
+			"translate": "Artificial Selection"
+		},
+		"description": {
+			"translate": "Breed a Mule from a Horse and a Donkey"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:husbandry/bred_all_animals",
+	"criteria": {
+		"bred": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": {
+					"type": "minecraft:mule"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"bred"
+		]
+	]
+}

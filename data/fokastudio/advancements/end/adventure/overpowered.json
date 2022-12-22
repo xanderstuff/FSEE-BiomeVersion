@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanted_golden_apple"
+		},
+		"title": {
+			"translate": "Overpowered"
+		},
+		"description": {
+			"translate": "Eat and Enchanted Golden Apple and turn into a god for a few minutes"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:adventure/sleep_in_bed",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:enchanted_golden_apple"
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"criteria"
+		]
+	],
+	"rewards": {
+		"experience": 150
+	}
+}

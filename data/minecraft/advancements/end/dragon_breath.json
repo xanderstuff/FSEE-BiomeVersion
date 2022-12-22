@@ -6,9 +6,12 @@
 		"title": {
 			"translate": "advancements.end.dragon_breath.title"
 		},
-		"description": {
-			"translate": "advancements.end.dragon_breath.description"
-		},
+		"description": [
+			{
+				"translate": "advancements.end.dragon_breath.description"
+			},
+			"..."
+		],
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

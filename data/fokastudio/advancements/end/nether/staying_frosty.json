@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:fire_resistance\"}"
+		},
+		"title": {
+			"translate": "Stayin' Frosty"
+		},
+		"description": {
+			"translate": "Swim in Lava while having the Fire Resistance effect"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:nether/brew_potion",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"block": {
+							"blocks": [
+								"minecraft:lava",
+								"minecraft:lava_cauldron"
+							]
+						}
+					},
+					"effects": {
+						"minecraft:fire_resistance": {}
+					}
+				}
+			}
+		}
+	}
+}

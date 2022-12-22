@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:red_mushroom"
+		},
+		"title": {
+			"translate": "Funkytown"
+		},
+		"description": {
+			"translate": "Find a mushroom island in the open seas"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "minecraft:adventure/adventuring_time",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:mushroom_fields"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 150
+	}
+}

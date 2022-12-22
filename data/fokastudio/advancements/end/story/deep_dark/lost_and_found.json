@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:recovery_compass"
+		},
+		"title": {
+			"translate": "Lost and Found"
+		},
+		"description": {
+			"translate": "Craft a Recovery Compass using Echo Shards"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/deep_dark/ancient_treasures",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:recovery_compass"
+						]
+					}
+				]
+			}
+		}
+	}
+}

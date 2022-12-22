@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_porkchop"
+		},
+		"title": {
+			"translate": "Pork Chop"
+		},
+		"description": {
+			"translate": "Cook and eat a Pork Chop"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/time_to_strike",
+	"criteria": {
+		"eat_porkchop": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_porkchop"
+					]
+				}
+			}
+		}
+	}
+}

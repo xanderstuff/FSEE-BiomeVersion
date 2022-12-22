@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wheat_seeds"
+		},
+		"title": {
+			"translate": "Farming Simulator"
+		},
+		"description": {
+			"translate": "Break some Grass until you find some Seeds"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/time_to_farm",
+	"criteria": {
+		"get_seeds": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wheat_seeds"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"minecraft:bread"
+		]
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:disc_fragment_5"
+		},
+		"title": {
+			"translate": "Lost Footage"
+		},
+		"description": {
+			"translate": "Combine pieces of Disc 5 into a full record and put it into a Jukebox"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/deep_dark/ancient_treasures",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:music_disc_5"
+					]
+				},
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:jukebox"
+						]
+					}
+				}
+			}
+		}
+	}
+}

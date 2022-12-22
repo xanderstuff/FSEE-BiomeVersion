@@ -1,0 +1,265 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:magenta_wool"
+		},
+		"title": {
+			"translate": "Rainbow Collection"
+		},
+		"description": {
+			"translate": "Gather all 16 colors of Wool"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/have_a_shearful_day",
+	"criteria": {
+	    "wool1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:white_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:orange_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool3": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:magenta_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool4": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_blue_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool5": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:yellow_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool6": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lime_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool7": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pink_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool8": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:gray_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool9": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:light_gray_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool10": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cyan_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool11": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:purple_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool12": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:blue_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool13": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:brown_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool14": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:green_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool15": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:red_wool"
+						]
+					}
+				]
+			}
+		},
+	    "wool16": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:black_wool"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+		    "wool1"
+		],
+		[
+		    "wool2"
+		],
+		[
+		    "wool3"
+		],
+		[
+		    "wool4"
+		],
+		[
+		    "wool5"
+		],
+		[
+		    "wool6"
+		],
+		[
+		    "wool7"
+		],
+		[
+		    "wool8"
+		],
+		[
+		    "wool9"
+		],
+		[
+		    "wool10"
+		],
+		[
+		    "wool11"
+		],
+		[
+		    "wool12"
+		],
+		[
+		    "wool13"
+		],
+		[
+		    "wool14"
+		],
+		[
+		    "wool15"
+		],
+		[
+		    "wool16"
+		]
+	],
+	"rewards": {
+		"experience": 150
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bookshelf"
+		},
+		"title": {
+			"translate": "Librarian"
+		},
+		"description": {
+			"translate": "Place down some Bookshelves to improve your Enchanting Table"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:story/enchant_item",
+	"criteria": {
+		"get_enchanting_table": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:bookshelf"
+			}
+		}
+	}
+}

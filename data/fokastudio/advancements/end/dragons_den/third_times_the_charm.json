@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_helmet"
+		},
+		"title": {
+			"translate": "Third Time's the Charm",
+			"color": "#D400FF"
+		},
+		"description": {
+			"translate": "Summon the Ender Dragon a third time"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/dragons_den/god_slayer",
+	"criteria": {
+		"kill_dragon_again": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 500
+	}
+}

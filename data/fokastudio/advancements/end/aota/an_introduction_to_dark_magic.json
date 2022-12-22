@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:end_portal_frame",
+			"item": "minecraft:knowledge_book",
 			"nbt": "{CustomModelData:90000}"
 		},
 		"title": {
@@ -10,7 +10,7 @@
 		},
 		"description": [
 			{
-				"translate": "Throw an Enchanted Book over"
+				"translate": "Toss any Enchanted Book over"
 			},
 			" ",
 			{
@@ -19,7 +19,7 @@
 			},
 			" ",
 			{
-				"translate": "to imbue it with Dark Magic"
+				"translate": "to imbue it with the darkest of magic"
 			}
 		],
 		"frame": "goal",

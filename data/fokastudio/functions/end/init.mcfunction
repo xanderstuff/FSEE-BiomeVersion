@@ -58,9 +58,11 @@ scoreboard objectives add foka.misc.used_knowledge_book minecraft.used:minecraft
 scoreboard objectives add foka.misc.used_ender_pearl minecraft.used:minecraft.ender_pearl
 scoreboard objectives add foka.misc.hunger food
 scoreboard objectives add foka.misc.invul_timer dummy
+scoreboard objectives add foka.misc.flight_speed minecraft.custom:minecraft.aviate_one_cm
 
 # Detecting whether FSEE is being used on a server, or as a mod
 # Different things happen on different loaders
+# This is executed only once on first pack load to avoid unnecessary lag!
 execute unless score #reload foka.misc matches 1.. unless score #foka.config foka.config.join_message matches 0 run schedule function fokastudio:end/tellraw 5t
 execute unless score #reload foka.misc matches 1.. unless score #foka.is_spigot foka.misc matches 0.. unless score #foka.is_forge foka.misc matches 0.. unless score #foka.is_fabric foka.misc matches 0.. run schedule function fokastudio:end/loader_detection/detect 1s
 

@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald_block"
+		},
+		"title": {
+			"translate": "Buy Low, Sell High"
+		},
+		"description": {
+			"translate": "Trade for the best possible price"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:adventure/trade",
+	"criteria": {
+		"traded": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"player": {
+					"effects": {
+						"minecraft:hero_of_the_village": {
+							"amplifier": 4
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"traded"
+		]
+	],
+	"rewards": {
+		"experience": 150
+	}
+}

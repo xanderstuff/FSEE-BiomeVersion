@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_shrieker"
+		},
+		"title": {
+			"translate": "The Caretaker"
+		},
+		"description": {
+			"translate": "Kill the Warden - the one that was created to be undefeatable"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "minecraft:adventure/avoid_vibration",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:warden"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"experience": 9000
+	}
+}

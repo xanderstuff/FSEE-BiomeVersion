@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus"
+		},
+		"title": {
+			"translate": "A Piece of Otherworld"
+		},
+		"description": {
+			"translate": "Enter Warped Forest - home of Endermen in The Nether"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:nether/explore_nether",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:warped_forset"
+					}
+				}
+			}
+		}
+	}
+}

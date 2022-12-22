@@ -350,7 +350,7 @@
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "fokastudio:end/exploration/unavoidable",
+	"parent": "fokastudio:end/exploration/ender_adventurer",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:location",

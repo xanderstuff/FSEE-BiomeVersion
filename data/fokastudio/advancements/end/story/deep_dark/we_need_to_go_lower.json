@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:deepslate"
+		},
+		"title": {
+			"translate": "We Need to Go Lower"
+		},
+		"description": {
+			"translate": "You know you are approaching the bottom of the world when Stone turns dark..."
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:story/iron_tools",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"position": {
+							"y": {
+								"max": 0
+							}
+						},
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		}
+	}
+}

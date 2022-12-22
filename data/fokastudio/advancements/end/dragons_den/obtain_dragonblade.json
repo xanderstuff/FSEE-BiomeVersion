@@ -9,11 +9,11 @@
 			"color": "#CD6AFF"
 		},
 		"description": {
-			"translate": "Obtain the Dragonblade, the legendary sword forged in the far corners of The End"
+			"translate": "Obtain the Dragonblade, a legendary sword forged in the furthest corners of The End"
 		},
 		"frame": "goal"
 	},
-	"parent": "minecraft:end/kill_dragon",
+	"parent": "minecraft:end/dragon_egg",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:inventory_changed",

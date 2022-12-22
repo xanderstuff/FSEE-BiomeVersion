@@ -16,13 +16,16 @@
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "fokastudio:end/dragons_den/judgement_day",
+	"parent": "fokastudio:end/dragons_den/final_showdown",
 	"criteria": {
 		"kill_dragon": {
 			"trigger": "minecraft:impossible"
 		}
 	},
 	"rewards": {
+		"recipes": [
+			"minecraft:end_crystal"
+		],
 		"experience": 12000
 	}
 }

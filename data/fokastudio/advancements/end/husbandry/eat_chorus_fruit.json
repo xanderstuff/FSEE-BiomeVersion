@@ -13,7 +13,7 @@
 		"show_toast": true,
 		"announce_to_chat": true
 	},
-	"parent": "minecraft:husbandry/root",
+	"parent": "minecraft:husbandry/balanced_diet",
 	"criteria": {
 		"eat_chorus_fruit": {
 			"trigger": "minecraft:consume_item",

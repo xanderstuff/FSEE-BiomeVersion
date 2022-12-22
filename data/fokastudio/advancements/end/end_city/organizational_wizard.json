@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:yellow_shulker_box"
+		},
+		"title": {
+			"translate": "Organizational Wizard"
+		},
+		"description": {
+			"translate": "Rename a Shulker Box with an Anvil"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/end_city/portable_storage",
+	"criteria": {
+		"shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "fokastudio:end/shulker_boxes",
+						"nbt": "{RepairCost:0}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"shulker_box"
+		]
+	]
+}

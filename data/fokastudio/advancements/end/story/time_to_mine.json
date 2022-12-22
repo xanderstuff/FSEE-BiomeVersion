@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wooden_pickaxe"
+		},
+		"title": {
+			"translate": "Time to Mine!"
+		},
+		"description": {
+			"translate": "Use Planks and Sticks to make a Pickaxe"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/benchmarking",
+	"criteria": {
+		"get_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wooden_pickaxe"
+						]
+					}
+				]
+			}
+		}
+	}
+}

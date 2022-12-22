@@ -10,12 +10,13 @@ kill @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal]
 kill @e[type=marker,tag=foka.dragon_respawn.marker]
 kill @e[type=marker,tag=foka.dragon_respawn.beam]
 
+advancement grant @a[distance=..100,advancements={fokastudio:end/dragons_den/judgement_day=true,minecraft:end/respawn_dragon=true}] only fokastudio:end/dragons_den/third_times_the_charm
 advancement grant @a[distance=..100,advancements={fokastudio:end/dragons_den/judgement_day=true}] only minecraft:end/respawn_dragon
 advancement grant @a[distance=..100] only fokastudio:end/dragons_den/judgement_day
 
 tag @s add fe.deactivated.spawn_dragon
 tag @s remove fe.respawn
-tag @a remove fe.dragon_defeated
+#tag @a remove fe.dragon_defeated
 
 execute as @e[type=minecraft:end_crystal,predicate=fokastudio:end/locations/in_the_end] at @s run function fokastudio:end/visuals/dragon_respawn_animation/crystal_transition
 

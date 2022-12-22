@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:crafting_table"
+		},
+		"title": {
+			"translate": "Benchmarking"
+		},
+		"description": {
+			"translate": "Craft a Crafting Table with four blocks of Planks"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/getting_wood",
+	"criteria": {
+		"get_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crafting_table"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"minecraft:wooden_axe",
+			"minecraft:wooden_hoe",
+			"minecraft:wooden_pickaxe",
+			"minecraft:wooden_shovel",
+			"minecraft:wooden_sword"
+		]
+	}
+}

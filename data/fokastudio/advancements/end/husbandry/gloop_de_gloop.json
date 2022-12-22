@@ -2,14 +2,14 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:slime_ball",
-			"nbt": "{Enchantments:[]}"
+			"nbt": "{Enchantments:[{}]}"
 		},
 		"title": {
 			"translate": "Gloop de Gloop",
 			"color": "#7bc664"
 		},
 		"description": {
-			"translate": "Free a Gloop from a Pandora's Barrel opened in Swamp biome."
+			"translate": "Free a Gloop from a Pandora's Barrel opened in any Swamp biome."
 		},
 		"frame": "challenge"
 	},

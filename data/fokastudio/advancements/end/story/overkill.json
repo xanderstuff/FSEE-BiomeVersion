@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_sword"
+		},
+		"title": {
+			"translate": "Overkill"
+		},
+		"description": {
+			"translate": "Deal nine damage in a single hit"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/time_to_strike",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"dealt": {
+						"min": 9
+					}
+				}
+			}
+		}
+	}
+}

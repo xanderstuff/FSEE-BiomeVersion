@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blaze_powder"
+		},
+		"title": {
+			"translate": "Strengthened by Fire"
+		},
+		"description": {
+			"translate": "Once you combine enough Fiery Essence with an Ender Pearl it turns into... something different?"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/obtain_an_ender_pearl",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:ender_eye"
+						]
+					}
+				]
+			}
+		}
+	}
+}

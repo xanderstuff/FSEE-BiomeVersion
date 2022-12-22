@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:jukebox"
+		},
+		"title": {
+			"translate": "Champions Ballad"
+		},
+		"description": {
+			"translate": "Cant fight a Boss without tunes!"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:adventure/play_jukebox_in_meadows",
+	"criteria": {
+		"play_jukebox_in_the_end": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"tag": "minecraft:music_discs"
+				},
+				"location": {
+					"biome": "fokastudio:dragons_den",
+					"block": {
+						"blocks": [
+							"minecraft:jukebox"
+						]
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"play_jukebox_in_the_end"
+		]
+	]
+}

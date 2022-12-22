@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra"
+		},
+		"title": {
+			"translate": "Super Sonic"
+		},
+		"description": {
+			"translate": "Use Elytra to fly through a 1 by 1 gap while moving faster than 40 m/s"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/elytra",
+	"criteria": {
+		"fly": {
+			"trigger": "minecraft:impossible",
+			"conditions": {}
+		}
+	},
+	"requirements": [
+		[
+			"fly"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

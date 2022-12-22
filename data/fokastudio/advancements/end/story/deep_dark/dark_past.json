@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:deepslate_bricks"
+		},
+		"title": {
+			"translate": "Dark Past"
+		},
+		"description": {
+			"translate": "Find an Ancient City and uncover its secrets"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/deep_dark/keep_quiet",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:ancient_city"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wooden_sword"
+		},
+		"title": {
+			"translate": "Time to Strike!"
+		},
+		"description": {
+			"translate": "Use Planks and Sticks to make a Sword"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/benchmarking",
+	"criteria": {
+		"get_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wooden_sword"
+						]
+					}
+				]
+			}
+		}
+	}
+}

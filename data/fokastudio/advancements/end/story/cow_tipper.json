@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather"
+		},
+		"title": {
+			"translate": "Cow Tipper"
+		},
+		"description": {
+			"translate": "Harvest some Leather"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/time_to_strike",
+	"criteria": {
+		"get_wood": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:leather"
+						]
+					}
+				]
+			}
+		}
+	}
+}

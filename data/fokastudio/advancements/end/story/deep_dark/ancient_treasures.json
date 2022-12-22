@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chest"
+		},
+		"title": {
+			"translate": "Ancient Treasures"
+		},
+		"description": {
+			"translate": "Loot a Chest found inside an Ancient City"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/deep_dark/dark_past",
+	"criteria": {
+		"criteria1": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/ancient_city"
+			}
+		},
+		"criteria2": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/ancient_city_ice_box"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"criteria1",
+			"criteria2"
+		]
+	]
+}

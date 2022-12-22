@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shears"
+		},
+		"title": {
+			"translate": "Have a Shearful Day"
+		},
+		"description": {
+			"translate": "Use Shears to obtain Wool from a Sheep"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/story/time_to_farm",
+	"criteria": {
+		"use_shears": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:shears"
+					]
+				},
+				"entity": {
+					"type": "minecraft:sheep"
+				}
+			}
+		}
+	}
+}
