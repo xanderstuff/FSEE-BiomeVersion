@@ -36,7 +36,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/ender_insignia"
+					"name": "fokastudio:end/items/trinkets/ender_insignia"
 				},
 				{
 					"type": "minecraft:loot_table",

@@ -82,7 +82,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/duskberry"
+					"name": "fokastudio:end/items/trinkets/duskberry"
 				}
 			],
 			"conditions": [

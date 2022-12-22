@@ -1,0 +1,57 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:conduit",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": [
+								{
+									"translate": "Shattered",
+									"color": "dark_purple",
+									"italic": false
+								},
+								" ",
+								{
+									"translate": "block.minecraft.conduit",
+									"color": "dark_purple",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,foka.special_item:\"shattered_conduit\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "Filled with Altar's Dark Magic,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "it still retains Conduit's power",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "Provides infinite Conduit Power while held",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

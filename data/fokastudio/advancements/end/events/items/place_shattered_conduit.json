@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"block": "minecraft:conduit",
+				"item": {
+					"items": [
+						"minecraft:conduit"
+					],
+					"nbt": "{foka.special_item:\"shattered_conduit\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/shattered_conduit/place"
+	}
+}

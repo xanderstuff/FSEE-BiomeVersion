@@ -1,0 +1,50 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"foka.misc.shot_bow": {
+					"min": 1
+				}
+			}
+		},
+        {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"foka.misc.thrown_trident": {
+					"min": 1
+				}
+			}
+		},
+        {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"foka.misc.used_knowledge_book": {
+					"min": 1
+				}
+			}
+		},
+        {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"foka.misc.used_ender_pearl": {
+					"min": 1
+				}
+			}
+		},
+        {
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"foka.misc.flight_speed": {
+					"min": 1
+				}
+			}
+		}
+	]
+}
