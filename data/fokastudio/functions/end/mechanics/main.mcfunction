@@ -1,5 +1,3 @@
-execute as @a[tag=foka.ender_blessed] at @s run function fokastudio:end/mechanics/ends_blessing/main
-
 # Totem of Undying gives Levitation when falling out of the world
 execute as @a[scores={foka.mechanics.void_totem_protection_time=1..}] run scoreboard players remove @s foka.mechanics.void_totem_protection_time 1
 # Some effects do not apply instantly or are overshadowed by Vanilla
