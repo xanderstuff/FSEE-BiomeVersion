@@ -54,6 +54,8 @@ tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:sugar",Count:6b}},distance
 
 # Tags for Pandora's Barrel
 execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:barrel",Count:1b}},distance=..1.5] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.barrel
-tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:sculk",Count:5b}},distance=..1.5] add foka.altar_of_the_accursed.5_sculk
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:iron_block",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.1_iron_block
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:gold_block",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.1_gold_block
+
+# Tag for Shattered Conduit
+execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:conduit",Count:1b}},distance=..1.5] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.conduit
