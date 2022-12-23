@@ -139,10 +139,6 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/crest_of_the_end"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"name": "fokastudio:end/items/pandoras_barrel",
 					"functions": [
 						{

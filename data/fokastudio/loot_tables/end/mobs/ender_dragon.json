@@ -41,6 +41,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "fokastudio:end/items/dragonblade"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/crest_of_the_end"
 				}
 			]
 		}
