@@ -1,4 +1,4 @@
-scoreboard players set @s foka.items.prismatic_pearl.cooldown 160
+scoreboard players set @s foka.items.prismatic_pearl.cooldown 120
 
 stopsound @a neutral minecraft:entity.ender_pearl.throw
 playsound minecraft:entity.ender_eye.launch neutral @a ~ ~ ~ 1 0
