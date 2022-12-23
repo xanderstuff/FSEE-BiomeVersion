@@ -9,3 +9,4 @@ effect give @s weakness 7 1 false
 particle dust_color_transition 1 0 0 1 0.439 0 0 ~ ~1 ~ .3 .55 .3 0 30 force
 
 tag @s add foka.items.living_flesh.hunger_remove_schedule
+schedule function fokastudio:end/items/living_flesh/scheduled 1t

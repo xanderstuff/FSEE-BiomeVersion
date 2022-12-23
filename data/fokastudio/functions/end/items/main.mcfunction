@@ -28,9 +28,6 @@ execute as @a[scores={foka.misc.shot_bow=1},predicate=fokastudio:end/items/holdi
 execute as @a[scores={foka.items.sabrewing.until_charge_reset=1..}] run function fokastudio:end/items/sabrewing/reset_charge_countdown
 execute as @e[type=#arrows,tag=foka.items.sabrewing.arrow] at @s run function fokastudio:end/items/sabrewing/charged_shots/loop
 
-# Living Flesh
-execute as @a[tag=foka.items.living_flesh.hunger_remove_schedule] run function fokastudio:end/items/living_flesh/remove_hunger
-
 # Cursed Tome
 execute as @a[scores={foka.misc.used_knowledge_book=1..},tag=foka.holding.cursed_tome] at @s run function fokastudio:end/items/cursed_tome/use
 
