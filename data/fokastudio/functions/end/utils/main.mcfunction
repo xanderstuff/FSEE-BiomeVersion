@@ -13,3 +13,9 @@ execute as @a[predicate=fokastudio:end/utils/has_utility_scoreboards] run functi
 
 execute as @a[scores={foka.misc.invul_timer=1..}] run scoreboard players remove @s foka.misc.invul_timer 1
 execute as @a unless score @s foka.misc.invul_timer matches ..2147483647 run scoreboard players set @s foka.misc.invul_timer 0
+
+# Respawn detection
+# @s, @e and @a will always select a player, dead or alive
+# By doing '@e[type=player]', it will only select ones who are alive
+# Weird, but it works!
+execute as @e[type=player,scores={foka.misc.respawn_detection=1..}] run function fokastudio:end/utils/respawn_detection/on_respawn

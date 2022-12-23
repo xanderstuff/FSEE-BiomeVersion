@@ -59,6 +59,7 @@ scoreboard objectives add foka.misc.used_ender_pearl minecraft.used:minecraft.en
 scoreboard objectives add foka.misc.hunger food
 scoreboard objectives add foka.misc.invul_timer dummy
 scoreboard objectives add foka.misc.flight_speed minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add foka.misc.respawn_detection minecraft.custom:minecraft.deaths
 
 # Detecting whether FSEE is being used on a server, or as a mod
 # Different things happen on different loaders

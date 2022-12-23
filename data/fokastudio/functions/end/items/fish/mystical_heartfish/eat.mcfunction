@@ -8,3 +8,5 @@ particle firework ~ ~1 ~ .3 .55 .3 0 20 force
 playsound minecraft:entity.evoker.cast_spell player @a ~ ~ ~ 1 1.4
 
 summon area_effect_cloud ~ ~ ~ {Tags:["foka.items.fish.mystical_heartfish.aec"],Duration:21}
+
+function fokastudio:end/items/fish/mystical_heartfish/increase_max_hp
