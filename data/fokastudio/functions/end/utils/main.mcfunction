@@ -19,3 +19,5 @@ execute as @a unless score @s foka.misc.invul_timer matches ..2147483647 run sco
 # By doing '@e[type=player]', it will only select ones who are alive
 # Weird, but it works!
 execute as @e[type=player,scores={foka.misc.respawn_detection=1..}] run function fokastudio:end/utils/respawn_detection/on_respawn
+
+execute as @e[type=item,nbt={Item:{id:"minecraft:structure_void",tag:{foka.custom_mob_death_sound:1b}}}] at @s run function fokastudio:end/utils/custom_mob_death_sounds/death

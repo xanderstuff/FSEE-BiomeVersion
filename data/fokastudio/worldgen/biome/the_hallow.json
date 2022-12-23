@@ -35,7 +35,7 @@
 	"spawn_costs": {
 		"minecraft:vex": {
 			"energy_budget": 0.44,
-			"charge": 1.25
+			"charge": 1.42
 		}
 	},
 	"carvers": {},

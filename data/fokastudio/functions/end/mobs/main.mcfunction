@@ -1,7 +1,6 @@
 ## Hallow Mobs
-# Pixies AND Allays
+# Pixies
 execute as @e[type=vex,predicate=fokastudio:end/locations/biomes/in_the_hallow,tag=!foka.pixie,tag=!foka.aware] at @s run function fokastudio:end/mobs/pixie/vex_to_pixie
-execute as @e[type=vex,tag=foka.pixie] at @s run function fokastudio:end/mobs/pixie/particles
 
 execute as @e[type=marker,tag=foka.eol.spawn_animation] at @s run function fokastudio:end/mobs/eol/animations/spawn/loop
 execute as @e[type=vindicator,tag=foka.eol] at @s run function fokastudio:end/mobs/eol/main
