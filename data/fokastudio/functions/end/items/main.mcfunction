@@ -16,6 +16,7 @@ execute as @a[predicate=fokastudio:end/items/clockwork_crossbow/holding_unloaded
 # Sharanga
 execute as @a[scores={foka.misc.shot_bow=1},predicate=fokastudio:end/items/holding_sharanga] at @s run function fokastudio:end/items/sharanga/shoot
 execute as @e[type=spectral_arrow,tag=foka.spectral_bolt] at @s run function fokastudio:end/items/sharanga/arrow_loop
+#execute as @e[type=spectral_arrow,tag=foka.spectral_bolt,tag=!foka.sharanga.buffed_velocity] run function fokastudio:end/items/sharanga/velocity
 
 # Prismatic Punch
 execute as @e[type=marker,tag=foka.prismatic_blast] at @s run function fokastudio:end/items/prismatic_punch/blast_loop
