@@ -39,14 +39,8 @@
 	},
 	"entity.enderman.stare":{
 		"sounds":[
-			{
-				"name":"fokastudio:mob/enderman/stare_1",
-				"volume":0.5
-			},
-			{
-				"name":"fokastudio:mob/enderman/stare_2",
-				"volume":0.5
-			}
+			"fokastudio:mob/enderman/stare_1",
+			"fokastudio:mob/enderman/stare_2"
 		],
 		"subtitle":"subtitles.entity.enderman.stare",
 		"replace":true
@@ -93,73 +87,73 @@
 	},
 	"entity.shulker.ambient":{
 		"sounds":[
-			"fokastudio:mob/shulker/idle_1",
-			"fokastudio:mob/shulker/idle_2",
-			"fokastudio:mob/shulker/idle_3",
-			"fokastudio:mob/shulker/idle_4",
-			"fokastudio:mob/shulker/idle_5",
-			"fokastudio:mob/shulker/idle_6",
-			"fokastudio:mob/shulker/idle_7"
+			{"name":"fokastudio:mob/shulker/idle_1","volume":0.3},
+			{"name":"fokastudio:mob/shulker/idle_2","volume":0.3},
+			{"name":"fokastudio:mob/shulker/idle_3","volume":0.3},
+			{"name":"fokastudio:mob/shulker/idle_4","volume":0.3},
+			{"name":"fokastudio:mob/shulker/idle_5","volume":0.3},
+			{"name":"fokastudio:mob/shulker/idle_6","volume":0.3},
+			{"name":"fokastudio:mob/shulker/idle_7","volume":0.3}
 		],
 		"subtitle":"subtitles.entity.shulker.ambient",
 		"replace":true
 	},
 	"entity.shulker.close":{
 		"sounds":[
-			"fokastudio:mob/shulker/close_1",
-			"fokastudio:mob/shulker/close_2",
-			"fokastudio:mob/shulker/close_3",
-			"fokastudio:mob/shulker/close_4"
+			{"name":"fokastudio:mob/shulker/close_1","volume":0.3},
+			{"name":"fokastudio:mob/shulker/close_2","volume":0.3},
+			{"name":"fokastudio:mob/shulker/close_3","volume":0.3},
+			{"name":"fokastudio:mob/shulker/close_4","volume":0.3}
 		],
 		"subtitle":"subtitles.entity.shulker.close",
 		"replace":true
 	},
 	"entity.shulker.death":{
 		"sounds":[
-			"fokastudio:mob/shulker/death_1",
-			"fokastudio:mob/shulker/death_2",
-			"fokastudio:mob/shulker/death_3",
-			"fokastudio:mob/shulker/death_4"
+			{"name":"fokastudio:mob/shulker/death_1","volume":0.3},
+			{"name":"fokastudio:mob/shulker/death_2","volume":0.3},
+			{"name":"fokastudio:mob/shulker/death_3","volume":0.3},
+			{"name":"fokastudio:mob/shulker/death_4","volume":0.3}
 		],
 		"subtitle":"subtitles.entity.shulker.death",
 		"replace":true
 	},
 	"entity.shulker.hurt":{
 		"sounds":[
-			"fokastudio:mob/shulker/hurt_open_1",
-			"fokastudio:mob/shulker/hurt_open_2",
-			"fokastudio:mob/shulker/hurt_open_3",
-			"fokastudio:mob/shulker/hurt_open_4"
+			{"name":"fokastudio:mob/shulker/hurt_open_1","volume":0.3},
+			{"name":"fokastudio:mob/shulker/hurt_open_2","volume":0.3},
+			{"name":"fokastudio:mob/shulker/hurt_open_3","volume":0.3},
+			{"name":"fokastudio:mob/shulker/hurt_open_4","volume":0.3}
 		],
 		"subtitle":"subtitles.entity.shulker.hurt",
 		"replace":true
 	},
 	"entity.shulker.hurt_closed":{
 		"sounds":[
-			"fokastudio:mob/shulker/hurt_closed_1",
-			"fokastudio:mob/shulker/hurt_closed_2",
-			"fokastudio:mob/shulker/hurt_closed_3",
-			"fokastudio:mob/shulker/hurt_closed_4"
+			{"name":"fokastudio:mob/shulker/hurt_closed_1","volume":0.3},
+			{"name":"fokastudio:mob/shulker/hurt_closed_2","volume":0.3},
+			{"name":"fokastudio:mob/shulker/hurt_closed_3","volume":0.3},
+			{"name":"fokastudio:mob/shulker/hurt_closed_4","volume":0.3}
 		],
 		"subtitle":"subtitles.entity.shulker.hurt",
 		"replace":true
 	},
 	"entity.shulker.open":{
 		"sounds":[
-			"fokastudio:mob/shulker/open_1",
-			"fokastudio:mob/shulker/open_2",
-			"fokastudio:mob/shulker/open_3",
-			"fokastudio:mob/shulker/open_4"
+			{"name":"fokastudio:mob/shulker/open_1","volume":0.3},
+			{"name":"fokastudio:mob/shulker/open_2","volume":0.3},
+			{"name":"fokastudio:mob/shulker/open_3","volume":0.3},
+			{"name":"fokastudio:mob/shulker/open_4","volume":0.3}
 		],
 		"subtitle":"subtitles.entity.shulker.open",
 		"replace":true
 	},
 	"entity.shulker.shoot":{
 		"sounds":[
-			"fokastudio:mob/shulker/shoot_1",
-			"fokastudio:mob/shulker/shoot_2",
-			"fokastudio:mob/shulker/shoot_3",
-			"fokastudio:mob/shulker/shoot_4"
+			{"name":"fokastudio:mob/shulker/shoot_1","volume":0.3},
+			{"name":"fokastudio:mob/shulker/shoot_2","volume":0.3},
+			{"name":"fokastudio:mob/shulker/shoot_3","volume":0.3},
+			{"name":"fokastudio:mob/shulker/shoot_4","volume":0.3}
 		],
 		"subtitle":"subtitles.entity.shulker.shoot",
 		"replace":true
@@ -235,5 +229,13 @@
 			}
 		],
 		"replace":true
+	},
+	"block.portal.travel": {
+		"sounds": [
+			{
+				"name": "portal/travel",
+				"volume": 0.45
+			}
+		]
 	}
 }

@@ -54,7 +54,8 @@
 			"index":0,
 			"priority":0,
 			"selectors":[
-				"&foka.special_item=cursed_tome"
+				"&foka.special_item=cursed_tome",
+				"&foka.special_item=pandoras_barrel"
 			]
 		},
 		{
@@ -90,6 +91,22 @@
 			"endColor":"#39005A",
 			"selectors":[
 				"&foka.special_item=duskberry"
+			]
+		},
+		{
+			"image":"fokastudio:textures/tooltips/zephyr.png",
+			"startColor":"#9D9D9D",
+			"endColor":"#9D9D9D",
+			"selectors":[
+				"&foka.special_item=zephyr"
+			]
+		},
+		{
+			"image":"fokastudio:textures/tooltips/pufferfish.png",
+			"startColor":"#FFDB6C",
+			"endColor":"#FFDB6C",
+			"selectors":[
+				"&foka.special_item=starstruck_carcanet"
 			]
 		}
 	]

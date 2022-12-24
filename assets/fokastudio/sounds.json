@@ -21,30 +21,6 @@
 		],
 		"subtitle":"Endermite Attacks"
 	},
-	"item.sabrewing.arrow_impact_level_1":{
-		"sounds":[
-			"fokastudio:item/sabrewing/impact_level_1_1",
-			"fokastudio:item/sabrewing/impact_level_1_2",
-			"fokastudio:item/sabrewing/impact_level_1_3"
-		],
-		"subtitle":"Sabrewing Arrow Explodes"
-	},
-	"item.sabrewing.arrow_impact_level_2":{
-		"sounds":[
-			"fokastudio:item/sabrewing/impact_level_2_1",
-			"fokastudio:item/sabrewing/impact_level_2_2",
-			"fokastudio:item/sabrewing/impact_level_2_3"
-		],
-		"subtitle":"Sabrewing Arrow Explodes"
-	},
-	"item.sabrewing.arrow_impact_level_3":{
-		"sounds":[
-			"fokastudio:item/sabrewing/impact_level_3_1",
-			"fokastudio:item/sabrewing/impact_level_3_2",
-			"fokastudio:item/sabrewing/impact_level_3_3"
-		],
-		"subtitle":"Sabrewing Arrow Explodes"
-	},
     "music.amethyst_forest": {
         "sounds": [
             {
