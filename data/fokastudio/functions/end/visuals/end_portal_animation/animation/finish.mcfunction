@@ -25,6 +25,10 @@ execute as @e[type=marker,limit=1,sort=nearest,tag=foka.end_portal] at @s rotate
 execute as @e[type=marker,limit=1,sort=nearest,tag=foka.end_portal] at @s rotated ~300 ~ run summon armor_stand ^ ^-2 ^5 {NoGravity:1b,Tags:["foka.end_portal_animation.eye_11","foka.end_portal_animation.eye"],Small:1b,Marker:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"player_head",Count:1b,tag:{SkullOwner:{Id:[I;907160796,1821854615,-1727336627,-176309982],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ=="}]}}}}]}
 execute as @e[type=marker,limit=1,sort=nearest,tag=foka.end_portal] at @s rotated ~330 ~ run summon armor_stand ^ ^-2 ^5 {NoGravity:1b,Tags:["foka.end_portal_animation.eye_12","foka.end_portal_animation.eye"],Small:1b,Marker:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"player_head",Count:1b,tag:{SkullOwner:{Id:[I;907160796,1821854615,-1727336627,-176309982],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ=="}]}}}}]}
 
-advancement grant @a[distance=..32] only fokastudio:end/stronghold/the_deed_is_done
+schedule function fokastudio:end/visuals/end_portal_animation/animation/scheduled_poof 1t append
+
+function fokastudio:end/visuals/end_portal_animation/ambient_sounds
+
+advancement grant @a[distance=..32] only fokastudio:end/story/journeys_end
 
 kill @s
