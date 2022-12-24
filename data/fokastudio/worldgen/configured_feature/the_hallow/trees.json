@@ -5,7 +5,7 @@
             {
 				"chance": 0.3333,
 				"feature": {
-					"feature": "fokastudio:the_hallow/trees/bush",
+					"feature": "fokastudio:the_hallow/trees/scattered_bush",
 					"placement": []
 				}
 			},

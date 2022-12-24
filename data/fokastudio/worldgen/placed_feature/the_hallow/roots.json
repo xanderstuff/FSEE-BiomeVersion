@@ -1,9 +1,9 @@
 {
-	"feature": "fokastudio:highlands/patches",
+	"feature": "fokastudio:the_hallow/roots",
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 150
+			"count": 64
 		},
 		{
 			"type": "minecraft:in_square"
@@ -22,10 +22,23 @@
 		},
 		{
 			"type": "minecraft:environment_scan",
-			"direction_of_search": "down",
-			"max_steps": 12,
+			"direction_of_search": "up",
+			"max_steps": 24,
 			"target_condition": {
-				"type": "minecraft:solid"
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:has_sturdy_face",
+						"direction": "down"
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:dirt",
+							"minecraft:grass_block"
+						]
+					}
+				]
 			},
 			"allowed_search_condition": {
 				"type": "minecraft:matching_blocks",
@@ -37,7 +50,7 @@
 		{
 			"type": "minecraft:random_offset",
 			"xz_spread": 0,
-			"y_spread": 1
+			"y_spread": -1
 		},
 		{
 			"type": "minecraft:biome"

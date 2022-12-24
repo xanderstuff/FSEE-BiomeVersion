@@ -43,10 +43,10 @@
 		},
 		"foliage_placer": {
 			"type": "minecraft:random_spread_foliage_placer",
-			"radius": 2,
-			"offset": 1,
+			"radius": 3,
+			"offset": 0,
 			"foliage_height": 2,
-			"leaf_placement_attempts": 64
+			"leaf_placement_attempts": 32
 		},
 		"decorators": []
 	}

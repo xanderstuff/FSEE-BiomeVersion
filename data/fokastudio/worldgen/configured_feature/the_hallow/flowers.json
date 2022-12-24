@@ -10,29 +10,25 @@
 				"config": {
 					"to_place": {
 						"type": "minecraft:noise_provider",
-						"seed": 2345,
+						"seed": 2137,
 						"noise": {
 							"firstOctave": 0,
 							"amplitudes": [
-								1
+								1,
+								1,
+								0
 							]
 						},
-						"scale": 0.020833334,
+						"scale": 0.010416667,
 						"states": [
 							{
 								"Name": "minecraft:poppy"
 							},
 							{
-								"Name": "minecraft:red_tulip"
-							},
-							{
-								"Name": "minecraft:orange_tulip"
+								"Name": "minecraft:oxeye_daisy"
 							},
 							{
 								"Name": "minecraft:dandelion"
-							},
-							{
-								"Name": "minecraft:blue_orchid"
 							},
 							{
 								"Name": "minecraft:cornflower"

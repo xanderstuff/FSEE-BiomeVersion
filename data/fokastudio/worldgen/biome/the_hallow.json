@@ -10,16 +10,20 @@
 		"grass_color": 5161443,
 		"foliage_color": 5219299,
 		"mood_sound": {
-			"sound": "block.amethyst_block.chime",
+			"sound": "ambient.soul_sand_valley.mood",
 			"tick_delay": 900,
-			"block_search_extent": 6,
+			"block_search_extent": 2,
 			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "ambient.underwater.additions.rare",
+			"tick_chance": 0.00111
 		},
 		"particle": {
 			"options": {
-				"type": "end_rod"
+				"type": "firework"
 			},
-			"probability": 0.00124
+			"probability": 0.001
 		}
 	},
 	"spawners": {
@@ -28,42 +32,44 @@
 				"type": "minecraft:vex",
 				"weight": 5,
 				"minCount": 1,
-				"maxCount": 2
+				"maxCount": 3
 			}
 		]
 	},
 	"spawn_costs": {
 		"minecraft:vex": {
-			"energy_budget": 0.44,
-			"charge": 1.42
+			"energy_budget": 0.3,
+			"charge": 1.3
 		}
 	},
 	"carvers": {},
 	"features": [
 		[
 			"fokastudio:the_hallow/stalactite",
-			"fokastudio:the_hallow/crystals"
+			"fokastudio:the_hallow/patches"
 		],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[],
 		[
-			"fokastudio:the_hallow/underground/crystals/crystal_down",
-			"fokastudio:the_hallow/underground/crystals/crystal_east",
-			"fokastudio:the_hallow/underground/crystals/crystal_north",
-			"fokastudio:the_hallow/underground/crystals/crystal_south",
-			"fokastudio:the_hallow/underground/crystals/crystal_up",
-			"fokastudio:the_hallow/underground/crystals/crystal_west"
+			"fokastudio:the_hallow/crystals",
+			"fokastudio:the_hallow/crystals_amethyst",
+			"fokastudio:the_hallow/rock"
 		],
+		[
+			"fokastudio:the_hallow/large_lake"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
 		[
 			"fokastudio:the_hallow/trees",
 			"fokastudio:the_hallow/flowers",
 			"fokastudio:the_hallow/grass",
-			"fokastudio:the_hallow/rock"
+			"fokastudio:the_hallow/lanterns",
+			"fokastudio:the_hallow/lanterns_trees",
+			"fokastudio:the_hallow/weeping_vines",
+			"fokastudio:the_hallow/roots"
 		],
 		[
 			"fokastudio:the_hallow/calcite"
