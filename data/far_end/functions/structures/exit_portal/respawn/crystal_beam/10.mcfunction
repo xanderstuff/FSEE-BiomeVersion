@@ -1,1 +1,1 @@
-data merge entity @s {BeamTarget:{X:50,Y:105,Z:-39}}
+data merge entity @s {BeamTarget:{X:50,Y:95,Z:-39}}
