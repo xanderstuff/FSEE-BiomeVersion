@@ -1,4 +1,4 @@
-execute run scoreboard players add @s foka.mechanics.end_music 1
+scoreboard players add @s foka.mechanics.end_music 1
 
 # By default plays every 10 seconds * 90 (900s = 15 minutes)
 # Enough for all tracks to finish before playing again, as the longest End track is ~15 minutes or so
