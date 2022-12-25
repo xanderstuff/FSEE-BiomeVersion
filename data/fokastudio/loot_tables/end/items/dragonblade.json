@@ -1,69 +1,68 @@
 {
 	"pools": [
-	  {
-		"rolls": 1,
-		"entries": [
-		  {
-			"type": "minecraft:item",
-			"name": "minecraft:netherite_sword",
-			"functions": [
-			  {
-				"function": "minecraft:set_nbt",
-				"tag": "{foka.special_item:\"dragonblade\",foka_durability:{enabled:1b,max_dur:1666},CustomModelData:90000}"
-			  },
-			  {
-				"function": "minecraft:set_name",
-				"name": {
-				  "translate": "Dragonblade",
-				  "color": "#CD6AFF",
-				  "italic": false
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"dragonblade\",foka_durability:{enabled:1b,max_dur:1666},CustomModelData:90000}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Dragonblade",
+								"color": "#CD6AFF",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "A fearsome sword with an otherwordly punch!",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "'It came from the edge of The End'",
+									"color": "#EEEEEE",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": {
+										"min": 3,
+										"max": 5
+									},
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"amount": {
+										"min": -3.4,
+										"max": -3
+									},
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
 				}
-			  },
-			  {
-				"function": "minecraft:set_lore",
-				"lore": [
-				  {
-					"translate": "A fearsome sword with an otherwordly punch!",
-					"color": "#EEEEEE",
-					"italic": false
-				  },
-				  "",
-				  {
-					"translate": "'It came from the edge of The End'",
-					"color": "#EEEEEE",
-					"italic": true
-				  }
-				]
-			  },
-			  {
-				"function": "minecraft:set_attributes",
-				"modifiers": [
-				  {
-					"attribute": "minecraft:generic.attack_damage",
-					"name": "",
-					"amount": {
-					  "min": 4,
-					  "max": 6
-					},
-					"operation": "addition",
-					"slot": "mainhand"
-				  },
-				  {
-					"attribute": "minecraft:generic.attack_speed",
-					"name": "",
-					"amount": {
-					  "min": -3.4,
-					  "max": -3
-					},
-					"operation": "addition",
-					"slot": "mainhand"
-				  }
-				]
-			  }
 			]
-		  }
-		]
-	  }
+		}
 	]
-  }
-  
+}
