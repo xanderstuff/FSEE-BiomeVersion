@@ -5,35 +5,54 @@ scoreboard objectives add foka.config.join_message dummy
 scoreboard objectives add foka.config.change_gamerules dummy
 scoreboard objectives add foka.config.always_generate_egg dummy
 
+# Initialize config scoreboards that do not have a value at start,
+# but require them to work properly (or at all)
+# Freshly created scoreboards have no value (not even set to 0)
+# The trick I used is checking whether a given scoreboard is SET TO A NUMBER
+# 'null' is not a number, remember!
+# *coughs in German*
+function fokastudio:end/config/init
+
 ## Items
 scoreboard objectives add foka.items.dragonblade.cooldown dummy
 scoreboard objectives add foka.items.dragonblade.stacks dummy
 scoreboard objectives add foka.items.dragonblade.until_stack_reset dummy
+scoreboard objectives add foka.items.dragonblade.punch_progress dummy
+scoreboard objectives add foka.items.dragonblade.until_punch_reset dummy
+
 scoreboard objectives add foka.items.pandoras_barrel.raycast dummy
 scoreboard objectives add foka.items.pandoras_barrel.animation dummy
 scoreboard objectives add foka.items.pandoras_barrel.summon_id dummy
+
 scoreboard objectives add foka.items.armors.holy_protection_cooldown dummy
 scoreboard objectives add foka.items.armors.holy_protection_time dummy
+
 scoreboard objectives add foka.items.sharanga.arrow_age dummy
+
 scoreboard objectives add foka.items.clockwork_crossbow.arrow_amount dummy
+
 scoreboard objectives add foka.items.prismatic_punch.particle_cycle dummy
 scoreboard objectives add foka.items.prismatic_punch.marker_age dummy
+
 scoreboard objectives add foka.items.ender_insignia.hold_duration dummy
+
 scoreboard objectives add foka.items.sabrewing.charge dummy
 scoreboard objectives add foka.items.sabrewing.until_charge_reset dummy
+
 scoreboard objectives add foka.items.crest_of_the_end.curse_cooldown dummy
+
 scoreboard objectives add foka.items.spellbook.conveyance.cooldown dummy
 scoreboard objectives add foka.items.spellbook.conveyance.id dummy
 scoreboard objectives add foka.items.spellbook.updraft.cooldown dummy
 scoreboard objectives add foka.items.spellbook.light.cooldown dummy
-scoreboard objectives add foka.items.spellbook.radiance.cooldown dummy
+
 scoreboard objectives add foka.items.fish.mystical_heartfish.total_consumed dummy
 scoreboard objectives add foka.items.spirit_dagger.attract_cooldown dummy
 scoreboard objectives add foka.items.spirit_dagger.consume_time dummy
 scoreboard objectives add foka.items.spirit_dagger.until_consume_reset dummy
 scoreboard objectives add foka.items.prismatic_pearl.cooldown dummy
 
-# Mobs
+## Mobs
 # Empress of Light
 scoreboard objectives add foka.eol.animation dummy
 scoreboard objectives add foka.eol.health dummy
@@ -42,13 +61,14 @@ scoreboard objectives add foka.eol.attack_duration dummy
 scoreboard objectives add foka.eol.attack_cooldown dummy
 scoreboard objectives add foka.eol.projectile_age dummy
 
-# Mechanics
+## Mechanics
 scoreboard objectives add foka.mechanics.void_fishing_length dummy
 scoreboard objectives add foka.mechanics.crystal_count dummy
 scoreboard objectives add foka.mechanics.void_totem_protection_time dummy
 scoreboard objectives add foka.mechanics.end_music dummy
 
-# Misc
+## Misc
+# Temporar variables OR things that don't need its own variable
 scoreboard objectives add foka.misc dummy
 scoreboard objectives add foka.misc2 dummy
 scoreboard objectives add foka.misc.end_portal_animation dummy
@@ -98,12 +118,3 @@ schedule function fokastudio:end/loops/5_tick 5t append
 schedule function fokastudio:end/loops/1_second 1s append
 schedule function fokastudio:end/loops/5_second 5s append
 schedule function fokastudio:end/loops/10_second 10s append
-
-
-# Initialize config scoreboards that do not have a value at start,
-# but require them to work properly (or at all)
-# Freshly created scoreboards have no value (not even set to 0)
-# The trick I used is checking whether a given scoreboard is SET TO A NUMBER
-# 'null' is not a number, remember!
-# *coughs in German*
-function fokastudio:end/config/init
