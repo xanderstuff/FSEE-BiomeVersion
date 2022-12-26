@@ -13,10 +13,10 @@
 #        return r;
 #    }
 
-function math:rng/lcg
+function fokastudio:end/utils/rng/lcg
 
-scoreboard players operation #temp math = out math
-scoreboard players operation out math %= #range math
-scoreboard players operation #temp math -= out math
-scoreboard players operation #temp math += #m1 math
-execute if score #temp math matches ..-1 run function math:rng/zprivate/next_int
+scoreboard players operation #temp foka.math = out foka.math
+scoreboard players operation out foka.math %= #range foka.math
+scoreboard players operation #temp foka.math -= out foka.math
+scoreboard players operation #temp foka.math += #m1 foka.math
+execute if score #temp foka.math matches ..-1 run function fokastudio:end/utils/rng/zprivate/next_int
