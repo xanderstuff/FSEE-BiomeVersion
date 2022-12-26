@@ -3,14 +3,8 @@
 ############################################################
 
 # Get all armor values and add them together
-execute store result score #temp_0 foka.misc run data get entity @s Inventory[{Slot:103b}].tag.Enchantments[{id:"minecraft:protection"}].lvl
-scoreboard players operation #temp_1 foka.misc = #temp_0 foka.misc
-execute store result score #temp_0 foka.misc run data get entity @s Inventory[{Slot:102b}].tag.Enchantments[{id:"minecraft:protection"}].lvl
-scoreboard players operation #temp_1 foka.misc += #temp_0 foka.misc
-execute store result score #temp_0 foka.misc run data get entity @s Inventory[{Slot:101b}].tag.Enchantments[{id:"minecraft:protection"}].lvl
-scoreboard players operation #temp_1 foka.misc += #temp_0 foka.misc
-execute store result score #temp_0 foka.misc run data get entity @s Inventory[{Slot:100b}].tag.Enchantments[{id:"minecraft:protection"}].lvl
-scoreboard players operation #temp_1 foka.misc += #temp_0 foka.misc
+execute if entity @s[type=player] run function fokastudio:end/utils/damage/operations/get_protection/player
+execute if entity @s[type=!player] run function fokastudio:end/utils/damage/operations/get_protection/entity
 
 # Make the damage number based on that
 

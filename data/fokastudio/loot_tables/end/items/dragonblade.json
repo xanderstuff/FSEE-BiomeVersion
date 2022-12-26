@@ -42,8 +42,8 @@
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
 									"amount": {
-										"min": 3,
-										"max": 5
+										"min": 2,
+										"max": 4.5
 									},
 									"operation": "addition",
 									"slot": "mainhand"
@@ -52,8 +52,8 @@
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
 									"amount": {
-										"min": -3.4,
-										"max": -3
+										"min": -3.15,
+										"max": -2.75
 									},
 									"operation": "addition",
 									"slot": "mainhand"

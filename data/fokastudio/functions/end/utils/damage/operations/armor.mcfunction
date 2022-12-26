@@ -10,14 +10,13 @@
   ## damage = damage * (1 - (min(20,max(armor ÷ 5 , ATF))) ÷ 25)
 
 
- ## Insert Armor Toughness
-execute store result score #temp_1 foka.misc run attribute @s minecraft:generic.armor_toughness get 10
-
   # Create value for first portion of max(armor ÷ 5, ATF)
   # This leads to armor ÷ 5 being stored in #temp_2
 
+scoreboard players operation #temp_0 foka.misc = #armor foka.misc
 scoreboard players operation #temp_2 foka.misc = #temp_0 foka.misc
 scoreboard players operation #temp_2 foka.misc /= #5 foka.misc
+
 
  ##### SEPARATOR SO YOUR BRAIN DOESN'T MELT
 
@@ -34,7 +33,7 @@ scoreboard players operation #temp_3 foka.misc = #temp_0 foka.misc
   # Damage
 scoreboard players operation #temp_4 foka.misc = #damage foka.misc
   # Armor Toughness
-scoreboard players operation #temp_5 foka.misc = #temp_1 foka.misc
+scoreboard players operation #temp_5 foka.misc = #armor_toughness foka.misc
 
 
   # Divide by 4 (working inside -> out), so (toughness ÷ 4) first.

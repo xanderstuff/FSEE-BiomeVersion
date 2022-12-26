@@ -88,7 +88,6 @@
 		"minecraft:stonecutter",
 		"minecraft:cobweb",
 		"minecraft:piston_head",
-		"minecraft:sculk_sensor",
 		"minecraft:small_amethyst_bud",
 		"minecraft:medium_amethyst_bud",
 		"minecraft:large_amethyst_bud",
@@ -119,6 +118,10 @@
 		"dead_tube_coral_fan",
 
 		"torch",
-		"soul_torch"
+		"soul_torch",
+
+		"sculk_sensor",
+		"sculk_shrieker",
+		"sculk_vein"
 	]
 }
