@@ -22,6 +22,8 @@
 		"minecraft:tall_grass",
 		"minecraft:seagrass",
 		"minecraft:kelp",
+		"kelp_plant",
+		"tall_seagrass",
 		"minecraft:large_fern",
 		"minecraft:bamboo",
 		"minecraft:chorus_flower",
@@ -122,6 +124,13 @@
 
 		"sculk_sensor",
 		"sculk_shrieker",
-		"sculk_vein"
+		"sculk_vein",
+
+		"player_head",
+		"creeper_head",
+		"skeleton_skull",
+		"wither_skeleton_skull",
+		"dragon_head",
+		"zombie_head"
 	]
 }

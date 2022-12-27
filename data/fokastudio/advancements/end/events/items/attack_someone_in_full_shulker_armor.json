@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:player",
+					"equipment": {
+						"head": {
+							"nbt": "{foka.special_item:\"shulker_armor\"}"
+						},
+						"chest": {
+							"nbt": "{foka.special_item:\"shulker_armor\"}"
+						},
+						"legs": {
+							"nbt": "{foka.special_item:\"shulker_armor\"}"
+						},
+						"feet": {
+							"nbt": "{foka.special_item:\"shulker_armor\"}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/armors/shulker_armor/attack_someone"
+	}
+}

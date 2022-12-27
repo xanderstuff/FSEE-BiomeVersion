@@ -52,7 +52,7 @@
 								{
 									"attribute": "minecraft:generic.armor",
 									"name": " ",
-									"amount": 3,
+									"amount": 4,
 									"operation": "addition",
 									"slot": "head"
 								},
