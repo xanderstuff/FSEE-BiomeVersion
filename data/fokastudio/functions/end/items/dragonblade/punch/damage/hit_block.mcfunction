@@ -1,4 +1,4 @@
-scoreboard players set #mul foka.misc 40
+scoreboard players set #mul foka.misc 20
 scoreboard players operation #enchant foka.misc *= #mul foka.misc
 
 scoreboard players set #damage foka.misc 180

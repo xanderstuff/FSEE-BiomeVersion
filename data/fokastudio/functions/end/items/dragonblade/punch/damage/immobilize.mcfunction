@@ -1,1 +1,1 @@
-effect give @s slowness 2 6 true
+effect give @s slowness 3 6 true
