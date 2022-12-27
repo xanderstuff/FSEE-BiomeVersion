@@ -2,6 +2,18 @@
 # Damages a player for one heart
 ############################################################
 
+attribute @s[scores={foka.misc=8192..}] minecraft:generic.max_health modifier add 2-0-3-3-14 "damage_8192" -819.2 add
+scoreboard players remove @s[scores={foka.misc=8192..}] foka.misc 8192
+
+attribute @s[scores={foka.misc=4096..}] minecraft:generic.max_health modifier add 2-0-3-3-13 "damage_4096" -409.6 add
+scoreboard players remove @s[scores={foka.misc=4096..}] foka.misc 4096
+
+attribute @s[scores={foka.misc=4096..}] minecraft:generic.max_health modifier add 2-0-3-3-12 "damage_4096" -409.6 add
+scoreboard players remove @s[scores={foka.misc=4096..}] foka.misc 4096
+
+attribute @s[scores={foka.misc=2048..}] minecraft:generic.max_health modifier add 2-0-3-3-11 "damage_2048" -204.8 add
+scoreboard players remove @s[scores={foka.misc=2048..}] foka.misc 2048
+
 attribute @s[scores={foka.misc=1024..}] minecraft:generic.max_health modifier add 2-0-3-3-10 "damage_1024" -102.4 add
 scoreboard players remove @s[scores={foka.misc=1024..}] foka.misc 1024
 

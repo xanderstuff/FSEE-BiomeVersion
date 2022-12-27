@@ -4,6 +4,10 @@
 
 tag @s remove foka.scheduled.remove_attributes
 
+attribute @s minecraft:generic.max_health modifier remove 2-0-3-3-14
+attribute @s minecraft:generic.max_health modifier remove 2-0-3-3-13
+attribute @s minecraft:generic.max_health modifier remove 2-0-3-3-12
+attribute @s minecraft:generic.max_health modifier remove 2-0-3-3-11
 attribute @s minecraft:generic.max_health modifier remove 2-0-3-3-10
 attribute @s minecraft:generic.max_health modifier remove 2-0-3-3-9
 attribute @s minecraft:generic.max_health modifier remove 2-0-3-3-8
