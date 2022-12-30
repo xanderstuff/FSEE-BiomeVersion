@@ -19,7 +19,13 @@
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 12,
+					"weight": 5,
+					"data": {
+						"Name": "minecraft:rooted_dirt"
+					}
+				},
+				{
+					"weight": 7,
 					"data": {
 						"Name": "minecraft:coarse_dirt"
 					}
@@ -38,18 +44,6 @@
 					"data": {
 						"Name": "minecraft:end_stone"
 					}
-				},
-				{
-					"weight": 1,
-					"data": {
-						"Name": "minecraft:purpur_block"
-					}
-				},
-				{
-					"weight": 6,
-					"data": {
-						"Name": "minecraft:dripstone_block"
-					}
 				}
 			]
 		},
@@ -61,7 +55,7 @@
 						"type": "minecraft:weighted_state_provider",
 						"entries": [
 							{
-								"weight": 100,
+								"weight": 1,
 								"data": {
 									"Name": "minecraft:tall_grass",
 									"Properties": {
@@ -70,7 +64,7 @@
 								}
 							},
 							{
-								"weight": 140,
+								"weight": 4,
 								"data": {
 									"Name": "minecraft:grass"
 								}
@@ -78,56 +72,10 @@
 							{
 								"weight": 1,
 								"data": {
-									"Name": "minecraft:wither_rose"
-								}
-							},
-							{
-								"weight": 25,
-								"data": {
 									"Name": "minecraft:acacia_leaves",
 									"Properties": {
 										"distance": "1",
 										"persistent": "true",
-										"waterlogged": "false"
-									}
-								}
-							},
-							{
-								"weight": 8,
-								"data": {
-									"Name": "minecraft:dead_bush"
-								}
-							},
-							{
-								"weight": 20,
-								"data": {
-									"Name": "minecraft:crimson_roots"
-								}
-							},
-							{
-								"weight": 20,
-								"data": {
-									"Name": "minecraft:warped_roots"
-								}
-							},
-							{
-								"weight": 6,
-								"data": {
-									"Name": "minecraft:crimson_fungus"
-								}
-							},
-							{
-								"weight": 6,
-								"data": {
-									"Name": "minecraft:warped_fungus"
-								}
-							},
-							{
-								"weight": 3,
-								"data": {
-									"Name": "minecraft:soul_lantern",
-									"Properties": {
-										"hanging": "false",
 										"waterlogged": "false"
 									}
 								}
