@@ -31,13 +31,7 @@
 					}
 				},
 				{
-					"weight": 6,
-					"data": {
-						"Name": "minecraft:end_stone_bricks"
-					}
-				},
-				{
-					"weight": 60,
+					"weight": 40,
 					"data": {
 						"Name": "minecraft:grass_block",
 						"Properties": {
@@ -74,19 +68,19 @@
 									"type": "minecraft:weighted_state_provider",
 									"entries": [
 										{
-											"weight": 1,
+											"weight": 2,
 											"data": {
 												"Name": "minecraft:fern"
 											}
 										},
 										{
-											"weight": 10,
+											"weight": 11,
 											"data": {
 												"Name": "minecraft:grass"
 											}
 										},
 										{
-											"weight": 1,
+											"weight": 2,
 											"data": {
 												"Name": "minecraft:tall_grass",
 												"Properties": {
@@ -95,11 +89,22 @@
 											}
 										},
 										{
-											"weight": 1,
+											"weight": 2,
 											"data": {
 												"Name": "minecraft:large_fern",
 												"Properties": {
 													"half": "lower"
+												}
+											}
+										},
+										{
+											"weight": 1,
+											"data": {
+												"Name": "minecraft:acacia_leaves",
+												"Properties": {
+													"distance": "1",
+													"persistent": "true",
+													"waterlogged": "false"
 												}
 											}
 										}

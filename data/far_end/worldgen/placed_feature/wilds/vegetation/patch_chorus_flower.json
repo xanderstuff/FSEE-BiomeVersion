@@ -3,7 +3,7 @@
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 10
+			"count": 20
 		},
 		{
 			"type": "minecraft:in_square"
@@ -11,8 +11,8 @@
 		{
 			"type": "minecraft:noise_based_count",
 			"noise_to_count_ratio": 1,
-			"noise_factor": 100,
-			"noise_offset": -0.5
+			"noise_factor": 70,
+			"noise_offset": 0.07
 		},
 		{
 			"type": "minecraft:environment_scan",

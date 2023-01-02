@@ -1,5 +1,5 @@
 {
-	"feature": "far_end:waste/chorus_plant",
+	"feature": "minecraft:chorus_plant",
 	"placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
