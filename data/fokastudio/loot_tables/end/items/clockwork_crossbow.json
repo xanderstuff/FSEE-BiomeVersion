@@ -25,7 +25,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Shoots as fast as you can click",
+									"translate": "Shoots just as fast as you can click",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -35,17 +35,17 @@
 									"italic": false
 								},
 								{
-									"translate": "and deal less damage",
+									"translate": "and deal slightly less damage",
 									"color": "#EEEEEE",
 									"italic": false
 								},
                                 {
-									"translate": "33% chance to not consume arrows,",
+									"translate": "Has a chance to conserve Arrows",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "increased with Quick Charge enchantment",
+									"translate": "that increases with Quick Charge enchantment",
 									"color": "#EEEEEE",
 									"italic": false
 								},

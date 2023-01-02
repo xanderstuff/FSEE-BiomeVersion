@@ -20,16 +20,6 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:90009,foka.special_item:\"amethyst_budfish\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								{
-									"translate": "Consume to extract some gems",
-									"color": "#EEEEEE",
-									"italic": false
-								}
-							]
 						}
 					]
 				}

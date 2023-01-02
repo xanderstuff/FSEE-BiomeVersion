@@ -25,16 +25,6 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:90006,foka.special_item:\"frost_minnow\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								{
-									"translate": "Consume to fill yourself with inner warm",
-									"color": "#EEEEEE",
-									"italic": false
-								}
-							]
 						}
 					]
 				}

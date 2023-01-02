@@ -33,12 +33,12 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Filled with Altar's Dark Magic,",
+									"translate": "Shattered with Altar's darkest magic,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "it still retains Conduit's power",
+									"translate": "yet it still retains its power",
 									"color": "#EEEEEE",
 									"italic": false
 								},

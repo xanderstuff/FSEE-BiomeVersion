@@ -10,7 +10,7 @@ tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:golden_apple",Count:1b}},d
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:gold_block",Count:8b}},distance=..1.5] add foka.altar_of_the_accursed.gold_blocks
 
 ## Tags for Shulker Stuff
-tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:shulker_shell",Count:16b}},distance=..1.5] add foka.altar_of_the_accursed.shulker_shells
+tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:shulker_shell",Count:8b}},distance=..1.5] add foka.altar_of_the_accursed.shulker_shells
 # Tags for Shulker Armor
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:netherite_helmet",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.netherite_helmet
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:netherite_leggings",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.netherite_leggings
@@ -21,6 +21,7 @@ execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:netherite_pickaxe",
 execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:netherite_hoe",Count:1b}},distance=..1.5] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.netherite_hoe
 execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:netherite_shovel",Count:1b}},distance=..1.5] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.netherite_shovel
 execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:netherite_axe",Count:1b}},distance=..1.5] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.netherite_axe
+execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:netherite_sword",Count:1b}},distance=..1.5] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.netherite_sword
 
 # Tags for Prismatic Punch and Radiant Rampage
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:crossbow",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.crossbow

@@ -5,37 +5,32 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:bow",
+					"name": "minecraft:crossbow",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Sharanga",
-								"color": "#FF6B6B",
+								"translate": "Caretaker's Arbalest",
+								"color": "#074A5A",
 								"italic": false
 							}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"sharanga\",foka_durability:{enabled:1b,max_dur:294}}"
+							"tag": "{CustomModelData:90001,foka.special_item:\"caretakers_arbalest\",Charged:0b}"
 						},
 						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Converts Spectral Arrows into",
+									"translate": "Slowly charges up as you hold it",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Spectral Bolts that pierce mutliple enemies",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "that pierce multiple enemies",
+									"translate": "to unleash a powerful mid-ranged attack",
 									"color": "#EEEEEE",
 									"italic": false
 								}

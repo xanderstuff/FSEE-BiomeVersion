@@ -21,7 +21,7 @@
 					"function": "minecraft:set_lore",
 					"lore": [
 						{
-							"translate": "'what do you mean I can't spam click???'",
+							"translate": "'what do you mean I can't spam click anymore???'",
 							"color": "#EEEEEE",
 							"italic": true
 						},

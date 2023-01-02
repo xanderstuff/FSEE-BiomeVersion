@@ -15,25 +15,21 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Greatly increases life regeneration",
+									"translate": "Increases life regeneration while sneaking",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "while sneaking, the bonus starts weak and",
+									"translate": "Bonus starts weak and slowly increases",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "gets stronger with time",
+									"translate": "Standing up or being hurt resets this",
 									"color": "#EEEEEE",
 									"italic": false
 								},
-								{
-									"translate": "Standing up or being hurt resets its healing capabilities",
-									"color": "#EEEEEE",
-									"italic": false
-								},
+								"",
 								{
 									"translate": "The Dragon's Power is withing your hands",
 									"color": "dark_purple",

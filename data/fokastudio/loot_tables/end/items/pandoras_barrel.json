@@ -21,22 +21,12 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Summons mobs and drops loot",
+									"translate": "Summons mobs and drops loot depending on the biome",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "shortly after being placed",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "Outcome is dependant on the biome you open it in",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "Summons much deadlier mobs while surrounded with darkness",
+									"translate": "Summons much friendlier mobs while in a lit up area",
 									"color": "#EEEEEE",
 									"italic": false
 								},

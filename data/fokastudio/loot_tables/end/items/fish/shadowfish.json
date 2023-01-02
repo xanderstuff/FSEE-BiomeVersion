@@ -20,25 +20,6 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:90007,foka.special_item:\"chaos_fish\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								[
-									{
-										"translate": "Consume to",
-										"color": "#EEEEEE",
-										"italic": false
-									},
-									{
-										"text": " propably perish :/",
-										"color": "#EEEEEE",
-										"italic": false,
-										"font": "illageralt",
-										"obfuscated": true
-									}
-								]
-							]
 						}
 					]
 				}

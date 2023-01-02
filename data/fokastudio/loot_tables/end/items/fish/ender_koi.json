@@ -19,16 +19,6 @@
 								"color": "#B265FF",
 								"italic": false
 							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								{
-									"translate": "Perhaps it could be sold to somebody?",
-									"color": "#EEEEEE",
-									"italic": false
-								}
-							]
 						}
 					]
 				}

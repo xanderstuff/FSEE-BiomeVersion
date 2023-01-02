@@ -23,12 +23,12 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Right Click to cast a slow-moving Conveyance Spark",
+									"translate": "Right Click to cast a slow spark",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "that will teleport you to first block it hits",
+									"translate": "that will teleport you to the first block it hits",
 									"color": "#EEEEEE",
 									"italic": false
 								},

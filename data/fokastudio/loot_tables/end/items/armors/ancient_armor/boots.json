@@ -26,7 +26,12 @@
 									"italic": false
 								},
 								{
-									"translate": "Greatly increases your damage",
+									"translate": "Fills you with Wrath of The Ancients,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "providing a vast damage increase",
 									"color": "#EEEEEE",
 									"italic": false
 								}

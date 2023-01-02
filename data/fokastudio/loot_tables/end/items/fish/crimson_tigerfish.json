@@ -20,29 +20,6 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:90004,foka.special_item:\"crimson_tigerfish\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								[
-									{
-										"translate": "effect.minecraft.regeneration",
-										"color": "blue",
-										"italic": false
-									},
-									" ",
-									{
-										"translate": "potion.potency.2",
-										"color": "blue",
-										"italic": false
-									},
-									{
-										"text": " (0:12)",
-										"color": "blue",
-										"italic": false
-									}
-								]
-							]
 						}
 					]
 				}

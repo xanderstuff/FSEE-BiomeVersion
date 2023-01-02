@@ -23,17 +23,7 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Causes Stars to fall nearby when hurt",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "Stars fully ignore enemy armor",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "This effect has lesser impact on other players",
+									"translate": "Causes Stars to fall when hurt",
 									"color": "#EEEEEE",
 									"italic": false
 								}

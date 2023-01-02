@@ -24,29 +24,6 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:90001,foka.special_item:\"prismite\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								[
-									{
-										"translate": "effect.minecraft.health_boost",
-										"color": "blue",
-										"italic": false
-									},
-									" ",
-									{
-										"translate": "potion.potency.2",
-										"color": "blue",
-										"italic": false
-									},
-									{
-										"text": " (0:52)",
-										"color": "blue",
-										"italic": false
-									}
-								]
-							]
 						}
 					]
 				}

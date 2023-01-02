@@ -20,21 +20,6 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:90005,foka.special_item:\"fleshy_piranha\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								{
-									"translate": "Adrenaline Surge",
-									"color": "blue",
-									"italic": false
-								},
-								{
-									"text": " (0:09)",
-									"color": "blue",
-									"italic": false
-								}
-							]
 						}
 					]
 				}

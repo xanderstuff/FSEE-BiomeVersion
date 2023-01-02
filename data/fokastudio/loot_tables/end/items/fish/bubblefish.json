@@ -25,23 +25,6 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:90008,foka.special_item:\"bubblefish\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								[
-									{
-										"translate": "effect.minecraft.water_breathing",
-										"color": "blue",
-										"italic": false
-									},
-									{
-										"text": " (1:00)",
-										"color": "blue",
-										"italic": false
-									}
-								]
-							]
 						}
 					]
 				}

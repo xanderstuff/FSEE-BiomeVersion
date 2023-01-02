@@ -34,7 +34,12 @@
 									"italic": false
 								},
 								{
-									"translate": "maximum number of hearts by 1",
+									"translate": "maximum number of HP by 2❤,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "Allows for up to 10 extra Hearts",
 									"color": "#EEEEEE",
 									"italic": false
 								}

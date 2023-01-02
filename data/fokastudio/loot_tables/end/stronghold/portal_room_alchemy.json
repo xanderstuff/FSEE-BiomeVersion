@@ -106,7 +106,7 @@
 					"type": "minecraft:loot_table",
 					"weight": 11,
 					"quality": 2,
-					"name": "fokastudio:end/items/random_potion"
+					"name": "fokastudio:end/random_potion"
 				}
 			]
 		}

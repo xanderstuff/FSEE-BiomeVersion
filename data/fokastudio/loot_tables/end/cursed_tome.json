@@ -23,17 +23,12 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
+									"translate": "Contains all Altar of The Accursed crafting recipes",
+									"color": "#FF9E9E",
+									"italic": false
+								},
+								{
 									"translate": "Right click to absorb ancient knowledge",
-									"color": "#FF9E9E",
-									"italic": false
-								},
-								{
-									"translate": "Can be used again to remind yourself",
-									"color": "#FF9E9E",
-									"italic": false
-								},
-								{
-									"translate": "about all of its secrets",
 									"color": "#FF9E9E",
 									"italic": false
 								}

@@ -19,27 +19,27 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Holding one will give you a chance to attract Spirits on attacks",
+									"translate": "Holding one can attract Spirits on attacks",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Equipping it in both your left and right hand",
+									"translate": "Holding one in both left and right hand",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "will allow you to consume said Spirits by focusing on them",
+									"translate": "will allow you to consume said Spirits",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Consume Spirits to instantly teleport to their place",
+									"translate": "Consume Spirits to instantly teleport",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "and gain an attack buff for a short duration",
+									"translate": "and gain a short attack buff",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -69,7 +69,7 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
-									"amount": -2,
+									"amount": -2.2,
 									"operation": "addition",
 									"slot": "mainhand"
 								}

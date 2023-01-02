@@ -26,7 +26,12 @@
 									"italic": false
 								},
 								{
-									"translate": "Become immune to damage periodically",
+									"translate": "Grants ability to periodically dodge attacks,",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "nullifying all damage and taken knockback",
 									"color": "#EEEEEE",
 									"italic": false
 								}

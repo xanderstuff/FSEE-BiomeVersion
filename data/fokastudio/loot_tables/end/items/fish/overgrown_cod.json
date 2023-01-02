@@ -20,23 +20,6 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:90003,foka.special_item:\"overgrown_cod\"}"
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-								[
-									{
-										"translate": "Rooted",
-										"color": "blue",
-										"italic": false
-									},
-									{
-										"text": " (0:09)",
-										"color": "blue",
-										"italic": false
-									}
-								]
-							]
 						}
 					]
 				}

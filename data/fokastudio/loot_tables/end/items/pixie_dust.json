@@ -19,6 +19,16 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{foka.special_item:\"pixie_dust\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "'May contain Fairy'",
+									"color": "#EEEEEE",
+									"italic": true
+								}
+							]
 						}
 					]
 				}

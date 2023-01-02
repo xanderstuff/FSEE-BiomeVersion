@@ -52,12 +52,12 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "A magical dagger that has a chance",
+									"translate": "A rapid magical dagger, has a chance",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "to heal any nearby player on enemy hits",
+									"translate": "to heal nearby players on attacks",
 									"color": "#EEEEEE",
 									"italic": false
 								},

@@ -25,9 +25,15 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "You can feel it moving in your hands",
-									"color": "#A70000",
+									"translate": "Temporarily hugely increases life regeneration",
+									"color": "#EEEEEE",
 									"italic": false
+								},
+								"",
+								{
+									"translate": "'You can feel it moving in your hands'",
+									"color": "#A70000",
+									"italic": true
 								}
 							]
 						}
