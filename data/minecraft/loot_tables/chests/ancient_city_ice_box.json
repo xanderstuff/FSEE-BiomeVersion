@@ -155,6 +155,18 @@
 							"add": false
 						}
 					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"quality": 1,
+					"name": "fokastudio:end/items/golden_chorus_fruit",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					]
 				}
 			]
 		}

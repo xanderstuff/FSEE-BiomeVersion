@@ -296,8 +296,8 @@
 				{
 					"type": "minecraft:item",
 					"weight": 9,
-					"name": "minecraft:book",
 					"quality": -1,
+					"name": "minecraft:book",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -311,8 +311,8 @@
 				{
 					"type": "minecraft:item",
 					"weight": 3,
-					"name": "minecraft:book",
 					"quality": 1,
+					"name": "minecraft:book",
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
@@ -356,6 +356,90 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:saddle"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:iron_helmet",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:iron_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:iron_leggings",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							]
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:swift_sneak"
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.66
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:iron_boots",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							]
+						}
+					]
 				}
 			]
 		}
