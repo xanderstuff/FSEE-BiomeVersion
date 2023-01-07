@@ -1,10 +1,5 @@
 tag @e[type=item,distance=..1.5] add foka.altar_of_the_accursed.tagged
 
-# Tags for craftable Elytras
-tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:phantom_membrane",Count:24b}},distance=..1.5] add foka.altar_of_the_accursed.phantom_membranes
-tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:nether_star",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.nether_star
-tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:netherite_ingot",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.netherite_ingot
-
 # Tags for craftable Enchanted Gapples
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:golden_apple",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.golden_apple
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:gold_block",Count:8b}},distance=..1.5] add foka.altar_of_the_accursed.gold_blocks
@@ -37,6 +32,7 @@ tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:wither_skeleton_skull",Cou
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:bow",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.bow
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:feather",Count:10b}},distance=..1.5] add foka.altar_of_the_accursed.10_feathers
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:gold_ingot",Count:12b}},distance=..1.5] add foka.altar_of_the_accursed.12_gold_ingots
+tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:netherite_ingot",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.netherite_ingot
 
 # Tag for Cursed Guidebook
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:enchanted_book",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.enchanted_book

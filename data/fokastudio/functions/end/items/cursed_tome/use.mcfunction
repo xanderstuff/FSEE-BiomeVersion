@@ -9,9 +9,7 @@ tellraw @s [{"text":"Shulker Armor","color":"#976A97","bold":true},"\n",{"text":
 
 tellraw @s [{"text":"Shulker Tools","color":"#976A97","bold":true},"\n",{"text":"Any","bold":false,"color":"#EEEEEE"}," ",{"text":"Netherite Tool","bold":false,"color":"#545454"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"8 ","bold":false,"color":"#EEEEEE"},{"text":"Shulker Shells","bold":false,"color":"#976A97"},"\n\n"]
 
-tellraw @s [{"text":"Elytra","color":"yellow","bold":true},"\n",{"text":"20 Phantom Membranes","bold":false,"color":"#EEEEEE"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"Nether Star","bold":false,"color":"yellow"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"Netherite Ingot","bold":false,"color":"#545454"},"\n\n"]
-
-tellraw @s [{"text":"Enchanted Golden Apple","color":"light_purple","bold":true},"\n",{"text":"Golden Apple","bold":false,"color":"yellow"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"8 Gold Blocks","bold":false,"color":"yellow"},"\n\n"]
+tellraw @s [{"text":"Enchanted Golden Apple","color":"light_purple","bold":true},"\n",{"text":"Apple","bold":false,"color":"red"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"8 Gold Blocks","bold":false,"color":"yellow"},"\n\n"]
 
 tellraw @s [{"text":"Sabrewing","color":"#FFE853","bold":true},"\n",{"text":"Bow","bold":false,"color":"#954D00"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"10","bold":false,"color":"#EEEEEE"}," ",{"text":"Feathers","bold":false,"color":"#EEEEEE"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"12","bold":false,"color":"#EEEEEE"}," ",{"text":"Gold Ingots","bold":false,"color":"yellow"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"Netherite Ingot","bold":false,"color":"#545454"},"\n\n"]
 
