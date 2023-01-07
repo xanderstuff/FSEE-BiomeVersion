@@ -10,3 +10,5 @@ execute if score @s foka.misc matches 25..28 run particle dust 0.98 0.243 0.918 
 execute if score @s foka.misc matches 29..32 run particle dust 0.647 0.243 0.98 1 ~ ~ ~ 0.13 0.13 0.13 0 8 force
 
 scoreboard players reset @s[scores={foka.misc=32..}] foka.misc
+
+execute unless entity @s[tag=foka.items.prismatic_pearl.buffed_velocity] run function fokastudio:end/items/prismatic_pearl/velocity
