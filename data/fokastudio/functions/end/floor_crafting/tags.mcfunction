@@ -26,7 +26,7 @@ tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:diamond",Count:6b}},distan
 # Tags for Sariel
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:iron_sword",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.iron_sword
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:glowstone_dust",Count:10b,tag:{foka.special_item:"pixie_dust"}}},distance=..1.5] add foka.altar_of_the_accursed.10_pixie_dust
-tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:wither_skeleton_skull",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.wither_skeleton_skull
+tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:gold_ingot",Count:5b}},distance=..1.5] add foka.altar_of_the_accursed.5_gold_ingots
 
 # Tags for Sabrewing
 tag @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:bow",Count:1b}},distance=..1.5] add foka.altar_of_the_accursed.bow
