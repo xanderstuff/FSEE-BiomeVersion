@@ -5,9 +5,9 @@ tellraw @s ["\n",{"text":"Toss these items over the","color":"#EEEEEE"}," ",{"te
 
 tellraw @s [{"text":"Cursed Tome","color":"#E30000","bold":true},"\n",{"text":"Any","bold":false,"color":"#EEEEEE"}," ",{"text":"Enchanted Book","bold":false,"color":"yellow"},"\n\n"]
 
-tellraw @s [{"text":"Shulker Armor","color":"#976A97","bold":true},"\n",{"text":"Any piece of","bold":false,"color":"#EEEEEE"}," ",{"text":"Netherite Armor","bold":false,"color":"#545454"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"16 ","bold":false,"color":"#EEEEEE"},{"text":"Shulker Shells","bold":false,"color":"#976A97"},"\n\n"]
+tellraw @s [{"text":"Shulker Armor","color":"#976A97","bold":true},"\n",{"text":"Any piece of","bold":false,"color":"#EEEEEE"}," ",{"text":"Netherite Armor","bold":false,"color":"#545454"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"8 ","bold":false,"color":"#EEEEEE"},{"text":"Shulker Shells","bold":false,"color":"#976A97"},"\n\n"]
 
-tellraw @s [{"text":"Shulker Tools","color":"#976A97","bold":true},"\n",{"text":"Any","bold":false,"color":"#EEEEEE"}," ",{"text":"Netherite Tool","bold":false,"color":"#545454"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"16 ","bold":false,"color":"#EEEEEE"},{"text":"Shulker Shells","bold":false,"color":"#976A97"},"\n\n"]
+tellraw @s [{"text":"Shulker Tools","color":"#976A97","bold":true},"\n",{"text":"Any","bold":false,"color":"#EEEEEE"}," ",{"text":"Netherite Tool","bold":false,"color":"#545454"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"8 ","bold":false,"color":"#EEEEEE"},{"text":"Shulker Shells","bold":false,"color":"#976A97"},"\n\n"]
 
 tellraw @s [{"text":"Elytra","color":"yellow","bold":true},"\n",{"text":"20 Phantom Membranes","bold":false,"color":"#EEEEEE"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"Nether Star","bold":false,"color":"yellow"},{"text":" + ","bold":false,"color":"#EEEEEE"},{"text":"Netherite Ingot","bold":false,"color":"#545454"},"\n\n"]
 
