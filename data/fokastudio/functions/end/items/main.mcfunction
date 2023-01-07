@@ -32,9 +32,6 @@ execute as @a[scores={foka.misc.shot_bow=1},predicate=fokastudio:end/items/holdi
 execute as @a[scores={foka.items.sabrewing.until_charge_reset=1..}] run function fokastudio:end/items/sabrewing/reset_charge_countdown
 execute as @e[type=#arrows,tag=foka.items.sabrewing.arrow] at @s run function fokastudio:end/items/sabrewing/charged_shots/loop
 
-# Cursed Tome
-execute as @a[scores={foka.misc.used_knowledge_book=1..},tag=foka.holding.cursed_tome] at @s run function fokastudio:end/items/cursed_tome/use
-
 # Duskberry
 execute as @e[type=area_effect_cloud,tag=foka.duskberry_cloud] at @s unless block ~ ~ ~ sweet_berry_bush run kill @s
 execute as @a[predicate=fokastudio:end/items/holding_duskberry] run effect give @s night_vision 11 0 true

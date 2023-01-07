@@ -1,4 +1,4 @@
-setblock ~ ~-1 ~ barrier
+fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 barrier replace air
 
 execute align xyz run function fokastudio:end/mechanics/void_fishing/biome_aec
 

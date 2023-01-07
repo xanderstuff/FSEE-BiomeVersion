@@ -2,4 +2,3 @@ execute as @a[predicate=fokastudio:end/items/spellbooks/offhand_fix/conveyance] 
 execute as @a[predicate=fokastudio:end/items/spellbooks/offhand_fix/updraft] run function fokastudio:end/utils/knowledge_books/offhand/updraft
 execute as @a[predicate=fokastudio:end/items/spellbooks/offhand_fix/radiance] run function fokastudio:end/utils/knowledge_books/offhand/radiance
 execute as @a[predicate=fokastudio:end/items/spellbooks/offhand_fix/light] run function fokastudio:end/utils/knowledge_books/offhand/light
-execute as @a[predicate=fokastudio:end/items/holding_cursed_tome_offhand] run function fokastudio:end/utils/knowledge_books/offhand/cursed_tome
