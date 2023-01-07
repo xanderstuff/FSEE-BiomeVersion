@@ -27,9 +27,22 @@
 									"color": "#FF9E9E",
 									"italic": false
 								},
+								"",
 								{
-									"translate": "Contains all Altar of The Accursed crafting recipes",
-									"color": "#FF9E9E",
+									"translate": "book.byAuthor",
+									"color": "gray",
+									"italic": false,
+									"with": [
+										{
+											"text": "FokaStudio",
+											"color": "gray",
+											"font": "illageralt"
+										}
+									]
+								},
+								{
+									"translate": "book.generation.3",
+									"color": "gray",
 									"italic": false
 								}
 							]
