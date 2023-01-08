@@ -7,7 +7,7 @@
 					"equipment": {
 						"mainhand": {
 							"items": [
-								"minecraft:golden_sword"
+								"minecraft:iron_sword"
 							],
 							"nbt": "{foka.special_item:\"zephyr\"}"
 						}

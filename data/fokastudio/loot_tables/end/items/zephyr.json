@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_sword",
+					"name": "minecraft:iron_sword",
 					"functions": [
 						{
 							"function": "minecraft:set_attributes",
@@ -56,7 +56,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"zephyr\",foka_durability:{enabled:1b,max_dur:379}}"
+							"tag": "{CustomModelData:90001,foka.special_item:\"zephyr\",foka_durability:{enabled:1b,max_dur:379}}"
 						},
 						{
 							"function": "minecraft:set_name",
