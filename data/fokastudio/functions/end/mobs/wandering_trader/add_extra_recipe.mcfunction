@@ -2,7 +2,7 @@ tag @s add foka.wt_extra_end_trades
 
 scoreboard players set in math 1
 scoreboard players set in1 math 5
-function math:rng/range
+function fokastudio:end/utils/rng/range
 
 execute if score out math matches 1 run data modify entity @s Offers.Recipes append value {maxUses:6,buy:{id:emerald,Count:12},sell:{id:chorus_fruit,Count:1}}
 execute if score out math matches 2 run data modify entity @s Offers.Recipes append value {maxUses:1,buy:{id:emerald,Count:52},sell:{id:chorus_flower,Count:1}}

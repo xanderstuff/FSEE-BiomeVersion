@@ -4,7 +4,7 @@ loot replace entity @s weapon.mainhand loot fokastudio:end/stronghold/entities/b
 
 scoreboard players set in math 1
 scoreboard players set in1 math 8
-execute if predicate fokastudio:end/utils/chance/50percent run function math:rng/range
+execute if predicate fokastudio:end/utils/chance/50percent run function fokastudio:end/utils/rng/range
 
 execute if score out math matches 1 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"harming"} 64
 execute if score out math matches 2 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"long_slowness"} 64
