@@ -7,12 +7,6 @@
 		],
 		"subtitle":"Enderman Attacks"
 	},
-	"entity.enderman.2d_static":{
-		"sounds":[
-			"fokastudio:mob/enderman/2d_static"
-		],
-		"subtitle":"Enderman Kills"
-	},
 	"entity.endermite.attack":{
 		"sounds":[
 			"fokastudio:mob/endermite/attack_1",
@@ -71,12 +65,14 @@
             {
                 "name": "music/game/nether/soulsand_valley/so_below",
                 "stream": true,
-                "volume": 0.5
+                "volume": 0.5,
+                "weight": 2
             },
             {
                 "name": "music/game/nether/nether_wastes/rubedo",
                 "stream": true,
-                "volume": 0.5
+                "volume": 0.5,
+                "weight": 2
             },
             {
                 "name": "music/game/nether/nether1",
@@ -110,12 +106,12 @@
             {
                 "name": "music/game/swamp/firebugs",
                 "stream": true,
-                "volume": 1
+                "volume": 0.4
             },
             {
                 "name": "music/game/swamp/labyrinthine",
                 "stream": true,
-                "volume": 1
+                "volume": 0.4
             }
         ]
     },
@@ -124,12 +120,12 @@
             {
                 "name": "music/game/swamp/firebugs",
                 "stream": true,
-                "volume": 1
+                "volume": 0.4
             },
             {
                 "name": "music/game/swamp/aerie",
                 "stream": true,
-                "volume": 1
+                "volume": 0.4
             }
         ]
     },
@@ -138,12 +134,12 @@
             {
                 "name": "music/game/floating_dream",
                 "stream": true,
-                "volume": 1
+                "volume": 0.4
             },
             {
                 "name": "music/game/comforting_memories",
                 "stream": true,
-                "volume": 1
+                "volume": 0.4
             },
             {
                 "name": "music/game/creative/creative4",
@@ -160,7 +156,7 @@
             {
                 "name": "music/game/swamp/aerie",
                 "stream": true,
-                "volume": 1
+                "volume": 0.4
             },
             {
                 "name": "music/game/hal1",
@@ -199,12 +195,12 @@
             {
                 "name": "fokastudio:music/excuse",
                 "stream": true,
-                "volume": 0.33
+                "volume": 0.4
             },
             {
                 "name": "fokastudio:music/intro",
                 "stream": true,
-                "volume": 0.33
+                "volume": 0.4
             }
         ]
     },
@@ -244,11 +240,13 @@
         "sounds": [
             {
                 "name": "music/game/swamp/aerie",
-                "stream": true
+                "stream": true,
+                "volume": 0.4
             },
             {
                 "name": "music/game/infinite_amethyst",
-                "stream": true
+                "stream": true,
+                "volume": 0.4
             },
             {
                 "name": "music/game/creative/creative4",
@@ -289,7 +287,7 @@
             {
                 "name": "fokastudio:music/ki",
                 "stream": true,
-                "volume": 0.33
+                "volume": 0.4
             }
         ]
     },
@@ -321,11 +319,13 @@
         "sounds": [
             {
                 "name": "music/game/swamp/aerie",
-                "stream": true
+                "stream": true,
+                "volume": 0.4
             },
             {
                 "name": "music/game/swamp/firebugs",
-                "stream": true
+                "stream": true,
+                "volume": 0.4
             },
             {
                 "name": "music/game/creative/creative4",
