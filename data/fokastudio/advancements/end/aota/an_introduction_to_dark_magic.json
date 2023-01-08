@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:knowledge_book",
+			"item": "minecraft:written_book",
 			"nbt": "{CustomModelData:90000}"
 		},
 		"title": {
@@ -10,7 +10,7 @@
 		},
 		"description": [
 			{
-				"translate": "Toss any Enchanted Book over"
+				"translate": "Toss any Enchanted Book over the"
 			},
 			" ",
 			{
