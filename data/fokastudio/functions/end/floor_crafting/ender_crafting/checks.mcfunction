@@ -1,1 +1,0 @@
-execute if entity @e[tag=foka.altar_of_the_accursed.gold_blocks,distance=..1.5] if entity @e[tag=foka.altar_of_the_accursed.golden_apple,distance=..1.5] run function fokastudio:end/floor_crafting/ender_crafting/craft_gapple

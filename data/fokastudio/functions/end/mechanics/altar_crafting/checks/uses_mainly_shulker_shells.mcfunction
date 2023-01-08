@@ -1,0 +1,2 @@
+function fokastudio:end/mechanics/altar_crafting/shulker_armor/checks
+function fokastudio:end/mechanics/altar_crafting/shulker_tools/checks

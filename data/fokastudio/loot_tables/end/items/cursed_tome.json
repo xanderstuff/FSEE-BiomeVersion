@@ -11,7 +11,7 @@
 							"function": "minecraft:set_name",
 							"name": {
 								"translate": "Cursed Tome",
-								"color": "#E30000",
+								"color": "#8000B8",
 								"italic": false
 							}
 						},
@@ -24,7 +24,7 @@
 							"lore": [
 								{
 									"translate": "Contains all Altar of The Accursed crafting recipes",
-									"color": "#FF9E9E",
+									"color": "#BB6BDE",
 									"italic": false
 								},
 								"",

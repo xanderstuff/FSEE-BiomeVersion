@@ -28,4 +28,4 @@ advancement grant @a[distance=..100,advancements={minecraft:end/kill_dragon=fals
 # Activate Altar of The Accursed. Now we shall all witness horrible dark magic emerging and crafting fantastic gear!
 # Wonderful! Like ancient forces of darkness were always supposed to just miraculously connect some random
 # trash into things that are a lot better!
-execute as @e[type=marker,tag=foka.altar_of_accursed,tag=!foka.aota_activated] at @s run function fokastudio:end/floor_crafting/aota_activate
+execute as @e[type=marker,tag=foka.altar_of_accursed,tag=!foka.aota_activated] at @s run function fokastudio:end/mechanics/altar_crafting/aota_activate
