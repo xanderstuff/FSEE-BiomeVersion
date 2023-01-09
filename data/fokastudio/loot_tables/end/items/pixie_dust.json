@@ -18,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"pixie_dust\"}"
+							"tag": "{foka.special_item:\"pixie_dust\",CustomModelData:90000}"
 						},
 						{
 							"function": "minecraft:set_lore",
