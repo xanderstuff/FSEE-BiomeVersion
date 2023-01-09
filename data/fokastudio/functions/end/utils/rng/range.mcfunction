@@ -6,14 +6,14 @@
 # out = random number between range
 
 
-scoreboard players add in1 foka.math 1
-scoreboard players operation #range foka.math = in1 foka.math
-scoreboard players operation #range foka.math -= in foka.math
+scoreboard players add in1 foka.misc 1
+scoreboard players operation #range foka.misc = in1 foka.misc
+scoreboard players operation #range foka.misc -= in foka.misc
 
-scoreboard players operation #m1 foka.math = #range foka.math
-scoreboard players remove #m1 foka.math 1
+scoreboard players operation #m1 foka.misc = #range foka.misc
+scoreboard players remove #m1 foka.misc 1
 function fokastudio:end/utils/rng/zprivate/next_int
-scoreboard players operation out foka.math += in foka.math
+scoreboard players operation out foka.misc += in foka.misc
 
-scoreboard players reset #m1 foka.math
-scoreboard players remove in1 foka.math 1
+scoreboard players reset #m1 foka.misc
+scoreboard players remove in1 foka.misc 1

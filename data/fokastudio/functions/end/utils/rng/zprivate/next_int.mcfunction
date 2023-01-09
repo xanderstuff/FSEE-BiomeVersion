@@ -15,8 +15,8 @@
 
 function fokastudio:end/utils/rng/lcg
 
-scoreboard players operation #temp foka.math = out foka.math
-scoreboard players operation out foka.math %= #range foka.math
-scoreboard players operation #temp foka.math -= out foka.math
-scoreboard players operation #temp foka.math += #m1 foka.math
-execute if score #temp foka.math matches ..-1 run function fokastudio:end/utils/rng/zprivate/next_int
+scoreboard players operation #temp foka.misc = out foka.misc
+scoreboard players operation out foka.misc %= #range foka.misc
+scoreboard players operation #temp foka.misc -= out foka.misc
+scoreboard players operation #temp foka.misc += #m1 foka.misc
+execute if score #temp foka.misc matches ..-1 run function fokastudio:end/utils/rng/zprivate/next_int

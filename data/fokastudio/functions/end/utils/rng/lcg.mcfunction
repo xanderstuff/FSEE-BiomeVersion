@@ -4,6 +4,6 @@
 #
 # a = 1103515245, c = 12345
 
-scoreboard players operation #lcg foka.math *= #lcg foka.constant
-scoreboard players add #lcg foka.math 12345
-scoreboard players operation out foka.math = #lcg foka.math
+scoreboard players operation #lcg foka.misc *= #lcg foka.constant
+scoreboard players add #lcg foka.misc 12345
+scoreboard players operation out foka.misc = #lcg foka.misc

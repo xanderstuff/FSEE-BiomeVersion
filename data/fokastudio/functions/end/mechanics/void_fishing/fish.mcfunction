@@ -2,7 +2,6 @@ fill ~-1 ~ ~-1 ~1 ~ ~1 air replace barrier
 kill @e[type=fishing_bobber,limit=1,sort=nearest]
 particle poof ~ ~ ~ 0 0 0 0.11 30 force
 loot spawn ~ ~1 ~ loot fokastudio:end/void_fishing
-data merge entity @e[type=item,limit=1,sort=nearest] {Motion:[0.0d,0.5d,0.0d],NoGravity:1b,Glowing:1b}
-team join foka.purple_glow @e[type=item,limit=1,sort=nearest]
 
-tellraw @a {"score":{"name": "@s","objective": "foka.mechanics.void_fishing_length"}}
+execute as @e[type=item,limit=1,sort=nearest] run function fokastudio:end/mechanics/void_fishing/as_item
+execute at @p run function fokastudio:end/mechanics/void_fishing/xp
