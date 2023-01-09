@@ -16,8 +16,8 @@
 			"offset": 2
 		},
 		"additions_sound": {
-			"sound": "ambient.underwater.additions.rare",
-			"tick_chance": 0.00111
+			"sound": "ambient.underwater.loop.additions.rare",
+			"tick_chance": 0.00055
 		},
 		"particle": {
 			"options": {
