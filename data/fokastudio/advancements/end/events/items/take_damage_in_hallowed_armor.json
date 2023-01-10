@@ -18,6 +18,10 @@
 							"nbt": "{foka.special_item:\"hallowed_armor\"}"
 						}
 					}
+				},
+				"damage": {
+					"blocked": false,
+					"type": {}
 				}
 			}
 		}

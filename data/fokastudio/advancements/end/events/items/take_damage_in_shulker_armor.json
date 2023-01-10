@@ -18,6 +18,10 @@
 							"nbt": "{foka.special_item:\"shulker_armor\"}"
 						}
 					}
+				},
+				"damage": {
+					"blocked": false,
+					"type": {}
 				}
 			}
 		}
