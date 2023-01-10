@@ -1,4 +1,4 @@
-scoreboard players set #damage foka.misc 40
+scoreboard players set #damage foka.misc 20
 
 scoreboard players set #ignore_armor foka.misc 50
 scoreboard players set #invul_ticks foka.misc 0

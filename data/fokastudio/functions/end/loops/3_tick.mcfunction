@@ -1,5 +1,3 @@
-function fokastudio:end/mechanics/void_fishing/main
-
 # Pixie sounds, particles, etc.
 execute as @e[type=vex,tag=foka.pixie] at @s run function fokastudio:end/mobs/pixie/loop
 # Makes Allays despawn naturally if they have spawned in The Hallow
