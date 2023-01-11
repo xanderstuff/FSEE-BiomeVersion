@@ -1,5 +1,8 @@
 scoreboard players reset @s foka.items.spirit_dagger.consume_time
 
+# Advancement
+execute if score #distance foka.misc matches 600.. run advancement grant @s only fokastudio:end/exploration/spirit_assasin
+
 # Prevent any fall damage
 effect give @s slow_falling 1 0 true
 
@@ -9,10 +12,10 @@ tag @s add foka.spirit_dagger.teleport
 schedule function fokastudio:end/items/spirit_dagger/scheduled_remove_tag 1t
 
 # Attack buffs
-effect give @s strength 4 0
-effect give @s haste 4 0
-effect give @s speed 4 1
-effect give @s absorption 4 0
+effect give @s strength 5 0
+effect give @s haste 5 0
+effect give @s speed 5 1
+effect give @s absorption 5 0
 
 # Reset actionbar
 title @s actionbar ""
@@ -37,8 +40,8 @@ particle dust 0.796 0.545 0.901 1 ~ ~-0.15 ~ 1 0.5 1 1 40 normal
 particle dust 0.592 0.882 0.894 1 ~ ~-0.15 ~ 1 0.5 1 1 40 normal
 
 # Damage
-execute as @e[distance=..4,type=!#fokastudio:end/invalid_targets] at @s run function fokastudio:end/items/spirit_dagger/damage_entity
-execute as @a[distance=..4,gamemode=!spectator,gamemode=!creative,scores={foka.misc.invul_timer=0},predicate=!fokastudio:end/items/spirit_dagger/holding] at @s run function fokastudio:end/items/spirit_dagger/damage_player
+execute store result score #enchant foka.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:sweeping"}].lvl 10
+execute as @e[distance=..3.5,type=!#fokastudio:end/invalid_targets_no_player,predicate=!fokastudio:end/items/spirit_dagger/holding,predicate=!fokastudio:end/utils/player/is_sneaking] at @s run function fokastudio:end/items/spirit_dagger/damage
 
 # Sounds
 playsound minecraft:item.chorus_fruit.teleport player @a ~ ~ ~ 1 1
