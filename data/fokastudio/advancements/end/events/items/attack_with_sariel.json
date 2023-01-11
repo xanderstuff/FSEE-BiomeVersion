@@ -17,7 +17,8 @@
 					"dealt": {
 						"min": 3
 					}
-				}
+				},
+				"blocked": false
 			}
 		}
 	},

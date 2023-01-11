@@ -11,8 +11,9 @@
 				],
 				"damage": {
 					"dealt": {
-						"min": 5
+						"min": 3
 					},
+					"blocked": false,
 					"source_entity": {
 						"distance": {
 							"absolute": {

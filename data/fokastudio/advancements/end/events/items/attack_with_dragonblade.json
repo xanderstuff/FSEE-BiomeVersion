@@ -16,7 +16,8 @@
 				"damage": {
 					"dealt": {
 						"min": 1.8
-					}
+					},
+					"blocked": false
 				},
 				"entity": {
 					"distance": {

@@ -62,14 +62,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
-									"amount": 4,
+									"amount": 3,
 									"operation": "addition",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
-									"amount": -2.2,
+									"amount": -2.1,
 									"operation": "addition",
 									"slot": "mainhand"
 								}

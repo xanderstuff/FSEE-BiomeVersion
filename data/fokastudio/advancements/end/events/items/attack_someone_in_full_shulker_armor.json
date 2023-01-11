@@ -3,6 +3,9 @@
 		"criteria": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
+				"damage": {
+					"blocked": false
+				},
 				"entity": {
 					"type": "minecraft:player",
 					"equipment": {
