@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_cod",
+			"nbt": "{CustomModelData:90002,Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "Topped Off",
+			"color": "#FF65D7"
+		},
+		"description": {
+			"translate": "Attain maximum health by consuming 10 Mystical Heartfish"
+		},
+		"frame": "challenge"
+	},
+	"parent": "fokastudio:end/exploration/enter_hallow",
+	"criteria": {
+		"cardio": {
+			"trigger": "minecraft:impossible",
+			"conditions": {}
+		}
+	}
+}
