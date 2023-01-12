@@ -1,4 +1,5 @@
 {
+	"parent": "fokastudio:end/events/root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:using_item",

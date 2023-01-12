@@ -1,4 +1,5 @@
 {
+	"parent": "fokastudio:end/events/root",
 	"criteria": {
 		"get_hit_by_enderman": {
 			"trigger": "minecraft:entity_hurt_player",

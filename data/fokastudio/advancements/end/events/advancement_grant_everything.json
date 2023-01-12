@@ -1,4 +1,5 @@
 {
+	"parent": "fokastudio:end/events/root",
 	"criteria": {
 		"criteria": {
 			"trigger": "minecraft:impossible"

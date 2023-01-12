@@ -1,4 +1,5 @@
 {
+	"parent": "fokastudio:end/events/root",
 	"criteria": {
 		"take_damage_in_shulker_armor": {
 			"trigger": "minecraft:entity_hurt_player",

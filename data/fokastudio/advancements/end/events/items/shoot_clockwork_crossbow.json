@@ -1,4 +1,5 @@
 {
+	"parent": "fokastudio:end/events/root",
 	"criteria": {
 		"shot_clockwork_crossbow": {
 			"trigger": "minecraft:shot_crossbow",

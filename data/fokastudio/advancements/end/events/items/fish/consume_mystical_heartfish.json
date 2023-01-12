@@ -1,4 +1,5 @@
 {
+	"parent": "fokastudio:end/events/root",
 	"criteria": {
 		"eat_mystical_heartfish": {
 			"trigger": "minecraft:consume_item",

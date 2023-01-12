@@ -1,4 +1,5 @@
 {
+	"parent": "fokastudio:end/events/root",
 	"criteria": {
 		"click": {
 			"trigger": "minecraft:player_hurt_entity",
