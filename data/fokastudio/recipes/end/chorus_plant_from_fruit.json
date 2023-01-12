@@ -1,17 +1,16 @@
 {
 	"type": "minecraft:crafting_shaped",
-	"group": "crimson_planks",
 	"pattern": [
-		"##",
-		"##"
+		"FF",
+		"FF"
 	],
 	"key": {
-		"#": {
+		"F": {
 			"item": "minecraft:chorus_fruit"
 		}
 	},
 	"result": {
-		"item": "minecraft:crimson_planks",
+		"item": "minecraft:chorus_plant",
 		"count": 4
 	}
 }

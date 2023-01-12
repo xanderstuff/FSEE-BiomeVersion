@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:recipes/root",
 	"criteria": {
-		"has_fruit": {
+		"has_item": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -12,16 +12,23 @@
 					}
 				]
 			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "fokastudio:end/purple_dye_from_chorus_fruit"
+			}
 		}
 	},
 	"requirements": [
 		[
-			"has_fruit"
+			"has_item",
+			"has_the_recipe"
 		]
 	],
 	"rewards": {
 		"recipes": [
-			"fokastudio:end/chorus_fruit_to_planks"
+			"fokastudio:end/purple_dye_from_chorus_fruit"
 		]
 	}
 }
