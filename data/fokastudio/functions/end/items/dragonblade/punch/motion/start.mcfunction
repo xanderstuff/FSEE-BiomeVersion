@@ -1,5 +1,6 @@
 # Set punch cooldown
-scoreboard players set @s foka.items.dragonblade.cooldown 190
+# 8.5 seconds
+scoreboard players set @s foka.items.dragonblade.cooldown 170
 
 # Reset stacks
 function fokastudio:end/items/dragonblade/reset_stacks
