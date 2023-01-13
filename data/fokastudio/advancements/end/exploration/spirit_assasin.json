@@ -8,7 +8,7 @@
 			"translate": "Spirit Assasin"
 		},
 		"description": {
-			"translate": "Teleport over 60 blocks using a pair of Spirit Daggers"
+			"translate": "Teleport over 60 blocks with a pair of Spirit Daggers"
 		}
 	},
 	"parent": "minecraft:end/enter_end_gateway",
