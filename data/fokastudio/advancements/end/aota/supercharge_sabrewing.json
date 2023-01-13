@@ -1,0 +1,49 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bow",
+			"nbt": "{CustomModelData:90001}"
+		},
+		"title": {
+			"translate": "Supercharged"
+		},
+		"description": [
+			{
+				"translate": "Deal over 100 damage with a supercharged Sabrewing"
+			},
+            "\n",
+            {
+			    "translate": "ᴛɪᴘ: ᴜѕᴇ ᴘᴏᴡᴇʀ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ",
+				"color": "dark_gray",
+				"italic": true
+		    }
+		],
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/aota/cursed_crafting",
+	"criteria": {
+		"damage": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "fokastudio:end/items/holding_sabrewing"
+					}
+				],
+				"damage": {
+					"dealt": {
+						"min": 100
+					},
+					"blocked": false,
+					"type": {
+						"is_projectile": true
+					}
+				}
+			}
+		}
+	}
+}

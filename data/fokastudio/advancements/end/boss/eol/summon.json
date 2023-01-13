@@ -1,0 +1,7 @@
+{
+	"criteria": {
+		"big_mistake": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

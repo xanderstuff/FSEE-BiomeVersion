@@ -6,9 +6,21 @@
 		"title": {
 			"translate": "advancements.nether.summon_wither.title"
 		},
-		"description": {
-			"translate": "advancements.nether.summon_wither.description"
-		},
+		"description": [
+			{
+				"translate": "advancements.nether.summon_wither.description"
+			},
+			" ",
+			{
+				"translate": "using 3 Wither Skeleton Skulls and 4 Soul Sand"
+			},
+			"\n",
+			{
+				"translate": "ᴛɪᴘ: ᴏɴᴇ ᴘᴀɪɴᴛɪɴɢ ѕʜᴏᴡѕ ᴛʜᴇ ʀɪᴛᴜᴀʟ",
+				"color": "dark_gray",
+				"italic": true
+			}
+		],
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

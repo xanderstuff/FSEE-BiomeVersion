@@ -7,7 +7,7 @@
 			"translate": "advancements.husbandry.root.title"
 		},
 		"description": {
-			"translate": "advancements.husbandry.root.description"
+			"translate": "ᴡʜʏ ꜰɪɢʜᴛ ᴡʜᴇɴ ʏᴏᴜ ᴄᴀɴ ꜰᴀʀᴍ?"
 		},
 		"background": "minecraft:textures/block/farmland_moist.png",
 		"frame": "task",

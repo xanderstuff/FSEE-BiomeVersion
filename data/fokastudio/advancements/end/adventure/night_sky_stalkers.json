@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:phantom_membrane"
+		},
+		"title": {
+			"translate": "Night Sky Stalkers"
+		},
+		"description": {
+			"translate": "Kill a Phantom. They will vanish as soon as you get some sleep"
+		}
+	},
+	"parent": "minecraft:adventure/kill_a_mob",
+	"criteria": {
+		"sleep_deprivation": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:phantom"
+				}
+			}
+		}
+	}
+}

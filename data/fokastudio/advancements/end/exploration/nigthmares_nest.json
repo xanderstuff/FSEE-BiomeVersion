@@ -1,0 +1,7 @@
+{
+	"criteria": {
+		"find_phantom_nest": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

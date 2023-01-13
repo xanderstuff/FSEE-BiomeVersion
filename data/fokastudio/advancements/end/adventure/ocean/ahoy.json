@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spruce_log"
+		},
+		"title": {
+			"translate": "Ahoy!"
+		},
+		"description": {
+			"translate": "Find a Shipwreck"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/adventure/ocean/castaway",
+	"criteria": {
+		"ship1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:shipwreck"
+					}
+				}
+			}
+		},
+		"ship2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:shipwreck_beached"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"ship1",
+			"ship2"
+		]
+	]
+}

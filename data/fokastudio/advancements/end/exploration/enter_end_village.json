@@ -1,16 +1,16 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:amethyst_shard",
+			"item": "minecraft:emerald",
 			"nbt": "{Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "What Are You Doing Here?"
+			"translate": "Forever Stranded"
 		},
 		"description": {
-			"translate": "Find a Village in the middle of nowhere"
+			"translate": "Find a Village in the middle of nowhere. How did they get here? Let's find out..."
 		},
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

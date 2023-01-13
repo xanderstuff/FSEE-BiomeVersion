@@ -1,0 +1,61 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:conduit"
+		},
+		"title": {
+			"translate": "Mosktraumen"
+		},
+		"description": [
+			{
+				"translate": "Power up a Conduit by surrounding it with rings of Prismarine"
+			},
+			"\n\n",
+			{
+				"text": "⬛⬛⬛⬛⬛\n",
+				"color": "#79B7AB"
+			},
+			{
+					"text": "⬛      ⬛\n",
+					"color": "#79B7AB"
+			},
+			[
+				{
+					"text": "⬛  ",
+					"color": "#79B7AB"
+				},
+				{
+					"text": "⬛",
+					"color": "#B4886B"
+				},
+				{
+					"text": "  ⬛\n",
+					"color": "#79B7AB"
+				}
+			],
+			{
+				"text": "⬛      ⬛\n",
+				"color": "#79B7AB"
+			},
+			{
+				"text": "⬛⬛⬛⬛⬛",
+				"color": "#79B7AB"
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/adventure/ocean/me_gold",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:conduit_power": {}
+				}
+			}
+		}
+	}
+}

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:white_concrete_powder"
+			"item": "minecraft:light_blue_wool"
 		},
 		"title": [
 			{
@@ -345,7 +345,7 @@
 				"italic": true
 			}
 		],
-		"frame": "task",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": true

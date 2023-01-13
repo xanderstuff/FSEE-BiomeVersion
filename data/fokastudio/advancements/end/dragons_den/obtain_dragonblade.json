@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:netherite_sword",
-			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
+			"nbt": "{CustomModelData:90000}"
 		},
 		"title": {
 			"translate": "Dragonborn",
@@ -11,7 +11,7 @@
 		"description": {
 			"translate": "Obtain the Dragonblade, a legendary sword forged in the furthest corners of The End"
 		},
-		"frame": "goal"
+		"frame": "task"
 	},
 	"parent": "minecraft:end/dragon_egg",
 	"criteria": {

@@ -14,13 +14,10 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "minecraft:end/kill_dragon",
+	"parent": "minecraft:husbandry/fishy_business",
 	"criteria": {
 		"cast_fish": {
 			"trigger": "minecraft:impossible"
 		}
-	},
-	"rewards": {
-		"experience": 150
 	}
 }

@@ -14,7 +14,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "minecraft:husbandry/bred_all_animals",
+	"parent": "minecraft:husbandry/breed_an_animal",
 	"criteria": {
 		"bred": {
 			"trigger": "minecraft:bred_animals",

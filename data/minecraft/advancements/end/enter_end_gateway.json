@@ -6,9 +6,14 @@
 		"title": {
 			"translate": "advancements.end.enter_end_gateway.title"
 		},
-		"description": {
-			"translate": "advancements.end.enter_end_gateway.description"
-		},
+		"description": [
+			{
+				"translate": "advancements.end.enter_end_gateway.description"
+			},
+			{
+				"translate": " using one of the Gateways"
+			}
+		],
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

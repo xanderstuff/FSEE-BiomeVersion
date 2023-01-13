@@ -1,0 +1,101 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:kelp"
+		},
+		"title": {
+			"translate": "Castaway"
+		},
+		"description": {
+			"translate": "Sail the seven seas!"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:adventure/adventuring_time",
+	"criteria": {
+		"sea1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:ocean"
+					}
+				}
+			}
+		},
+		"sea2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:ocean"
+					}
+				}
+			}
+		},
+		"sea3": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:ocean"
+					}
+				}
+			}
+		},
+		"sea4": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:ocean"
+					}
+				}
+			}
+		},
+		"sea5": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:ocean"
+					}
+				}
+			}
+		},
+		"sea6": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:ocean"
+					}
+				}
+			}
+		},
+		"sea7": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "minecraft:ocean"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"sea1",
+			"sea2",
+			"sea3",
+			"sea4",
+			"sea5",
+			"sea6",
+			"sea7"
+		]
+	]
+}

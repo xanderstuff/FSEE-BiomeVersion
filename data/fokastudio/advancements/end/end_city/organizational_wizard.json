@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:yellow_shulker_box"
+			"item": "minecraft:anvil"
 		},
 		"title": {
 			"translate": "Organizational Wizard"

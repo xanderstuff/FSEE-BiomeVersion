@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_cod"
+		},
+		"title": {
+			"translate": "Delicious Fish"
+		},
+		"description": {
+			"translate": "Catch, cook and eat a fish"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:husbandry/balanced_diet",
+	"criteria": {
+		"eat": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_cod",
+						"minecraft:cooked_salmon"
+					]
+				}
+			}
+		}
+	}
+}

@@ -7,9 +7,9 @@
 			"translate": "advancements.adventure.root.title"
 		},
 		"description": {
-			"translate": "advancements.adventure.root.description"
+			"translate": "ᴅɪɢ, ꜰɪɢʜᴛ, ᴇхᴘʟᴏʀᴇ, ʙᴜɪʟᴅ!"
 		},
-		"background": "minecraft:textures/block/oak_planks.png",
+		"background": "minecraft:textures/block/birch_planks.png",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,
