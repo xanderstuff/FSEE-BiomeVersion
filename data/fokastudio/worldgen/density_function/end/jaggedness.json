@@ -1,4 +1,9 @@
 {
+	"type": "minecraft:flat_cache",
+	"argument": {
+		"type": "minecraft:cache_2d",
+		"argument":
+{
 	"type": "minecraft:spline",
 	"spline": {
 		"coordinate": "fokastudio:end/continents",
@@ -596,3 +601,4 @@
 		]
 	}
 }
+	}}

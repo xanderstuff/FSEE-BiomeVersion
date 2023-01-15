@@ -1,4 +1,9 @@
 {
+	"type": "minecraft:flat_cache",
+	"argument": {
+		"type": "minecraft:cache_2d",
+		"argument":
+{
 	"type": "minecraft:mul",
 	"argument1": {
 		"type": "minecraft:add",
@@ -1244,3 +1249,4 @@
 	},
 	"argument2": 0.5
 }
+	}}
