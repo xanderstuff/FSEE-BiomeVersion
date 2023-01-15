@@ -10,4 +10,4 @@ data modify entity @e[type=item,limit=1,sort=nearest] Item.tag.Enchantments set 
 particle minecraft:happy_villager ~ ~-.4 ~ .2 .2 .2 0 15 normal
 function fokastudio:end/mechanics/altar_crafting/global_effects
 
-advancement grant @p only fokastudio:end/aota/absolute_devotion
+advancement grant @p only fokastudio:end/husbandry/absolute_devotion
