@@ -22,3 +22,5 @@ execute if entity @s[type=player] run scoreboard players set #show_death_message
 execute if entity @s[tag=!foka.tag,scores={foka.misc=1}] if score #show_death_message foka.misc matches 1 run function fokastudio:end/utils/damage/death_messages
 
 tag @s remove foka.tag
+
+execute if score @s foka.misc matches 1 run gamerule showDeathMessages true
