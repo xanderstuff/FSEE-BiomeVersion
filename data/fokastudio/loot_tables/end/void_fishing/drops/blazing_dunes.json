@@ -3,98 +3,79 @@
 	"pools": [
 		{
 			"rolls": 1,
+			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:end_stone",
+					"type": "minecraft:loot_table",
+					"weight": 18,
+					"name": "fokastudio:end/items/fish/flarefin_koi",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 9
-							}
+							"count": 1
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:chorus_fruit",
+					"weight": 7,
+					"name": "minecraft:blaze_rod",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 5
+								"max": 2
 							}
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:popped_chorus_fruit",
+					"weight": 8,
+					"name": "minecraft:magma_block",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 2,
-								"max": 5
+								"max": 4
 							}
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:purpur_block",
+					"weight": 5,
+					"name": "minecraft:gold_nugget",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 6,
-								"max": 12
+								"min": 4,
+								"max": 11
 							}
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:phantom_membrane",
+					"weight": 2,
+					"name": "minecraft:raw_gold",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 1,
-								"max": 6
+								"min": 2,
+								"max": 3
 							}
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:ender_pearl",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 4,
-					"name": "minecraft:shulker_shell",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
-						}
-					]
+					"weight": 1,
+					"name": "minecraft:netherite_scrap"
 				}
 			]
 		}

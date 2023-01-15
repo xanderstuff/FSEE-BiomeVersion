@@ -1,0 +1,13 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/void_fishing/holding_fishing_rod/mainhand"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/void_fishing/holding_fishing_rod/offhand"
+		}
+	]
+}

@@ -31,8 +31,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:amethyst_shard",
+					"name": "minecraft:end_stone",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -45,8 +44,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:amethyst_block",
+					"name": "minecraft:chorus_fruit",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -59,19 +57,51 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:budding_amethyst"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:calcite",
+					"name": "minecraft:popped_chorus_fruit",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 2
+								"max": 3
 							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:crying_obsidian",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 4
+									}
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.42
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:obsidian",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 4
+									}
+								}
+							]
 						}
 					]
 				}

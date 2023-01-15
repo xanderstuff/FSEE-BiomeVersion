@@ -11,7 +11,7 @@
 						{
 							"function": "minecraft:set_loot_table",
 							"type": "minecraft:barrel",
-							"name": "minecraft:chests/end_city_treasure"
+							"name": "fokastudio:end/void_fishing/crates/ender"
 						},
 						{
 							"function": "minecraft:set_name",

@@ -10,6 +10,7 @@ execute if predicate fokastudio:end/void_fishing/particles/bubble run summon are
 execute if predicate fokastudio:end/void_fishing/particles/spark run summon area_effect_cloud ~0.5 ~-0.5 ~0.5 {Radius:2,Particle:"electric_spark",Tags:["foka.void_fishing_aec"],Duration:1000}
 execute if predicate fokastudio:end/void_fishing/particles/witch run summon area_effect_cloud ~0.5 ~-0.5 ~0.5 {Radius:2,Particle:"witch",Tags:["foka.void_fishing_aec"],Duration:1000}
 execute if predicate fokastudio:end/void_fishing/particles/sculk run summon area_effect_cloud ~0.5 ~-0.5 ~0.5 {Radius:2,Particle:"sculk_charge_pop",Tags:["foka.void_fishing_aec"],Duration:1000}
+execute if predicate fokastudio:end/void_fishing/particles/fire run summon area_effect_cloud ~0.5 ~-0.5 ~0.5 {Radius:2,Particle:"flame",Tags:["foka.void_fishing_aec"],Duration:1000}
 
 # Could I do it with loot tables instead of predicates?
 # Like I did with Pandora's Box?

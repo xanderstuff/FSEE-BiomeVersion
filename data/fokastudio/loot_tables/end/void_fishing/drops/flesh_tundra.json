@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 30,
+					"weight": 25,
 					"name": "fokastudio:end/items/fish/crimson_tigerfish",
 					"functions": [
 						{
@@ -18,7 +18,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 25,
+					"weight": 17,
 					"name": "fokastudio:end/items/fish/fleshy_piranha",
 					"functions": [
 						{
@@ -29,23 +29,46 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 15,
+					"weight": 10,
 					"name": "fokastudio:end/items/living_flesh",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
 					]
 				},
 				{
-					"type": "minecraft:loot_table",
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:rotten_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"weight": 10,
-					"name": "fokastudio:end/items/fish/crates/hematic_crate"
+					"name": "minecraft:nether_wart_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
 				}
 			]
 		}

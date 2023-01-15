@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 22,
+					"weight": 12,
 					"name": "fokastudio:end/items/fish/overgrown_cod",
 					"functions": [
 						{
@@ -17,17 +17,29 @@
 					]
 				},
 				{
-					"type": "minecraft:loot_table",
-					"weight": 3,
-					"name": "fokastudio:end/items/fish/overgrown_cod",
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:chorus_fruit",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 3
-							},
-							"add": false
+								"min": 3,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_flower",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
 						}
 					]
 				}

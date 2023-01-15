@@ -31,7 +31,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:prismarine_shard",
+					"name": "minecraft:magma_cream",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -44,7 +44,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:prismarine_crystals",
+					"name": "minecraft:blaze_powder",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -57,11 +57,11 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:sponge"
+					"name": "minecraft:blaze_rod"
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:prismarine",
+					"name": "minecraft:magma_block",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -74,7 +74,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:dark_prismarine",
+					"name": "minecraft:quartz",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -87,7 +87,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:kelp",
+					"name": "minecraft:blackstone",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -95,21 +95,6 @@
 								"min": 3,
 								"max": 7
 							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:tag",
-					"name": "fokastudio:end/corals",
-					"expand": true,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 2,
-								"max": 4
-							},
-							"add": false
 						}
 					]
 				}
@@ -127,7 +112,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_potion",
-							"id": "minecraft:water_breathing"
+							"id": "minecraft:fire_resistance"
 						}
 					]
 				},
@@ -138,18 +123,20 @@
 						{
 							"function": "minecraft:enchant_randomly",
 							"enchantments": [
-								"minecraft:depth_strider"
+								"minecraft:fire_aspect"
 							]
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:potion",
+					"name": "minecraft:enchanted_book",
 					"functions": [
 						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:water"
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:fire_protection"
+							]
 						}
 					]
 				}

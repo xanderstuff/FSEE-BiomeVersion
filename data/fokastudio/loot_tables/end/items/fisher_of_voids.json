@@ -1,0 +1,44 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,foka_durability:{enabled:1b,max_dur:192},foka.special_item:\"fisher_of_voids\"}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Fisher of Voids",
+								"color": "#8865AF",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "Attracts Void Fish significantly faster",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+                                {
+									"translate": "Incredibly durable",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							],
+							"replace": false
+						}
+					]
+				}
+			]
+		}
+	]
+}

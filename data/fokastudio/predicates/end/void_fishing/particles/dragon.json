@@ -20,6 +20,10 @@
         {
 			"condition": "minecraft:reference",
 			"name": "fokastudio:end/locations/biomes/in_end_highlands"
+		},
+        {
+			"condition": "minecraft:reference",
+			"name": "fokastudio:end/locations/biomes/in_dragons_den"
 		}
 	]
 }

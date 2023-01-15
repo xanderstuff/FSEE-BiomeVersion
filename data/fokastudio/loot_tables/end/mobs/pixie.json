@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/pixie_dust",
+					"name": "fokastudio:end/items/materials/pixie_dust",
 					"functions": [
 						{
 							"function": "minecraft:set_count",

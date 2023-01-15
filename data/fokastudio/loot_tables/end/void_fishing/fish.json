@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 33,
+					"weight": 12,
 					"name": "fokastudio:end/items/fish/ender_koi",
 					"functions": [
 						{
@@ -18,23 +18,8 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 15,
-					"name": "fokastudio:end/items/fish/ender_koi",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 2,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:loot_table",
-					"weight": 25,
-					"name": "fokastudio:end/void_fishing/the_hallow",
+					"weight": 30,
+					"name": "fokastudio:end/void_fishing/drops/the_hallow",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
@@ -44,8 +29,8 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 25,
-					"name": "fokastudio:end/void_fishing/chorus_jungle",
+					"weight": 30,
+					"name": "fokastudio:end/void_fishing/drops/chorus_jungle",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
@@ -55,8 +40,8 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 25,
-					"name": "fokastudio:end/void_fishing/flesh_tundra",
+					"weight": 30,
+					"name": "fokastudio:end/void_fishing/drops/flesh_tundra",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
@@ -66,8 +51,8 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 25,
-					"name": "fokastudio:end/void_fishing/frozen_biomes",
+					"weight": 30,
+					"name": "fokastudio:end/void_fishing/drops/frozen_biomes",
 					"conditions": [
 						{
 							"condition": "minecraft:alternative",
@@ -86,8 +71,8 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 25,
-					"name": "fokastudio:end/void_fishing/original_biomes",
+					"weight": 30,
+					"name": "fokastudio:end/void_fishing/drops/original_biomes",
 					"conditions": [
 						{
 							"condition": "minecraft:alternative",
@@ -118,8 +103,8 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 25,
-					"name": "fokastudio:end/void_fishing/sculk_growth",
+					"weight": 30,
+					"name": "fokastudio:end/void_fishing/drops/sculk_growth",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
@@ -129,8 +114,19 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 25,
-					"name": "fokastudio:end/void_fishing/amethyst",
+					"weight": 30,
+					"name": "fokastudio:end/void_fishing/drops/blazing_dunes",
+					"conditions": [
+						{
+							"condition": "minecraft:reference",
+							"name": "fokastudio:end/locations/biomes/in_blazing_dunes"
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 30,
+					"name": "fokastudio:end/void_fishing/drops/amethyst",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
@@ -140,8 +136,8 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 25,
-					"name": "fokastudio:end/void_fishing/prismarine",
+					"weight": 30,
+					"name": "fokastudio:end/void_fishing/drops/prismarine",
 					"conditions": [
 						{
 							"condition": "minecraft:reference",
