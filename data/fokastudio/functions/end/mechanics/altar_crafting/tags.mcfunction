@@ -1,9 +1,5 @@
 tag @s add foka.altar_of_the_accursed.tagged
 
-# Tags for craftable Enchanted Gapples
-tag @s[nbt={Item:{id:"minecraft:golden_apple",Count:1b}}] add foka.altar_of_the_accursed.golden_apple
-tag @s[nbt={Item:{id:"minecraft:gold_block",Count:8b}}] add foka.altar_of_the_accursed.gold_blocks
-
 ## Tags for Shulker Stuff
 tag @s[nbt={Item:{id:"minecraft:shulker_shell",Count:8b}}] add foka.altar_of_the_accursed.shulker_shells
 # Tags for Shulker Armor
