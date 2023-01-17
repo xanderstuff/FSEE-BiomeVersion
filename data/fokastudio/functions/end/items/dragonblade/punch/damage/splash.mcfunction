@@ -10,4 +10,3 @@ scoreboard players set #invul_ticks foka.misc 0
 tag @s add foka.damage.dragonblade
 
 function fokastudio:end/utils/damage/calculate
-function fokastudio:end/items/dragonblade/punch/damage/immobilize
