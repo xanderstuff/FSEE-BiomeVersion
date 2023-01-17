@@ -14,7 +14,7 @@ execute if score out foka.misc matches 5 run summon firework_rocket ~ ~0.4 ~ {Li
 
 execute if score out foka.misc matches 6 run summon firework_rocket ~ ~0.4 ~ {LifeTime:1,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{foka.prismatic_blast:1b,Fireworks:{Explosions:[{Type:4,Trail:1,Flicker:0,Colors:[I;16777215,14079702,11842740,11316396,11645361,11645361,9079434]}],Flight:1}}}}
 
-execute if score out foka.mi6sc matches 7 run summon firework_rocket ~ ~0.4 ~ {LifeTime:1,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{foka.prismatic_blast:1b,Fireworks:{Explosions:[{Type:3,Trail:1,Flicker:0,Colors:[I;16777215,14079702,11842740,11316396,11645361,11645361,9079434]}],Flight:1}}}}
+execute if score out foka.misc matches 7 run summon firework_rocket ~ ~0.4 ~ {LifeTime:1,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{foka.prismatic_blast:1b,Fireworks:{Explosions:[{Type:3,Trail:1,Flicker:0,Colors:[I;16777215,14079702,11842740,11316396,11645361,11645361,9079434]}],Flight:1}}}}
 
 execute if score out foka.misc matches 8 run summon firework_rocket ~ ~0.4 ~ {LifeTime:1,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,tag:{foka.prismatic_blast:1b,Fireworks:{Explosions:[{Type:3,Trail:0,Flicker:1,Colors:[I;16777215,14079702,11842740,11316396,11645361,11645361,9079434]}],Flight:1}}}}
 
