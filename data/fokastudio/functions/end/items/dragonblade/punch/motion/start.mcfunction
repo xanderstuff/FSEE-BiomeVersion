@@ -1,6 +1,6 @@
 # Set punch cooldown
 # 8.5 seconds
-scoreboard players set @s foka.items.dragonblade.cooldown 170
+scoreboard players set @s foka.items.dragonblade.cooldown 160
 
 # Reset stacks
 function fokastudio:end/items/dragonblade/reset_stacks
@@ -10,9 +10,9 @@ execute store result score #enchant foka.misc run data get entity @p[predicate=f
 
 # 10 units = 1 block of punch distance
 # Base distance = 8.8 blocks
-# +2.2 per every Knockback level
+# +1.1 per every Knockback level
 scoreboard players set #max_distance foka.misc 88
-scoreboard players set #2.2 foka.misc 22
+scoreboard players set #1.1 foka.misc 11
 scoreboard players operation #extra foka.misc = #enchant foka.misc
 scoreboard players operation #extra foka.misc *= #2.2 foka.misc
 scoreboard players operation #max_distance foka.misc += #extra foka.misc
