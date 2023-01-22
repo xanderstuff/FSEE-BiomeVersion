@@ -15,7 +15,7 @@ execute if entity @s[nbt={Item:{id:"minecraft:netherite_axe",Count:1b}}] unless 
 execute if entity @s[nbt={Item:{id:"minecraft:netherite_sword",Count:1b}}] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.netherite_sword
 
 # Tags for Prismatic Punch and Radiant Rampage
-tag @s[nbt={Item:{id:"minecraft:crossbow",Count:1b}}] add foka.altar_of_the_accursed.crossbow
+execute if entity @s[nbt={Item:{id:"minecraft:crossbow",Count:1b}}] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.crossbow
 tag @s[nbt={Item:{id:"minecraft:glowstone_dust",Count:24b,tag:{foka.special_item:"pixie_dust"}}}] add foka.altar_of_the_accursed.24_pixie_dust
 tag @s[nbt={Item:{id:"minecraft:diamond",Count:6b}}] add foka.altar_of_the_accursed.6_diamonds
 
@@ -25,7 +25,7 @@ tag @s[nbt={Item:{id:"minecraft:glowstone_dust",Count:10b,tag:{foka.special_item
 tag @s[nbt={Item:{id:"minecraft:gold_ingot",Count:5b}}] add foka.altar_of_the_accursed.5_gold_ingots
 
 # Tags for Sabrewing
-tag @s[nbt={Item:{id:"minecraft:bow",Count:1b}}] add foka.altar_of_the_accursed.bow
+execute if entity @s[nbt={Item:{id:"minecraft:bow",Count:1b}}] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.bow
 tag @s[nbt={Item:{id:"minecraft:feather",Count:10b}}] add foka.altar_of_the_accursed.10_feathers
 tag @s[nbt={Item:{id:"minecraft:gold_ingot",Count:12b}}] add foka.altar_of_the_accursed.12_gold_ingots
 tag @s[nbt={Item:{id:"minecraft:netherite_ingot",Count:1b}}] add foka.altar_of_the_accursed.netherite_ingot

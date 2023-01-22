@@ -10,7 +10,7 @@ execute if score @s foka.items.armors.holy_protection_cooldown matches 1 at @s r
 effect give @s[tag=foka.holy_protection] resistance 1000000 100 true
 
 # Timeout dodge after 15 seconds
-scoreboard players add @s[tag=foka.holy_protection] foka.items.armors.holy_protection_time 1
+#scoreboard players add @s[tag=foka.holy_protection] foka.items.armors.holy_protection_time 1
 execute if score @s[tag=foka.holy_protection] foka.items.armors.holy_protection_time matches 300 at @s run function fokastudio:end/items/armors/hallowed_armor/timeout
 
 # Remove knockback resistance
