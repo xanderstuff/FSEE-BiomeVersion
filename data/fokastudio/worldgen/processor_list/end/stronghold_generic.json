@@ -129,7 +129,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone_bricks",
-						"probability": 0.0335
+						"probability": 0.087
 					},
 					"output_state": {
 						"Name": "minecraft:mossy_stone_bricks"
@@ -142,7 +142,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone_bricks",
-						"probability": 0.022
+						"probability": 0.055
 					},
 					"output_state": {
 						"Name": "minecraft:cracked_stone_bricks"
@@ -155,7 +155,7 @@
 					"input_predicate": {
 						"predicate_type": "minecraft:random_block_match",
 						"block": "minecraft:stone_bricks",
-						"probability": 0.01
+						"probability": 0.022
 					},
 					"output_state": {
 						"Name": "minecraft:infested_stone_bricks"
