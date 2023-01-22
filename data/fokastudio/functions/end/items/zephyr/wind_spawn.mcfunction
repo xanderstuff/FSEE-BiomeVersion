@@ -1,8 +1,7 @@
 tag @s add foka.zephyr.killed_entity
 
-playsound item.trident.throw player @a ~ ~ ~ 1 0.5
+playsound minecraft:item.trident.return player @a ~ ~ ~ 1 1
 playsound item.trident.throw player @a ~ ~ ~ 1 2
-playsound item.trident.riptide_1 player @a ~ ~ ~ 0.5 0.88
 
 summon marker ^ ^ ^ {Tags:["foka.zephyr.wind"]}
 

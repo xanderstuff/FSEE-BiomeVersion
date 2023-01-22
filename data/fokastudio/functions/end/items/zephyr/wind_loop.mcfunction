@@ -1,4 +1,5 @@
-particle spit ~ ~ ~ .125 .125 .125 0 3 force
+particle cloud ~ ~ ~ .125 .125 .125 0 3 force
+
 playsound minecraft:block.note_block.hat player @a ~ ~ ~ 1 2
 
 execute if score @s foka.misc matches ..4 run tp @s ^ ^ ^0.44 ~ ~
