@@ -18,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"sharanga\",foka_durability:{enabled:1b,max_dur:294}}"
+							"tag": "{CustomModelData:90000,foka.special_item:\"sharanga\",foka_durability:{enabled:1b,max_dur:416}}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -30,12 +30,17 @@
 									"italic": false
 								},
 								{
-									"translate": "Spectral Bolts that pierce mutliple enemies",
+									"translate": "Spectral Bolts that pierce indefinitely",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "that pierce multiple enemies",
+									"translate": "50% chance to not consume Spectral Arrows",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "Doesn't use Spectral Arrows with Infinity enchantment",
 									"color": "#EEEEEE",
 									"italic": false
 								}

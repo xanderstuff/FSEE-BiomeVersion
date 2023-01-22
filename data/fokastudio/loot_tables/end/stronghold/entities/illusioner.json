@@ -86,7 +86,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/sharanga"
+					"name": "fokastudio:end/sharanga_and_arrows"
 				}
 			],
 			"conditions": [
