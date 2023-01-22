@@ -40,6 +40,7 @@ scoreboard objectives remove foka.items.fish.mystical_heartfish.total_consumed
 scoreboard objectives remove foka.items.spirit_dagger.attract_cooldown
 scoreboard objectives remove foka.items.spirit_dagger.consume_time
 scoreboard objectives remove foka.items.spirit_dagger.until_consume_reset
+scoreboard objectives remove foka.items.spirit_dagger.effects_duration
 scoreboard objectives remove foka.items.prismatic_pearl.cooldown
 scoreboard objectives remove foka.eol.animation
 scoreboard objectives remove foka.eol.health

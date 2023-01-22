@@ -47,9 +47,12 @@ scoreboard objectives add foka.items.spellbook.updraft.cooldown dummy
 scoreboard objectives add foka.items.spellbook.light.cooldown dummy
 
 scoreboard objectives add foka.items.fish.mystical_heartfish.total_consumed dummy
+
 scoreboard objectives add foka.items.spirit_dagger.attract_cooldown dummy
 scoreboard objectives add foka.items.spirit_dagger.consume_time dummy
 scoreboard objectives add foka.items.spirit_dagger.until_consume_reset dummy
+scoreboard objectives add foka.items.spirit_dagger.effects_duration dummy
+
 scoreboard objectives add foka.items.prismatic_pearl.cooldown dummy
 
 ## Mobs
