@@ -1,1 +1,0 @@
-{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/stick"},"overrides":[{"predicate":{"custom_model_data":9e4},"model":"fokastudio:item/battlestick"}]}
