@@ -1,6 +1,4 @@
-# FSEE
-
-It stands for `FokaStudio's Ender Expansion`
+# FokaStudio's Ender Expansion
 
 <hr>
 
