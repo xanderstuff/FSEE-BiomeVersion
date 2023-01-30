@@ -1,7 +1,10 @@
 # #damage foka.misc: damage to add to entity, to 1 decimal place
 # #armor_penetration foka.misc: how much damage (%) should ignore armor
-# Invulnerability ticks for players
-execute unless score #invul_ticks foka.misc matches ..2147483647 run scoreboard players set #armor_penetration foka.misc 10
+
+# Set variables to default values if they are not present
+execute unless score #invul_ticks foka.misc matches ..2147483647 run scoreboard players set #invul_ticks foka.misc 10
+execute unless score #ignore_resistance foka.misc matches ..2147483647 run scoreboard players set #ignore_resistance foka.misc 1
+execute unless score #damage_type foka.misc matches ..2147483647 run scoreboard players set #damage_type foka.misc 0
 execute if entity @s[type=player] run scoreboard players operation @s foka.misc.invul_timer = #invul_ticks foka.misc
 
 ## Insert Armor Values (Not part of formula)
@@ -22,7 +25,7 @@ execute unless score #armor foka.misc matches 0 unless score #armor_penetration 
 
 execute unless score #armor foka.misc matches 0 unless score #armor_penetration foka.misc matches 100 run function fokastudio:end/utils/damage/operations/armor
 execute unless score #armor foka.misc matches 0 unless score #armor_penetration foka.misc matches 100 run function fokastudio:end/utils/damage/operations/protection
-execute if data entity @s ActiveEffects[{Id:11}] if score #damage foka.misc matches 1.. run function fokastudio:end/utils/damage/operations/resistance
+execute unless score #ignore_resistance foka.misc matches 1 if data entity @s ActiveEffects[{Id:11}] if score #damage foka.misc matches 1.. run function fokastudio:end/utils/damage/operations/resistance
 function fokastudio:end/utils/damage/calculate_attributes
 
 execute unless entity @s[tag=foka.dead] run function fokastudio:end/utils/damage/apply_damage
@@ -39,6 +42,9 @@ tag @s remove foka.damage.eol.dash
 tag @s remove foka.damage.carcanet
 tag @s remove foka.damage.spirit_dagger
 tag @s remove foka.damage.dragonblade
+tag @s remove foka.damage.tamaris_execute
 
 scoreboard players reset #armor_penetration foka.misc
 scoreboard players reset #invul_ticks foka.misc
+scoreboard players reset #ignore_resistance foka.misc
+scoreboard players reset #damage_type foka.misc

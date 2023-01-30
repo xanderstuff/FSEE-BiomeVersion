@@ -14,7 +14,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "fokastudio:end/dragons_den/craft_end_crystal",
+	"parent": "minecraft:end/kill_dragon",
 	"criteria": {
 		"summoned_dragon": {
 			"trigger": "minecraft:summoned_entity",

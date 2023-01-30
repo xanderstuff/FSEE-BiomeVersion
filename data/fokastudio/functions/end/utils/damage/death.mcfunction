@@ -15,9 +15,16 @@ effect give @s[type=#fokastudio:end/undead,tag=foka.tag] instant_health 1 100 tr
 
 kill @s[tag=!foka.tag]
 
+execute if entity @s[tag=foka.tag,tag=foka.damage.tamaris_execute] as @p[predicate=fokastudio:end/items/holding_tamaris,predicate=fokastudio:end/utils/player/is_sneaking] at @s run function fokastudio:end/items/tamaris/execute/fail
+
 scoreboard players set #show_death_message foka.misc 0
 execute if data entity @s Owner run scoreboard players set #show_death_message foka.misc 1
 execute if entity @s[type=player] run scoreboard players set #show_death_message foka.misc 1
+
+# Debug
+# Uncomment this line when needed
+# VVVVV
+#scoreboard players set #show_death_message foka.misc 1
 
 execute if entity @s[tag=!foka.tag,scores={foka.misc=1}] if score #show_death_message foka.misc matches 1 run function fokastudio:end/utils/damage/death_messages
 
