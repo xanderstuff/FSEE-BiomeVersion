@@ -36,11 +36,6 @@ tag @s[nbt={Item:{id:"minecraft:enchanted_book",Count:1b}}] add foka.altar_of_th
 # Tag for Ancient Wooden Sword
 execute if entity @s[nbt={Item:{id:"minecraft:wooden_sword",Count:1b}}] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.wooden_sword
 
-# Tags for Battlestick
-execute if entity @s[nbt={Item:{id:"minecraft:stick",Count:1b}}] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.stick
-tag @s[nbt={Item:{id:"minecraft:leather",Count:16b}}] add foka.altar_of_the_accursed.16_leather
-tag @s[nbt={Item:{id:"minecraft:bamboo",Count:4b}}] add foka.altar_of_the_accursed.4_bamboo
-
 # Tags for Zephyr
 execute if entity @s[nbt={Item:{id:"minecraft:golden_sword",Count:1b}}] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.golden_sword
 tag @s[nbt={Item:{id:"minecraft:sugar",Count:6b}}] add foka.altar_of_the_accursed.6_sugar

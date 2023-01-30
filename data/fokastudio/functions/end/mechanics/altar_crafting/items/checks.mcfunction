@@ -8,8 +8,6 @@ execute if entity @e[tag=foka.altar_of_the_accursed.enchanted_book,distance=..1.
 
 execute if entity @e[tag=foka.altar_of_the_accursed.wooden_sword,distance=..1.5] run function fokastudio:end/mechanics/altar_crafting/items/craft_ancient_wooden_sword
 
-execute if entity @e[tag=foka.altar_of_the_accursed.stick,distance=..1.5] if entity @e[tag=foka.altar_of_the_accursed.16_leather,distance=..1.5] if entity @e[tag=foka.altar_of_the_accursed.4_bamboo,distance=..1.5] run function fokastudio:end/mechanics/altar_crafting/items/craft_battlestick
-
 execute if entity @e[tag=foka.altar_of_the_accursed.golden_sword,distance=..1.5] if entity @e[tag=foka.altar_of_the_accursed.10_feathers,distance=..1.5] if entity @e[tag=foka.altar_of_the_accursed.iron_sword,distance=..1.5] if entity @e[tag=foka.altar_of_the_accursed.6_sugar,distance=..1.5] run function fokastudio:end/mechanics/altar_crafting/items/craft_zephyr
 
 execute if entity @e[tag=foka.altar_of_the_accursed.barrel,distance=..1.5] if entity @e[tag=foka.altar_of_the_accursed.1_iron_block,distance=..1.5] if entity @e[tag=foka.altar_of_the_accursed.1_gold_block,distance=..1.5] run function fokastudio:end/mechanics/altar_crafting/items/craft_pandoras_barrel
