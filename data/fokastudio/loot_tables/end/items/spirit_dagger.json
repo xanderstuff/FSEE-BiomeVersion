@@ -53,7 +53,53 @@
 									"translate": "Developer Item",
 									"color": "#BA02D7",
 									"italic": false
-								}
+								},
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "4.5",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_damage",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "1.9",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_speed",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								]
 							]
 						},
 						{
@@ -62,7 +108,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
-									"amount": 3,
+									"amount": 3.5,
 									"operation": "addition",
 									"slot": "mainhand"
 								},
@@ -77,7 +123,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"spirit_dagger\",foka_durability:{enabled:1b,max_dur:894}}"
+							"tag": "{CustomModelData:90000,foka.special_item:\"spirit_dagger\",foka_durability:{enabled:1b,max_dur:496},HideFlags:6}"
 						}
 					]
 				}

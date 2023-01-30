@@ -9,34 +9,40 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"dragonblade\",Unbreakable:1b,CustomModelData:90000,HideFlags:6}"
+							"tag": "{foka.special_item:\"tamaris\",foka_durability:{enabled:1b,max_dur:1562},CustomModelData:90002,HideFlags:6}"
 						},
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Dragonblade",
-								"color": "#CD6AFF",
+                                "text": "Tamaris",
+								"color": "#B2B2B2",
 								"italic": false
 							}
 						},
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								[
+									{
+										"translate": "Hold",
+										"color": "#EEEEEE",
+										"italic": false
+									},
+									[
+										" [",
+										{
+											"keybind": "key.sneak"
+										},
+										"] "
+									],
+									{
+										"translate": "to activate your Execute ability,"
+									}
+								],
 								{
-									"translate": "A fearsome sword with an otherwordly punch!",
+									"translate": "instantly killing nearby enemies with low health!",
 									"color": "#EEEEEE",
 									"italic": false
-								},
-								"",
-								{
-									"translate": "'It came from the edge of The End'",
-									"color": "#EEEEEE",
-									"italic": true
-								},
-								{
-									"translate": "ᴛɪᴘ: ᴘᴜɴᴄʜ ᴛʜᴇᴍ ɪɴᴛᴏ ᴡᴀʟʟs",
-									"color": "#727272",
-									"italic": true
 								},
 								"",
 								{
@@ -50,7 +56,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "5",
+												"text": "7",
 												"color": "dark_green",
 												"italic": false
 											},
@@ -70,7 +76,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "0.9",
+												"text": "1.6",
 												"color": "dark_green",
 												"italic": false
 											},
@@ -92,14 +98,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
-									"amount": 4,
+									"amount": 6,
 									"operation": "addition",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
-									"amount": -3.1,
+									"amount": -2.4,
 									"operation": "addition",
 									"slot": "mainhand"
 								}

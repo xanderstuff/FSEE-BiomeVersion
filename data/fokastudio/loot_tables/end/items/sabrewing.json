@@ -38,7 +38,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,foka.special_item:\"sabrewing\",foka_durability:{enabled:1b,max_dur:544}}"
+							"tag": "{CustomModelData:90001,foka.special_item:\"sabrewing\",foka_durability:{enabled:1b,max_dur:496}}"
 						}
 					]
 				}
