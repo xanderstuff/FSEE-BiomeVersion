@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword",
+			"nbt": "{CustomModelData:90002,Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "Kill la Kill"
+		},
+		"description": [
+			{
+				"translate": "Trigger Execute ability on a Warden."
+			},
+			" ",
+			{
+				"translate": "Good luck...",
+				"bold": true
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "fokastudio:end/dragons_den/disassembly",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 1500
+	}
+}

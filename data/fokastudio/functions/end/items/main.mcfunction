@@ -7,8 +7,8 @@ function fokastudio:end/items/spellbooks/main
 function fokastudio:end/items/fish/main
 
 # Dragonblade
-execute as @e[type=!#fokastudio:end/invalid_targets_no_player,scores={foka.items.dragonblade.cooldown=1..}] at @s run function fokastudio:end/items/dragonblade/cooldown
-execute as @e[type=!#fokastudio:end/invalid_targets_no_player,scores={foka.items.dragonblade.stacks=1..}] at @s run function fokastudio:end/items/dragonblade/entity_loop
+execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.dragonblade.cooldown=1..}] at @s run function fokastudio:end/items/dragonblade/cooldown
+execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.dragonblade.stacks=1..}] at @s run function fokastudio:end/items/dragonblade/entity_loop
 execute as @a[predicate=fokastudio:end/items/holding_dragonblade,predicate=fokastudio:end/utils/player/is_sneaking] at @s as @e[distance=0.001..5,tag=foka.items.dragonblade.punch_ready] at @s run function fokastudio:end/items/dragonblade/punch/progress
 execute as @e[scores={foka.items.dragonblade.until_punch_reset=1..}] run function fokastudio:end/items/dragonblade/punch/progress_reset_countdown
 execute as @e[type=area_effect_cloud,tag=foka.items.dragonblade.smthgram_aec] at @s rotated as @s run function fokastudio:end/items/dragonblade/punch/special_fx/smthgram
@@ -44,7 +44,7 @@ execute as @e[type=area_effect_cloud,tag=foka.carcanet.aec] at @s run function f
 execute as @e[type=marker,tag=foka.carcanet.star] at @s run function fokastudio:end/items/starstruck_carcanet/star_loop
 
 # Spirit Dagger
-execute as @e[type=!#fokastudio:end/invalid_targets_no_player,scores={foka.items.spirit_dagger.attract_cooldown=1..}] at @s run function fokastudio:end/items/spirit_dagger/entity_loop
+execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.spirit_dagger.attract_cooldown=1..}] at @s run function fokastudio:end/items/spirit_dagger/entity_loop
 execute as @e[type=armor_stand,tag=foka.spirit_dagger.spirit] at @s anchored eyes positioned ^ ^ ^ run function fokastudio:end/items/spirit_dagger/spirit/loop
 execute as @a[predicate=fokastudio:end/items/spirit_dagger/holding,predicate=fokastudio:end/items/spirit_dagger/looking_at_spirit] run function fokastudio:end/items/spirit_dagger/charge/progress
 execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=1..}] run function fokastudio:end/items/spirit_dagger/charge/reset_countdown
@@ -66,6 +66,12 @@ execute as @a[tag=foka.ender_insignia.active] at @s run function fokastudio:end/
 
 # Pandora's Barrel
 execute as @e[tag=foka.pandoras_barrel.armor_stand,type=armor_stand] at @s positioned ~ ~1.7 ~ run function fokastudio:end/items/pandoras_barrel/animation/progress
+
+# Tamaris
+execute as @e[type=!#fokastudio:end/invalid_targets,tag=foka.items.tamaris.executable] at @s run function fokastudio:end/items/tamaris/execute/indicator
+execute as @a[predicate=fokastudio:end/items/holding_tamaris] at @s run function fokastudio:end/items/tamaris/holding_loop
+execute as @e[scores={foka.items.tamaris.animation.until_reset=1..}] run function fokastudio:end/items/tamaris/execute/animation/reset_countdown
+execute as @e[scores={foka.items.tamaris.execute_cooldown=1..}] run scoreboard players remove @s foka.items.tamaris.execute_cooldown 1
 
 #################################
 # THIS HAS TO BE AT THE BOTTOM! #

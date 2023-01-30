@@ -1,0 +1,2 @@
+execute if entity @e[distance=..10,limit=1,sort=nearest,tag=foka.items.tamaris.executable] if entity @s[predicate=fokastudio:end/utils/player/is_sneaking] unless score @s foka.items.tamaris.execute_cooldown matches 1.. run function fokastudio:end/items/tamaris/execute/animation/progress
+execute if entity @e[distance=..10,limit=1,sort=nearest,tag=foka.items.tamaris.executable] if entity @s[predicate=fokastudio:end/utils/player/is_sneaking] if score @s foka.items.tamaris.execute_cooldown matches 1.. run title @s actionbar {"text":"DISABLED","color":"red"}

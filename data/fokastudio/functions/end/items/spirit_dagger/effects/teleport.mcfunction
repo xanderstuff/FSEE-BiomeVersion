@@ -19,7 +19,7 @@ title @s actionbar ""
 
 # Damage
 execute store result score #enchant foka.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:sweeping"}].lvl 10
-execute as @e[distance=..4,type=!#fokastudio:end/invalid_targets_no_player,predicate=!fokastudio:end/items/spirit_dagger/holding,predicate=!fokastudio:end/utils/player/is_sneaking] at @s run function fokastudio:end/items/spirit_dagger/effects/damage
+execute as @e[distance=..4,type=!#fokastudio:end/invalid_targets,predicate=!fokastudio:end/items/spirit_dagger/holding,predicate=!fokastudio:end/utils/player/is_sneaking] at @s run function fokastudio:end/items/spirit_dagger/effects/damage
 
 # Visuals
 function fokastudio:end/items/spirit_dagger/effects/teleport/visuals

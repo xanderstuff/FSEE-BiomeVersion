@@ -55,6 +55,14 @@ scoreboard objectives add foka.items.spirit_dagger.effects_duration dummy
 
 scoreboard objectives add foka.items.prismatic_pearl.cooldown dummy
 
+scoreboard objectives add foka.items.tamaris.math.health.current dummy
+scoreboard objectives add foka.items.tamaris.math.health.max dummy
+scoreboard objectives add foka.items.tamaris.math.health.percentage dummy
+scoreboard objectives add foka.items.tamaris.animation.progress dummy
+scoreboard objectives add foka.items.tamaris.animation.until_reset dummy
+scoreboard objectives add foka.items.tamaris.execute_cooldown dummy
+scoreboard objectives add foka.items.tamaris.misc.distance dummy
+
 ## Mobs
 # Empress of Light
 scoreboard objectives add foka.eol.animation dummy
@@ -120,3 +128,6 @@ schedule function fokastudio:end/loops/5_tick 5t append
 schedule function fokastudio:end/loops/1_second 1s append
 schedule function fokastudio:end/loops/5_second 5s append
 schedule function fokastudio:end/loops/10_second 10s append
+
+# Initialize RNG
+function fokastudio:end/utils/rng/init

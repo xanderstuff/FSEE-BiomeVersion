@@ -23,11 +23,14 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "fokastudio:end/dragons_den/obtain_dragonblade",
+	"parent": "fokastudio:end/aota/obtain_dragonblade",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:impossible",
 			"conditions": {}
 		}
+	},
+	"rewards": {
+		"experience": 50
 	}
 }
