@@ -1,0 +1,23 @@
+{
+	"parent": "fokastudio:end/events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{foka_durability:{enabled:1b}}",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:mending"
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/utils/custom_durability/event"
+	}
+}
