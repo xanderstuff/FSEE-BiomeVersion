@@ -19,7 +19,13 @@
 						"min": 3
 					}
 				},
-				"blocked": false
+				"entity": {
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+				}
 			}
 		}
 	},
