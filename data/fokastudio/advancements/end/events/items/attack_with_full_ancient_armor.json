@@ -1,0 +1,40 @@
+{
+	"parent": "fokastudio:end/events/root",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"nbt": "{foka.special_item:\"ancient_armor\"}"
+						},
+						"chest": {
+							"nbt": "{foka.special_item:\"ancient_armor\"}"
+						},
+						"legs": {
+							"nbt": "{foka.special_item:\"ancient_armor\"}"
+						},
+						"feet": {
+							"nbt": "{foka.special_item:\"ancient_armor\"}"
+						}
+					}
+				},
+				"damage": {
+					"blocked": false
+				},
+				"entity": {
+					"nbt": "{HurtTime:10s}",
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/armors/ancient_armor/attack"
+	}
+}

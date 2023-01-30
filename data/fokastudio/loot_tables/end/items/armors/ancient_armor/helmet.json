@@ -31,7 +31,7 @@
 									"italic": false
 								},
 								{
-									"translate": "providing a vast increase to damage",
+									"translate": "providing ramping increasing damage on combos attacks!",
 									"color": "#EEEEEE",
 									"italic": false
 								}
@@ -61,7 +61,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": " ",
-									"amount": 0.05,
+									"amount": 0.025,
 									"operation": "multiply_base",
 									"slot": "head"
 								}

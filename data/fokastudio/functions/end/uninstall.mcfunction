@@ -24,6 +24,8 @@ scoreboard objectives remove foka.items.pandoras_barrel.animation
 scoreboard objectives remove foka.items.pandoras_barrel.summon_id
 scoreboard objectives remove foka.items.armors.holy_protection_cooldown
 scoreboard objectives remove foka.items.armors.holy_protection_time
+scoreboard objectives remove foka.items.armors.ancient_armor.combo
+scoreboard objectives remove foka.items.armors.ancient_armor.until_combo_reset
 scoreboard objectives remove foka.items.sharanga.arrow_age
 scoreboard objectives remove foka.items.clockwork_crossbow.arrow_amount
 scoreboard objectives remove foka.items.prismatic_punch.particle_cycle
