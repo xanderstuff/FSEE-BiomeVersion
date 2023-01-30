@@ -12,4 +12,4 @@ execute if entity @e[tag=foka.altar_of_the_accursed.golden_sword,distance=..1.5]
 
 execute if entity @e[tag=foka.altar_of_the_accursed.barrel,distance=..1.5] if entity @e[tag=foka.altar_of_the_accursed.1_iron_block,distance=..1.5] if entity @e[tag=foka.altar_of_the_accursed.1_gold_block,distance=..1.5] run function fokastudio:end/mechanics/altar_crafting/items/craft_pandoras_barrel
 
-execute if entity @e[tag=foka.altar_of_the_accursed.conduit,distance=..1.5] run function fokastudio:end/mechanics/altar_crafting/items/craft_shattered_conduit
+#execute if entity @e[tag=foka.altar_of_the_accursed.conduit,distance=..1.5] run function fokastudio:end/mechanics/altar_crafting/items/craft_shattered_conduit
