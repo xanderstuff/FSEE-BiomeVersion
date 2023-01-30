@@ -108,6 +108,16 @@
 			"selectors":[
 				"&foka.special_item=starstruck_carcanet"
 			]
+		},
+		{
+			"image":"fokastudio:textures/tooltips/living_flesh.png",
+			"index":0,
+			"priority":0,
+			"startColor":"#B2B2B2",
+			"endColor":"#4F4F4F",
+			"selectors":[
+				"&foka.special_item=tamaris"
+			]
 		}
 	]
 }
