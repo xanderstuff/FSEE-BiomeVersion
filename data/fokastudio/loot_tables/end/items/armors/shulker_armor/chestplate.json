@@ -64,20 +64,6 @@
 									"slot": "chest"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": " ",
-									"amount": -0.05,
-									"operation": "multiply_base",
-									"slot": "chest"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": " ",
-									"amount": -0.035,
-									"operation": "multiply_base",
-									"slot": "chest"
-								},
-								{
 									"attribute": "minecraft:generic.knockback_resistance",
 									"name": " ",
 									"amount": 0.25,

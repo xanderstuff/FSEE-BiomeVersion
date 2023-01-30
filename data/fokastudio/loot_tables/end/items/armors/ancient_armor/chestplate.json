@@ -54,7 +54,7 @@
 								{
 									"attribute": "minecraft:generic.armor_toughness",
 									"name": " ",
-									"amount": 2,
+									"amount": 3,
 									"operation": "addition",
 									"slot": "chest"
 								},
@@ -68,7 +68,7 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": " ",
-									"amount": 0.4,
+									"amount": 0.15,
 									"operation": "multiply_base",
 									"slot": "chest"
 								}

@@ -54,7 +54,7 @@
 								{
 									"attribute": "minecraft:generic.armor_toughness",
 									"name": " ",
-									"amount": 2,
+									"amount": 3,
 									"operation": "addition",
 									"slot": "feet"
 								},
