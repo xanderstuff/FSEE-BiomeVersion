@@ -225,22 +225,6 @@
 					]
 				},
 				{
-					"type": "minecraft:loot_table",
-					"weight": 10,
-					"name": "fokastudio:end/items/living_flesh",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 8
-							},
-							"add": false
-						}
-					]
-				},
-				{
 					"type": "minecraft:item",
 					"weight": 8,
 					"name": "minecraft:string",
